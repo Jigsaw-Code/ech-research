@@ -1,0 +1,32 @@
+<<<<<<< HEAD
+# Binaries for Go programs
+*.exe
+*.dll
+*.so
+*.dylib
+*.o
+
+# Test binaries
+*_test
+
+# Dependencies
+/vendor/
+
+# Go module cache
+.go/
+
+# Workspace for installed tools and output binaries
+/workspace/
+
+# Editor/IDE specific files
+.idea/
+.vscode/
+.DS_Store
+*.sublime-project
+*.sublime-workspace
+
+# OS generated files
+.env
+=======
+/workspace
+>>>>>>> da272e1 (Initial code)
