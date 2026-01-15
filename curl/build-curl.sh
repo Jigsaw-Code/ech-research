@@ -16,7 +16,7 @@
 
 set -e
 
-if [ -z "$1" ]; then
+if [[ -z "$1" ]]; then
   echo "Usage: $0 <output_dir>"
   exit 1
 fi
@@ -33,7 +33,7 @@ cd "${WORKSPACE_DIR}/openssl"
 
 echo "Configuring and building OpenSSL..."
 ./config --libdir=lib --prefix="${OUTPUT_DIR}"
-make -j$(nproc)
+make "-j$(nproc)"
 make install_sw
 
 echo "Cloning curl..."
