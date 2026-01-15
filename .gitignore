@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 # Binaries for Go programs
 *.exe
 *.dll
@@ -27,6 +26,6 @@
 
 # OS generated files
 .env
-=======
+
+# Temporary Workspace
 /workspace
->>>>>>> da272e1 (Initial code)
