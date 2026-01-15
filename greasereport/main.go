@@ -215,7 +215,6 @@ func runTest(curlPath string, domain tranco.Domain, echGrease bool, maxTime time
 }
 
 func main() {
-<<<<<<< HEAD
 	var (
 		workspaceFlag   = flag.String("workspace", "./workspace", "Directory to store intermediate files")
 		trancoIDFlag    = flag.String("trancoID", "7NZ4X", "Tranco list ID to use")
@@ -225,15 +224,6 @@ func main() {
 		maxTimeFlag     = flag.Duration("maxTime", 10*time.Second, "Maximum time per curl request")
 		curlPathFlag    = flag.String("curl", "", "Path to the ECH-enabled curl binary")
 	)
-=======
-	workspaceFlag := flag.String("workspace", "./workspace", "Directory to store intermediate files")
-	trancoIDFlag := flag.String("trancoID", "7NZ4X", "Tranco list ID to use")
-	topNFlag := flag.Int("topN", 100, "Number of top domains to analyze")
-	parallelismFlag := flag.Int("parallelism", 10, "Maximum number of parallel requests")
-	verboseFlag := flag.Bool("verbose", false, "Enable verbose logging")
-	maxTimeFlag := flag.Duration("maxTime", 10*time.Second, "Maximum time per curl request")
-	curlPathFlag := flag.String("curl", "", "Path to the ECH-enabled curl binary")
->>>>>>> da272e1 (Initial code)
 	flag.Parse()
 
 	if *verboseFlag {
