@@ -17,13 +17,13 @@ A helper script, `build-curl.sh`, is provided to automate the build process for 
 To build the ECH-enabled `curl`, run the script from the `greasereport` directory and provide an output path:
 
 ```sh
-./build-curl.sh <output_directory>
+./curl/build-curl.sh <output_directory>
 ```
 
 For example, to build `curl` and place the output in the `workspace` directory:
 
 ```sh
-./build-curl.sh ../workspace
+./curl/build-curl.sh ../workspace
 ```
 
 The script will download the source code for `openssl` and `curl`, build them, and install the final binaries in the specified output directory.
@@ -35,7 +35,7 @@ For more details on how to use `curl` with ECH, see the [official documentation]
 To test that your custom `curl` build is working correctly, run it against the DEfO test server:
 
 ```sh
-"$(pwd)/workspace/output/bin/curl" --ech=true --doh-url https://1.1.1.1/dns-query 'https://test.defo.ie/echstat.php?format=json' | jq
+./workspace/output/bin/curl" --ech=true --doh-url https://1.1.1.1/dns-query 'https://test.defo.ie/echstat.php?format=json' | jq
 ```
 
 Example output:
@@ -47,4 +47,10 @@ Example output:
   "date": "2025-11-06T19:36:47+00:00",
   "config": "min-ng.test.defo.ie"
 }
+```
+
+You may need to specify the `LD_LIBRARY_PATH` on Linux:
+
+```sh
+LD_LIBRARY_PATH="$(pwd)/workspace/lib" ./workspace/bin/curl --ech grease https://example.com
 ```
