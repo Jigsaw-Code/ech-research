@@ -52,5 +52,5 @@ Example output:
 You may need to specify the `LD_LIBRARY_PATH` on Linux:
 
 ```sh
-LD_LIBRARY_PATH="$(pwd)/workspace/lib" ./workspace/bin/curl --ech grease https://example.com
+LD_LIBRARY_PATH="$(pwd)/workspace/lib" ./workspace/bin/curl --version
 ```
