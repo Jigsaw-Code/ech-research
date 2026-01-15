@@ -36,21 +36,20 @@ type TrancoList struct {
 }
 
 // NewTrancoList loads the given Tranco list from the cacheDir, downloading it if needed.
-func NewTrancoList(cacheDir, trancoID string) *TrancoList {
+func NewTrancoList(cacheDir, trancoID string) (*TrancoList, error) {
 	trancoZipFilename := filepath.Join(cacheDir, fmt.Sprintf("tranco_%s-1m.csv.zip", trancoID))
 	if _, err := os.Stat(trancoZipFilename); os.IsNotExist(err) {
 		trancoZipURL := fmt.Sprintf("https://tranco-list.eu/download/daily/tranco_%s-1m.csv.zip", trancoID)
 		slog.Info("Downloading Tranco list", "url", trancoZipURL, "to", trancoZipFilename)
 		if err := downloadFile(trancoZipURL, trancoZipFilename); err != nil {
-			slog.Error("Failed to get Tranco list", "error", err)
-			os.Exit(1)
+			return nil, fmt.Errorf("failed to get Tranco list: %w", err)
 		}
 	} else {
 		slog.Info("Found Tranco list", "path", trancoZipFilename)
 	}
 	return &TrancoList{
 		zipFilename: trancoZipFilename,
-	}
+	}, nil
 }
 
 func (l *TrancoList) TopDomains(topN int) ([]Domain, error) {
