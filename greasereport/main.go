@@ -242,7 +242,11 @@ func main() {
 	}
 
 	// Ensure Tranco list is present.
-	trancoList := tranco.NewTrancoList(workspaceDir, *trancoIDFlag)
+	trancoList, err := tranco.NewTrancoList(workspaceDir, *trancoIDFlag)
+	if err != nil {
+		slog.Error("Failed to get Tranco list", "error", err)
+		os.Exit(1)
+	}
 
 	// Read top N domains from Tranco CSV.
 	domains, err := trancoList.TopDomains(*topNFlag)
