@@ -21,7 +21,7 @@ Some research questions:
 
 This project contains two main tools to help answer these questions:
 
-1.  [`dnstest`](./dnstest): A Go program to perform large-scale DNS analysis.
-2.  [`greasetest`](./greasetest): A Go program to test ECH GREASE compatibility with top websites.
+1.  [`dnsreport`](./dnsreport): A Go program to perform large-scale DNS analysis.
+2.  [`greasereport`](./greasereport): A Go program to test ECH GREASE compatibility with top websites.
 
 See the `README.md` file in each tool's directory for more information.
