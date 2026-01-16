@@ -23,7 +23,7 @@ To build the ECH-enabled `curl`, run the script from the `greasereport` director
 For example, to build `curl` and place the output in the `workspace` directory:
 
 ```sh
-./curl/build-curl.sh ../workspace
+./curl/build-curl.sh ./workspace
 ```
 
 The script will download the source code for `openssl` and `curl`, build them, and install the final binaries in the specified output directory.
