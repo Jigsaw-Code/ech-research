@@ -16,29 +16,30 @@
 
 set -e
 
-if [ -z "$1" ]; then
+if [[ -z "$1" ]]; then
   echo "Usage: $0 <output_dir>"
   exit 1
 fi
 
 OUTPUT_DIR=$(realpath "$1")
-WORKSPACE_DIR=$(mktemp -d)
+mkdir -p "${OUTPUT_DIR}/tmp"
+TEMP_DIR=$(mktemp -d -p "${OUTPUT_DIR}/tmp")
 
-echo "Using workspace directory: ${WORKSPACE_DIR}"
+echo "Using workspace directory: ${TEMP_DIR}"
 echo "Using output directory: ${OUTPUT_DIR}"
 
 echo "Cloning OpenSSL..."
-git clone --filter=blob:none https://github.com/defo-project/openssl "${WORKSPACE_DIR}/openssl"
-cd "${WORKSPACE_DIR}/openssl"
+git clone --filter=blob:none https://github.com/defo-project/openssl "${TEMP_DIR}/openssl"
+cd "${TEMP_DIR}/openssl"
 
 echo "Configuring and building OpenSSL..."
 ./config --libdir=lib --prefix="${OUTPUT_DIR}"
-make -j$(nproc)
+make "-j$(nproc)"
 make install_sw
 
 echo "Cloning curl..."
-git clone --filter=blob:none https://github.com/defo-project/curl "${WORKSPACE_DIR}/curl"
-cd "${WORKSPACE_DIR}/curl"
+git clone --filter=blob:none https://github.com/defo-project/curl "${TEMP_DIR}/curl"
+cd "${TEMP_DIR}/curl"
 
 echo "Configuring and building curl..."
 autoreconf -fi
@@ -47,6 +48,6 @@ make
 make install
 
 echo "Cleaning up workspace..."
-rm -rf "${WORKSPACE_DIR}"
+rm -rf "${TEMP_DIR}"
 
 echo "Done. curl with ECH support is installed in ${OUTPUT_DIR}/bin"
