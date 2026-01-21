@@ -12,7 +12,7 @@
 // See the License for the specific language governing permissions and
 // limitations under the License.
 
-package main
+package soax
 
 import (
 	"encoding/json"
@@ -25,8 +25,8 @@ import (
 	"strings"
 )
 
-// SoaxConfig holds the credentials and endpoint configuration for the SOAX service.
-type SoaxConfig struct {
+// Config holds the credentials and endpoint configuration for the SOAX service.
+type Config struct {
 	APIKey     string `json:"api_key"`
 	PackageKey string `json:"package_key"`
 	PackageID  string `json:"package_id"`
@@ -34,21 +34,21 @@ type SoaxConfig struct {
 	ProxyPort  int    `json:"proxy_port"`
 }
 
-// SoaxClient provides methods to interact with the SOAX API and generate proxy configurations.
-type SoaxClient struct {
-	Config *SoaxConfig
+// Client provides methods to interact with the SOAX API and generate proxy configurations.
+type Client struct {
+	cfg *Config
 }
 
-// NewSoaxClient creates a new SoaxClient by loading configuration from a JSON file.
+// LoadConfig reads the SOAX configuration from a JSON file.
 // If ProxyHost or ProxyPort are missing in the config, default values are used.
-func NewSoaxClient(configPath string) (*SoaxClient, error) {
-	f, err := os.Open(configPath)
+func LoadConfig(path string) (*Config, error) {
+	f, err := os.Open(path)
 	if err != nil {
 		return nil, fmt.Errorf("failed to open config file: %w", err)
 	}
 	defer f.Close()
 
-	var cfg SoaxConfig
+	var cfg Config
 	if err := json.NewDecoder(f).Decode(&cfg); err != nil {
 		return nil, fmt.Errorf("failed to decode config json: %w", err)
 	}
@@ -59,14 +59,19 @@ func NewSoaxClient(configPath string) (*SoaxClient, error) {
 		cfg.ProxyPort = 5000
 	}
 
-	return &SoaxClient{Config: &cfg}, nil
+	return &cfg, nil
+}
+
+// NewClient creates a new SOAX Client with the given configuration.
+func NewClient(cfg *Config) *Client {
+	return &Client{cfg: cfg}
 }
 
 // ListISPs retrieves a list of available ISP operators for the specified country code.
 // countryISO should be a 2-letter ISO country code (e.g., "US").
-func (s *SoaxClient) ListISPs(countryISO string) ([]string, error) {
+func (c *Client) ListISPs(countryISO string) ([]string, error) {
 	url := fmt.Sprintf("https://api.soax.com/api/get-country-operators?api_key=%s&package_key=%s&country_iso=%s",
-		s.Config.APIKey, s.Config.PackageKey, strings.ToLower(countryISO))
+		c.cfg.APIKey, c.cfg.PackageKey, strings.ToLower(countryISO))
 
 	resp, err := http.Get(url)
 	if err != nil {
@@ -88,7 +93,7 @@ func (s *SoaxClient) ListISPs(countryISO string) ([]string, error) {
 
 // BuildProxyURL constructs an authenticated HTTPS proxy URL for a specific country and ISP.
 // An optional sessionID can be provided for sticky sessions; if empty, a random one is generated.
-func (s *SoaxClient) BuildProxyURL(countryISO, ispName, sessionID string) string {
+func (c *Client) BuildProxyURL(countryISO, ispName, sessionID string) string {
 	if sessionID == "" {
 		sessionID = generateRandomString(10)
 	}
@@ -97,10 +102,10 @@ func (s *SoaxClient) BuildProxyURL(countryISO, ispName, sessionID string) string
 	countryISO = strings.ToLower(countryISO)
 
 	proxyUser := fmt.Sprintf("package-%s-country-%s-isp-%s-sessionid-%s-sessionlength-300",
-		s.Config.PackageID, countryISO, ispName, sessionID)
+		c.cfg.PackageID, countryISO, ispName, sessionID)
 
 	return fmt.Sprintf("https://%s:%s@%s:%d",
-		proxyUser, s.Config.PackageKey, s.Config.ProxyHost, s.Config.ProxyPort)
+		proxyUser, c.cfg.PackageKey, c.cfg.ProxyHost, c.cfg.ProxyPort)
 }
 
 func generateRandomString(n int) string {
