@@ -57,6 +57,10 @@ type Args struct {
 	// Corresponds to the "--max-time" flag.
 	// If 0, no timeout is set.
 	Timeout time.Duration
+
+	// MeasureStats enables capturing performance metrics using curl's -w flag.
+	// If true, Stats will be populated in the Result.
+	MeasureStats bool
 }
 
 // ECHMode defines the available Encrypted ClientHello modes for curl.
@@ -85,6 +89,9 @@ type Result struct {
 	// Stderr contains the standard error of the curl command.
 	// In verbose mode, this contains debug information and headers.
 	Stderr string
+
+	// Stats contains performance metrics if MeasureStats was enabled.
+	Stats Stats
 }
 
 // NewRunner creates a new Runner for the specified curl binary.
@@ -128,6 +135,10 @@ func (r *Runner) Run(url string, args Args) (*Result, error) {
 		cmdArgs = append(cmdArgs, "--ech", string(args.ECH))
 	}
 
+	if args.MeasureStats {
+		cmdArgs = append(cmdArgs, "-w", statsFormat)
+	}
+
 	cmdArgs = append(cmdArgs, url)
 	cmd := exec.Command(r.curlPath, cmdArgs...)
 	if r.libPath != "" {
@@ -142,6 +153,10 @@ func (r *Runner) Run(url string, args Args) (*Result, error) {
 	err := cmd.Run()
 	result.Stdout = stdout.String()
 	result.Stderr = stderr.String()
+
+	if args.MeasureStats {
+		result.Stats = parseStats(result.Stdout)
+	}
 
 	if err != nil {
 		if exitErr, ok := err.(*exec.ExitError); ok {
