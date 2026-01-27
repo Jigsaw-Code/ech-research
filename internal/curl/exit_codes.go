@@ -16,6 +16,9 @@ package curl
 
 // ExitCodeName returns the human readable name for a curl exit code.
 func ExitCodeName(code int) string {
+	if code == 0 {
+		return "OK"
+	}
 	if name, ok := exitCodeNames[code]; ok {
 		return name
 	}
