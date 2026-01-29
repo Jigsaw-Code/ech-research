@@ -28,15 +28,17 @@ The SOAX configuration file should be a JSON file with the following structure:
 
 **Country List (`countries.txt`)**
 
-The countries file should contain a list of 2-letter ISO country codes, one per line. Lines starting with `#` are ignored.
+The countries file should be a CSV file containing country names and their 2-letter ISO codes. Lines starting with `#` are ignored.
 
-```text
-US
-GB
-DE
+```csv
+"United States",US
+"United Kingdom",GB
+"Germany",DE
 # Add more countries as needed
-JP
+"Virgin Islands, U.S.",VI
 ```
+
+You can download a complete list of country codes from [here](https://raw.githubusercontent.com/datasets/country-list/master/data.csv).
 
 ## Running
 
@@ -57,7 +59,7 @@ This will:
 
 * `-workspace <path>`: Directory to store intermediate files. Defaults to `./workspace`.
 * `-soax <path>`: Path to SOAX config JSON. Defaults to `./workspace/soax/cred.json`.
-* `-countries <path>`: Path to file containing ISO country codes (required).
+* `-countries <path>`: Path to CSV file containing country names and ISO codes (required).
 * `-targetDomain <domain>`: Target domain to test. Defaults to `www.google.com`.
 * `-parallelism <number>`: Maximum number of parallel requests. Defaults to 10.
 * `-verbose`: Enable verbose logging.
@@ -69,7 +71,8 @@ This will:
 The tool generates a CSV file (`workspace/soax-results-<domain>-countries<N>.csv`) with the following columns:
 
 * `domain`: The domain that was tested.
-* `country`: The country code of the proxy used.
+* `country_code`: The 2-letter ISO country code.
+* `country_name`: The full name of the country.
 * `isp`: The ISP name of the proxy used.
 * `asn`: The ASN of the proxy exit node.
 * `exit_node_ip`: The IP address of the proxy exit node.

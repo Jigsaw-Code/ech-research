@@ -15,7 +15,6 @@
 package main
 
 import (
-	"bufio"
 	"context"
 	"encoding/csv"
 	"flag"
@@ -37,6 +36,7 @@ import (
 type TestResult struct {
 	Domain        string
 	Country       string
+	CountryName   string
 	ISP           string
 	ASN           string
 	ExitNodeIP    string
@@ -56,16 +56,18 @@ func runSoaxTest(
 	runner *curl.Runner,
 	domain string,
 	country string,
+	countryName string,
 	isp string,
 	proxyURL string,
 	echGrease bool,
 	maxTime time.Duration,
 ) TestResult {
 	result := TestResult{
-		Domain:    domain,
-		Country:   country,
-		ISP:       isp,
-		ECHGrease: echGrease,
+		Domain:      domain,
+		Country:     country,
+		CountryName: countryName,
+		ISP:         isp,
+		ECHGrease:   echGrease,
 	}
 
 	echMode := curl.ECHFalse
@@ -121,22 +123,43 @@ func runSoaxTest(
 	return result
 }
 
-func loadCountries(path string) ([]string, error) {
+type Country struct {
+	Name string
+	Code string
+}
+
+func loadCountries(path string) ([]Country, error) {
 	f, err := os.Open(path)
 	if err != nil {
 		return nil, err
 	}
 	defer f.Close()
 
-	var countries []string
-	scanner := bufio.NewScanner(f)
-	for scanner.Scan() {
-		line := strings.TrimSpace(scanner.Text())
-		if line != "" && !strings.HasPrefix(line, "#") {
-			countries = append(countries, line)
-		}
+	var countries []Country
+	reader := csv.NewReader(f)
+	reader.Comment = '#' // Support skipping lines starting with #
+	reader.FieldsPerRecord = 2
+
+	records, err := reader.ReadAll()
+	if err != nil {
+		return nil, fmt.Errorf("failed to read countries CSV: %w", err)
 	}
-	return countries, scanner.Err()
+
+	for i, record := range records {
+		name := strings.TrimSpace(record[0])
+		code := strings.TrimSpace(record[1])
+
+		// Skip header row if present
+		if i == 0 && strings.EqualFold(name, "Name") && strings.EqualFold(code, "Code") {
+			continue
+		}
+
+		countries = append(countries, Country{
+			Name: name,
+			Code: code,
+		})
+	}
+	return countries, nil
 }
 
 func main() {
@@ -211,7 +234,7 @@ func main() {
 		defer csvWriter.Flush()
 
 		header := []string{
-			"domain", "country", "isp", "asn", "exit_node_ip", "ech_grease", "error",
+			"domain", "country_code", "country_name", "isp", "asn", "exit_node_ip", "ech_grease", "error",
 			"curl_exit_code", "curl_error_name", "dns_lookup_ms", "tcp_connection_ms",
 			"tls_handshake_ms", "server_time_ms", "total_time_ms", "http_status",
 		}
@@ -221,7 +244,7 @@ func main() {
 
 		for r := range resultsCh {
 			record := []string{
-				r.Domain, r.Country, r.ISP, r.ASN, r.ExitNodeIP, strconv.FormatBool(r.ECHGrease), r.Error,
+				r.Domain, r.Country, r.CountryName, r.ISP, r.ASN, r.ExitNodeIP, strconv.FormatBool(r.ECHGrease), r.Error,
 				strconv.Itoa(r.CurlExitCode), r.CurlErrorName,
 				strconv.FormatInt(r.DNSLookup.Milliseconds(), 10),
 				strconv.FormatInt(r.TCPConnection.Milliseconds(), 10),
@@ -240,11 +263,11 @@ func main() {
 	sem := semaphore.NewWeighted(int64(*parallelismFlag))
 	var wg sync.WaitGroup
 	for _, country := range countries {
-		slog.Debug("Processing country", "country", country)
+		slog.Debug("Processing country", "name", country.Name, "code", country.Code)
 
-		isps, err := client.ListISPs(country)
+		isps, err := client.ListISPs(country.Code)
 		if err != nil {
-			slog.Error("Failed to fetch ISPs", "country", country, "error", err)
+			slog.Error("Failed to fetch ISPs", "country", country.Code, "error", err)
 			continue
 		}
 
@@ -255,12 +278,12 @@ func main() {
 				slog.Error("Failed to acquire semaphore", "error", err)
 				wg.Done()
 			} else {
-				go func(c, isp string) {
+				go func(c Country, isp string) {
 					defer sem.Release(1)
 					defer wg.Done()
-					proxyURL := client.BuildProxyURL(c, isp, "")
-					slog.Info("Testing ISP", "country", c, "isp", isp, "ech_grease", false)
-					resultsCh <- runSoaxTest(runner, domain, c, isp, proxyURL, false, *maxTimeFlag)
+					proxyURL := client.BuildProxyURL(c.Code, isp, "")
+					slog.Info("Testing ISP", "country", c.Code, "isp", isp, "ech_grease", false)
+					resultsCh <- runSoaxTest(runner, domain, c.Code, c.Name, isp, proxyURL, false, *maxTimeFlag)
 				}(country, isp)
 			}
 
@@ -268,12 +291,12 @@ func main() {
 				slog.Error("Failed to acquire semaphore", "error", err)
 				wg.Done()
 			} else {
-				go func(c, isp string) {
+				go func(c Country, isp string) {
 					defer sem.Release(1)
 					defer wg.Done()
-					proxyURL := client.BuildProxyURL(c, isp, "")
-					slog.Info("Testing ISP", "country", c, "isp", isp, "ech_grease", true)
-					resultsCh <- runSoaxTest(runner, domain, c, isp, proxyURL, true, *maxTimeFlag)
+					proxyURL := client.BuildProxyURL(c.Code, isp, "")
+					slog.Info("Testing ISP", "country", c.Code, "isp", isp, "ech_grease", true)
+					resultsCh <- runSoaxTest(runner, domain, c.Code, c.Name, isp, proxyURL, true, *maxTimeFlag)
 				}(country, isp)
 			}
 		}
