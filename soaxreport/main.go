@@ -16,6 +16,7 @@ package main
 
 import (
 	"bufio"
+	"context"
 	"encoding/csv"
 	"flag"
 	"fmt"
@@ -24,11 +25,13 @@ import (
 	"path/filepath"
 	"strconv"
 	"strings"
+	"sync"
 	"time"
 
 	"github.com/Jigsaw-Code/ech-research/internal/curl"
 	"github.com/Jigsaw-Code/ech-research/internal/soax"
 	"github.com/Jigsaw-Code/ech-research/internal/workspace"
+	"golang.org/x/sync/semaphore"
 )
 
 type TestResult struct {
@@ -49,7 +52,15 @@ type TestResult struct {
 	HTTPStatus    int
 }
 
-func runSoaxTest(runner *curl.Runner, domain string, country string, isp string, proxyURL string, echGrease bool, maxTime time.Duration, verbose bool) TestResult {
+func runSoaxTest(
+	runner *curl.Runner,
+	domain string,
+	country string,
+	isp string,
+	proxyURL string,
+	echGrease bool,
+	maxTime time.Duration,
+) TestResult {
 	result := TestResult{
 		Domain:    domain,
 		Country:   country,
@@ -68,7 +79,7 @@ func runSoaxTest(runner *curl.Runner, domain string, country string, isp string,
 		ProxyHeaders: []string{"Respond-With: ip,isp,asn"},
 		ECH:          echMode,
 		Timeout:      maxTime,
-		Verbose:      verbose,
+		Verbose:      true, // Required to capture response headers
 		MeasureStats: true,
 	})
 
@@ -103,7 +114,7 @@ func runSoaxTest(runner *curl.Runner, domain string, country string, isp string,
 		case "ip":
 			result.ExitNodeIP = val
 		case "isp":
-			result.ISP = val
+			result.ISP += " (" + val + ")"
 		}
 	}
 
@@ -137,6 +148,7 @@ func main() {
 		verboseFlag      = flag.Bool("verbose", false, "Enable verbose logging")
 		maxTimeFlag      = flag.Duration("maxTime", 30*time.Second, "Maximum time per curl request")
 		curlPathFlag     = flag.String("curl", "", "Path to the ECH-enabled curl binary")
+		parallelismFlag  = flag.Int("parallelism", 10, "Maximum number of parallel requests")
 	)
 	flag.Parse()
 
@@ -180,7 +192,8 @@ func main() {
 	}
 
 	// Create output CSV file
-	outputFilename := filepath.Join(workspaceDir, fmt.Sprintf("soax-results-countries%d.csv", len(countries)))
+	sanitizedDomain := strings.ReplaceAll(*targetDomainFlag, ".", "_")
+	outputFilename := filepath.Join(workspaceDir, fmt.Sprintf("soax-results-%s-countries%d.csv", sanitizedDomain, len(countries)))
 	outputFile, err := os.Create(outputFilename)
 	if err != nil {
 		slog.Error("Failed to create output CSV file", "path", outputFilename, "error", err)
@@ -188,23 +201,46 @@ func main() {
 	}
 	defer outputFile.Close()
 
-	csvWriter := csv.NewWriter(outputFile)
-	defer csvWriter.Flush()
+	resultsCh := make(chan TestResult, 2*len(countries)*(*parallelismFlag))
 
-	header := []string{
-		"domain", "country", "isp", "asn", "exit_node_ip", "ech_grease", "error",
-		"curl_exit_code", "curl_error_name", "dns_lookup_ms", "tcp_connection_ms",
-		"tls_handshake_ms", "server_time_ms", "total_time_ms", "http_status",
-	}
-	if err := csvWriter.Write(header); err != nil {
-		slog.Error("Failed to write CSV header", "error", err)
-		os.Exit(1)
-	}
+	var csvWg sync.WaitGroup
+	csvWg.Add(1)
+	go func() {
+		defer csvWg.Done()
+		csvWriter := csv.NewWriter(outputFile)
+		defer csvWriter.Flush()
+
+		header := []string{
+			"domain", "country", "isp", "asn", "exit_node_ip", "ech_grease", "error",
+			"curl_exit_code", "curl_error_name", "dns_lookup_ms", "tcp_connection_ms",
+			"tls_handshake_ms", "server_time_ms", "total_time_ms", "http_status",
+		}
+		if err := csvWriter.Write(header); err != nil {
+			slog.Error("Failed to write CSV header", "error", err)
+		}
+
+		for r := range resultsCh {
+			record := []string{
+				r.Domain, r.Country, r.ISP, r.ASN, r.ExitNodeIP, strconv.FormatBool(r.ECHGrease), r.Error,
+				strconv.Itoa(r.CurlExitCode), r.CurlErrorName,
+				strconv.FormatInt(r.DNSLookup.Milliseconds(), 10),
+				strconv.FormatInt(r.TCPConnection.Milliseconds(), 10),
+				strconv.FormatInt(r.TLSHandshake.Milliseconds(), 10),
+				strconv.FormatInt(r.ServerTime.Milliseconds(), 10),
+				strconv.FormatInt(r.TotalTime.Milliseconds(), 10),
+				strconv.Itoa(r.HTTPStatus),
+			}
+			if err := csvWriter.Write(record); err != nil {
+				slog.Error("Failed to write record to CSV", "error", err)
+			}
+		}
+	}()
 
 	domain := *targetDomainFlag
-
+	sem := semaphore.NewWeighted(int64(*parallelismFlag))
+	var wg sync.WaitGroup
 	for _, country := range countries {
-		slog.Info("Processing country", "country", country)
+		slog.Debug("Processing country", "country", country)
 
 		isps, err := client.ListISPs(country)
 		if err != nil {
@@ -213,35 +249,39 @@ func main() {
 		}
 
 		for _, isp := range isps {
-			proxyURL := client.BuildProxyURL(country, isp, "")
+			wg.Add(2)
 
-			// Test ECH False
-			slog.Info("Testing ISP", "country", country, "isp", isp, "ech_grease", false)
-			resFalse := runSoaxTest(runner, domain, country, isp, proxyURL, false, *maxTimeFlag, *verboseFlag)
-
-			// Test ECH Grease
-			slog.Info("Testing ISP", "country", country, "isp", isp, "ech_grease", true)
-			resGrease := runSoaxTest(runner, domain, country, isp, proxyURL, true, *maxTimeFlag, *verboseFlag)
-
-			results := []TestResult{resFalse, resGrease}
-			for _, r := range results {
-				record := []string{
-					r.Domain, r.Country, r.ISP, r.ASN, r.ExitNodeIP, strconv.FormatBool(r.ECHGrease), r.Error,
-					strconv.Itoa(r.CurlExitCode), r.CurlErrorName,
-					strconv.FormatInt(r.DNSLookup.Milliseconds(), 10),
-					strconv.FormatInt(r.TCPConnection.Milliseconds(), 10),
-					strconv.FormatInt(r.TLSHandshake.Milliseconds(), 10),
-					strconv.FormatInt(r.ServerTime.Milliseconds(), 10),
-					strconv.FormatInt(r.TotalTime.Milliseconds(), 10),
-					strconv.Itoa(r.HTTPStatus),
-				}
-				if err := csvWriter.Write(record); err != nil {
-					slog.Error("Failed to write record to CSV", "error", err)
-				}
+			if err := sem.Acquire(context.Background(), 1); err != nil {
+				slog.Error("Failed to acquire semaphore", "error", err)
+				wg.Done()
+			} else {
+				go func(c, isp string) {
+					defer sem.Release(1)
+					defer wg.Done()
+					proxyURL := client.BuildProxyURL(c, isp, "")
+					slog.Info("Testing ISP", "country", c, "isp", isp, "ech_grease", false)
+					resultsCh <- runSoaxTest(runner, domain, c, isp, proxyURL, false, *maxTimeFlag)
+				}(country, isp)
 			}
-			csvWriter.Flush()
+
+			if err := sem.Acquire(context.Background(), 1); err != nil {
+				slog.Error("Failed to acquire semaphore", "error", err)
+				wg.Done()
+			} else {
+				go func(c, isp string) {
+					defer sem.Release(1)
+					defer wg.Done()
+					proxyURL := client.BuildProxyURL(c, isp, "")
+					slog.Info("Testing ISP", "country", c, "isp", isp, "ech_grease", true)
+					resultsCh <- runSoaxTest(runner, domain, c, isp, proxyURL, true, *maxTimeFlag)
+				}(country, isp)
+			}
 		}
 	}
+
+	wg.Wait()
+	close(resultsCh)
+	csvWg.Wait()
 
 	slog.Info("Done. Results saved to", "path", outputFilename)
 }
