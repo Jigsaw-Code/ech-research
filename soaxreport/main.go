@@ -260,6 +260,7 @@ func main() {
 	}()
 
 	domain := *targetDomainFlag
+	runSessionID := time.Now().Format("0102150405")
 	sem := semaphore.NewWeighted(int64(*parallelismFlag))
 	var wg sync.WaitGroup
 	for _, country := range countries {
@@ -271,33 +272,34 @@ func main() {
 			continue
 		}
 
-		for _, isp := range isps {
+		for i, isp := range isps {
 			wg.Add(2)
+			sessionID := fmt.Sprintf("%s%s%d", runSessionID, country.Code, i)
 
 			if err := sem.Acquire(context.Background(), 1); err != nil {
 				slog.Error("Failed to acquire semaphore", "error", err)
 				wg.Done()
 			} else {
-				go func(c Country, isp string) {
+				go func(c Country, isp, sid string) {
 					defer sem.Release(1)
 					defer wg.Done()
-					proxyURL := client.BuildProxyURL(c.Code, isp, "")
-					slog.Info("Testing ISP", "country", c.Code, "isp", isp, "ech_grease", false)
+					proxyURL := client.BuildProxyURL(c.Code, isp, sid)
+					slog.Info("Testing ISP", "country", c.Code, "isp", isp, "ech_grease", false, "session", sid)
 					resultsCh <- runSoaxTest(runner, domain, c.Code, c.Name, isp, proxyURL, false, *maxTimeFlag)
-				}(country, isp)
+				}(country, isp, sessionID)
 			}
 
 			if err := sem.Acquire(context.Background(), 1); err != nil {
 				slog.Error("Failed to acquire semaphore", "error", err)
 				wg.Done()
 			} else {
-				go func(c Country, isp string) {
+				go func(c Country, isp, sid string) {
 					defer sem.Release(1)
 					defer wg.Done()
-					proxyURL := client.BuildProxyURL(c.Code, isp, "")
-					slog.Info("Testing ISP", "country", c.Code, "isp", isp, "ech_grease", true)
+					proxyURL := client.BuildProxyURL(c.Code, isp, sid)
+					slog.Info("Testing ISP", "country", c.Code, "isp", isp, "ech_grease", true, "session", sid)
 					resultsCh <- runSoaxTest(runner, domain, c.Code, c.Name, isp, proxyURL, true, *maxTimeFlag)
-				}(country, isp)
+				}(country, isp, sessionID)
 			}
 		}
 	}
