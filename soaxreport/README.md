@@ -76,6 +76,7 @@ The tool generates a CSV file (`workspace/soax-results-<domain>-countries<N>.csv
 * `isp`: The ISP name of the proxy used.
 * `asn`: The ASN of the proxy exit node.
 * `exit_node_ip`: The IP address of the proxy exit node.
+* `exit_node_isp`: The ISP name reported by the proxy exit node (from headers).
 * `ech_grease`: `true` if ECH GREASE was enabled for the request, `false` otherwise.
 * `error`: Any error that occurred during the request.
 * `curl_exit_code`: The exit code returned by the `curl` command.

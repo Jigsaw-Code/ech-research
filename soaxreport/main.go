@@ -41,6 +41,7 @@ type TestResult struct {
 	ISP           string
 	ASN           string
 	ExitNodeIP    string
+	ExitNodeISP   string
 	ECHGrease     bool
 	Error         string
 	CurlExitCode  int
@@ -117,7 +118,7 @@ func runSoaxTest(
 		case "ip":
 			result.ExitNodeIP = val
 		case "isp":
-			result.ISP += " (" + val + ")"
+			result.ExitNodeISP = val
 		}
 	}
 
@@ -235,7 +236,7 @@ func main() {
 		defer csvWriter.Flush()
 
 		header := []string{
-			"domain", "country_code", "country_name", "isp", "asn", "exit_node_ip", "ech_grease", "error",
+			"domain", "country_code", "country_name", "isp", "asn", "exit_node_ip", "exit_node_isp", "ech_grease", "error",
 			"curl_exit_code", "curl_error_name", "dns_lookup_ms", "tcp_connection_ms",
 			"tls_handshake_ms", "server_time_ms", "total_time_ms", "http_status",
 		}
@@ -245,7 +246,7 @@ func main() {
 
 		for r := range resultsCh {
 			record := []string{
-				r.Domain, r.Country, r.CountryName, r.ISP, r.ASN, r.ExitNodeIP, strconv.FormatBool(r.ECHGrease), r.Error,
+				r.Domain, r.Country, r.CountryName, r.ISP, r.ASN, r.ExitNodeIP, r.ExitNodeISP, strconv.FormatBool(r.ECHGrease), r.Error,
 				strconv.Itoa(r.CurlExitCode), r.CurlErrorName,
 				strconv.FormatInt(r.DNSLookup.Milliseconds(), 10),
 				strconv.FormatInt(r.TCPConnection.Milliseconds(), 10),
