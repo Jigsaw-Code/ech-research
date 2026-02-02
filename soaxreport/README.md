@@ -26,7 +26,7 @@ The SOAX configuration file should be a JSON file with the following structure:
 }
 ```
 
-**Country List (`countries.txt`)**
+**Country List (`countries.csv`)**
 
 The countries file should be a CSV file containing country names and their 2-letter ISO codes. Lines starting with `#` are ignored.
 
@@ -45,7 +45,7 @@ You can download a complete list of country codes from [here](https://raw.github
 To run the tool, use the `go run` command from the project root directory:
 
 ```sh
-go run ./soaxreport --countries workspace/countries.txt --targetDomain www.google.com
+go run ./soaxreport --countries workspace/countries.csv --targetDomain www.google.com
 ```
 
 This will:
