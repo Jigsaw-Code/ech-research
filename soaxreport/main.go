@@ -25,6 +25,7 @@ import (
 	"strconv"
 	"strings"
 	"sync"
+	"sync/atomic"
 	"time"
 
 	"github.com/Jigsaw-Code/ech-research/internal/curl"
@@ -171,7 +172,7 @@ func main() {
 		verboseFlag      = flag.Bool("verbose", false, "Enable verbose logging")
 		maxTimeFlag      = flag.Duration("maxTime", 30*time.Second, "Maximum time per curl request")
 		curlPathFlag     = flag.String("curl", "", "Path to the ECH-enabled curl binary")
-		parallelismFlag  = flag.Int("parallelism", 10, "Maximum number of parallel requests")
+		parallelismFlag  = flag.Int("parallelism", 16, "Maximum number of parallel requests")
 	)
 	flag.Parse()
 
@@ -263,6 +264,8 @@ func main() {
 	runSessionID := time.Now().Format("0102150405")
 	sem := semaphore.NewWeighted(int64(*parallelismFlag))
 	var wg sync.WaitGroup
+	var total, finished atomic.Int32
+
 	for _, country := range countries {
 		slog.Debug("Processing country", "name", country.Name, "code", country.Code)
 
@@ -272,35 +275,28 @@ func main() {
 			continue
 		}
 
+		total.Add(int32(len(isps) * 2))
 		for i, isp := range isps {
 			wg.Add(2)
 			sessionID := fmt.Sprintf("%s%s%d", runSessionID, country.Code, i)
 
-			if err := sem.Acquire(context.Background(), 1); err != nil {
-				slog.Error("Failed to acquire semaphore", "error", err)
-				wg.Done()
-			} else {
-				go func(c Country, isp, sid string) {
-					defer sem.Release(1)
-					defer wg.Done()
-					proxyURL := client.BuildProxyURL(c.Code, isp, sid)
-					slog.Info("Testing ISP", "country", c.Code, "isp", isp, "ech_grease", false, "session", sid)
-					resultsCh <- runSoaxTest(runner, domain, c.Code, c.Name, isp, proxyURL, false, *maxTimeFlag)
-				}(country, isp, sessionID)
+			startTest := func(c Country, isp, sid string, ech bool) {
+				defer wg.Done()
+				if err := sem.Acquire(context.Background(), 1); err != nil {
+					slog.Error("Failed to acquire semaphore", "error", err)
+					return
+				}
+				defer sem.Release(1)
+
+				proxyURL := client.BuildProxyURL(c.Code, isp, sid)
+				slog.Debug("Testing ISP", "country", c.Code, "isp", isp, "ech_grease", ech, "session", sid)
+				resultsCh <- runSoaxTest(runner, domain, c.Code, c.Name, isp, proxyURL, ech, *maxTimeFlag)
+				progress := fmt.Sprintf("%d/%d", finished.Add(1), total.Load())
+				slog.Info("Finished", "country", c.Code, "isp", isp, "progress", progress)
 			}
 
-			if err := sem.Acquire(context.Background(), 1); err != nil {
-				slog.Error("Failed to acquire semaphore", "error", err)
-				wg.Done()
-			} else {
-				go func(c Country, isp, sid string) {
-					defer sem.Release(1)
-					defer wg.Done()
-					proxyURL := client.BuildProxyURL(c.Code, isp, sid)
-					slog.Info("Testing ISP", "country", c.Code, "isp", isp, "ech_grease", true, "session", sid)
-					resultsCh <- runSoaxTest(runner, domain, c.Code, c.Name, isp, proxyURL, true, *maxTimeFlag)
-				}(country, isp, sessionID)
-			}
+			go startTest(country, isp, sessionID, false)
+			go startTest(country, isp, sessionID, true)
 		}
 	}
 
