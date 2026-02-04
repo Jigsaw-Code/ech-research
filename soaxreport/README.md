@@ -61,7 +61,7 @@ This will:
 * `-soax <path>`: Path to SOAX config JSON. Defaults to `./workspace/soax/cred.json`.
 * `-countries <path>`: Path to CSV file containing country names and ISO codes (required).
 * `-targetDomain <domain>`: Target domain to test. Defaults to `www.google.com`.
-* `-parallelism <number>`: Maximum number of parallel requests. Defaults to 10.
+* `-parallelism <number>`: Maximum number of parallel requests. Defaults to `16`.
 * `-verbose`: Enable verbose logging.
 * `-maxTime <duration>`: Maximum time per curl request. Defaults to `30s`.
 * `-curl <path>`: Path to the ECH-enabled curl binary. Defaults to `./workspace/output/bin/curl`.
