@@ -1,16 +1,16 @@
-# Raw Data Analysis: ECH GREASE Connectivity (SOAX)
+# Raw Report: ECH GREASE Connectivity (From Different Countries)
 
-**Date:** February 02, 2026\
+**Date:** February 04, 2026\
 **Target Domain:** `www.google.com`\
 **Analyzed File:** `soax-results-www_google_com-countries249.csv`
 
 ## Executive Summary
 
-This report analyzed **866** valid ISP pairs. ECH GREASE does **not** appear to cause systematic connectivity breakage.
+This report analyzed **878** valid ISP pairs. ECH GREASE does **not** appear to cause systematic connectivity breakage.
 
-*   **Total ISP Pairs:** 866
-*   **Potential Blocking:** 3 (0.35%)
-*   **Avg Latency Impact:** 237.56 ms
+*   **Total ISP Pairs:** 878
+*   **Potential Blocking:** 3 (0.34%)
+*   **Avg Latency Impact:** 158.71 ms
 
 ## 1. Overall Connectivity Results
 
@@ -35,9 +35,9 @@ This report analyzed **866** valid ISP pairs. ECH GREASE does **not** appear to 
 We detected **3** instances where ECH GREASE failed while the control succeeded. These cases warrant further investigation to distinguish between transient network errors and active blocking.
 
 **Affected Countries:**
-*   IN: 1 instance(s)
-*   PT: 1 instance(s)
-*   TL: 1 instance(s)
+*   Iran, Islamic Republic of (IR): 1 instance(s)
+*   Mauritania (MR): 1 instance(s)
+*   Mexico (MX): 1 instance(s)
 
 (See Appendix A for the full list of failures)
 
@@ -51,236 +51,227 @@ We detected **3** instances where ECH GREASE failed while the control succeeded.
 
 | Country | ISP | No ECH Exit | GREASE Exit | Error Name |
 | :--- | :--- | :--- | :--- | :--- |
-| IN | jio | 0 | 56 | CURLE_RECV_ERROR |
-| PT | digi portugal | 0 | 35 | CURLE_SSL_CONNECT_ERROR |
-| TL | telkomcel | 0 | 56 | CURLE_RECV_ERROR |
+| Iran, Islamic Republic of (IR) | mobile communication company of iran | 0 | 28 | CURLE_OPERATION_TIMEDOUT |
+| Mauritania (MR) | mattel | 0 | 28 | CURLE_OPERATION_TIMEDOUT |
+| Mexico (MX) | altan redes, s.a.p.i. de c. v. | 0 | 28 | CURLE_OPERATION_TIMEDOUT |
 
 ## Appendix B: Significant Latency Increases (>500ms)
 
-| Domain | Country | ISP | No ECH TLS (ms) | GREASE TLS (ms) | Delta (ms) |
-| :--- | :--- | :--- | :--- | :--- | :--- |
-| www.google.com | IN | jio | 2448 | 24871 | 22423 |
-| www.google.com | TL | telkomcel | 3455 | 21403 | 17948 |
-| www.google.com | PK | multacom corporation | 0 | 16898 | 16898 |
-| www.google.com | BI | ucom-wic | 14575 | 27739 | 13164 |
-| www.google.com | TJ | cjsc babilon-mobile | 2414 | 8042 | 5628 |
-| www.google.com | ML | sotelmabgp | 2140 | 7694 | 5554 |
-| www.google.com | JP | softbank corp. | 2114 | 7217 | 5103 |
-| www.google.com | KZ | tns-plus llp | 1661 | 5898 | 4237 |
-| www.google.com | MW | airtel malawi | 2273 | 6074 | 3801 |
-| www.google.com | FR | bouygues telecom | 4603 | 8349 | 3746 |
-| www.google.com | PK | zong | 2064 | 5750 | 3686 |
-| www.google.com | JP | k-opticom corporation | 1677 | 4618 | 2941 |
-| www.google.com | CM | camtel | 1629 | 4472 | 2843 |
-| www.google.com | GM | africell | 1977 | 4609 | 2632 |
-| www.google.com | PE | fibra movistar | 1414 | 3830 | 2416 |
-| www.google.com | NE | airtel niger | 2860 | 5249 | 2389 |
-| www.google.com | CO | tigo colombia | 1301 | 3465 | 2164 |
-| www.google.com | GH | airtel-ghana | 1607 | 3643 | 2036 |
-| www.google.com | MW | tnm | 1707 | 3594 | 1887 |
-| www.google.com | ZA | mtn business solutions | 2939 | 4824 | 1885 |
-| www.google.com | AG | flow | 1508 | 3382 | 1874 |
-| www.google.com | MQ | digicel antilles francaises guyane | 2390 | 4261 | 1871 |
-| www.google.com | BF | orange burkina faso | 1117 | 2889 | 1772 |
-| www.google.com | ZM | zamtel | 2034 | 3785 | 1751 |
-| www.google.com | MQ | free mobile | 4051 | 5778 | 1727 |
-| www.google.com | PE | bitel | 1370 | 3011 | 1641 |
-| www.google.com | AF | afghan wireless communication company | 2183 | 3817 | 1634 |
-| www.google.com | WS | vodafone samoa | 1925 | 3483 | 1558 |
-| www.google.com | UY | movistar uruguay | 1202 | 2735 | 1533 |
-| www.google.com | TL | viettel timor leste | 1705 | 3224 | 1519 |
-| www.google.com | IN | airtel | 1421 | 2859 | 1438 |
-| www.google.com | BF | onatel | 1391 | 2813 | 1422 |
-| www.google.com | LB | mobile interim company 1 s.a.l. | 745 | 2159 | 1414 |
-| www.google.com | MG | airtel madagascar | 1240 | 2650 | 1410 |
-| www.google.com | NG | mtn nigeria | 2589 | 3974 | 1385 |
-| www.google.com | CU | empresa de telecomunicaciones de cuba, s.a. | 1000 | 2368 | 1368 |
-| www.google.com | NE | orange niger | 1786 | 3132 | 1346 |
-| www.google.com | DE | play2go international | 1439 | 2769 | 1330 |
-| www.google.com | RU | ekaterinburg-2000 | 1079 | 2390 | 1311 |
-| www.google.com | ZM | airtel zambia | 2047 | 3358 | 1311 |
-| www.google.com | NC | opt-nc | 1339 | 2634 | 1295 |
-| www.google.com | FJ | digicel fiji | 1847 | 3139 | 1292 |
-| www.google.com | BD | telenor | 1433 | 2716 | 1283 |
-| www.google.com | FR | free sas | 1121 | 2377 | 1256 |
-| www.google.com | AO | aas1 | 1355 | 2600 | 1245 |
-| www.google.com | UG | mtn uganda | 1315 | 2554 | 1239 |
-| www.google.com | UG | airtel uganda | 1513 | 2745 | 1232 |
-| www.google.com | JP | japan communication | 2286 | 3507 | 1221 |
-| www.google.com | SL | qcell | 1634 | 2854 | 1220 |
-| www.google.com | HK | china mobile hong kong | 910 | 2128 | 1218 |
-| www.google.com | BJ | moov benin | 1181 | 2398 | 1217 |
-| www.google.com | YT | free reunion | 1414 | 2623 | 1209 |
-| www.google.com | PG | vodafone png | 1593 | 2797 | 1204 |
-| www.google.com | PY | claro argentina | 1337 | 2529 | 1192 |
-| www.google.com | MN | mobicom corporation | 1679 | 2864 | 1185 |
-| www.google.com | BT | druknet isp | 1331 | 2508 | 1177 |
-| www.google.com | MN | univision | 1199 | 2374 | 1175 |
-| www.google.com | SO | amtel | 1395 | 2566 | 1171 |
-| www.google.com | KE | airtel rwanda | 1307 | 2477 | 1170 |
-| www.google.com | MG | orange madagascar | 1503 | 2672 | 1169 |
-| www.google.com | ET | safaricom | 1479 | 2646 | 1167 |
-| www.google.com | JP | logiclinks | 1224 | 2379 | 1155 |
-| www.google.com | MZ | movitel | 1224 | 2374 | 1150 |
-| www.google.com | NZ | 2degrees | 2157 | 3306 | 1149 |
-| www.google.com | NZ | spark new zealand | 1414 | 2546 | 1132 |
-| www.google.com | SE | hi3g access ab | 550 | 1665 | 1115 |
-| www.google.com | BO | entel bolivia | 1291 | 2396 | 1105 |
-| www.google.com | TO | digicel tonga | 1510 | 2592 | 1082 |
-| www.google.com | JP | rakuten mobile network | 1297 | 2377 | 1080 |
-| www.google.com | TD | airtel chad | 1148 | 2228 | 1080 |
-| www.google.com | BR | tim brasil | 1072 | 2152 | 1080 |
-| www.google.com | JM | digicel jamaica | 883 | 1958 | 1075 |
-| www.google.com | NA | mtc namibia | 3990 | 5041 | 1051 |
-| www.google.com | KE | safaricom | 1280 | 2329 | 1049 |
-| www.google.com | SD | mtn sudan | 1076 | 2122 | 1046 |
-| www.google.com | TN | tunisie telecom | 1817 | 2853 | 1036 |
-| www.google.com | NA | telecom namibia | 1912 | 2941 | 1029 |
-| www.google.com | SG | starhub | 1070 | 2092 | 1022 |
-| www.google.com | PG | digitec papua new guinea | 1365 | 2380 | 1015 |
-| www.google.com | ES | yoigo | 985 | 1996 | 1011 |
-| www.google.com | BR | surf telecom s.a. | 1236 | 2246 | 1010 |
-| www.google.com | BR | claro brazil | 899 | 1908 | 1009 |
-| www.google.com | BA | bh telecom d.d. sarajevo | 637 | 1646 | 1009 |
-| www.google.com | KN | flow | 1133 | 2138 | 1005 |
-| www.google.com | PH | globe telecom | 988 | 1979 | 991 |
-| www.google.com | LK | mobitel | 1003 | 1991 | 988 |
-| www.google.com | TW | chunghwa telecom | 996 | 1982 | 986 |
-| www.google.com | TZ | airtel tanzania | 1256 | 2225 | 969 |
-| www.google.com | BD | robi | 995 | 1948 | 953 |
-| www.google.com | LS | econet telecom lesotho | 1685 | 2632 | 947 |
-| www.google.com | MG | telecom-malagasy | 1498 | 2427 | 929 |
-| www.google.com | AU | telstra internet | 1635 | 2563 | 928 |
-| www.google.com | MM | atom myanmar | 1021 | 1941 | 920 |
-| www.google.com | DK | tdc net | 1545 | 2459 | 914 |
-| www.google.com | EG | vodafone egypt | 1336 | 2248 | 912 |
-| www.google.com | MG | gulfsat-madagascar | 1514 | 2426 | 912 |
-| www.google.com | CG | airtel congo | 1903 | 2810 | 907 |
-| www.google.com | GH | mtn ghana | 1063 | 1968 | 905 |
-| www.google.com | IR | mtn irancell | 1741 | 2644 | 903 |
-| www.google.com | CD | airtel drc | 1339 | 2236 | 897 |
-| www.google.com | SI | a1 slovenija | 908 | 1801 | 893 |
-| www.google.com | RU | s.u.e. dpr republic operator of networks | 649 | 1537 | 888 |
-| www.google.com | TZ | vodacom tanzania | 1019 | 1901 | 882 |
-| www.google.com | LS | vodacom-lesotho | 1512 | 2392 | 880 |
-| www.google.com | SZ | swazimtn-ltd | 1013 | 1891 | 878 |
-| www.google.com | JP | arteria networks corporation | 2613 | 3485 | 872 |
-| www.google.com | BD | grameenphone | 963 | 1835 | 872 |
-| www.google.com | ET | ethiopian telecommunication corporation | 935 | 1806 | 871 |
-| www.google.com | JP | internet initiative japan | 1108 | 1972 | 864 |
-| www.google.com | BR | brisanet | 1075 | 1938 | 863 |
-| www.google.com | VN | vietnamobile telecommunications joint stock compan | 1091 | 1946 | 855 |
-| www.google.com | IQ | asiacell communications pjsc | 1226 | 2079 | 853 |
-| www.google.com | TN | ooredoo tunisia | 507 | 1359 | 852 |
-| www.google.com | ZA | mtn sa mobile | 1129 | 1979 | 850 |
-| www.google.com | BI | viettel burundi | 1286 | 2133 | 847 |
-| www.google.com | PE | movistar | 1900 | 2746 | 846 |
-| www.google.com | TW | fareastone | 1172 | 2018 | 846 |
-| www.google.com | RU | jsc vainah telecom | 864 | 1709 | 845 |
-| www.google.com | LR | orange liberia | 1066 | 1906 | 840 |
-| www.google.com | LK | hutch sri lanka | 905 | 1723 | 818 |
-| www.google.com | MU | mauritius telecom | 1584 | 2393 | 809 |
-| www.google.com | IN | vodafone idea | 2450 | 3248 | 798 |
-| www.google.com | GA | gabon-telecom | 1454 | 2248 | 794 |
-| www.google.com | MN | g-mobile corporation | 860 | 1650 | 790 |
-| www.google.com | TH | true mobile | 820 | 1605 | 785 |
-| www.google.com | ZA | telkom internet | 1519 | 2300 | 781 |
-| www.google.com | AU | vocus | 6959 | 7737 | 778 |
-| www.google.com | TJ | closed joint stock company tt mobile | 758 | 1534 | 776 |
-| www.google.com | GU | lumen | 855 | 1627 | 772 |
-| www.google.com | JP | ntt docomo | 1290 | 2056 | 766 |
-| www.google.com | HR | hrvatski telekom | 789 | 1547 | 758 |
-| www.google.com | KH | metfone | 845 | 1603 | 758 |
-| www.google.com | AL | vodafone albania | 665 | 1422 | 757 |
-| www.google.com | JO | umniah | 1573 | 2329 | 756 |
-| www.google.com | GY | u mobile cellular inc. | 1511 | 2262 | 751 |
-| www.google.com | IQ | seven net | 902 | 1648 | 746 |
-| www.google.com | EC | conecel | 865 | 1605 | 740 |
-| www.google.com | JP | au one net | 1036 | 1773 | 737 |
-| www.google.com | ID | xl axiata | 1221 | 1956 | 735 |
-| www.google.com | SK | slovak telekom | 711 | 1444 | 733 |
-| www.google.com | AR | claro argentina | 749 | 1480 | 731 |
-| www.google.com | JE | jtglobal | 785 | 1514 | 729 |
-| www.google.com | RU | beeline | 1148 | 1874 | 726 |
-| www.google.com | CM | mtn cameroon | 808 | 1533 | 725 |
-| www.google.com | TG | atlantique telecom | 1180 | 1904 | 724 |
-| www.google.com | TW | twn broadband | 1537 | 2259 | 722 |
-| www.google.com | HK | csl mobile | 844 | 1565 | 721 |
-| www.google.com | KH | flash broadband pvt. ltd. | 725 | 1441 | 716 |
-| www.google.com | IL | pelephone | 755 | 1469 | 714 |
-| www.google.com | UZ | unitel llc | 937 | 1649 | 712 |
-| www.google.com | VN | viettel group | 827 | 1537 | 710 |
-| www.google.com | BD | banglalink digital communications ltd. | 1416 | 2119 | 703 |
-| www.google.com | US | verizon wireless | 1010 | 1713 | 703 |
-| www.google.com | SO | hormuud | 1186 | 1886 | 700 |
-| www.google.com | ZA | cell c | 1043 | 1731 | 688 |
-| www.google.com | RU | tele2 russia | 908 | 1591 | 683 |
-| www.google.com | TH | ais eds | 681 | 1363 | 682 |
-| www.google.com | IR | mobile communication company of iran | 1756 | 2437 | 681 |
-| www.google.com | IS | nova hf | 1654 | 2332 | 678 |
-| www.google.com | PF | vini | 787 | 1464 | 677 |
-| www.google.com | SA | stc saudi | 855 | 1532 | 677 |
-| www.google.com | ZW | netone-cellular | 2516 | 3185 | 669 |
-| www.google.com | TH | ais mobile | 1140 | 1809 | 669 |
-| www.google.com | IT | tiscali | 533 | 1198 | 665 |
-| www.google.com | RU | pjsc megafon | 723 | 1387 | 664 |
-| www.google.com | MZ | vodacom mozambique | 1221 | 1881 | 660 |
-| www.google.com | RU | mts pjsc | 784 | 1443 | 659 |
-| www.google.com | GB | sure south atlantic | 1103 | 1759 | 656 |
-| www.google.com | BF | telecel-faso | 1156 | 1805 | 649 |
-| www.google.com | TZ | mic tanzania | 1800 | 2445 | 645 |
-| www.google.com | CY | cablenet communication systems | 1074 | 1716 | 642 |
-| www.google.com | IQ | al atheer telecommunication-iraq co. incorporated | 796 | 1434 | 638 |
-| www.google.com | UY | claro uruguay | 549 | 1183 | 634 |
-| www.google.com | GB | sparks communications | 458 | 1090 | 632 |
-| www.google.com | PY | tigo paraguay | 898 | 1530 | 632 |
-| www.google.com | SA | zain saudi arabia | 846 | 1473 | 627 |
-| www.google.com | ES | vodafone spain | 575 | 1196 | 621 |
-| www.google.com | NG | airtel networks limited | 1002 | 1622 | 620 |
-| www.google.com | MC | monaco telecom | 647 | 1264 | 617 |
-| www.google.com | BH | stc bahrain | 637 | 1253 | 616 |
-| www.google.com | ES | avatel telecom | 1280 | 1887 | 607 |
-| www.google.com | ZA | vodacom | 1052 | 1659 | 607 |
-| www.google.com | GB | lycamobile | 1101 | 1705 | 604 |
-| www.google.com | JP | open computer network | 1259 | 1859 | 600 |
-| www.google.com | EG | telecom egypt | 1192 | 1789 | 597 |
-| www.google.com | CV | tmais | 1035 | 1626 | 591 |
-| www.google.com | GP | outremer telecom | 618 | 1208 | 590 |
-| www.google.com | LR | lonestar | 926 | 1516 | 590 |
-| www.google.com | GW | mtn-bissau | 1099 | 1687 | 588 |
-| www.google.com | TT | telecommunication services of trinidad and tobago | 1290 | 1878 | 588 |
-| www.google.com | PK | paknet merged into ptcl | 1072 | 1660 | 588 |
-| www.google.com | BW | botswana telecommunications corporation | 1205 | 1787 | 582 |
-| www.google.com | CM | orange cameroun | 1030 | 1607 | 577 |
-| www.google.com | AZ | azercell telecom | 869 | 1446 | 577 |
-| www.google.com | RE | zeop | 1750 | 2326 | 576 |
-| www.google.com | IT | vodafone italia | 602 | 1173 | 571 |
-| www.google.com | AR | personal | 744 | 1309 | 565 |
-| www.google.com | KZ | jusan mobile jsc | 646 | 1202 | 556 |
-| www.google.com | DZ | algerie telecom | 495 | 1047 | 552 |
-| www.google.com | KR | sk telecom | 1321 | 1872 | 551 |
-| www.google.com | UY | antel uruguay | 729 | 1279 | 550 |
-| www.google.com | RU | rostelecom | 799 | 1347 | 548 |
-| www.google.com | GY | e-networks inc | 972 | 1519 | 547 |
-| www.google.com | GT | claro guatemala | 1211 | 1751 | 540 |
-| www.google.com | RS | a1 srbija d.o.o | 593 | 1132 | 539 |
-| www.google.com | UZ | coscom liability company | 2234 | 2771 | 537 |
-| www.google.com | KW | zain kuwait | 1064 | 1599 | 535 |
-| www.google.com | MX | at&t mexico | 835 | 1369 | 534 |
-| www.google.com | RU | novokuznetsk telecom | 514 | 1044 | 530 |
-| www.google.com | TR | turk telekom | 700 | 1229 | 529 |
-| www.google.com | MK | a1 makedonija | 652 | 1175 | 523 |
-| www.google.com | NP | nepal telecom | 1056 | 1576 | 520 |
-| www.google.com | AG | digicel | 516 | 1035 | 519 |
-| www.google.com | IL | wecom mobile | 1044 | 1563 | 519 |
-| www.google.com | SN | sudatel-senegal | 924 | 1442 | 518 |
-| www.google.com | MV | ooredoo maldives | 1248 | 1764 | 516 |
-| www.google.com | JP | ntt communications corporation | 1158 | 1667 | 509 |
-| www.google.com | SA | zain kuwait | 837 | 1345 | 508 |
-| www.google.com | EE | tele2 estonia | 654 | 1160 | 506 |
-| www.google.com | PL | orange polska | 676 | 1179 | 503 |
-| www.google.com | PE | movistar peru | 1059 | 1562 | 503 |
+| Country | ISP | No ECH TLS (ms) | GREASE TLS (ms) | Delta (ms) |
+| :--- | :--- | :--- | :--- | :--- |
+| Canada (CA) | eastlink | 0 | 15569 | 15569 |
+| Mali (ML) | mali-atel | 2125 | 12109 | 9984 |
+| Togo (TG) | togocom | 3134 | 12048 | 8914 |
+| Togo (TG) | atlantique telecom | 7482 | 15101 | 7619 |
+| Spain (ES) | yoigo | 0 | 5992 | 5992 |
+| Tajikistan (TJ) | zet-mobile | 1703 | 7629 | 5926 |
+| Congo (CG) | mtn congo | 2145 | 7850 | 5705 |
+| Brazil (BR) | tim live | 3064 | 8115 | 5051 |
+| Egypt (EG) | telecom egypt | 1239 | 5627 | 4388 |
+| Algeria (DZ) | atm | 600 | 4178 | 3578 |
+| Solomon Islands (SB) | bemobile solomon islands | 9456 | 12974 | 3518 |
+| Central African Republic (CF) | telecel-centrafrique | 2563 | 5796 | 3233 |
+| Dominican Republic (DO) | viva dominicana | 1940 | 5158 | 3218 |
+| Morocco (MA) | inwi | 1483 | 4669 | 3186 |
+| Ghana (GH) | airtel-ghana | 3415 | 6485 | 3070 |
+| Lithuania (LT) | telia lietuva, ab | 1639 | 4449 | 2810 |
+| Martinique (MQ) | digicel antilles francaises guyane | 1665 | 4069 | 2404 |
+| Mexico (MX) | altan redes, s.a.p.i. de c. v. | 12127 | 14480 | 2353 |
+| Austria (AT) | magenta telekom | 1018 | 3359 | 2341 |
+| Chile (CL) | entel chile | 2039 | 4344 | 2305 |
+| Saudi Arabia (SA) | rcell | 3989 | 6280 | 2291 |
+| Hong Kong (HK) | china mobile hong kong | 1722 | 3954 | 2232 |
+| Cyprus (CY) | epic | 1190 | 3397 | 2207 |
+| Zambia (ZM) | beeline-telecoms-limited | 2334 | 4538 | 2204 |
+| Burkina Faso (BF) | orange burkina faso | 2377 | 4458 | 2081 |
+| Slovenia (SI) | telekom slovenije | 1267 | 3306 | 2039 |
+| Afghanistan (AF) | afghan wireless communication company | 3590 | 5615 | 2025 |
+| Madagascar (MG) | orange madagascar | 4342 | 6275 | 1933 |
+| Mozambique (MZ) | vodacom mozambique | 4310 | 6242 | 1932 |
+| Italy (IT) | digi italy | 1153 | 3083 | 1930 |
+| Namibia (NA) | loc-eight-mobile | 1302 | 3206 | 1904 |
+| United States (US) | uscellular | 1125 | 2922 | 1797 |
+| Rwanda (RW) | airtel rwanda | 934 | 2707 | 1773 |
+| Japan (JP) | japan communication | 1598 | 3370 | 1772 |
+| Eswatini (SZ) | swazimtn-ltd | 1225 | 2970 | 1745 |
+| Panama (PA) | tigo panama | 2107 | 3813 | 1706 |
+| Kazakhstan (KZ) | kcell jsc | 1245 | 2934 | 1689 |
+| Afghanistan (AF) | afghan wireless | 1766 | 3400 | 1634 |
+| Thailand (TH) | true mobile | 1305 | 2895 | 1590 |
+| Samoa (WS) | vodafone samoa | 1610 | 3142 | 1532 |
+| Brazil (BR) | algar telecom | 1238 | 2742 | 1504 |
+| Uganda (UG) | airtel uganda | 1713 | 3162 | 1449 |
+| Kyrgyzstan (KG) | sky mobile | 1354 | 2780 | 1426 |
+| Congo (CG) | airtel congo | 1608 | 2999 | 1391 |
+| Serbia (RS) | telenor d.o.o. | 974 | 2351 | 1377 |
+| Czech Republic (CZ) | vodafone czech republic | 2519 | 3835 | 1316 |
+| Mozambique (MZ) | movitel | 2081 | 3378 | 1297 |
+| Sao Tome and Principe (ST) | cst-net | 1479 | 2775 | 1296 |
+| Gambia (GM) | africell | 1099 | 2381 | 1282 |
+| Malaysia (MY) | celcomdigi berhad | 1844 | 3124 | 1280 |
+| Tonga (TO) | tonga communications internet network | 2108 | 3386 | 1278 |
+| Germany (DE) | o2 deutschland | 1633 | 2908 | 1275 |
+| Algeria (DZ) | optimum-telecom-algeria | 544 | 1807 | 1263 |
+| Mauritius (MU) | mtml | 1137 | 2390 | 1253 |
+| Burundi (BI) | ucom-wic | 1344 | 2594 | 1250 |
+| Syrian Arab Republic (SY) | syrian telecom | 1187 | 2432 | 1245 |
+| Guadeloupe (GP) | outremer telecom | 1757 | 2990 | 1233 |
+| Botswana (BW) | botswana telecommunications corporation | 2204 | 3429 | 1225 |
+| Mexico (MX) | at&t mexico | 806 | 2001 | 1195 |
+| Russian Federation (RU) | s.u.e. dpr republic operator of networks | 806 | 1993 | 1187 |
+| Japan (JP) | ntt docomo business | 2217 | 3361 | 1144 |
+| South Africa (ZA) | telkom internet | 1377 | 2521 | 1144 |
+| Bahrain (BH) | batelco | 830 | 1973 | 1143 |
+| Réunion (RE) | orange | 1574 | 2700 | 1126 |
+| Mexico (MX) | movistar mexico | 505 | 1627 | 1122 |
+| Ghana (GH) | mtn ghana | 1249 | 2364 | 1115 |
+| Tajikistan (TJ) | closed joint stock company tt mobile | 1433 | 2538 | 1105 |
+| Tanzania, United Republic of (TZ) | vodacom tanzania | 893 | 1979 | 1086 |
+| Bangladesh (BD) | teletalk bangladesh | 964 | 2049 | 1085 |
+| Kiribati (KI) | amalgamated telecom holdings kiribati | 1692 | 2777 | 1085 |
+| Malawi (MW) | airtel malawi | 1475 | 2558 | 1083 |
+| Congo, the Democratic Republic of the (CD) | africell-drc | 1193 | 2266 | 1073 |
+| Poland (PL) | comasoft | 904 | 1971 | 1067 |
+| Liberia (LR) | orange liberia | 1356 | 2423 | 1067 |
+| Réunion (RE) | sfr | 1311 | 2372 | 1061 |
+| Tonga (TO) | digicel tonga | 1380 | 2407 | 1027 |
+| Georgia (GE) | magticom | 977 | 2000 | 1023 |
+| Tanzania, United Republic of (TZ) | ttcldata | 1149 | 2171 | 1022 |
+| France (FR) | lycamobile | 1233 | 2254 | 1021 |
+| Costa Rica (CR) | grupo ice | 746 | 1759 | 1013 |
+| Dominican Republic (DO) | claro dominican republic | 711 | 1720 | 1009 |
+| Bangladesh (BD) | robi | 992 | 1996 | 1004 |
+| Australia (AU) | telstra internet | 2241 | 3238 | 997 |
+| Iraq (IQ) | seven net | 867 | 1857 | 990 |
+| Kenya (KE) | jambo-telecoms | 1092 | 2063 | 971 |
+| Mongolia (MN) | mobicom corporation | 1006 | 1953 | 947 |
+| Madagascar (MG) | telecom-malagasy | 1407 | 2351 | 944 |
+| Ireland (IE) | eir broadband | 817 | 1759 | 942 |
+| Zimbabwe (ZW) | telone | 1274 | 2205 | 931 |
+| Zambia (ZM) | airtel zambia | 1463 | 2392 | 929 |
+| Nigeria (NG) | spectranet | 2316 | 3226 | 910 |
+| Tajikistan (TJ) | cjsc babilon-mobile | 1220 | 2129 | 909 |
+| Armenia (AM) | viva armenia cjsc | 1496 | 2403 | 907 |
+| Guam (GU) | pti pacifica | 867 | 1773 | 906 |
+| Mayotte (YT) | free reunion | 1636 | 2541 | 905 |
+| Malaysia (MY) | u mobile | 1035 | 1937 | 902 |
+| Tunisia (TN) | ooredoo tunisia | 1412 | 2313 | 901 |
+| Sri Lanka (LK) | mobitel | 1021 | 1911 | 890 |
+| Vanuatu (VU) | digicel vanuatu | 1506 | 2395 | 889 |
+| Oman (OM) | ooredoo oman | 928 | 1805 | 877 |
+| Belarus (BY) | best cjsc | 1062 | 1938 | 876 |
+| Ethiopia (ET) | safaricom | 1050 | 1923 | 873 |
+| Somalia (SO) | telesom | 1340 | 2206 | 866 |
+| New Caledonia (NC) | opt-nc | 1455 | 2320 | 865 |
+| Kuwait (KW) | stc kuwait | 968 | 1832 | 864 |
+| Pakistan (PK) | ptcl | 1178 | 2040 | 862 |
+| Mali (ML) | orange mali | 3236 | 4095 | 859 |
+| Japan (JP) | softbank corp. | 1227 | 2085 | 858 |
+| Madagascar (MG) | gulfsat-madagascar | 1501 | 2356 | 855 |
+| Iraq (IQ) | asiacell communications pjsc | 1073 | 1915 | 842 |
+| Philippines (PH) | globe telecom | 1021 | 1860 | 839 |
+| Malaysia (MY) | celcomdigi | 812 | 1649 | 837 |
+| Kazakhstan (KZ) | tns-plus llp | 959 | 1796 | 837 |
+| Bhutan (BT) | druknet isp | 1025 | 1862 | 837 |
+| Taiwan, Province of China (TW) | asia pacific telecom | 935 | 1768 | 833 |
+| Japan (JP) | ntt docomo | 1172 | 1986 | 814 |
+| Nigeria (NG) | globacom | 1288 | 2099 | 811 |
+| Iraq (IQ) | telsat broadband ltd | 864 | 1672 | 808 |
+| Uganda (UG) | mtn uganda | 1213 | 2012 | 799 |
+| Indonesia (ID) | xl axiata | 939 | 1737 | 798 |
+| Iraq (IQ) | comm1 | 975 | 1761 | 786 |
+| Niger (NE) | airtel niger | 1069 | 1842 | 773 |
+| Chad (TD) | millicom-chad | 1742 | 2512 | 770 |
+| Tanzania, United Republic of (TZ) | mic tanzania | 1326 | 2094 | 768 |
+| Thailand (TH) | ais mobile | 914 | 1675 | 761 |
+| Uzbekistan (UZ) | coscom liability company | 1295 | 2050 | 755 |
+| United Kingdom (GB) | transatel | 915 | 1670 | 755 |
+| Philippines (PH) | smart communications | 859 | 1612 | 753 |
+| Taiwan, Province of China (TW) | chunghwa telecom | 834 | 1587 | 753 |
+| Burkina Faso (BF) | onatel | 1665 | 2418 | 753 |
+| Indonesia (ID) | pt telkom indonesia | 1098 | 1850 | 752 |
+| Italy (IT) | spusu italy | 1952 | 2702 | 750 |
+| South Africa (ZA) | vodacom | 1469 | 2218 | 749 |
+| Russian Federation (RU) | tbank jsc | 714 | 1463 | 749 |
+| Kenya (KE) | safaricom | 861 | 1605 | 744 |
+| Netherlands (NL) | kpn | 1764 | 2503 | 739 |
+| South Africa (ZA) | mtn sa mobile | 1164 | 1899 | 735 |
+| Tajikistan (TJ) | llc babilon-t | 920 | 1654 | 734 |
+| Guam (GU) | lumen | 1257 | 1986 | 729 |
+| India (IN) | jio | 973 | 1694 | 721 |
+| Argentina (AR) | claro argentina | 1909 | 2627 | 718 |
+| Brazil (BR) | tim brasil | 897 | 1612 | 715 |
+| Haiti (HT) | alpha communications network | 726 | 1441 | 715 |
+| Switzerland (CH) | sunrise | 1962 | 2676 | 714 |
+| Ecuador (EC) | conecel | 968 | 1682 | 714 |
+| Korea, Republic of (KR) | sk telecom | 1145 | 1853 | 708 |
+| Nepal (NP) | nepal telecom | 1090 | 1792 | 702 |
+| Lesotho (LS) | econet telecom lesotho | 1146 | 1842 | 696 |
+| Slovakia (SK) | orange slovensko | 584 | 1274 | 690 |
+| Tajikistan (TJ) | cjsc indigo tajikistan | 917 | 1607 | 690 |
+| Côte d'Ivoire (CI) | mtn cote divoire | 3810 | 4499 | 689 |
+| Maldives (MV) | ooredoo maldives | 1072 | 1760 | 688 |
+| South Africa (ZA) | telkom limited | 1297 | 1983 | 686 |
+| Monaco (MC) | monaco telecom | 711 | 1396 | 685 |
+| Benin (BJ) | benin telecom | 860 | 1545 | 685 |
+| Cameroon (CM) | mtn cameroon | 1013 | 1694 | 681 |
+| Thailand (TH) | ais eds | 865 | 1545 | 680 |
+| Sudan (SD) | mtn sudan | 1149 | 1823 | 674 |
+| Luxembourg (LU) | post luxembourg | 379 | 1051 | 672 |
+| Singapore (SG) | singtel mobile | 809 | 1479 | 670 |
+| Antigua and Barbuda (AG) | apua | 844 | 1513 | 669 |
+| Bangladesh (BD) | banglalink digital communications ltd. | 1069 | 1738 | 669 |
+| United Arab Emirates (AE) | du telecom | 1324 | 1991 | 667 |
+| Kuwait (KW) | zain kuwait | 713 | 1375 | 662 |
+| Cyprus (CY) | kktc telsim | 709 | 1370 | 661 |
+| United Kingdom (GB) | vodafone | 614 | 1275 | 661 |
+| South Africa (ZA) | rain | 1024 | 1676 | 652 |
+| Bahrain (BH) | zain bahrain b.s.c. | 1088 | 1739 | 651 |
+| Papua New Guinea (PG) | vodafone png | 5108 | 5756 | 648 |
+| Senegal (SN) | sudatel-senegal | 735 | 1378 | 643 |
+| United Arab Emirates (AE) | du | 1269 | 1911 | 642 |
+| Taiwan, Province of China (TW) | fareastone | 1225 | 1863 | 638 |
+| Japan (JP) | au one net | 1191 | 1828 | 637 |
+| Cameroon (CM) | camtel | 1741 | 2378 | 637 |
+| Japan (JP) | rakuten mobile network | 1038 | 1669 | 631 |
+| Pakistan (PK) | hazara communication | 1285 | 1915 | 630 |
+| Myanmar (MM) | mytel | 1002 | 1625 | 623 |
+| Ukraine (UA) | vodafone ukraine | 766 | 1388 | 622 |
+| Ukraine (UA) | lifecell | 648 | 1269 | 621 |
+| Paraguay (PY) | tigo paraguay | 1053 | 1674 | 621 |
+| Bangladesh (BD) | grameenphone | 898 | 1518 | 620 |
+| Myanmar (MM) | atom myanmar | 869 | 1484 | 615 |
+| Azerbaijan (AZ) | bakcell | 715 | 1330 | 615 |
+| Ireland (IE) | aspider solutions international holdings | 588 | 1202 | 614 |
+| Czech Republic (CZ) | t-mobile czech dsl | 1677 | 2289 | 612 |
+| South Africa (ZA) | mtn business solutions | 1174 | 1785 | 611 |
+| Brazil (BR) | claro brazil | 945 | 1553 | 608 |
+| Colombia (CO) | partners telecom colombia sas | 635 | 1243 | 608 |
+| Guinea-Bissau (GW) | mtn-bissau | 1214 | 1818 | 604 |
+| Spain (ES) | orange espana | 681 | 1285 | 604 |
+| Myanmar (MM) | telecom international myanmar co, ltd (mytel) | 1221 | 1821 | 600 |
+| United Arab Emirates (AE) | e& uae | 899 | 1497 | 598 |
+| Kazakhstan (KZ) | jusan mobile jsc | 841 | 1435 | 594 |
+| Uruguay (UY) | antel uruguay | 1121 | 1712 | 591 |
+| Uzbekistan (UZ) | unitel llc | 1243 | 1825 | 582 |
+| Spain (ES) | digi spain | 567 | 1149 | 582 |
+| Japan (JP) | tokai | 1027 | 1602 | 575 |
+| Belarus (BY) | gomelsky rtsc garant | 1076 | 1648 | 572 |
+| Namibia (NA) | telecom namibia | 2794 | 3365 | 571 |
+| Jersey (JE) | sure (guernsey) | 935 | 1505 | 570 |
+| Djibouti (DJ) | djibouti telecom | 956 | 1522 | 566 |
+| Italy (IT) | tim mobile | 600 | 1165 | 565 |
+| Uzbekistan (UZ) | unitel | 962 | 1510 | 548 |
+| Syrian Arab Republic (SY) | syriatel mobile telecom | 754 | 1296 | 542 |
+| Sudan (SD) | sudatel | 876 | 1417 | 541 |
+| Latvia (LV) | bite lietuva | 518 | 1059 | 541 |
+| Morocco (MA) | orange morocco | 1864 | 2399 | 535 |
+| Venezuela, Bolivarian Republic of (VE) | telecomunicaciones movilnet | 662 | 1194 | 532 |
+| Belgium (BE) | telenet | 738 | 1269 | 531 |
+| Madagascar (MG) | airtel madagascar | 1558 | 2079 | 521 |
+| Somalia (SO) | hormuud | 1077 | 1595 | 518 |
+| Peru (PE) | entel peru | 808 | 1324 | 516 |
+| Slovenia (SI) | a1 slovenija | 668 | 1178 | 510 |
+| Jamaica (JM) | cable and wireless jamaica | 1542 | 2046 | 504 |
+| Indonesia (ID) | indosat | 786 | 1290 | 504 |
 
-## Appendix C: Data Anomalies (Unpaired or Duplicate Rows)
-
-_No data anomalies found._
