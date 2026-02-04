@@ -18,11 +18,11 @@ This report analyzed **878** valid ISP pairs. ECH GREASE shows **minor** regiona
 
 **Figure 1: Global Connectivity Distribution.** This chart illustrates the health of tested ISP vantage points. "Healthy" represents successful connections with and without ECH. "Potential ECH Blocking" identifies cases where only the standard TLS succeeded. "Unreachable" indicates ISPs that failed both tests, likely due to proxy or local network issues unrelated to ECH.
 
-## 2. Divergent Countries (Deep Dive)
+## 2. Divergent ISP Connectivity (Deep Dive)
 
 ![Problematic Countries](problematic_countries.png)
 
-**Figure 2: Success Rate Divergence.** This chart only displays countries where the success rate of ECH GREASE differs from the control (No ECH). A significantly shorter red bar compared to the blue bar indicates a strong likelihood of ECH-specific interference in that country.
+**Figure 2: ISP-Level Connectivity Divergence.** This chart highlights ISPs where the connectivity outcome of ECH GREASE differs from standard TLS. **Red bars (Left)** indicate **ECH Failed** (Standard TLS worked, but ECH failed). **Green bars (Right)** indicate **ECH Succeeded** (Standard TLS failed, but ECH succeeded), showing cases where ECH maintained connectivity despite standard TLS issues.
 
 ## 3. Performance Impact
 

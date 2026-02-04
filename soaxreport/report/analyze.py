@@ -91,7 +91,7 @@ def main():
     res_df = pd.DataFrame(results)
     target_domain = res_df['domain'].iloc[0]
 
-    # Global Overview (By ISP Pair)
+    # Global Overview Chart (By ISP Pair)
     healthy_pairs = 0
     potential_blocking = 0
     unreachable = 0
@@ -116,42 +116,54 @@ def main():
     plt.savefig(overview_plot, bbox_inches='tight')
     plt.close()
 
-    # Detailed view for countries with DIVERGENT success rates
+    # Divergence Chart (Standard TLS vs ECH GREASE ISP)
     problematic_list = []
-    country_groups = res_df.groupby('display_country')
-    for country, group in country_groups:
-        c_success_rate = (len(group[group['c_exit'] == 0]) / len(group)) * 100
-        e_success_rate = (len(group[group['e_exit'] == 0]) / len(group)) * 100
+    for _, row in res_df.iterrows():
+        c_success = (row['c_exit'] == 0)
+        e_success = (row['e_exit'] == 0)
         
-        if abs(c_success_rate - e_success_rate) > 0.1:
+        # Include any pair where the outcome differs
+        if c_success != e_success:
+            diff = (100 if e_success else 0) - (100 if c_success else 0)
+            outcome_type = 'ECH Failed (Standard TLS OK)' if diff < 0 else 'ECH Succeeded (Standard TLS Failed)'
+            
             problematic_list.append({
-                'Country': country,
-                'No ECH': c_success_rate,
-                'ECH GREASE': e_success_rate,
-                'Difference': c_success_rate - e_success_rate
+                'ISP_Label': f"{row['display_country']} | {row['isp']}",
+                'Difference': diff,
+                'Outcome': outcome_type
             })
 
     if problematic_list:
         prob_df = pd.DataFrame(problematic_list)
+        # Sort by difference to group similar outcomes
         prob_df.sort_values('Difference', ascending=False, inplace=True)
-        if len(prob_df) > 30:
-            prob_df = prob_df.head(30)
-        melted = prob_df.melt(id_vars=['Country'], value_vars=['No ECH', 'ECH GREASE'], 
-                              var_name='Test Type', value_name='Success Rate (%)')
-        plt.figure(figsize=(12, len(prob_df) * 0.4 + 2))
-        sns.barplot(data=melted, y='Country', x='Success Rate (%)', hue='Test Type', palette={'No ECH': '#66b3ff', 'ECH GREASE': '#ff9999'})
-        plt.title(f'Countries with Significant ECH Success Rate Divergence\n(Filtered for cases where ECH GREASE != Control)')
-        plt.xlim(0, 105)
-        plt.xlabel('Success Rate (%)')
-        plt.ylabel('Country Code')
+        
+        # Limit to top 40 for readability if there are many
+        if len(prob_df) > 40:
+            prob_df = prob_df.head(40)
+            
+        plt.figure(figsize=(12, len(prob_df) * 0.5 + 2))
+        
+        palette = {'ECH Failed (Standard TLS OK)': '#d62728', 'ECH Succeeded (Standard TLS Failed)': '#2ca02c'}
+        
+        sns.barplot(data=prob_df, x='Difference', y='ISP_Label', hue='Outcome', dodge=False, palette=palette)
+        
+        plt.title(f'ISP-Level Connectivity Divergence\n(Red = ECH Failed, Green = ECH Succeeded)')
+        plt.xlim(-110, 110)
+        plt.axvline(x=0, color='black', linewidth=0.8)
+        plt.xlabel('Impact (Negative = ECH Failed, Positive = ECH Succeeded)')
+        plt.ylabel('Country | ISP')
         plt.legend(loc='lower right')
+        
+        plt.xticks([-100, 0, 100], ['ECH FAIL', 'NEUTRAL', 'ECH SUCCESS'])
+        
         drilldown_plot = os.path.join(output_dir, "problematic_countries.png")
         plt.savefig(drilldown_plot, bbox_inches='tight')
         plt.close()
     else:
         drilldown_plot = None
 
-    # Latency Impact Distribution
+    # Latency Impact Distribution Chart
     plt.figure(figsize=(10, 6))
     sns.histplot(res_df['delta'], kde=True, color='teal')
     plt.axvline(x=0, color='red', linestyle='--')
@@ -200,11 +212,12 @@ def main():
         f.write("\"Unreachable\" indicates ISPs that failed both tests, likely due to proxy or local network issues unrelated to ECH.\n\n")
         
         if drilldown_plot:
-             f.write("## 2. Divergent Countries (Deep Dive)\n\n")
+             f.write("## 2. Divergent ISP Connectivity (Deep Dive)\n\n")
              f.write("![Problematic Countries](problematic_countries.png)\n\n")
-             f.write("**Figure 2: Success Rate Divergence.** ")
-             f.write("This chart only displays countries where the success rate of ECH GREASE differs from the control (No ECH). ")
-             f.write("A significantly shorter red bar compared to the blue bar indicates a strong likelihood of ECH-specific interference in that country.\n\n")
+             f.write("**Figure 2: ISP-Level Connectivity Divergence.** ")
+             f.write("This chart highlights ISPs where the connectivity outcome of ECH GREASE differs from standard TLS. ")
+             f.write("**Red bars (Left)** indicate **ECH Failed** (Standard TLS worked, but ECH failed). ")
+             f.write("**Green bars (Right)** indicate **ECH Succeeded** (Standard TLS failed, but ECH succeeded), showing cases where ECH maintained connectivity despite standard TLS issues.\n\n")
         
         f.write("## 3. Performance Impact\n\n")
         f.write("![Latency Delta](latency_delta.png)\n\n")
