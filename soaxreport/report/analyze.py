@@ -35,7 +35,6 @@ def main():
 
     # Process pairs of Control (No ECH) and Experiment (ECH GREASE)
     results = []
-    orphans = []
     grouped = df.groupby(['domain', 'country_code', 'isp'])
 
     for (domain, country, isp), group in grouped:
@@ -48,25 +47,8 @@ def main():
         
         # Check for incomplete pairs or duplicate data
         if no_ech.empty or ech_grease.empty:
-            for _, row in group.iterrows():
-                orphans.append({
-                    'domain': domain,
-                    'country': country,
-                    'isp': isp,
-                    'type': 'No ECH' if row['ech_grease'] == False else 'ECH GREASE',
-                    'reason': 'Missing counterpart'
-                })
             continue
             
-        if len(no_ech) > 1 or len(ech_grease) > 1:
-            orphans.append({
-                'domain': domain,
-                'country': country,
-                'isp': isp,
-                'type': 'Mixed',
-                'reason': f'Duplicate entries (No ECH: {len(no_ech)}, GREASE: {len(ech_grease)})'
-            })
-
         c = no_ech.iloc[0]
         e = ech_grease.iloc[0]
         
@@ -83,9 +65,14 @@ def main():
         interference = (c_exit == 0) and (e_exit != 0)
         status_mismatch = (c_exit == 0) and (e_exit == 0) and (c_status != e_status)
         
+        country_name = c['country_name'] if 'country_name' in c else country
+        display_country = f"{country_name} ({country})"
+
         results.append({
             'domain': domain,
-            'country': country,
+            'country_code': country,
+            'country_name': country_name,
+            'display_country': display_country,
             'isp': isp,
             'c_exit': c_exit,
             'e_exit': e_exit,
@@ -131,7 +118,7 @@ def main():
 
     # Detailed view for countries with DIVERGENT success rates
     problematic_list = []
-    country_groups = res_df.groupby('country')
+    country_groups = res_df.groupby('display_country')
     for country, group in country_groups:
         c_success_rate = (len(group[group['c_exit'] == 0]) / len(group)) * 100
         e_success_rate = (len(group[group['e_exit'] == 0]) / len(group)) * 100
@@ -181,15 +168,11 @@ def main():
     interference_count = len(interferences)
     interference_rate = (interference_count / total_pairs) * 100
 
-    # Verification: Do the counts match expectation?
-    total_rows_processed = total_pairs * 2 + len(orphans)
-    expected_rows = len(df)
-
     # Generate Markdown Report
     with open(report_file, 'w') as f:
-        f.write("# Raw Data Analysis: ECH GREASE Connectivity (SOAX)\n\n")
-        f.write(f"**Date:** {datetime.now().strftime('%B %d, %Y')}\n")
-        f.write(f"**Target Domain:** `{target_domain}`\n")
+        f.write("# Raw Report: ECH GREASE Connectivity (From Different Countries)\n\n")
+        f.write(f"**Date:** {datetime.now().strftime('%B %d, %Y')}\\\n")
+        f.write(f"**Target Domain:** `{target_domain}`\\\n")
         f.write(f"**Analyzed File:** `{os.path.basename(input_file)}`\n\n")
 
         f.write("## Executive Summary\n\n")
@@ -205,8 +188,8 @@ def main():
         f.write(f"*   **Potential Blocking:** {interference_count} ({interference_rate:.2f}%)\n")
         f.write(f"*   **Avg Latency Impact:** {avg_delta:.2f} ms\n\n")
 
-        if total_rows_processed != expected_rows:
-            f.write(f"> ⚠️ **Data Integrity Warning:** Analyzed {total_rows_processed} rows but file contains {expected_rows} rows. Some data may have been missed due to unexpected formatting.\n\n")
+        if (total_pairs * 2) != len(df):
+            f.write(f"> ⚠️ **Data Integrity Warning:** Analyzed {total_pairs * 2} rows but file contains {len(df)} rows. Some rows were excluded because they could not be matched into a pair or were duplicates.\n\n")
 
         f.write("## 1. Overall Connectivity Results\n\n")
         f.write("![Global Overview](global_overview.png)\n\n")
@@ -233,7 +216,7 @@ def main():
             f.write("## 4. Deep Dive: Potential Blocking\n\n")
             f.write(f"We detected **{len(interferences)}** instances where ECH GREASE failed while the control succeeded. ")
             f.write("These cases warrant further investigation to distinguish between transient network errors and active blocking.\n\n")
-            affected_countries = interferences['country'].value_counts()
+            affected_countries = interferences['display_country'].value_counts()
             f.write("**Affected Countries:**\n")
             for country, count in affected_countries.items():
                 f.write(f"*   {country}: {count} instance(s)\n")
@@ -252,30 +235,20 @@ def main():
             f.write("| Country | ISP | No ECH Exit | GREASE Exit | Error Name |\n")
             f.write("| :--- | :--- | :--- | :--- | :--- |\n")
             for _, r in interferences.iterrows():
-                f.write(f"| {r['country']} | {r['isp']} | {r['c_exit']} | {r['e_exit']} | {r['error']} |\n")
+                f.write(f"| {r['display_country']} | {r['isp']} | {r['c_exit']} | {r['e_exit']} | {r['error']} |\n")
         else:
             f.write("_No specific ECH failures detected._\n")
 
         f.write("\n## Appendix B: Significant Latency Increases (>500ms)\n\n")
         slow_grease = res_df[res_df['delta'] > 500].sort_values('delta', ascending=False)
         if not slow_grease.empty:
-            f.write("| Domain | Country | ISP | No ECH TLS (ms) | GREASE TLS (ms) | Delta (ms) |\n")
-            f.write("| :--- | :--- | :--- | :--- | :--- | :--- |\n")
+            f.write("| Country | ISP | No ECH TLS (ms) | GREASE TLS (ms) | Delta (ms) |\n")
+            f.write("| :--- | :--- | :--- | :--- | :--- |\n")
             for _, r in slow_grease.iterrows():
-                f.write(f"| {r['domain']} | {r['country']} | {r['isp']} | {r['c_tls']:.0f} | {r['e_tls']:.0f} | {r['delta']:.0f} |\n")
+                f.write(f"| {r['display_country']} | {r['isp']} | {r['c_tls']:.0f} | {r['e_tls']:.0f} | {r['delta']:.0f} |\n")
         else:
             f.write("_No significant latency increases detected._\n")
         f.write("\n")
-
-        f.write("## Appendix C: Data Anomalies (Unpaired or Duplicate Rows)\n\n")
-        if orphans:
-            f.write("The following rows were excluded from the main analysis because they could not be matched into a complete (Control, Experiment) pair:\n\n")
-            f.write("| Country | ISP | Data Type | Reason |\n")
-            f.write("| :--- | :--- | :--- | :--- |\n")
-            for o in orphans:
-                f.write(f"| {o['country']} | {o['isp']} | {o['type']} | {o['reason']} |\n")
-        else:
-            f.write("_No data anomalies found._\n")
 
     print(f"Analysis complete. Report: {report_file}")
 

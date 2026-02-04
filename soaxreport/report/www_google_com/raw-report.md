@@ -1,7 +1,7 @@
 # Raw Data Analysis: ECH GREASE Connectivity (SOAX)
 
-**Date:** February 02, 2026
-**Target Domain:** `www.google.com`
+**Date:** February 02, 2026\
+**Target Domain:** `www.google.com`\
 **Analyzed File:** `soax-results-www_google_com-countries249.csv`
 
 ## Executive Summary
