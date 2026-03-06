@@ -1,3 +1,7 @@
+---
+name: Find Authoritative Nameserver
+description: How to find and query the authoritative nameserver for a record.
+---
 How to find and query the authoritative nameserver for a record.
 
 1. Query SOA for the target_domain.
