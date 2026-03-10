@@ -28,34 +28,24 @@ import (
 	"sync/atomic"
 	"time"
 
-	"github.com/Jigsaw-Code/ech-research/internal/curl"
+	"github.com/Jigsaw-Code/ech-research/internal/echtest"
 	"github.com/Jigsaw-Code/ech-research/internal/soax"
 	"github.com/Jigsaw-Code/ech-research/internal/workspace"
 	"golang.org/x/sync/semaphore"
 )
 
 type TestResult struct {
-	Domain        string
-	Country       string
-	CountryName   string
-	ISP           string
-	ASN           string
-	ExitNodeIP    string
-	ExitNodeISP   string
-	ECHGrease     bool
-	Error         string
-	CurlExitCode  int
-	CurlErrorName string
-	DNSLookup     time.Duration
-	TCPConnection time.Duration
-	TLSHandshake  time.Duration
-	ServerTime    time.Duration
-	TotalTime     time.Duration
-	HTTPStatus    int
+	echtest.TestResult
+	Country     string
+	CountryName string
+	ISP         string
+	ASN         string
+	ExitNodeIP  string
+	ExitNodeISP string
 }
 
 func runSoaxTest(
-	runner *curl.Runner,
+	curlPath string,
 	domain string,
 	country string,
 	countryName string,
@@ -64,40 +54,14 @@ func runSoaxTest(
 	echGrease bool,
 	maxTime time.Duration,
 ) TestResult {
+	headers := []string{"Respond-With: ip,isp,asn"}
+	res := echtest.Run(curlPath, domain, echGrease, maxTime, proxyURL, headers)
+
 	result := TestResult{
-		Domain:      domain,
+		TestResult:  res,
 		Country:     country,
 		CountryName: countryName,
 		ISP:         isp,
-		ECHGrease:   echGrease,
-	}
-
-	echMode := curl.ECHFalse
-	if echGrease {
-		echMode = curl.ECHGrease
-	}
-
-	url := "https://" + domain
-	res, err := runner.Run(url, curl.Args{
-		Proxy:        proxyURL,
-		ProxyHeaders: []string{"Respond-With: ip,isp,asn"},
-		ECH:          echMode,
-		Timeout:      maxTime,
-		Verbose:      true, // Required to capture response headers
-		MeasureStats: true,
-	})
-
-	result.CurlExitCode = res.ExitCode
-	result.CurlErrorName = curl.ExitCodeName(res.ExitCode)
-	result.HTTPStatus = res.Stats.HTTPStatus
-	result.DNSLookup = res.Stats.DNSLookupTimestamp
-	result.TCPConnection = res.Stats.TCPConnectTimestamp
-	result.TLSHandshake = res.Stats.TLSConnectTimestamp
-	result.ServerTime = res.Stats.ServerResponseTimestamp
-	result.TotalTime = res.Stats.TotalTimeTimestamp
-
-	if err != nil {
-		result.Error = err.Error()
 	}
 
 	// Parse metadata from Stderr (SOAX specific headers in CONNECT response)
@@ -191,7 +155,6 @@ func main() {
 	if curlPath == "" {
 		curlPath = filepath.Join(workspaceDir, "output", "bin", "curl")
 	}
-	runner := curl.NewRunner(curlPath)
 
 	// Load SOAX config
 	soaxConfigPath := *soaxConfigFlag
@@ -291,7 +254,7 @@ func main() {
 
 				proxyURL := client.BuildWebProxyURL(c.Code, isp, sid)
 				slog.Debug("Testing ISP", "country", c.Code, "isp", isp, "ech_grease", ech, "session", sid)
-				resultsCh <- runSoaxTest(runner, domain, c.Code, c.Name, isp, proxyURL, ech, *maxTimeFlag)
+				resultsCh <- runSoaxTest(curlPath, domain, c.Code, c.Name, isp, proxyURL, ech, *maxTimeFlag)
 				progress := fmt.Sprintf("%d/%d", finished.Add(1), total.Load())
 				slog.Info("Finished", "country", c.Code, "isp", isp, "progress", progress)
 			}
