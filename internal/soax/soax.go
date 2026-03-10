@@ -111,14 +111,25 @@ func (c *Client) BuildWebProxyURL(countryISO, ispName, sessionID string) string 
 		sessionID = generateRandomString(10)
 	}
 
-	ispName = url.QueryEscape(strings.ToLower(ispName))
-	countryISO = strings.ToLower(countryISO)
+	params := []string{"package", c.cfg.PackageID}
+	if countryISO != "" {
+		params = append(params, "country", strings.ToLower(countryISO))
+	}
+	if ispName != "" {
+		params = append(params, "isp", strings.ToLower(ispName))
+	}
+	if sessionID != "" {
+		params = append(params, "sessionid", sessionID)
+	}
+	params = append(params, "sessionlength", "300")
 
-	proxyUser := fmt.Sprintf("package-%s-country-%s-isp-%s-sessionid-%s-sessionlength-300",
-		c.cfg.PackageID, countryISO, ispName, sessionID)
+	u := &url.URL{
+		Scheme: "https",
+		User:   url.UserPassword(strings.Join(params, "-"), c.cfg.PackageKey),
+		Host:   fmt.Sprintf("%s:%d", c.cfg.ProxyHost, c.cfg.ProxyPort),
+	}
 
-	return fmt.Sprintf("https://%s:%s@%s:%d",
-		proxyUser, c.cfg.PackageKey, c.cfg.ProxyHost, c.cfg.ProxyPort)
+	return u.String()
 }
 
 func generateRandomString(n int) string {
