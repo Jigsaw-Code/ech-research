@@ -169,13 +169,13 @@ func main() {
 	client := soax.NewClient(cfg)
 
 	// Load countries
-	if *countriesFlag == "" {
-		slog.Error("The --countries flag is required")
-		os.Exit(1)
+	countriesPath := *countriesFlag
+	if countriesPath == "" {
+		countriesPath = filepath.Join(workspaceDir, "countries.csv")
 	}
-	countries, err := loadCountries(*countriesFlag)
+	countries, err := loadCountries(countriesPath)
 	if err != nil {
-		slog.Error("Failed to load countries list", "path", *countriesFlag, "error", err)
+		slog.Error("Failed to load countries list", "path", countriesPath, "error", err)
 		os.Exit(1)
 	}
 

@@ -45,12 +45,12 @@ You can download a complete list of country codes from [here](https://raw.github
 To run the tool, use the `go run` command from the project root directory:
 
 ```sh
-go run ./soaxreport --countries workspace/countries.csv --targetDomain www.google.com
+go run ./soaxreport --targetDomain www.google.com
 ```
 
 This will:
 
-1. Load the SOAX credentials (`./workspace/soax/cred.json` by default) and country list.
+1. Load the SOAX credentials (`./workspace/soax/cred.json` by default) and country list (`./workspace/countries.csv` by default).
 2. For each country, fetch the list of available ISPs.
 3. For each ISP, issue requests to the target domain via a SOAX proxy, once with ECH GREASE and once without.
 4. Save the results to `./workspace/soax-results-<domain>-countries<N>.csv`.
@@ -59,7 +59,7 @@ This will:
 
 * `-workspace <path>`: Directory to store intermediate files. Defaults to `./workspace`.
 * `-soax <path>`: Path to SOAX config JSON. Defaults to `./workspace/soax/cred.json`.
-* `-countries <path>`: Path to CSV file containing country names and ISO codes (required).
+* `-countries <path>`: Path to CSV file containing country names and ISO codes. Defaults to `./workspace/countries.csv`.
 * `-targetDomain <domain>`: Target domain to test. Defaults to `www.google.com`.
 * `-parallelism <number>`: Maximum number of parallel requests. Defaults to `16`.
 * `-verbose`: Enable verbose logging.
