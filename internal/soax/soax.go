@@ -91,9 +91,9 @@ func (c *Client) ListISPs(countryISO string) ([]string, error) {
 	return isps, nil
 }
 
-// BuildProxyURL constructs an authenticated HTTPS proxy URL for a specific country and ISP.
+// BuildWebProxyURL constructs an authenticated HTTPS proxy URL for a specific country and ISP.
 // An optional sessionID can be provided for sticky sessions; if empty, a random one is generated.
-func (c *Client) BuildProxyURL(countryISO, ispName, sessionID string) string {
+func (c *Client) BuildWebProxyURL(countryISO, ispName, sessionID string) string {
 	if sessionID == "" {
 		sessionID = generateRandomString(10)
 	}

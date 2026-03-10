@@ -289,7 +289,7 @@ func main() {
 				}
 				defer sem.Release(1)
 
-				proxyURL := client.BuildProxyURL(c.Code, isp, sid)
+				proxyURL := client.BuildWebProxyURL(c.Code, isp, sid)
 				slog.Debug("Testing ISP", "country", c.Code, "isp", isp, "ech_grease", ech, "session", sid)
 				resultsCh <- runSoaxTest(runner, domain, c.Code, c.Name, isp, proxyURL, ech, *maxTimeFlag)
 				progress := fmt.Sprintf("%d/%d", finished.Add(1), total.Load())
