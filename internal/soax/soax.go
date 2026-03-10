@@ -16,11 +16,10 @@ package soax
 
 import (
 	"context"
-	"encoding/json"
 	"fmt"
 	"math/rand"
 	"net/url"
-	"os"
+	"strconv"
 	"strings"
 
 	"golang.getoutline.org/sdk/x/soax"
@@ -28,66 +27,64 @@ import (
 
 // Config holds the credentials and endpoint configuration for the SOAX service.
 type Config struct {
-	APIKey     string `json:"api_key"`
-	PackageKey string `json:"package_key"`
-	PackageID  string `json:"package_id"`
-	ProxyHost  string `json:"proxy_host"`
-	ProxyPort  int    `json:"proxy_port"`
+	APIKey     string
+	PackageKey string
+	PackageID  string
+	ProxyHost  string
+	ProxyPort  int
 }
 
-// Client provides methods to interact with the SOAX API and generate proxy configurations.
-type Client struct {
-	cfg *Config
-	sdk *soax.Client
-}
-
-// LoadConfig reads the SOAX configuration from a JSON file.
-// If ProxyHost or ProxyPort are missing in the config, default values are used.
-func LoadConfig(path string) (*Config, error) {
-	f, err := os.Open(path)
-	if err != nil {
-		return nil, fmt.Errorf("failed to open config file: %w", err)
+// NewConfig creates a new Config, validating required fields and setting defaults.
+func NewConfig(apiKey, packageKey, packageID, proxyHost, proxyPortStr string) (*Config, error) {
+	if apiKey == "" {
+		return nil, fmt.Errorf("API key is required")
 	}
-	defer f.Close()
-
-	var cfg Config
-	if err := json.NewDecoder(f).Decode(&cfg); err != nil {
-		return nil, fmt.Errorf("failed to decode config json: %w", err)
+	if packageKey == "" {
+		return nil, fmt.Errorf("package key is required")
 	}
-	if cfg.ProxyHost == "" {
-		cfg.ProxyHost = "proxy.soax.com"
+	if packageID == "" {
+		return nil, fmt.Errorf("package ID is required")
 	}
-	if cfg.ProxyPort == 0 {
-		cfg.ProxyPort = 5000
+	if proxyHost == "" {
+		proxyHost = "proxy.soax.com"
 	}
 
-	return &cfg, nil
-}
-
-// NewClient creates a new SOAX Client with the given configuration.
-func NewClient(cfg *Config) *Client {
-	return &Client{
-		cfg: cfg,
-		sdk: &soax.Client{
-			APIKey:     cfg.APIKey,
-			PackageKey: cfg.PackageKey,
-		},
+	proxyPort := 5000
+	if proxyPortStr != "" {
+		p, err := strconv.Atoi(proxyPortStr)
+		if err != nil {
+			return nil, fmt.Errorf("invalid proxy port %q: %v", proxyPortStr, err)
+		}
+		proxyPort = p
 	}
+
+	return &Config{
+		APIKey:     apiKey,
+		PackageKey: packageKey,
+		PackageID:  packageID,
+		ProxyHost:  proxyHost,
+		ProxyPort:  proxyPort,
+	}, nil
 }
 
 // ListISPs retrieves a list of available ISP operators for the specified country code.
-// countryISO should be a 2-letter ISO country code (e.g., "US").
-func (c *Client) ListISPs(countryISO string) ([]string, error) {
+// It combines both mobile and residential ISPs using the provided SDK client.
+func ListISPs(cfg *Config, countryISO string) ([]string, error) {
+	sdkClient := &soax.Client{
+		APIKey:     cfg.APIKey,
+		PackageKey: cfg.PackageKey,
+	}
+
 	ctx := context.Background()
 	ispMap := make(map[string]bool)
 
-	if mIsps, err := c.sdk.GetMobileISPs(ctx, countryISO, "", ""); err == nil {
+	if mIsps, err := sdkClient.GetMobileISPs(ctx, countryISO, "", ""); err == nil {
 		for _, isp := range mIsps {
 			ispMap[isp] = true
 		}
 	}
 
-	if rIsps, err := c.sdk.GetResidentialISPs(ctx, countryISO, "", ""); err == nil {
+	if rIsps, err := sdkClient.GetResidentialISPs(ctx, countryISO, "", ""); err == nil {
 		for _, isp := range rIsps {
 			ispMap[isp] = true
 		}
@@ -106,12 +103,12 @@ func (c *Client) ListISPs(countryISO string) ([]string, error) {
 
 // BuildWebProxyURL constructs an authenticated HTTPS proxy URL for a specific country and ISP.
 // An optional sessionID can be provided for sticky sessions; if empty, a random one is generated.
-func (c *Client) BuildWebProxyURL(countryISO, ispName, sessionID string) string {
+func BuildWebProxyURL(cfg *Config, countryISO, ispName, sessionID string) string {
 	if sessionID == "" {
 		sessionID = generateRandomString(10)
 	}
 
-	params := []string{"package", c.cfg.PackageID}
+	params := []string{"package", cfg.PackageID}
 	if countryISO != "" {
 		params = append(params, "country", strings.ToLower(countryISO))
 	}
@@ -125,8 +122,8 @@ func (c *Client) BuildWebProxyURL(countryISO, ispName, sessionID string) string 
 
 	u := &url.URL{
 		Scheme: "https",
-		User:   url.UserPassword(strings.Join(params, "-"), c.cfg.PackageKey),
-		Host:   fmt.Sprintf("%s:%d", c.cfg.ProxyHost, c.cfg.ProxyPort),
+		User:   url.UserPassword(strings.Join(params, "-"), cfg.PackageKey),
+		Host:   fmt.Sprintf("%s:%d", cfg.ProxyHost, cfg.ProxyPort),
 	}
 
 	return u.String()

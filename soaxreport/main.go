@@ -132,7 +132,6 @@ func loadCountries(path string) ([]Country, error) {
 func main() {
 	var (
 		workspaceFlag    = flag.String("workspace", "./workspace", "Directory to store intermediate files")
-		soaxConfigFlag   = flag.String("soax", "", "Path to SOAX config JSON")
 		countriesFlag    = flag.String("countries", "", "Path to file containing ISO country codes")
 		targetDomainFlag = flag.String("targetDomain", "www.google.com", "Target domain to test")
 		verboseFlag      = flag.Bool("verbose", false, "Enable verbose logging")
@@ -157,17 +156,18 @@ func main() {
 		curlPath = filepath.Join(workspaceDir, "output", "bin", "curl")
 	}
 
-	// Load SOAX config
-	soaxConfigPath := *soaxConfigFlag
-	if soaxConfigPath == "" {
-		soaxConfigPath = filepath.Join(workspaceDir, "soax", "cred.json")
-	}
-	cfg, err := soax.LoadConfig(soaxConfigPath)
+	// Load SOAX config from environment variables
+	cfg, err := soax.NewConfig(
+		os.Getenv("SOAX_API_KEY"),
+		os.Getenv("SOAX_PACKAGE_KEY"),
+		os.Getenv("SOAX_PACKAGE_ID"),
+		os.Getenv("SOAX_PROXY_HOST"),
+		os.Getenv("SOAX_PROXY_PORT"),
+	)
 	if err != nil {
-		slog.Error("Failed to load SOAX config", "path", soaxConfigPath, "error", err)
+		slog.Error("Failed to initialize SOAX config from environment", "error", err)
 		os.Exit(1)
 	}
-	client := soax.NewClient(cfg)
 
 	// Load countries
 	countriesPath := *countriesFlag
@@ -237,7 +237,7 @@ func main() {
 	for _, country := range countries {
 		slog.Debug("Processing country", "name", country.Name, "code", country.Code)
 
-		isps, err := client.ListISPs(country.Code)
+		isps, err := soax.ListISPs(cfg, country.Code)
 		if err != nil {
 			slog.Error("Failed to fetch ISPs", "country", country.Code, "error", err)
 			continue
@@ -258,7 +258,7 @@ func main() {
 				}
 				defer sem.Release(1)
 
-				proxyURL := client.BuildWebProxyURL(c.Code, isp, sid)
+				proxyURL := soax.BuildWebProxyURL(cfg, c.Code, isp, sid)
 				slog.Debug("Testing ISP", "country", c.Code, "isp", isp, "ech_grease", ech, "session", sid)
 				resultsCh <- runSoaxTest(curlPath, domain, c.Code, c.Name, isp, proxyURL, ech, *maxTimeFlag)
 				progress := fmt.Sprintf("%d/%d", finished.Add(1), total.Load())
