@@ -15,14 +15,15 @@
 package soax
 
 import (
+	"context"
 	"encoding/json"
 	"fmt"
-	"io"
 	"math/rand"
-	"net/http"
 	"net/url"
 	"os"
 	"strings"
+
+	"golang.getoutline.org/sdk/x/soax"
 )
 
 // Config holds the credentials and endpoint configuration for the SOAX service.
@@ -37,6 +38,7 @@ type Config struct {
 // Client provides methods to interact with the SOAX API and generate proxy configurations.
 type Client struct {
 	cfg *Config
+	sdk *soax.Client
 }
 
 // LoadConfig reads the SOAX configuration from a JSON file.
@@ -64,29 +66,40 @@ func LoadConfig(path string) (*Config, error) {
 
 // NewClient creates a new SOAX Client with the given configuration.
 func NewClient(cfg *Config) *Client {
-	return &Client{cfg: cfg}
+	return &Client{
+		cfg: cfg,
+		sdk: &soax.Client{
+			APIKey:     cfg.APIKey,
+			PackageKey: cfg.PackageKey,
+		},
+	}
 }
 
 // ListISPs retrieves a list of available ISP operators for the specified country code.
 // countryISO should be a 2-letter ISO country code (e.g., "US").
 func (c *Client) ListISPs(countryISO string) ([]string, error) {
-	url := fmt.Sprintf("https://api.soax.com/api/get-country-operators?api_key=%s&package_key=%s&country_iso=%s",
-		c.cfg.APIKey, c.cfg.PackageKey, strings.ToLower(countryISO))
+	ctx := context.Background()
+	ispMap := make(map[string]bool)
 
-	resp, err := http.Get(url)
-	if err != nil {
-		return nil, fmt.Errorf("failed to fetch ISPs: %w", err)
+	if mIsps, err := c.sdk.GetMobileISPs(ctx, countryISO, "", ""); err == nil {
+		for _, isp := range mIsps {
+			ispMap[isp] = true
+		}
 	}
-	defer resp.Body.Close()
 
-	if resp.StatusCode != http.StatusOK {
-		body, _ := io.ReadAll(resp.Body)
-		return nil, fmt.Errorf("API error: status %s, body: %s", resp.Status, string(body))
+	if rIsps, err := c.sdk.GetResidentialISPs(ctx, countryISO, "", ""); err == nil {
+		for _, isp := range rIsps {
+			ispMap[isp] = true
+		}
+	}
+
+	if len(ispMap) == 0 {
+		return nil, fmt.Errorf("no ISPs found for country %s", countryISO)
 	}
 
 	var isps []string
-	if err := json.NewDecoder(resp.Body).Decode(&isps); err != nil {
-		return nil, fmt.Errorf("failed to decode ISP list: %w", err)
+	for isp := range ispMap {
+		isps = append(isps, isp)
 	}
 	return isps, nil
 }
