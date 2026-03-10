@@ -68,7 +68,12 @@ This will:
 
 ### Output Format
 
-The tool generates a CSV file (`workspace/soax-results-<domain>-countries<N>.csv`) with the following columns:
+The tool generates two output files in the workspace directory:
+
+1. **Results CSV** (`workspace/soax-results-<domain>-countries<N>.csv`): Contains the detailed test results for each request.
+2. **ISP Audit Log** (`workspace/soax-isps-audit.json`): A JSON file mapping each country code to the list of ISPs discovered and used during the test. This is useful for auditing coverage.
+
+The CSV file contains the following columns:
 
 * `domain`: The domain that was tested.
 * `country_code`: The 2-letter ISO country code.

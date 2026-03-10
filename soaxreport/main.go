@@ -17,6 +17,7 @@ package main
 import (
 	"context"
 	"encoding/csv"
+	"encoding/json"
 	"flag"
 	"fmt"
 	"log/slog"
@@ -230,6 +231,9 @@ func main() {
 	var wg sync.WaitGroup
 	var total, finished atomic.Int32
 
+	// Audit map to store discovered ISPs per country
+	ispAuditMap := make(map[string][]string)
+
 	for _, country := range countries {
 		slog.Debug("Processing country", "name", country.Name, "code", country.Code)
 
@@ -238,6 +242,8 @@ func main() {
 			slog.Error("Failed to fetch ISPs", "country", country.Code, "error", err)
 			continue
 		}
+
+		ispAuditMap[country.Code] = isps
 
 		total.Add(int32(len(isps) * 2))
 		for i, isp := range isps {
@@ -267,6 +273,19 @@ func main() {
 	wg.Wait()
 	close(resultsCh)
 	csvWg.Wait()
+
+	// Write the ISP audit log to JSON
+	auditFilename := filepath.Join(workspaceDir, "soax-isps-audit.json")
+	auditData, err := json.MarshalIndent(ispAuditMap, "", "  ")
+	if err == nil {
+		if err := os.WriteFile(auditFilename, auditData, 0644); err != nil {
+			slog.Error("Failed to write ISP audit log", "error", err)
+		} else {
+			slog.Info("ISP audit log saved", "path", auditFilename)
+		}
+	} else {
+		slog.Error("Failed to marshal ISP audit log", "error", err)
+	}
 
 	slog.Info("Done. Results saved to", "path", outputFilename)
 }
