@@ -10,6 +10,8 @@ You need to build the ECH-enabled `curl` and place it in the workspace directory
 
 You also need to set the SOAX credentials as environment variables and provide a list of ISO country codes.
 
+**(Optional) ASN Validation:** To independently verify the ASN of the proxy exit nodes, you can provide a local IP-to-ASN database in `.mmdb` format (such as [MaxMind GeoLite2](https://dev.maxmind.com/geoip/geolite2-free-geolocation-data) or [DB-IP ASN Lite](https://db-ip.com/db/download/ip-to-asn-lite)).
+
 ### Configuration
 
 **SOAX Credentials (Environment Variables)**
@@ -41,18 +43,32 @@ You can download a complete list of country codes from [here](https://raw.github
 
 ## Running
 
-To run the tool, ensure your environment variables are set, then use the `go run` command from the project root directory:
+To run the tool, ensure your environment variables are set, then use the `go run` command from the project root directory.
+
+**Basic Run:**
 
 ```sh
 go run ./soaxreport --targetDomain www.google.com
+```
+
+**With Independent ASN Validation (Recommended):**
+First, download a free IP-to-ASN `.mmdb` database (e.g., from DB-IP) to your workspace.
+```sh
+go run ./soaxreport --targetDomain www.google.com --asnDB workspace/dbip-asn-lite.mmdb
+```
+
+**With Custom IP Check URL and Verbose Logging:**
+```sh
+go run ./soaxreport --targetDomain www.google.com --ipCheckURL https://ifconfig.me/ip --verbose
 ```
 
 This will:
 
 1. Load the SOAX credentials from the environment and the country list (`./workspace/countries.csv` by default).
 2. For each country, fetch the list of available ISPs.
-3. For each ISP, issue requests to the target domain via a SOAX proxy, once with ECH GREASE and once without.
-4. Save the results to `./workspace/soax-results-<domain>-countries<N>.csv`.
+3. For each ISP, discover the real proxy exit IP via the `ipCheckURL`.
+4. Issue requests to the target domain via the SOAX proxy, once with ECH GREASE and once without.
+5. Save the results to `./workspace/soax-results-<domain>-countries<N>.csv`.
 
 ### Parameters
 
@@ -63,6 +79,8 @@ This will:
 * `-verbose`: Enable verbose logging.
 * `-maxTime <duration>`: Maximum time per curl request. Defaults to `30s`.
 * `-curl <path>`: Path to the ECH-enabled curl binary. Defaults to `./workspace/output/bin/curl`.
+* `-ipCheckURL <url>`: URL used to discover the real external IP of the proxy. Defaults to `https://ipv4.icanhazip.com/`.
+* `-asnDB <path>`: Optional path to a MaxMind or DB-IP `.mmdb` database file for independent ASN verification.
 
 ### Output Format
 
@@ -77,9 +95,14 @@ The CSV file contains the following columns:
 * `country_code`: The 2-letter ISO country code.
 * `country_name`: The full name of the country.
 * `isp`: The ISP name of the proxy used.
-* `asn`: The ASN of the proxy exit node.
-* `exit_node_ip`: The IP address of the proxy exit node.
-* `exit_node_isp`: The ISP name reported by the proxy exit node (from headers).
+* `asn`: The ASN of the proxy exit node as reported by the SOAX proxy headers.
+* `exit_node_ip`: The IP address of the proxy exit node as reported by the SOAX proxy headers.
+* `exit_node_isp`: The ISP name reported by the SOAX proxy headers.
+* `discovered_ip`: The actual public IP address of the proxy, discovered by querying `ipCheckURL`.
+* `ip_match`: `true` if `exit_node_ip` equals `discovered_ip`, `false` otherwise.
+* `geodb_asn`: The ASN corresponding to the `discovered_ip`, looked up in the `-asnDB` (if provided).
+* `geodb_as_name`: The AS organization name corresponding to the `discovered_ip`, looked up in the `-asnDB` (if provided).
+* `asn_match`: `true` if the SOAX-reported `asn` matches the `geodb_asn`, `false` otherwise.
 * `ech_grease`: `true` if ECH GREASE was enabled for the request, `false` otherwise.
 * `error`: Any error that occurred during the request.
 * `curl_exit_code`: The exit code returned by the `curl` command.
