@@ -22,6 +22,7 @@ import (
 	"fmt"
 	"log/slog"
 	"os"
+	"os/exec"
 	"path/filepath"
 	"strconv"
 	"strings"
@@ -37,12 +38,37 @@ import (
 
 type TestResult struct {
 	echtest.TestResult
-	Country     string
-	CountryName string
-	ISP         string
-	ASN         string
-	ExitNodeIP  string
-	ExitNodeISP string
+	Country      string
+	CountryName  string
+	ISP          string
+	ASN          string
+	ExitNodeIP   string
+	ExitNodeISP  string
+	DiscoveredIP string
+	IPMatch      string
+}
+
+func discoverIP(curlPath, proxyURL string, maxTime time.Duration, discoveryURL string) string {
+	args := []string{
+		"-s",
+		"-4",
+		"--max-time", strconv.FormatFloat(maxTime.Seconds(), 'f', -1, 64),
+		"--proxy", proxyURL,
+		discoveryURL,
+	}
+	cmd := exec.Command(curlPath, args...)
+
+	binDir := filepath.Dir(curlPath)
+	libDir := filepath.Join(filepath.Dir(binDir), "lib")
+	if libStat, err := os.Stat(libDir); err == nil && libStat.IsDir() {
+		cmd.Env = append(os.Environ(), "LD_LIBRARY_PATH="+libDir)
+	}
+
+	out, err := cmd.Output()
+	if err != nil {
+		return ""
+	}
+	return strings.TrimSpace(string(out))
 }
 
 func runSoaxTest(
@@ -54,15 +80,19 @@ func runSoaxTest(
 	proxyURL string,
 	echGrease bool,
 	maxTime time.Duration,
+	ipCheckURL string,
 ) TestResult {
+	discoveredIP := discoverIP(curlPath, proxyURL, maxTime, ipCheckURL)
+
 	headers := []string{"Respond-With: ip,isp,asn"}
 	res := echtest.Run(curlPath, domain, echGrease, maxTime, proxyURL, headers)
 
 	result := TestResult{
-		TestResult:  res,
-		Country:     country,
-		CountryName: countryName,
-		ISP:         isp,
+		TestResult:   res,
+		Country:      country,
+		CountryName:  countryName,
+		ISP:          isp,
+		DiscoveredIP: discoveredIP,
 	}
 
 	// Parse metadata from Stderr (SOAX specific headers in CONNECT response)
@@ -84,6 +114,14 @@ func runSoaxTest(
 			result.ExitNodeIP = val
 		case "isp":
 			result.ExitNodeISP = val
+		}
+	}
+
+	if result.ExitNodeIP != "" && result.DiscoveredIP != "" {
+		if result.ExitNodeIP == result.DiscoveredIP {
+			result.IPMatch = "true"
+		} else {
+			result.IPMatch = "false"
 		}
 	}
 
@@ -138,6 +176,7 @@ func main() {
 		maxTimeFlag      = flag.Duration("maxTime", 30*time.Second, "Maximum time per curl request")
 		curlPathFlag     = flag.String("curl", "", "Path to the ECH-enabled curl binary")
 		parallelismFlag  = flag.Int("parallelism", 16, "Maximum number of parallel requests")
+		ipCheckURLFlag   = flag.String("ipCheckURL", "https://ipv4.icanhazip.com/", "URL to use for discovering the real exit IP.")
 	)
 	flag.Parse()
 
@@ -200,7 +239,7 @@ func main() {
 		defer csvWriter.Flush()
 
 		header := []string{
-			"domain", "country_code", "country_name", "isp", "asn", "exit_node_ip", "exit_node_isp", "ech_grease", "error",
+			"domain", "country_code", "country_name", "isp", "asn", "exit_node_ip", "exit_node_isp", "discovered_ip", "ip_match", "ech_grease", "error",
 			"curl_exit_code", "curl_error_name", "dns_lookup_ms", "tcp_connection_ms",
 			"tls_handshake_ms", "server_time_ms", "total_time_ms", "http_status",
 		}
@@ -210,7 +249,7 @@ func main() {
 
 		for r := range resultsCh {
 			record := []string{
-				r.Domain, r.Country, r.CountryName, r.ISP, r.ASN, r.ExitNodeIP, r.ExitNodeISP, strconv.FormatBool(r.ECHGrease), r.Error,
+				r.Domain, r.Country, r.CountryName, r.ISP, r.ASN, r.ExitNodeIP, r.ExitNodeISP, r.DiscoveredIP, r.IPMatch, strconv.FormatBool(r.ECHGrease), r.Error,
 				strconv.Itoa(r.CurlExitCode), r.CurlErrorName,
 				strconv.FormatInt(r.DNSLookup.Milliseconds(), 10),
 				strconv.FormatInt(r.TCPConnection.Milliseconds(), 10),
@@ -260,7 +299,7 @@ func main() {
 
 				proxyURL := soax.BuildWebProxyURL(cfg, c.Code, isp, sid)
 				slog.Debug("Testing ISP", "country", c.Code, "isp", isp, "ech_grease", ech, "session", sid)
-				resultsCh <- runSoaxTest(curlPath, domain, c.Code, c.Name, isp, proxyURL, ech, *maxTimeFlag)
+				resultsCh <- runSoaxTest(curlPath, domain, c.Code, c.Name, isp, proxyURL, ech, *maxTimeFlag, *ipCheckURLFlag)
 				progress := fmt.Sprintf("%d/%d", finished.Add(1), total.Load())
 				slog.Info("Finished", "country", c.Code, "isp", isp, "progress", progress)
 			}
