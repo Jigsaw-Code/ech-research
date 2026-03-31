@@ -1,0 +1,1757 @@
+domain,country_code,country_name,isp,asn,exit_node_ip,exit_node_isp,ech_grease,error,curl_exit_code,curl_error_name,dns_lookup_ms,tcp_connection_ms,tls_handshake_ms,server_time_ms,total_time_ms,http_status
+www.google.com,AF,Afghanistan,etisalat afghanistan,,,,false,,56,CURLE_RECV_ERROR,73,75,0,0,162,0
+www.google.com,AF,Afghanistan,multacom corporation,,,,false,,56,CURLE_RECV_ERROR,78,80,0,0,168,0
+www.google.com,AF,Afghanistan,telecom development company afghanistan,,,,true,,56,CURLE_RECV_ERROR,78,83,0,0,169,0
+www.google.com,AF,Afghanistan,mtn afghanistan,,,,true,,56,CURLE_RECV_ERROR,74,76,0,0,166,0
+www.google.com,AF,Afghanistan,mtn afghanistan,,,,false,,56,CURLE_RECV_ERROR,76,78,0,0,169,0
+www.google.com,AF,Afghanistan,etisalat afghanistan,,,,true,,56,CURLE_RECV_ERROR,76,78,0,0,169,0
+www.google.com,AF,Afghanistan,multacom corporation,,,,true,,56,CURLE_RECV_ERROR,76,81,0,0,171,0
+www.google.com,AF,Afghanistan,telecom development company afghanistan,,,,false,,56,CURLE_RECV_ERROR,77,79,0,0,174,0
+www.google.com,AX,Åland Islands,alands telekommunikation ab,,,,false,,56,CURLE_RECV_ERROR,1,2,0,0,65,0
+www.google.com,AX,Åland Islands,alands telekommunikation ab,,,,true,,56,CURLE_RECV_ERROR,1,3,0,0,66,0
+www.google.com,AL,Albania,one albania,50616,109.234.233.101,one albania,false,,0,OK,2,3,715,1388,1452,200
+www.google.com,DZ,Algeria,wataniya-telecom,33779,41.200.113.159,wataniya-telecom,true,,0,OK,3,5,630,1145,1315,200
+www.google.com,AL,Albania,one albania,50616,109.234.233.101,one albania,true,,0,OK,1,4,1178,1850,1917,200
+www.google.com,AS,American Samoa,blue sky communications,,,,false,,56,CURLE_RECV_ERROR,1,3,0,0,61,0
+www.google.com,AS,American Samoa,blue sky communications,,,,true,,56,CURLE_RECV_ERROR,1,3,0,0,63,0
+www.google.com,AD,Andorra,"andorra telecom, s.a.u.",,,,false,,56,CURLE_RECV_ERROR,1,3,0,0,63,0
+www.google.com,AD,Andorra,"andorra telecom, s.a.u.",,,,true,,56,CURLE_RECV_ERROR,1,2,0,0,61,0
+www.google.com,DZ,Algeria,algerie telecom,36947,197.119.179.84,algerie telecom,true,,0,OK,3,5,723,1274,2131,200
+www.google.com,AL,Albania,vodafone albania,50973,188.172.111.176,vodafone albania,false,,0,OK,1,3,1785,2500,2549,200
+www.google.com,AL,Albania,vodafone albania,50973,188.172.109.117,vodafone albania,true,,0,OK,1,4,1774,2503,2569,200
+www.google.com,DZ,Algeria,optimum-telecom-algeria,327931,129.45.66.172,optimum-telecom-algeria,false,,0,OK,1,3,544,1042,1132,200
+www.google.com,DZ,Algeria,optimum-telecom-algeria,327931,129.45.66.172,optimum-telecom-algeria,true,,0,OK,2,4,1807,2329,2410,200
+www.google.com,DZ,Algeria,atm,327712,154.121.140.127,atm,false,,0,OK,1,3,600,1116,1227,200
+www.google.com,DZ,Algeria,algerie telecom,36947,197.119.179.84,algerie telecom,false,,0,OK,3,4,2149,2599,2697,200
+www.google.com,AF,Afghanistan,afghan wireless,38742,119.59.87.95,afghan wireless,false,,0,OK,74,77,1766,2997,3419,200
+www.google.com,AG,Antigua and Barbuda,apua,11594,208.83.82.207,apua,false,,0,OK,1,2,844,1309,1702,200
+www.google.com,AO,Angola,unitel,37119,105.172.90.223,unitel,true,,0,OK,2,4,1181,2004,2240,200
+www.google.com,DZ,Algeria,wataniya-telecom,33779,41.200.113.159,wataniya-telecom,false,,0,OK,4,5,3453,4105,4278,200
+www.google.com,AF,Afghanistan,afghan wireless,38742,119.59.87.95,afghan wireless,true,,0,OK,76,78,3400,4642,4875,200
+www.google.com,AG,Antigua and Barbuda,apua,11594,208.83.82.207,apua,true,,0,OK,1,2,1513,2021,2448,200
+www.google.com,AF,Afghanistan,afghan wireless communication company,138322,152.36.193.223,afghan wireless communication company,false,,0,OK,74,76,3590,5304,5668,200
+www.google.com,AO,Angola,unitel,37119,105.172.90.223,unitel,false,,0,OK,1,3,2317,3238,3465,200
+www.google.com,DZ,Algeria,atm,327712,154.121.41.40,atm,true,,0,OK,3,5,4178,5165,5729,200
+www.google.com,AR,Argentina,personal,7303,181.13.78.89,personal,false,,0,OK,1,3,755,1241,1864,200
+www.google.com,AG,Antigua and Barbuda,flow,14813,204.16.112.181,flow,false,,0,OK,1,3,2745,3223,3663,200
+www.google.com,AF,Afghanistan,afghan wireless communication company,138322,152.36.193.223,afghan wireless communication company,true,,0,OK,78,83,5615,6875,6971,200
+www.google.com,AR,Argentina,claro argentina,11664,181.238.54.85,claro argentina,false,,0,OK,1,3,1909,2279,2536,200
+www.google.com,AG,Antigua and Barbuda,flow,14813,204.16.112.181,flow,true,,0,OK,66,68,1477,2721,2799,200
+www.google.com,AO,Angola,aas1,328943,102.218.85.133,aas1,true,,0,OK,1,2,3117,4412,4607,200
+www.google.com,AR,Argentina,personal,7303,181.13.78.89,personal,true,,0,OK,2,4,991,1447,1566,200
+www.google.com,AR,Argentina,claro argentina,11664,181.239.125.51,claro argentina,true,,0,OK,1,3,2627,2994,3217,200
+www.google.com,AG,Antigua and Barbuda,digicel,33576,104.255.178.198,digicel,false,,0,OK,1,3,3817,5035,5336,200
+www.google.com,AW,Aruba,new millennium telecom services n.v.,264645,138.255.255.83,new millennium telecom services n.v.,false,,0,OK,1,3,527,800,886,200
+www.google.com,AM,Armenia,telecom armenia ojsc,12297,87.241.145.77,telecom armenia ojsc,true,,0,OK,2,3,604,1337,1445,200
+www.google.com,AG,Antigua and Barbuda,digicel,33576,104.255.178.198,digicel,true,,0,OK,1,3,3850,4855,5183,200
+www.google.com,AW,Aruba,new millennium telecom services n.v.,264645,138.255.255.83,new millennium telecom services n.v.,true,,0,OK,1,3,603,903,941,200
+www.google.com,AU,Australia,vocus,,,,false,,56,CURLE_RECV_ERROR,2,4,0,0,75,0
+www.google.com,AU,Australia,vocus,,,,true,,56,CURLE_RECV_ERROR,2,3,0,0,74,0
+www.google.com,AM,Armenia,telecom armenia ojsc,12297,87.241.145.77,telecom armenia ojsc,false,,0,OK,1,3,651,1379,1484,200
+www.google.com,AM,Armenia,ucom,44395,178.78.134.29,ucom,false,,0,OK,2,3,1400,2457,2817,200
+www.google.com,AF,Afghanistan,afghan telecom,55330,180.94.93.147,afghan telecom,true,,0,OK,77,78,6095,8842,9324,200
+www.google.com,AT,Austria,mass response service,51265,41.66.123.77,mass response service,false,,0,OK,1,2,376,979,1025,200
+www.google.com,AM,Armenia,ucom,44395,178.78.134.29,ucom,true,,0,OK,2,4,1259,2596,2997,200
+www.google.com,AM,Armenia,viva armenia cjsc,43733,217.76.10.55,viva armenia cjsc,false,,0,OK,2,4,1496,3427,3698,200
+www.google.com,AM,Armenia,viva armenia cjsc,43733,217.76.10.55,viva armenia cjsc,true,,0,OK,1,3,2403,3322,3468,200
+www.google.com,AO,Angola,aas1,328943,102.218.85.89,aas1,false,,0,OK,1,3,4519,7156,7530,200
+www.google.com,AT,Austria,hutchison drei austria gmbh,25255,178.115.77.72,hutchison drei austria gmbh,false,,0,OK,2,4,688,1340,1488,200
+www.google.com,AT,Austria,hutchison drei austria gmbh,25255,178.115.77.72,hutchison drei austria gmbh,true,,0,OK,1,3,792,1426,1500,200
+www.google.com,AU,Australia,vodafone australia,133612,120.17.139.60,vodafone australia,true,,0,OK,1,3,1768,2650,2660,200
+www.google.com,AU,Australia,optus,4804,49.182.139.76,optus,true,,0,OK,2,3,1769,2599,2885,200
+www.google.com,AF,Afghanistan,afghan telecom,55330,180.94.93.147,afghan telecom,false,,0,OK,76,82,7950,10588,11158,200
+www.google.com,AT,Austria,1global,,,,true,,56,CURLE_RECV_ERROR,2,4,0,0,88,0
+www.google.com,AT,Austria,1global,,,,false,,56,CURLE_RECV_ERROR,1,4,0,0,89,0
+www.google.com,AT,Austria,mass response service,51265,41.66.123.77,mass response service,true,,0,OK,2,4,365,947,1009,200
+www.google.com,AU,Australia,telstra internet,1221,1.145.241.199,telstra internet,false,,0,OK,2,4,2241,2874,3166,200
+www.google.com,AT,Austria,hutchison drei austria,8437,213.90.120.122,hutchison drei austria,true,,0,OK,2,4,586,1207,1278,200
+www.google.com,AU,Australia,optus,4804,49.182.139.76,optus,false,,0,OK,2,3,2205,2991,3048,200
+www.google.com,AU,Australia,vodafone australia,133612,120.17.139.60,vodafone australia,false,,0,OK,2,3,2754,3452,3506,200
+www.google.com,AT,Austria,telekom austria,8447,213.225.33.219,telekom austria,false,,0,OK,1,4,558,1300,1362,200
+www.google.com,AT,Austria,lycamobile,31404,83.137.6.60,lycamobile,false,,0,OK,2,3,706,1070,1173,200
+www.google.com,AT,Austria,hutchison drei austria,8437,213.90.120.122,hutchison drei austria,false,,0,OK,2,3,990,1606,1674,200
+www.google.com,BS,Bahamas,alivfibr,,,,true,,56,CURLE_RECV_ERROR,1,3,0,0,67,0
+www.google.com,AT,Austria,telekom austria,8447,213.225.33.219,telekom austria,true,,0,OK,2,4,526,1333,1334,200
+www.google.com,AT,Austria,lycamobile,31404,83.137.6.60,lycamobile,true,,0,OK,2,3,1056,1419,1492,200
+www.google.com,BS,Bahamas,cable bahamas,15146,24.51.125.141,cable bahamas,false,,0,OK,2,4,264,508,509,200
+www.google.com,BS,Bahamas,bahamas telecommunications corporation,8014,108.60.250.198,bahamas telecommunications corporation,false,,0,OK,2,4,355,567,615,200
+www.google.com,BS,Bahamas,alivfibr,,,,false,,56,CURLE_RECV_ERROR,2,4,0,0,71,0
+www.google.com,BS,Bahamas,cable bahamas,15146,24.51.125.141,cable bahamas,true,,0,OK,2,3,510,700,752,200
+www.google.com,AZ,Azerbaijan,azercell telecom,31721,5.191.104.195,azercell telecom,true,,0,OK,1,3,637,1435,1539,200
+www.google.com,BS,Bahamas,bahamas telecommunications corporation,8014,108.60.250.198,bahamas telecommunications corporation,true,,0,OK,2,4,240,417,479,200
+www.google.com,AT,Austria,magenta telekom,8412,46.124.160.196,magenta telekom,false,,0,OK,93,95,1018,1789,3075,200
+www.google.com,BS,Bahamas,bealiv ltd,15146,65.75.86.177,bealiv ltd,false,,0,OK,1,3,412,682,779,200
+www.google.com,AU,Australia,telstra internet,1221,1.145.241.199,telstra internet,true,,0,OK,2,4,3238,4096,4552,200
+www.google.com,AZ,Azerbaijan,nar,42779,77.244.116.241,nar,false,,0,OK,1,4,761,1541,1624,200
+www.google.com,BS,Bahamas,bealiv ltd,15146,65.75.86.177,bealiv ltd,true,,0,OK,2,4,554,820,914,200
+www.google.com,AZ,Azerbaijan,bakcell,197830,5.44.35.92,bakcell,false,,0,OK,2,3,715,1517,1692,200
+www.google.com,AZ,Azerbaijan,azercell telecom,31721,5.191.104.195,azercell telecom,false,,0,OK,2,4,1261,2076,2200,200
+www.google.com,AZ,Azerbaijan,nar,42779,77.244.116.241,nar,true,,0,OK,2,3,1211,2012,2190,200
+www.google.com,AZ,Azerbaijan,bakcell,197830,5.44.35.92,bakcell,true,,0,OK,2,4,1330,2116,2216,200
+www.google.com,BH,Bahrain,stc bahrain,51375,46.184.243.211,stc bahrain,true,,0,OK,1,3,782,1640,1749,200
+www.google.com,AT,Austria,magenta telekom,8412,46.124.160.196,magenta telekom,true,,0,OK,2,4,3359,3958,4392,200
+www.google.com,BD,Bangladesh,grameenphone,24389,37.111.239.198,grameenphone,false,,0,OK,2,4,898,1429,1520,200
+www.google.com,BH,Bahrain,batelco,5416,193.188.123.88,batelco,false,,0,OK,2,3,830,1664,2097,200
+www.google.com,BD,Bangladesh,banglalink,45245,202.86.216.24,banglalink,true,,0,OK,2,3,1050,1655,1817,200
+www.google.com,BH,Bahrain,zain bahrain b.s.c.,31452,109.161.144.104,zain bahrain b.s.c.,false,,0,OK,2,4,1088,1966,2117,200
+www.google.com,BD,Bangladesh,robi,24432,42.0.4.223,robi,false,,0,OK,1,3,992,1565,1671,200
+www.google.com,BH,Bahrain,stc bahrain,51375,46.184.243.211,stc bahrain,false,,0,OK,1,3,1414,2242,2340,200
+www.google.com,BB,Barbados,digicel barbados,,,,false,,56,CURLE_RECV_ERROR,2,4,0,0,85,0
+www.google.com,BB,Barbados,digicel barbados,,,,true,,56,CURLE_RECV_ERROR,2,4,0,0,74,0
+www.google.com,BD,Bangladesh,grameenphone,24389,37.111.239.198,grameenphone,true,,0,OK,1,3,1518,2009,2089,200
+www.google.com,BD,Bangladesh,telenor,24389,37.111.221.44,telenor,false,,0,OK,2,4,825,1547,1548,200
+www.google.com,BB,Barbados,flow,14813,192.235.61.213,flow,true,,0,OK,2,4,422,696,768,200
+www.google.com,BD,Bangladesh,banglalink,45245,202.86.216.24,banglalink,false,,0,OK,2,3,1225,1932,2098,200
+www.google.com,BH,Bahrain,zain bahrain b.s.c.,31452,109.161.144.104,zain bahrain b.s.c.,true,,0,OK,1,3,1739,2807,2959,200
+www.google.com,BB,Barbados,flow,14813,192.235.61.213,flow,false,,0,OK,2,3,727,1020,1091,200
+www.google.com,BD,Bangladesh,robi,24432,42.0.4.223,robi,true,,0,OK,2,4,1996,2646,2756,200
+www.google.com,BD,Bangladesh,banglalink digital communications ltd.,45245,43.245.120.87,banglalink digital communications ltd.,false,,0,OK,84,86,1069,1680,1751,200
+www.google.com,BD,Bangladesh,telenor,24389,37.111.221.44,telenor,true,,0,OK,1,3,1048,1680,1764,200
+www.google.com,BY,Belarus,mts belarus,25106,46.56.62.13,mts belarus,false,,0,OK,2,3,588,1211,1429,200
+www.google.com,BD,Bangladesh,banglalink digital communications ltd.,45245,43.245.120.87,banglalink digital communications ltd.,true,,0,OK,2,4,1738,2248,2316,200
+www.google.com,BY,Belarus,elnet,,,,true,,56,CURLE_RECV_ERROR,2,3,0,0,66,0
+www.google.com,BY,Belarus,elnet,,,,false,,56,CURLE_RECV_ERROR,2,4,0,0,67,0
+www.google.com,BY,Belarus,unitary enterprise velcom,42772,46.56.176.47,unitary enterprise velcom,true,,0,OK,2,4,596,1424,1746,200
+www.google.com,BD,Bangladesh,teletalk bangladesh,45925,103.230.107.39,teletalk bangladesh,false,,0,OK,1,3,964,2075,2499,200
+www.google.com,BH,Bahrain,batelco,5416,193.188.123.88,batelco,true,,0,OK,2,4,1973,3601,4522,200
+www.google.com,BY,Belarus,a1 belarus,42772,151.249.185.25,a1 belarus,false,,0,OK,1,3,706,1360,1486,200
+www.google.com,BY,Belarus,mts belarus,25106,46.56.62.13,mts belarus,true,,0,OK,1,3,1033,1762,1930,200
+www.google.com,BY,Belarus,isp garant-catv-gomel,42772,151.249.218.236,isp garant-catv-gomel,true,,0,OK,2,3,635,1307,1476,200
+www.google.com,BY,Belarus,best cjsc,44087,109.126.176.48,best cjsc,false,,0,OK,1,3,1062,1838,1997,200
+www.google.com,BY,Belarus,unitary enterprise velcom,42772,46.56.176.47,unitary enterprise velcom,false,,0,OK,2,3,860,1612,1694,200
+www.google.com,BY,Belarus,a1 belarus,42772,151.249.185.25,a1 belarus,true,,0,OK,3,4,962,1667,1755,200
+www.google.com,BE,Belgium,lycamobile,31404,217.179.139.5,lycamobile,false,,0,OK,1,3,483,734,819,200
+www.google.com,BY,Belarus,isp garant-catv-gomel,42772,151.249.218.236,isp garant-catv-gomel,false,,0,OK,1,3,1183,1884,1952,200
+www.google.com,BY,Belarus,unitary enterprise a1,42772,151.249.137.216,unitary enterprise a1,true,,0,OK,1,3,735,1337,1430,200
+www.google.com,BE,Belgium,belgacom international carrier services,,,,false,,56,CURLE_RECV_ERROR,2,4,0,0,74,0
+www.google.com,BE,Belgium,digi belgium,,,,false,,56,CURLE_RECV_ERROR,2,4,0,0,68,0
+www.google.com,BE,Belgium,belgacom international carrier services,,,,true,,56,CURLE_RECV_ERROR,2,3,0,0,70,0
+www.google.com,BE,Belgium,digi belgium,,,,true,,56,CURLE_RECV_ERROR,2,4,0,0,78,0
+www.google.com,BD,Bangladesh,teletalk bangladesh,45925,103.230.107.39,teletalk bangladesh,true,,0,OK,2,3,2049,2678,3637,200
+www.google.com,BE,Belgium,telenet,6848,188.188.79.177,telenet,false,,0,OK,2,4,738,1196,1395,200
+www.google.com,BE,Belgium,orange belgium,47377,94.109.98.245,orange belgium,true,,0,OK,2,4,578,832,891,200
+www.google.com,BE,Belgium,lycamobile,31404,217.179.139.5,lycamobile,true,,0,OK,1,3,459,703,759,200
+www.google.com,BE,Belgium,proximus,5432,92.48.135.6,proximus,false,,0,OK,2,3,532,837,899,200
+www.google.com,BY,Belarus,unitary enterprise a1,42772,151.249.137.216,unitary enterprise a1,false,,0,OK,2,3,1011,1610,1712,200
+www.google.com,BY,Belarus,gomelsky rtsc garant,42772,92.38.64.254,gomelsky rtsc garant,false,,0,OK,1,3,1076,1713,1803,200
+www.google.com,BY,Belarus,best cjsc,44087,109.126.176.48,best cjsc,true,,0,OK,1,3,1938,2824,3065,200
+www.google.com,BM,Bermuda,one communications bermuda,,,,false,,56,CURLE_RECV_ERROR,1,3,0,0,63,0
+www.google.com,BM,Bermuda,digicel bermuda,,,,false,,56,CURLE_RECV_ERROR,1,3,0,0,66,0
+www.google.com,BM,Bermuda,digicel bermuda,,,,true,,56,CURLE_RECV_ERROR,2,3,0,0,69,0
+www.google.com,BM,Bermuda,paradise mobile ltd.,,,,false,,56,CURLE_RECV_ERROR,1,3,0,0,61,0
+www.google.com,BM,Bermuda,one communications bermuda,,,,true,,56,CURLE_RECV_ERROR,2,3,0,0,61,0
+www.google.com,BE,Belgium,telenet,6848,188.188.79.177,telenet,true,,0,OK,2,4,1269,1586,1662,200
+www.google.com,BM,Bermuda,paradise mobile ltd.,,,,true,,56,CURLE_RECV_ERROR,2,4,0,0,67,0
+www.google.com,BE,Belgium,orange belgium,47377,94.109.98.245,orange belgium,false,,0,OK,2,4,841,1140,1240,200
+www.google.com,BE,Belgium,proximus,5432,92.48.135.6,proximus,true,,0,OK,1,3,640,954,1074,200
+www.google.com,BY,Belarus,gomelsky rtsc garant,42772,92.38.64.254,gomelsky rtsc garant,true,,0,OK,2,4,1648,2317,2385,200
+www.google.com,BZ,Belize,speednet wireless,262239,190.211.145.226,speednet wireless,false,,0,OK,2,4,332,971,972,302
+www.google.com,BZ,Belize,speednet wireless,262239,190.211.145.226,speednet wireless,true,,0,OK,2,4,580,1139,1140,302
+www.google.com,BZ,Belize,belize telemedia limited,10269,190.197.19.38,belize telemedia limited,true,,0,OK,1,3,778,1219,1420,200
+www.google.com,BJ,Benin,benin telecom,37424,197.234.223.220,benin telecom,false,,0,OK,2,3,860,1666,1873,200
+www.google.com,BZ,Belize,belize telemedia limited,10269,190.197.19.38,belize telemedia limited,false,,0,OK,2,4,1355,1649,2077,200
+www.google.com,BJ,Benin,moov benin,37136,41.138.91.159,moov benin,true,,0,OK,1,3,1034,1750,1923,200
+www.google.com,BO,"Bolivia, Plurinational State of",tigo bolivia,,,,false,,56,CURLE_RECV_ERROR,1,3,0,0,64,0
+www.google.com,BO,"Bolivia, Plurinational State of",tigo bolivia,,,,true,,56,CURLE_RECV_ERROR,1,3,0,0,73,0
+www.google.com,BQ,"Bonaire, Sint Eustatius and Saba",setar aruba,,,,false,,56,CURLE_RECV_ERROR,1,3,0,0,63,0
+www.google.com,BT,Bhutan,druknet isp,18024,119.2.125.172,druknet isp,false,,0,OK,2,3,1025,1577,1642,200
+www.google.com,BQ,"Bonaire, Sint Eustatius and Saba",setar aruba,,,,true,,56,CURLE_RECV_ERROR,1,3,0,0,67,0
+www.google.com,BJ,Benin,benin telecom,37424,197.234.223.220,benin telecom,true,,0,OK,1,3,1545,2351,2529,200
+www.google.com,BO,"Bolivia, Plurinational State of",telefonica celular de bolivia s.a.,27882,192.223.112.244,telefonica celular de bolivia s.a.,true,,0,OK,53,55,1088,1554,1755,200
+www.google.com,BT,Bhutan,tashi infocomm,137412,118.103.138.97,tashi infocomm,true,,0,OK,1,4,1434,2151,2281,200
+www.google.com,BJ,Benin,moov benin,37136,41.138.91.159,moov benin,false,,0,OK,2,4,1889,2827,2985,200
+www.google.com,BT,Bhutan,druknet isp,18024,119.2.125.172,druknet isp,true,,0,OK,2,4,1862,2541,2604,200
+www.google.com,BO,"Bolivia, Plurinational State of",telefonica celular de bolivia s.a.,27882,192.223.112.244,telefonica celular de bolivia s.a.,false,,0,OK,2,4,1467,1920,2121,200
+www.google.com,BA,Bosnia and Herzegovina,mtel bosnia,25144,46.239.0.160,mtel bosnia,false,,0,OK,2,3,532,1148,1320,200
+www.google.com,BA,Bosnia and Herzegovina,jp ht d.d. mostar,20875,212.39.117.37,jp ht d.d. mostar,false,,0,OK,1,3,589,1255,1376,200
+www.google.com,BT,Bhutan,tashi infocomm,137412,118.103.138.97,tashi infocomm,false,,0,OK,2,3,2243,3148,3260,200
+www.google.com,BA,Bosnia and Herzegovina,mtel bosnia,25144,46.239.0.160,mtel bosnia,true,,0,OK,2,4,898,1513,1657,200
+www.google.com,BO,"Bolivia, Plurinational State of",entel bolivia,6568,181.115.129.227,entel bolivia,true,,0,OK,30,32,1428,2795,3066,200
+www.google.com,BR,Brazil,now fibra provedor de internet ltda,,,,false,,56,CURLE_RECV_ERROR,1,3,0,0,111,0
+www.google.com,BA,Bosnia and Herzegovina,jp ht d.d. mostar,20875,212.39.117.37,jp ht d.d. mostar,true,,0,OK,1,4,609,1366,1473,200
+www.google.com,BA,Bosnia and Herzegovina,bh telecom d.d. sarajevo,9146,109.175.39.157,bh telecom d.d. sarajevo,false,,0,OK,1,3,875,1502,1580,200
+www.google.com,BA,Bosnia and Herzegovina,bh telecom d.d. sarajevo,9146,109.175.39.157,bh telecom d.d. sarajevo,true,,0,OK,2,4,791,1421,1509,200
+www.google.com,BR,Brazil,vivo,27699,179.100.10.159,vivo,false,,0,OK,1,3,475,716,848,200
+www.google.com,BO,"Bolivia, Plurinational State of",nuevatel pcs de bolivia s.a.,28024,161.138.109.203,nuevatel pcs de bolivia s.a.,true,,0,OK,1,3,2135,2763,3179,200
+www.google.com,BR,Brazil,vivo,27699,179.100.10.159,vivo,true,,0,OK,1,3,535,832,959,200
+www.google.com,BO,"Bolivia, Plurinational State of",entel bolivia,6568,181.115.129.227,entel bolivia,false,,0,OK,36,37,3443,3996,4282,200
+www.google.com,BO,"Bolivia, Plurinational State of",nuevatel pcs de bolivia s.a.,28024,161.138.109.203,nuevatel pcs de bolivia s.a.,false,,0,OK,1,3,2319,3542,3751,200
+www.google.com,BR,Brazil,tim brasil,26615,181.77.49.17,tim brasil,false,,0,OK,1,3,897,1390,1653,200
+www.google.com,BR,Brazil,claro brazil,22085,179.241.253.30,claro brazil,false,,0,OK,1,3,945,1763,1992,200
+www.google.com,BR,Brazil,brisanet,28126,177.37.201.57,brisanet,false,,0,OK,2,4,623,1284,1407,200
+www.google.com,BR,Brazil,ita.net telecom,,,,false,,56,CURLE_RECV_ERROR,59,61,0,0,182,0
+www.google.com,BR,Brazil,ita.net telecom,,,,true,,56,CURLE_RECV_ERROR,56,58,0,0,193,0
+www.google.com,BR,Brazil,unifique telecomunicacoes sa,,,,true,,56,CURLE_RECV_ERROR,3,5,0,0,146,0
+www.google.com,BR,Brazil,now fibra provedor de internet ltda,,,,true,,56,CURLE_RECV_ERROR,2,4,0,0,131,0
+www.google.com,BR,Brazil,mobilelink provedor de servicos de internet ltda,,,,true,,56,CURLE_RECV_ERROR,2,4,0,0,110,0
+www.google.com,BR,Brazil,mobilelink provedor de servicos de internet ltda,,,,false,,56,CURLE_RECV_ERROR,2,3,0,0,136,0
+www.google.com,BR,Brazil,unifique telecomunicacoes sa,,,,false,,56,CURLE_RECV_ERROR,1,3,0,0,115,0
+www.google.com,BR,Brazil,claro brazil,22085,179.241.253.30,claro brazil,true,,0,OK,2,3,1553,2363,2465,200
+www.google.com,BR,Brazil,brisanet,28126,177.37.201.57,brisanet,true,,0,OK,2,3,475,1152,1267,200
+www.google.com,BW,Botswana,obo,36963,41.74.50.196,obo,true,,0,OK,2,3,1966,2992,3052,200
+www.google.com,BR,Brazil,renovtec servicos de tecnologia eireli,,,,false,,56,CURLE_RECV_ERROR,2,3,0,0,109,0
+www.google.com,BR,Brazil,db3 servicos de telecomunicacoes s.a,,,,true,,56,CURLE_RECV_ERROR,1,3,0,0,105,0
+www.google.com,BR,Brazil,db3 servicos de telecomunicacoes s.a,,,,false,,56,CURLE_RECV_ERROR,2,4,0,0,116,0
+www.google.com,BR,Brazil,pcsupri informatica ltda,,,,false,,56,CURLE_RECV_ERROR,2,3,0,0,98,0
+www.google.com,BR,Brazil,renovtec servicos de tecnologia eireli,,,,true,,56,CURLE_RECV_ERROR,2,4,0,0,101,0
+www.google.com,BR,Brazil,pcsupri informatica ltda,,,,true,,56,CURLE_RECV_ERROR,2,4,0,0,112,0
+www.google.com,BR,Brazil,tim brasil,26615,181.77.49.17,tim brasil,true,,0,OK,2,4,1612,2123,2464,200
+www.google.com,BW,Botswana,obo,36963,41.74.50.196,obo,false,,0,OK,1,4,2134,4000,4074,200
+www.google.com,BW,Botswana,botswana telecommunications corporation,14988,168.167.26.137,botswana telecommunications corporation,false,,0,OK,2,4,2204,3720,4214,200
+www.google.com,BG,Bulgaria,yettel bulgaria,29244,149.62.209.132,yettel bulgaria,false,,0,OK,1,3,513,1188,1299,200
+www.google.com,BG,Bulgaria,global communication net,,,,false,,56,CURLE_RECV_ERROR,2,3,0,0,75,0
+www.google.com,BN,Brunei Darussalam,unified national networks (unn) sdn bhd,10094,61.6.209.226,unified national networks (unn) sdn bhd,true,,0,OK,1,3,851,1333,1435,200
+www.google.com,BG,Bulgaria,vivacom,8866,95.43.169.159,vivacom,false,,0,OK,1,3,608,1306,1422,200
+www.google.com,BG,Bulgaria,global communication net,,,,true,,56,CURLE_RECV_ERROR,1,3,0,0,74,0
+www.google.com,BG,Bulgaria,vivacom,8866,95.43.169.159,vivacom,true,,0,OK,2,3,1034,1750,1840,200
+www.google.com,BN,Brunei Darussalam,unified national networks (unn) sdn bhd,10094,61.6.209.226,unified national networks (unn) sdn bhd,false,,0,OK,1,3,1571,2019,2117,200
+www.google.com,BG,Bulgaria,a1 bulgaria,12716,213.226.59.170,a1 bulgaria,false,,0,OK,2,4,737,1375,1454,200
+www.google.com,BW,Botswana,botswana telecommunications corporation,14988,168.167.26.137,botswana telecommunications corporation,true,,0,OK,1,3,3429,4771,5232,200
+www.google.com,BF,Burkina Faso,telecel-faso,,,,false,,56,CURLE_RECV_ERROR,1,3,0,0,64,0
+www.google.com,BR,Brazil,algar telecom,53006,177.191.83.148,algar telecom,false,,0,OK,1,3,1238,2350,2788,200
+www.google.com,BF,Burkina Faso,telecel-faso,,,,true,,56,CURLE_RECV_ERROR,1,3,0,0,65,0
+www.google.com,BG,Bulgaria,a1 bulgaria,12716,213.226.59.170,a1 bulgaria,true,,0,OK,1,3,931,1583,1675,200
+www.google.com,BG,Bulgaria,yettel bulgaria,29244,149.62.209.132,yettel bulgaria,true,,0,OK,1,3,494,1197,1283,200
+www.google.com,BR,Brazil,surf telecom s.a.,28358,189.76.169.86,surf telecom s.a.,true,,0,OK,2,4,2851,3589,3847,200
+www.google.com,BR,Brazil,tim live,26615,177.30.128.117,tim live,false,,0,OK,2,4,3064,4603,5311,200
+www.google.com,KH,Cambodia,smart axiata,,,,false,,56,CURLE_RECV_ERROR,1,3,0,0,68,0
+www.google.com,BG,Bulgaria,lycamobile,31404,193.148.51.9,lycamobile,true,,0,OK,1,4,1463,1804,1886,200
+www.google.com,BG,Bulgaria,lycamobile,31404,193.148.51.9,lycamobile,false,,0,OK,2,3,1657,2035,2133,200
+www.google.com,BR,Brazil,surf telecom s.a.,28358,189.76.169.86,surf telecom s.a.,false,,0,OK,2,4,3113,4836,5095,200
+www.google.com,BR,Brazil,algar telecom,53006,177.191.83.148,algar telecom,true,,0,OK,2,4,2742,3863,4419,200
+www.google.com,BF,Burkina Faso,onatel,25543,154.66.165.78,onatel,false,,0,OK,1,3,1665,2529,2727,200
+www.google.com,KH,Cambodia,smart axiata,,,,true,,56,CURLE_RECV_ERROR,61,62,0,0,130,0
+www.google.com,BI,Burundi,ucom-wic,37336,41.79.44.5,ucom-wic,false,,0,OK,1,3,1344,2391,2691,200
+www.google.com,KH,Cambodia,cellcard,17976,203.144.92.194,cellcard,false,,0,OK,1,3,1116,1584,1659,200
+www.google.com,KH,Cambodia,dishawaves infonet pvt. ltd.,,,,true,,56,CURLE_RECV_ERROR,2,4,0,0,74,0
+www.google.com,KH,Cambodia,cellcard,17976,203.144.92.194,cellcard,true,,0,OK,2,3,968,1441,1516,200
+www.google.com,KH,Cambodia,dishawaves infonet pvt. ltd.,,,,false,,56,CURLE_RECV_ERROR,2,4,0,0,65,0
+www.google.com,KH,Cambodia,south east asia telecom cambodia co.,,,,false,,56,CURLE_RECV_ERROR,1,3,0,0,63,0
+www.google.com,KH,Cambodia,south east asia telecom cambodia co.,,,,true,,56,CURLE_RECV_ERROR,1,3,0,0,63,0
+www.google.com,KH,Cambodia,flash broadband pvt. ltd.,38623,45.119.135.172,flash broadband pvt. ltd.,true,,0,OK,1,3,989,1482,1597,200
+www.google.com,BF,Burkina Faso,orange burkina faso,37577,197.239.108.215,orange burkina faso,false,,0,OK,2,3,2377,3025,3967,200
+www.google.com,BF,Burkina Faso,onatel,25543,154.66.165.78,onatel,true,,0,OK,1,3,2418,3461,3836,200
+www.google.com,KH,Cambodia,metfone,38623,119.13.61.189,metfone,true,,0,OK,1,3,982,1537,1623,200
+www.google.com,BI,Burundi,ucom-wic,37336,41.79.44.5,ucom-wic,true,,0,OK,2,4,2594,3720,4001,200
+www.google.com,KH,Cambodia,"smart axiata co.,ltd",45498,117.20.115.246,"smart axiata co.,ltd",false,,0,OK,2,3,2761,3428,3700,200
+www.google.com,KH,Cambodia,flash broadband pvt. ltd.,38623,45.119.135.172,flash broadband pvt. ltd.,false,,0,OK,1,4,830,1384,1572,200
+www.google.com,KH,Cambodia,metfone,38623,119.13.61.189,metfone,false,,0,OK,1,3,1376,1869,1986,200
+www.google.com,KH,Cambodia,"smart axiata co.,ltd",45498,117.20.115.246,"smart axiata co.,ltd",true,,0,OK,1,3,2661,3384,4050,200
+www.google.com,CM,Cameroon,mtn cameroon,30992,129.0.226.11,mtn cameroon,false,,0,OK,1,3,1013,1665,1876,200
+www.google.com,CA,Canada,rogers cable,812,72.136.110.40,rogers cable,false,,0,OK,1,3,443,605,646,200
+www.google.com,CM,Cameroon,orange cameroun,36912,41.202.207.166,orange cameroun,false,,0,OK,2,3,1208,1948,2222,200
+www.google.com,BR,Brazil,tim live,26615,177.30.128.117,tim live,true,,0,OK,2,4,8115,8805,9834,200
+www.google.com,CA,Canada,rogers cable,812,72.136.110.40,rogers cable,true,,0,OK,2,3,382,556,592,200
+www.google.com,CA,Canada,telus communications,852,209.29.96.60,telus communications,false,,0,OK,1,3,491,699,758,200
+www.google.com,CA,Canada,rogers wireless,812,72.143.206.215,rogers wireless,false,,0,OK,1,3,361,559,709,200
+www.google.com,CA,Canada,freedom mobile,20365,199.7.159.58,freedom mobile,false,,0,OK,1,3,841,1310,1487,200
+www.google.com,CA,Canada,sasktel,,,,false,,56,CURLE_RECV_ERROR,1,3,0,0,76,0
+www.google.com,CA,Canada,rogers wireless,812,72.143.206.215,rogers wireless,true,,0,OK,2,3,496,738,818,200
+www.google.com,CM,Cameroon,mtn cameroon,30992,129.0.226.11,mtn cameroon,true,,0,OK,2,3,1694,2342,2551,200
+www.google.com,CA,Canada,bell mobility,577,216.208.243.66,bell mobility,false,,0,OK,1,4,565,891,1042,200
+www.google.com,CA,Canada,telus communications,852,209.29.96.60,telus communications,true,,0,OK,1,3,770,1058,1210,200
+www.google.com,CA,Canada,bell canada,577,142.122.72.31,bell canada,false,,0,OK,1,3,169,293,315,200
+www.google.com,CM,Cameroon,orange cameroun,36912,41.202.207.166,orange cameroun,true,,0,OK,1,3,1465,2186,2464,200
+www.google.com,CM,Cameroon,camtel,15964,165.210.39.120,camtel,false,,0,OK,1,3,1741,2546,2846,200
+www.google.com,CA,Canada,sasktel,,,,true,,56,CURLE_RECV_ERROR,1,3,0,0,74,0
+www.google.com,CA,Canada,bell dsl internet,577,142.183.237.138,bell dsl internet,false,,0,OK,1,3,444,701,765,200
+www.google.com,CA,Canada,bell mobility,577,216.208.243.66,bell mobility,true,,0,OK,1,3,929,1237,1397,200
+www.google.com,CA,Canada,bell canada,577,142.122.72.31,bell canada,true,,0,OK,1,3,202,319,338,200
+www.google.com,CA,Canada,virgin plus,577,142.182.197.88,virgin plus,false,,0,OK,2,4,345,603,648,200
+www.google.com,CA,Canada,bell dsl internet,577,142.183.237.138,bell dsl internet,true,,0,OK,2,4,374,601,681,200
+www.google.com,CA,Canada,ssi micro,,,,true,,56,CURLE_RECV_ERROR,1,4,0,0,122,0
+www.google.com,CA,Canada,ssi micro,,,,false,,56,CURLE_RECV_ERROR,2,4,0,0,114,0
+www.google.com,CA,Canada,virgin plus,577,142.182.197.88,virgin plus,true,,0,OK,2,4,297,525,569,200
+www.google.com,CA,Canada,shaw communications,20365,208.98.222.64,shaw communications,false,,0,OK,1,3,541,760,873,200
+www.google.com,CA,Canada,freedom mobile,20365,199.7.159.58,freedom mobile,true,,0,OK,1,3,978,1508,1679,200
+www.google.com,CM,Cameroon,camtel,15964,165.210.39.120,camtel,true,,0,OK,2,3,2378,3160,3474,200
+www.google.com,CA,Canada,videotron ltee,5769,204.48.93.151,videotron ltee,false,,0,OK,1,3,1372,1649,1724,200
+www.google.com,AR,Argentina,telefonica de argentina,22927,186.141.136.49,telefonica de argentina,false,,28,CURLE_OPERATION_TIMEDOUT,2,4,12386,0,30002,0
+www.google.com,CA,Canada,videotron ltee,5769,204.48.93.151,videotron ltee,true,,0,OK,1,3,1353,1630,1691,200
+www.google.com,CA,Canada,shaw communications,20365,208.98.222.64,shaw communications,true,,0,OK,1,3,602,963,965,200
+www.google.com,AR,Argentina,telefonica de argentina,22927,186.141.136.49,telefonica de argentina,true,,28,CURLE_OPERATION_TIMEDOUT,1,0,0,0,30002,0
+www.google.com,KY,Cayman Islands,digicel cayman,13771,66.54.123.14,digicel cayman,false,,0,OK,1,3,537,806,909,200
+www.google.com,CV,Cape Verde,tmais,37575,41.79.127.70,tmais,true,,0,OK,2,3,877,1427,1561,200
+www.google.com,KY,Cayman Islands,digicel cayman,13771,66.54.123.14,digicel cayman,true,,0,OK,2,3,976,1242,1340,200
+www.google.com,CV,Cape Verde,tmais,37575,41.79.127.70,tmais,false,,0,OK,2,3,1178,1737,1883,200
+www.google.com,BI,Burundi,viettel burundi,327799,154.117.216.188,viettel burundi,true,,0,OK,2,4,3850,8960,9259,200
+www.google.com,CV,Cape Verde,alou,37517,41.221.207.36,alou,true,,0,OK,2,3,1301,2001,2619,200
+www.google.com,CV,Cape Verde,alou,37517,41.221.207.36,alou,false,,0,OK,2,4,1966,3413,3543,200
+www.google.com,CL,Chile,movistar movil chile,7418,191.125.1.147,movistar movil chile,false,,0,OK,2,4,895,1307,1855,200
+www.google.com,CL,Chile,wom chile,52341,45.232.92.83,wom chile,false,,0,OK,2,4,1298,1596,1766,200
+www.google.com,CL,Chile,wom chile,52341,45.232.92.83,wom chile,true,,0,OK,2,3,1668,1954,2119,200
+www.google.com,TD,Chad,millicom-chad,327802,154.73.161.77,millicom-chad,false,,0,OK,1,3,1742,4182,4510,200
+www.google.com,TD,Chad,millicom-chad,327802,154.73.161.77,millicom-chad,true,,0,OK,1,3,2512,3871,4213,200
+www.google.com,CL,Chile,claro chile,6535,186.174.73.186,claro chile,false,,0,OK,1,3,1118,1465,1640,200
+www.google.com,CF,Central African Republic,telecel-centrafrique,328079,169.239.97.11,telecel-centrafrique,false,,0,OK,1,3,2563,4372,5363,200
+www.google.com,CF,Central African Republic,orange central african republic,37460,197.242.180.20,orange central african republic,true,,0,OK,2,4,4233,5152,5461,200
+www.google.com,CF,Central African Republic,orange central african republic,37460,197.242.180.20,orange central african republic,false,,0,OK,1,3,4316,5482,5536,200
+www.google.com,CL,Chile,claro chile,6535,186.174.73.186,claro chile,true,,0,OK,62,64,1028,1325,1433,200
+www.google.com,CL,Chile,entel hogar fibra,27651,181.43.58.66,entel hogar fibra,false,,0,OK,1,3,578,833,993,200
+www.google.com,CL,Chile,entel hogar fibra,27651,181.43.58.66,entel hogar fibra,true,,0,OK,1,3,569,822,977,200
+www.google.com,CL,Chile,entel chile,27651,186.11.49.139,entel chile,false,,0,OK,1,3,2039,3201,3646,200
+www.google.com,CL,Chile,movistar movil chile,7418,191.125.1.147,movistar movil chile,true,,0,OK,1,3,845,1330,1573,200
+www.google.com,BF,Burkina Faso,orange burkina faso,37577,197.239.112.49,orange burkina faso,true,,0,OK,1,3,4458,9318,15046,200
+www.google.com,CL,Chile,mundo chile,27901,190.114.52.173,mundo chile,false,,0,OK,1,3,1055,1438,1823,200
+www.google.com,CL,Chile,movistar chile,7418,181.203.82.36,movistar chile,true,,0,OK,1,3,1067,1480,1644,200
+www.google.com,CN,China,china mobile hebei,,,,false,,56,CURLE_RECV_ERROR,2,4,0,0,81,0
+www.google.com,CN,China,china mobile hebei,,,,true,,56,CURLE_RECV_ERROR,2,4,0,0,76,0
+www.google.com,CN,China,henan mobile communications co.,,,,false,,56,CURLE_RECV_ERROR,2,3,0,0,75,0
+www.google.com,CN,China,henan mobile communications co.,,,,true,,56,CURLE_RECV_ERROR,2,4,0,0,88,0
+www.google.com,BI,Burundi,viettel burundi,327799,154.117.216.188,viettel burundi,false,,0,OK,2,3,4343,9031,14521,200
+www.google.com,CL,Chile,mundo chile,27901,190.114.52.173,mundo chile,true,,0,OK,1,3,1523,1876,1971,200
+www.google.com,CL,Chile,movistar chile,7418,181.203.82.36,movistar chile,false,,0,OK,1,3,1523,1986,2081,200
+www.google.com,CO,Colombia,claro colombia,26611,191.156.247.110,claro colombia,false,,0,OK,1,3,642,1040,1172,200
+www.google.com,CO,Colombia,movistar colombia,3816,186.169.229.3,movistar colombia,false,,0,OK,2,4,833,1265,1392,200
+www.google.com,CF,Central African Republic,telecel-centrafrique,328079,169.239.97.11,telecel-centrafrique,true,,0,OK,2,4,5796,7805,8905,200
+www.google.com,CO,Colombia,partners telecom colombia sas,271773,179.19.196.177,partners telecom colombia sas,false,,0,OK,1,3,635,1255,2000,200
+www.google.com,CO,Colombia,movistar colombia,3816,186.169.229.3,movistar colombia,true,,0,OK,2,4,1251,1672,1841,200
+www.google.com,CO,Colombia,claro colombia,26611,191.156.247.110,claro colombia,true,,0,OK,2,4,648,1052,1137,200
+www.google.com,CO,Colombia,etb,19429,186.31.151.200,etb,false,,0,OK,1,3,536,853,1091,200
+www.google.com,CL,Chile,entel chile,27651,186.11.49.139,entel chile,true,,0,OK,1,3,4344,6880,7132,200
+www.google.com,CO,Colombia,partners telecom colombia sas,271773,179.19.196.177,partners telecom colombia sas,true,,0,OK,1,4,1243,1718,1898,200
+www.google.com,CO,Colombia,etb,19429,186.31.151.200,etb,true,,0,OK,2,3,1002,1331,1462,200
+www.google.com,TD,Chad,airtel chad,327756,154.73.112.214,airtel chad,true,,0,OK,2,4,5531,8889,9861,200
+www.google.com,TD,Chad,airtel chad,327756,154.73.112.214,airtel chad,false,,0,OK,2,3,6161,10094,11247,200
+www.google.com,CG,Congo,mtn congo,37463,160.113.0.106,mtn congo,false,,0,OK,2,4,2145,3149,3393,200
+www.google.com,CA,Canada,eastlink,,,,false,,56,CURLE_RECV_ERROR,1,4,0,0,15144,0
+www.google.com,CD,"Congo, the Democratic Republic of the",orange rdc,37447,102.206.157.232,orange rdc,true,,0,OK,2,4,1262,2608,3011,200
+www.google.com,CG,Congo,airtel congo,37550,197.214.239.6,airtel congo,false,,0,OK,2,4,1608,3644,3929,200
+www.google.com,CA,Canada,eastlink,11260,24.222.102.59,eastlink,true,,0,OK,41,44,15569,15772,15818,200
+www.google.com,CG,Congo,airtel congo,37550,197.214.239.6,airtel congo,true,,0,OK,2,3,2999,4165,4346,200
+www.google.com,CD,"Congo, the Democratic Republic of the",vodacom congo,37453,169.159.218.137,vodacom congo,true,,0,OK,2,3,1301,2310,2579,200
+www.google.com,CK,Cook Islands,vodafone cook islands,,,,false,,56,CURLE_RECV_ERROR,1,3,0,0,64,0
+www.google.com,CK,Cook Islands,vodafone cook islands,,,,true,,56,CURLE_RECV_ERROR,2,4,0,0,63,0
+www.google.com,CD,"Congo, the Democratic Republic of the",orange rdc,37447,102.206.157.232,orange rdc,false,,0,OK,2,3,1439,2732,2953,200
+www.google.com,CD,"Congo, the Democratic Republic of the",airtel drc,37020,41.222.199.120,airtel drc,false,,0,OK,2,4,2979,4400,4901,200
+www.google.com,CD,"Congo, the Democratic Republic of the",airtel drc,37020,41.243.30.34,airtel drc,true,,0,OK,49,50,1978,2971,3269,200
+www.google.com,CD,"Congo, the Democratic Republic of the",vodacom congo,37453,169.159.218.137,vodacom congo,false,,0,OK,1,3,1866,2856,3064,200
+www.google.com,CR,Costa Rica,movistar costa rica,262202,200.119.187.161,movistar costa rica,false,,0,OK,1,4,487,862,904,200
+www.google.com,CD,"Congo, the Democratic Republic of the",africell-drc,327738,154.73.23.174,africell-drc,false,,0,OK,1,3,1193,2458,2925,200
+www.google.com,CR,Costa Rica,movistar costa rica,262202,200.119.187.161,movistar costa rica,true,,0,OK,3,5,683,998,1109,200
+www.google.com,CR,Costa Rica,claro cr telecomunicaciones s.a.,14754,186.151.104.157,claro cr telecomunicaciones s.a.,false,,0,OK,1,3,639,1262,1385,200
+www.google.com,CR,Costa Rica,claro cr telecomunicaciones s.a.,14754,186.151.104.157,claro cr telecomunicaciones s.a.,true,,0,OK,2,4,652,1107,1138,200
+www.google.com,CD,"Congo, the Democratic Republic of the",africell-drc,327738,154.73.23.174,africell-drc,true,,0,OK,2,4,2266,3587,3801,200
+www.google.com,CR,Costa Rica,grupo ice,11830,201.191.254.201,grupo ice,false,,0,OK,2,3,746,1267,2105,200
+www.google.com,CR,Costa Rica,grupo ice,11830,201.191.254.201,grupo ice,true,,0,OK,2,4,1759,2140,2459,200
+www.google.com,CI,Côte d'Ivoire,orange cote divoire,29571,160.154.129.129,orange cote divoire,true,,0,OK,2,3,1760,2360,2493,200
+www.google.com,CI,Côte d'Ivoire,orange cote divoire,29571,160.154.149.150,orange cote divoire,false,,0,OK,2,4,1935,2915,3275,200
+www.google.com,HR,Croatia,hrvatski telekom,5391,31.217.37.219,hrvatski telekom,false,,0,OK,2,3,922,1719,1755,200
+www.google.com,CN,China,china telecom,,,,false,,56,CURLE_RECV_ERROR,2,4,0,0,16455,0
+www.google.com,HR,Croatia,a1 hrvatska mobile,12810,95.168.120.32,a1 hrvatska mobile,false,,0,OK,2,4,555,1062,1164,200
+www.google.com,HR,Croatia,hrvatski telekom,5391,31.217.37.219,hrvatski telekom,true,,0,OK,1,3,1140,1845,1896,200
+www.google.com,CN,China,china unicom,,,,false,,56,CURLE_RECV_ERROR,2,4,0,0,16112,0
+www.google.com,CN,China,china mobile,,,,false,,56,CURLE_RECV_ERROR,1,3,0,0,16282,0
+www.google.com,HR,Croatia,telemach hrvatska d.o.o.,205714,86.33.77.14,telemach hrvatska d.o.o.,false,,0,OK,2,3,402,1000,1040,200
+www.google.com,HR,Croatia,a1 hrvatska mobile,12810,95.168.120.32,a1 hrvatska mobile,true,,0,OK,2,3,547,1005,1116,200
+www.google.com,HR,Croatia,telemach hrvatska d.o.o.,205714,86.33.77.14,telemach hrvatska d.o.o.,true,,0,OK,2,4,570,1139,1168,200
+www.google.com,CI,Côte d'Ivoire,mtn cote divoire,36974,196.47.128.142,mtn cote divoire,false,,0,OK,1,3,3810,4586,4881,200
+www.google.com,HR,Croatia,vipnet,12810,109.227.24.155,vipnet,false,,0,OK,2,4,510,978,1043,200
+www.google.com,HR,Croatia,vipnet,12810,109.227.24.155,vipnet,true,,0,OK,1,3,1005,1501,1560,200
+www.google.com,CW,Curaçao,verizon internet services,11081,65.208.123.95,verizon internet services,false,,0,OK,1,3,521,806,867,200
+www.google.com,CW,Curaçao,digicel curacao,27660,138.99.215.133,digicel curacao,true,,0,OK,2,4,603,1068,1136,200
+www.google.com,CI,Côte d'Ivoire,mtn cote divoire,36974,196.47.128.142,mtn cote divoire,true,,0,OK,2,4,4499,5461,5732,200
+www.google.com,CW,Curaçao,verizon internet services,11081,65.208.123.95,verizon internet services,true,,0,OK,1,3,632,907,1024,200
+www.google.com,CW,Curaçao,digicel curacao,27660,138.99.215.133,digicel curacao,false,,0,OK,2,3,976,1355,1460,200
+www.google.com,CU,Cuba,"empresa de telecomunicaciones de cuba, s.a.",27725,152.206.99.9,"empresa de telecomunicaciones de cuba, s.a.",true,,0,OK,2,3,1597,2082,2245,200
+www.google.com,CY,Cyprus,primetel plc,8544,217.175.220.169,primetel plc,true,,0,OK,84,86,679,1121,1217,200
+www.google.com,CY,Cyprus,kktc telsim,62211,185.43.231.145,kktc telsim,false,,0,OK,41,43,709,1504,1684,200
+www.google.com,CY,Cyprus,primetel plc,8544,217.175.220.169,primetel plc,false,,0,OK,1,4,770,1081,1139,200
+www.google.com,CG,Congo,mtn congo,37463,169.255.121.173,mtn congo,true,,0,OK,1,3,7850,13138,15633,200
+www.google.com,CI,Côte d'Ivoire,atlantique telecom,37190,102.212.189.4,atlantique telecom,false,,0,OK,83,85,6940,7358,7450,200
+www.google.com,CY,Cyprus,kktc telsim,62211,185.43.231.145,kktc telsim,true,,0,OK,1,3,1370,2198,2324,200
+www.google.com,CY,Cyprus,winet,,,,false,,56,CURLE_RECV_ERROR,2,4,0,0,67,0
+www.google.com,CY,Cyprus,winet,,,,true,,56,CURLE_RECV_ERROR,1,3,0,0,67,0
+www.google.com,CI,Côte d'Ivoire,atlantique telecom,37190,102.212.189.10,atlantique telecom,true,,0,OK,1,3,6725,7241,7544,200
+www.google.com,CY,Cyprus,kktcell,47883,37.34.12.177,kktcell,true,,0,OK,1,3,762,1502,1614,200
+www.google.com,CY,Cyprus,cyprus telecommunications authority - cyprus,6866,46.199.42.55,cyprus telecommunications authority - cyprus,false,,0,OK,1,3,724,1469,1595,200
+www.google.com,CN,China,china telecom,,,,true,,56,CURLE_RECV_ERROR,1,3,0,0,20079,0
+www.google.com,CY,Cyprus,epic,15805,213.207.159.53,epic,false,,0,OK,2,3,1190,2174,2712,200
+www.google.com,CY,Cyprus,kktcell,47883,37.34.12.177,kktcell,false,,0,OK,2,4,655,1417,1516,200
+www.google.com,CY,Cyprus,cyprus telecommunications authority - cyprus,6866,46.199.42.55,cyprus telecommunications authority - cyprus,true,,0,OK,2,4,766,1531,1617,200
+www.google.com,CN,China,china unicom,,,,true,,56,CURLE_RECV_ERROR,1,3,0,0,20773,0
+www.google.com,CN,China,china mobile,,,,true,,56,CURLE_RECV_ERROR,1,3,0,0,21327,0
+www.google.com,DK,Denmark,telenor a/s,,,,false,,56,CURLE_RECV_ERROR,1,3,0,0,29,0
+www.google.com,DK,Denmark,telenor a/s,,,,true,,56,CURLE_RECV_ERROR,1,3,0,0,30,0
+www.google.com,CZ,Czech Republic,o2 czech republic,5610,37.188.139.58,o2 czech republic,false,,0,OK,2,3,562,960,1017,200
+www.google.com,DK,Denmark,tdc net,3292,87.49.43.249,tdc net,true,,0,OK,1,4,401,779,814,200
+www.google.com,CZ,Czech Republic,o2 czech republic,5610,37.188.139.58,o2 czech republic,true,,0,OK,2,4,835,1217,1273,200
+www.google.com,DK,Denmark,lycamobile,31404,83.137.6.174,lycamobile,true,,0,OK,1,3,571,849,975,200
+www.google.com,DK,Denmark,leissner data ab,,,,false,,56,CURLE_RECV_ERROR,1,3,0,0,73,0
+www.google.com,DK,Denmark,hi3g access ab,44034,77.241.128.43,hi3g access ab,true,,0,OK,1,3,465,763,872,200
+www.google.com,DK,Denmark,tdc net,3292,87.49.43.249,tdc net,false,,0,OK,2,3,443,707,742,200
+www.google.com,DK,Denmark,leissner data ab,,,,true,,56,CURLE_RECV_ERROR,2,4,0,0,76,0
+www.google.com,CY,Cyprus,cablenet communication systems,35432,80.244.29.7,cablenet communication systems,true,,0,OK,1,3,2078,2576,2688,200
+www.google.com,CY,Cyprus,cablenet communication systems,35432,80.244.29.7,cablenet communication systems,false,,0,OK,2,4,1819,2313,2454,200
+www.google.com,DK,Denmark,telia,3308,62.198.135.146,telia,true,,0,OK,2,3,534,830,937,200
+www.google.com,CY,Cyprus,epic,15805,213.207.159.53,epic,true,,0,OK,1,3,3397,4001,4466,200
+www.google.com,DM,Dominica,digicel saint lucia,,,,false,,56,CURLE_RECV_ERROR,3,4,0,0,74,0
+www.google.com,DM,Dominica,digicel saint lucia,,,,true,,56,CURLE_RECV_ERROR,5,7,0,0,80,0
+www.google.com,CZ,Czech Republic,t-mobile czech dsl,13036,78.80.120.10,t-mobile czech dsl,false,,0,OK,1,3,1677,2165,2322,200
+www.google.com,DK,Denmark,lycamobile,31404,83.137.6.174,lycamobile,false,,0,OK,1,3,537,816,899,200
+www.google.com,DK,Denmark,telia,3308,62.198.135.146,telia,false,,0,OK,1,3,695,1048,1152,200
+www.google.com,DK,Denmark,hi3g access ab,44034,77.241.128.43,hi3g access ab,false,,0,OK,2,4,645,1053,1308,200
+www.google.com,DM,Dominica,flow,14813,205.217.244.127,flow,true,,0,OK,2,3,600,1069,1197,200
+www.google.com,CZ,Czech Republic,t-mobile czech dsl,13036,78.80.120.10,t-mobile czech dsl,true,,0,OK,2,3,2289,2881,3086,200
+www.google.com,DM,Dominica,flow,14813,205.217.244.127,flow,false,,0,OK,43,45,773,1160,1272,200
+www.google.com,DO,Dominican Republic,altice dominicana s.a.,28118,152.166.159.36,altice dominicana s.a.,true,,0,OK,1,3,734,1090,1205,200
+www.google.com,DO,Dominican Republic,visnetwork srl,273861,38.44.241.116,visnetwork srl,false,,0,OK,2,4,284,509,577,200
+www.google.com,DJ,Djibouti,djibouti telecom,30990,197.241.43.251,djibouti telecom,false,,0,OK,2,3,956,1844,1958,200
+www.google.com,DO,Dominican Republic,altice dominicana s.a.,28118,152.166.159.36,altice dominicana s.a.,false,,0,OK,1,3,840,1249,1348,200
+www.google.com,DO,Dominican Republic,visnetwork srl,273861,38.44.241.116,visnetwork srl,true,,0,OK,2,4,543,742,795,200
+www.google.com,EC,Ecuador,cnt ep,,,,true,,56,CURLE_RECV_ERROR,1,3,0,0,75,0
+www.google.com,DO,Dominican Republic,claro dominican republic,6400,190.80.245.220,claro dominican republic,false,,0,OK,1,3,711,1367,1680,200
+www.google.com,EC,Ecuador,cnt ep,,,,false,,56,CURLE_RECV_ERROR,1,3,0,0,76,0
+www.google.com,EC,Ecuador,otecel,,,,false,,56,CURLE_RECV_ERROR,1,3,0,0,70,0
+www.google.com,EC,Ecuador,otecel,,,,true,,56,CURLE_RECV_ERROR,1,3,0,0,72,0
+www.google.com,CZ,Czech Republic,vodafone czech republic,16019,46.135.19.255,vodafone czech republic,false,,0,OK,2,4,2519,3343,4126,200
+www.google.com,EC,Ecuador,otecel s.a.,7315,181.188.200.229,otecel s.a.,true,,0,OK,2,4,535,806,877,200
+www.google.com,DJ,Djibouti,djibouti telecom,30990,197.241.43.251,djibouti telecom,true,,0,OK,2,4,1522,2420,2531,200
+www.google.com,EC,Ecuador,otecel s.a.,7315,181.188.200.229,otecel s.a.,false,,0,OK,1,3,569,822,897,200
+www.google.com,DO,Dominican Republic,claro dominican republic,6400,190.80.245.220,claro dominican republic,true,,0,OK,2,4,1720,2195,2532,200
+www.google.com,CO,Colombia,tigo colombia,27831,191.95.17.130,tigo colombia,false,,56,CURLE_RECV_ERROR,65,66,1565,2700,23126,200
+www.google.com,CO,Colombia,tigo colombia,27831,191.95.17.130,tigo colombia,true,,35,CURLE_SSL_CONNECT_ERROR,1,3,0,0,22318,0
+www.google.com,EC,Ecuador,conecel,23487,190.63.97.92,conecel,false,,0,OK,2,4,968,1343,1818,200
+www.google.com,EG,Egypt,e& egypt,36992,156.172.5.187,e& egypt,true,,0,OK,2,3,693,1219,1367,200
+www.google.com,EG,Egypt,vodafone egypt,36935,196.157.77.30,vodafone egypt,true,,0,OK,2,4,1015,1588,1773,200
+www.google.com,EC,Ecuador,conecel,23487,190.63.97.92,conecel,true,,0,OK,1,3,1682,2016,2279,200
+www.google.com,EG,Egypt,e& egypt,36992,156.172.5.187,e& egypt,false,,0,OK,2,4,1308,1810,1888,200
+www.google.com,SV,El Salvador,claro el salvador,,,,false,,56,CURLE_RECV_ERROR,1,3,0,0,210,0
+www.google.com,SV,El Salvador,movistar el salvador,263783,190.57.92.220,movistar el salvador,true,,0,OK,1,3,624,991,1237,200
+www.google.com,CU,Cuba,"empresa de telecomunicaciones de cuba, s.a.",27725,152.207.108.181,"empresa de telecomunicaciones de cuba, s.a.",false,,0,OK,1,3,4928,10503,10577,200
+www.google.com,CZ,Czech Republic,vodafone czech republic,16019,46.135.19.255,vodafone czech republic,true,,0,OK,1,3,3835,5747,6263,200
+www.google.com,SV,El Salvador,claro guatemala,14754,179.5.67.103,claro guatemala,false,,0,OK,1,3,605,861,1183,200
+www.google.com,EG,Egypt,orange egypt,37069,105.43.39.3,orange egypt,true,,0,OK,2,4,872,2089,2416,200
+www.google.com,SV,El Salvador,movistar el salvador,263783,190.57.92.220,movistar el salvador,false,,0,OK,1,3,867,1260,1397,200
+www.google.com,SV,El Salvador,ca network s.a. de c.v.,,,,true,,56,CURLE_RECV_ERROR,1,3,0,0,182,0
+www.google.com,SV,El Salvador,ca network s.a. de c.v.,,,,false,,56,CURLE_RECV_ERROR,1,3,0,0,203,0
+www.google.com,SV,El Salvador,claro el salvador,,,,true,,56,CURLE_RECV_ERROR,2,3,0,0,156,0
+www.google.com,GQ,Equatorial Guinea,getesa (orange equatorial guinea),,,,true,,56,CURLE_RECV_ERROR,1,3,0,0,99,0
+www.google.com,GQ,Equatorial Guinea,getesa (orange equatorial guinea),,,,false,,56,CURLE_RECV_ERROR,1,3,0,0,133,0
+www.google.com,SV,El Salvador,digicel s.a. de c.v.,27903,200.89.86.76,digicel s.a. de c.v.,false,,0,OK,1,4,678,984,1087,200
+www.google.com,SV,El Salvador,claro guatemala,14754,179.5.67.103,claro guatemala,true,,0,OK,1,3,867,1139,1365,200
+www.google.com,SV,El Salvador,digicel s.a. de c.v.,27903,200.89.86.76,digicel s.a. de c.v.,true,,0,OK,1,3,644,945,1042,200
+www.google.com,EG,Egypt,orange egypt,37069,105.43.39.3,orange egypt,false,,0,OK,1,2,2379,2966,3256,200
+www.google.com,EG,Egypt,vodafone egypt,36935,196.157.77.30,vodafone egypt,false,,0,OK,2,4,1739,2411,3749,200
+www.google.com,EE,Estonia,tele2 estonia,1257,91.129.102.195,tele2 estonia,false,,0,OK,2,3,517,927,996,200
+www.google.com,EE,Estonia,elisa eesti,2586,146.255.183.232,elisa eesti,false,,0,OK,2,4,438,1056,1109,200
+www.google.com,SV,El Salvador,tigo el salvador,17079,181.189.178.253,tigo el salvador,true,,0,OK,1,3,953,2760,3006,200
+www.google.com,DO,Dominican Republic,viva dominicana,46198,190.8.36.108,viva dominicana,false,,0,OK,2,4,1940,4238,5500,200
+www.google.com,EE,Estonia,tele2 estonia,1257,91.129.102.195,tele2 estonia,true,,0,OK,1,3,885,1304,1366,200
+www.google.com,EE,Estonia,elisa eesti,2586,146.255.183.232,elisa eesti,true,,0,OK,1,3,439,1005,1052,200
+www.google.com,FO,Faroe Islands,nema,,,,false,,56,CURLE_RECV_ERROR,2,4,0,0,64,0
+www.google.com,FO,Faroe Islands,p/f telefonverkid,,,,false,,56,CURLE_RECV_ERROR,1,3,0,0,25,0
+www.google.com,FO,Faroe Islands,p/f telefonverkid,,,,true,,56,CURLE_RECV_ERROR,1,3,0,0,26,0
+www.google.com,FO,Faroe Islands,nema,,,,true,,56,CURLE_RECV_ERROR,1,3,0,0,65,0
+www.google.com,EE,Estonia,telia eesti,3249,46.131.88.179,telia eesti,false,,0,OK,44,46,547,1183,1255,200
+www.google.com,EE,Estonia,telia eesti,3249,46.131.88.179,telia eesti,true,,0,OK,1,3,501,1189,1242,200
+www.google.com,SV,El Salvador,tigo el salvador,17079,181.189.178.253,tigo el salvador,false,,0,OK,1,3,2274,2601,2722,200
+www.google.com,FI,Finland,dna oyj,16086,213.216.209.129,dna oyj,false,,0,OK,1,3,433,989,1030,200
+www.google.com,GQ,Equatorial Guinea,muni-eg,37337,41.79.50.100,muni-eg,true,,0,OK,1,3,1800,2661,2880,200
+www.google.com,ET,Ethiopia,ethiopian telecommunication corporation,24757,196.188.255.132,ethiopian telecommunication corporation,false,,0,OK,1,3,990,1704,2028,200
+www.google.com,FI,Finland,dna oyj,16086,213.216.209.129,dna oyj,true,,0,OK,2,3,457,1056,1102,200
+www.google.com,ET,Ethiopia,ethiopian telecommunication corporation,24757,196.188.255.132,ethiopian telecommunication corporation,true,,0,OK,1,3,1486,2105,2239,200
+www.google.com,GQ,Equatorial Guinea,muni-eg,37337,41.79.50.100,muni-eg,false,,0,OK,2,3,2613,3479,3707,200
+www.google.com,FI,Finland,telia finland,1759,176.72.36.79,telia finland,true,,0,OK,2,3,661,1456,1510,200
+www.google.com,ET,Ethiopia,safaricom,328988,102.218.51.251,safaricom,false,,0,OK,2,4,1050,2262,2644,200
+www.google.com,EG,Egypt,telecom egypt,8452,154.191.213.195,telecom egypt,false,,0,OK,1,3,1239,5481,5788,200
+www.google.com,DO,Dominican Republic,viva dominicana,46198,190.8.36.108,viva dominicana,true,,0,OK,2,4,5158,6776,7463,200
+www.google.com,FR,France,orne thd spl,,,,true,,56,CURLE_RECV_ERROR,1,3,0,0,196,0
+www.google.com,FR,France,syma,,,,false,,56,CURLE_RECV_ERROR,1,3,0,0,196,0
+www.google.com,FI,Finland,elisa,719,83.245.248.177,elisa,true,,0,OK,1,4,551,1308,1395,200
+www.google.com,FJ,Fiji,vodafone fiji,38442,27.123.136.113,vodafone fiji,true,,0,OK,1,3,1503,2322,2542,200
+www.google.com,FI,Finland,elisa mobile,719,85.76.105.145,elisa mobile,true,,0,OK,2,4,537,1214,1276,200
+www.google.com,ET,Ethiopia,safaricom,328988,102.218.51.251,safaricom,true,,0,OK,1,3,1923,2863,3114,200
+www.google.com,FR,France,syma,,,,true,,56,CURLE_RECV_ERROR,1,3,0,0,195,0
+www.google.com,EG,Egypt,telecom egypt,8452,154.191.213.195,telecom egypt,true,,0,OK,1,3,5627,6214,6398,200
+www.google.com,FI,Finland,elisa mobile,719,85.76.105.145,elisa mobile,false,,0,OK,1,3,768,1382,1443,200
+www.google.com,FI,Finland,elisa,719,83.245.248.177,elisa,false,,0,OK,2,4,810,1619,1676,200
+www.google.com,FR,France,orne thd spl,,,,false,,56,CURLE_RECV_ERROR,1,3,0,0,182,0
+www.google.com,FR,France,cogent communications,174,149.7.98.82,cogent communications,true,,0,OK,1,3,495,771,830,200
+www.google.com,FJ,Fiji,digicel fiji,45355,45.117.247.236,digicel fiji,true,,0,OK,1,3,1837,2945,3435,200
+www.google.com,FI,Finland,telia finland,1759,176.72.36.79,telia finland,false,,0,OK,1,3,756,1394,1649,200
+www.google.com,FJ,Fiji,vodafone fiji,38442,27.123.136.113,vodafone fiji,false,,0,OK,1,3,2535,3353,3557,200
+www.google.com,FR,France,sfr,15557,79.91.177.1,sfr,false,,0,OK,1,3,620,1048,1066,200
+www.google.com,FR,France,cogent communications,174,149.7.98.82,cogent communications,false,,0,OK,1,3,661,958,1031,200
+www.google.com,FR,France,bouygues telecom,5410,176.159.92.103,bouygues telecom,false,,0,OK,1,3,385,618,643,200
+www.google.com,FR,France,free mobile,51207,37.167.189.238,free mobile,true,,0,OK,1,3,1005,1438,1559,200
+www.google.com,GF,French Guiana,orange,,,,true,,56,CURLE_RECV_ERROR,2,4,0,0,76,0
+www.google.com,GF,French Guiana,orange,,,,false,,56,CURLE_RECV_ERROR,1,3,0,0,88,0
+www.google.com,FR,France,free sas,51207,78.246.119.29,free sas,true,,0,OK,1,2,557,890,986,200
+www.google.com,PF,French Polynesia,vodafone,,,,false,,56,CURLE_RECV_ERROR,2,3,0,0,66,0
+www.google.com,FR,France,bouygues telecom,5410,176.159.92.103,bouygues telecom,true,,0,OK,1,3,347,580,603,200
+www.google.com,FR,France,arelion sweden ab,1299,213.248.108.228,arelion sweden ab,false,,0,OK,1,3,951,1656,1866,200
+www.google.com,FR,France,sfr,15557,79.91.177.1,sfr,true,,0,OK,1,3,680,961,1128,200
+www.google.com,PF,French Polynesia,vodafone,,,,true,,56,CURLE_RECV_ERROR,2,4,0,0,66,0
+www.google.com,FR,France,free sas,51207,78.246.119.29,free sas,false,,0,OK,1,3,794,1111,1189,200
+www.google.com,FR,France,orange,3215,92.184.108.255,orange,true,,0,OK,2,4,805,1133,1374,200
+www.google.com,FR,France,lycamobile,31404,194.11.196.227,lycamobile,false,,0,OK,2,4,1233,1990,2386,200
+www.google.com,GF,French Guiana,outremer telecom,20776,109.62.66.121,outremer telecom,true,,0,OK,1,3,480,813,944,200
+www.google.com,FR,France,free mobile,51207,37.167.189.238,free mobile,false,,0,OK,1,3,619,1017,1151,200
+www.google.com,GF,French Guiana,outremer telecom,20776,109.62.66.121,outremer telecom,false,,0,OK,1,3,903,1262,1319,200
+www.google.com,FR,France,arelion sweden ab,1299,213.248.108.228,arelion sweden ab,true,,0,OK,1,2,1346,2177,2428,200
+www.google.com,FR,France,orange,3215,92.184.108.255,orange,false,,0,OK,1,3,930,1280,1421,200
+www.google.com,FJ,Fiji,digicel fiji,45355,45.117.247.236,digicel fiji,false,,0,OK,1,3,3519,4547,5038,200
+www.google.com,FR,France,lycamobile,31404,194.11.196.227,lycamobile,true,,0,OK,2,3,2254,2841,3000,200
+www.google.com,PF,French Polynesia,vini,55943,64.140.148.105,vini,true,,0,OK,63,65,846,1444,1665,200
+www.google.com,GA,Gabon,gabon-telecom,16058,154.112.9.244,gabon-telecom,true,,0,OK,1,3,1310,2101,2329,200
+www.google.com,GM,Gambia,gamtel,37552,197.231.207.242,gamtel,false,,0,OK,2,3,1135,1804,1934,200
+www.google.com,GE,Georgia,zao aquafon-gsm,,,,false,,56,CURLE_RECV_ERROR,1,3,0,0,68,0
+www.google.com,GE,Georgia,zao aquafon-gsm,,,,true,,56,CURLE_RECV_ERROR,1,3,0,0,61,0
+www.google.com,GM,Gambia,africell,37524,197.148.73.137,africell,false,,0,OK,2,3,1099,1781,2434,200
+www.google.com,PF,French Polynesia,vini,55943,64.140.148.105,vini,false,,0,OK,51,53,2214,2832,3031,200
+www.google.com,GE,Georgia,magticom,16010,185.115.4.7,magticom,false,,0,OK,2,3,977,1964,2034,200
+www.google.com,GM,Gambia,gamtel,37552,197.231.207.242,gamtel,true,,0,OK,1,3,1362,2079,2282,200
+www.google.com,GE,Georgia,jsc silknet,42082,91.151.138.195,jsc silknet,true,,0,OK,2,4,951,2019,2276,200
+www.google.com,GA,Gabon,gabon-telecom,16058,154.112.9.244,gabon-telecom,false,,0,OK,2,4,2042,2810,3219,200
+www.google.com,GE,Georgia,cellfie mobile,41738,91.184.113.203,cellfie mobile,true,,0,OK,2,4,623,1747,1920,200
+www.google.com,DE,Germany,1global,,,,false,,56,CURLE_RECV_ERROR,2,3,0,0,110,0
+www.google.com,DE,Germany,lycamobile,31404,193.148.48.126,lycamobile,false,,0,OK,1,3,521,831,966,200
+www.google.com,GE,Georgia,jsc silknet,42082,91.151.138.195,jsc silknet,false,,0,OK,1,3,1152,1979,2254,200
+www.google.com,DE,Germany,vodafone germany,3209,47.65.176.60,vodafone germany,false,,0,OK,2,4,415,658,772,200
+www.google.com,DE,Germany,play2go international,,,,false,,56,CURLE_RECV_ERROR,2,4,0,0,115,0
+www.google.com,DE,Germany,1global,,,,true,,56,CURLE_RECV_ERROR,2,3,0,0,110,0
+www.google.com,GE,Georgia,magticom,16010,185.115.4.7,magticom,true,,0,OK,2,3,2000,2818,3025,200
+www.google.com,GM,Gambia,africell,37524,197.148.73.137,africell,true,,0,OK,2,3,2381,2977,3475,200
+www.google.com,GE,Georgia,cellfie mobile,41738,91.184.113.203,cellfie mobile,false,,0,OK,2,3,638,1331,1662,200
+www.google.com,DE,Germany,play2go international,,,,true,,56,CURLE_RECV_ERROR,1,3,0,0,123,0
+www.google.com,DE,Germany,vodafone germany,3209,47.65.176.60,vodafone germany,true,,0,OK,2,3,587,901,976,200
+www.google.com,DE,Germany,lycamobile,31404,193.148.48.126,lycamobile,true,,0,OK,2,4,469,750,805,200
+www.google.com,GA,Gabon,airtel gabon,37616,154.0.184.27,airtel gabon,true,,0,OK,1,3,2831,3771,4564,200
+www.google.com,DE,Germany,o2 deutschland,6805,176.3.43.169,o2 deutschland,false,,0,OK,2,3,1633,2005,2094,200
+www.google.com,DE,Germany,deutsche telekom ag,3320,80.187.126.52,deutsche telekom ag,false,,0,OK,1,3,1299,1927,2005,200
+www.google.com,DE,Germany,lebara,33921,194.213.108.1,lebara,false,,0,OK,1,3,1260,1677,1834,200
+www.google.com,DE,Germany,lebara,33921,194.213.108.1,lebara,true,,0,OK,1,3,1735,2120,2419,200
+www.google.com,DE,Germany,deutsche telekom ag,3320,80.187.126.52,deutsche telekom ag,true,,0,OK,2,3,1799,2677,3098,200
+www.google.com,GH,Ghana,mtn ghana,30986,154.161.131.69,mtn ghana,false,,0,OK,1,3,1249,2455,2634,200
+www.google.com,GR,Greece,mobile internet,,,,false,,56,CURLE_RECV_ERROR,2,4,0,0,74,0
+www.google.com,GR,Greece,mobile internet,,,,true,,56,CURLE_RECV_ERROR,1,3,0,0,75,0
+www.google.com,GA,Gabon,airtel gabon,37616,154.0.184.27,airtel gabon,false,,0,OK,2,4,5566,6481,6941,200
+www.google.com,GR,Greece,vodafone greece,3329,62.74.15.8,vodafone greece,true,,0,OK,1,4,1695,2444,2683,200
+www.google.com,GR,Greece,cosmote mobile telecommunications,29247,109.178.27.97,cosmote mobile telecommunications,false,,0,OK,42,44,1741,2498,2592,200
+www.google.com,GR,Greece,cosmote mobile telecommunications,29247,109.178.27.97,cosmote mobile telecommunications,true,,0,OK,1,3,1462,2203,2288,200
+www.google.com,GP,Guadeloupe,free mobile,51207,37.8.160.178,free mobile,false,,0,OK,2,3,374,672,756,200
+www.google.com,GP,Guadeloupe,orange,16028,193.251.162.60,orange,true,,0,OK,1,3,561,883,1011,200
+www.google.com,GH,Ghana,vodafone ghana,29614,102.176.75.110,vodafone ghana,true,,0,OK,2,4,2100,3480,3841,200
+www.google.com,GP,Guadeloupe,free mobile,51207,37.8.160.178,free mobile,true,,0,OK,1,4,455,810,884,200
+www.google.com,GR,Greece,vodafone greece,3329,62.74.15.8,vodafone greece,false,,0,OK,1,3,1449,2689,2791,200
+www.google.com,GM,Gambia,qcell,37309,41.223.215.40,qcell,true,,0,OK,2,3,7097,7649,7782,200
+www.google.com,GU,Guam,guamcell communications,,,,false,,56,CURLE_RECV_ERROR,2,3,0,0,64,0
+www.google.com,GH,Ghana,mtn ghana,30986,154.161.131.69,mtn ghana,true,,0,OK,2,4,2364,3632,4231,200
+www.google.com,GU,Guam,guamcell communications,,,,true,,56,CURLE_RECV_ERROR,2,4,0,0,65,0
+www.google.com,DE,Germany,o2 deutschland,6805,176.7.8.99,o2 deutschland,true,,0,OK,1,3,2908,5174,5648,200
+www.google.com,GH,Ghana,vodafone ghana,29614,102.176.75.110,vodafone ghana,false,,0,OK,2,4,2427,3967,4575,200
+www.google.com,GP,Guadeloupe,orange,16028,193.251.162.60,orange,false,,0,OK,2,4,460,795,888,200
+www.google.com,GP,Guadeloupe,digicel antilles francaises guyane,48252,94.198.181.207,digicel antilles francaises guyane,false,,0,OK,1,3,631,1060,1187,200
+www.google.com,GH,Ghana,airtel-ghana,37030,41.215.171.33,airtel-ghana,false,,0,OK,1,3,3415,4607,4767,200
+www.google.com,GR,Greece,nova greece,25472,91.140.28.25,nova greece,true,,0,OK,1,3,1522,2906,3089,200
+www.google.com,GP,Guadeloupe,digicel antilles francaises guyane,48252,94.198.181.207,digicel antilles francaises guyane,true,,0,OK,2,3,1015,1468,1720,200
+www.google.com,GG,Guernsey,sure (guernsey),,,,false,,56,CURLE_RECV_ERROR,2,3,0,0,73,0
+www.google.com,GT,Guatemala,claro guatemala,14754,186.151.48.100,claro guatemala,false,,0,OK,2,4,396,672,744,200
+www.google.com,GG,Guernsey,sure (guernsey),,,,true,,56,CURLE_RECV_ERROR,2,4,0,0,66,0
+www.google.com,GT,Guatemala,claro guatemala,14754,186.151.48.100,claro guatemala,true,,0,OK,1,3,584,883,992,200
+www.google.com,GT,Guatemala,tigo guatemala,23243,181.174.67.173,tigo guatemala,false,,0,OK,2,4,622,942,1253,200
+www.google.com,GT,Guatemala,claro guatemala static ip,14754,190.56.32.122,claro guatemala static ip,false,,0,OK,2,4,548,898,1070,200
+www.google.com,GU,Guam,pti pacifica,7131,202.88.79.14,pti pacifica,false,,0,OK,2,4,867,1345,1566,200
+www.google.com,GR,Greece,nova greece,25472,91.140.28.25,nova greece,false,,0,OK,2,3,2331,3665,3673,200
+www.google.com,GT,Guatemala,claro guatemala static ip,14754,190.56.32.122,claro guatemala static ip,true,,0,OK,2,4,452,798,1011,200
+www.google.com,GT,Guatemala,tigo guatemala,23243,181.174.67.173,tigo guatemala,true,,0,OK,1,3,794,1202,1350,200
+www.google.com,GU,Guam,lumen,9246,209.164.184.0,lumen,false,,0,OK,2,3,1257,1800,2105,200
+www.google.com,GP,Guadeloupe,outremer telecom,20776,109.62.71.108,outremer telecom,false,,0,OK,1,3,1757,2701,2920,200
+www.google.com,GU,Guam,pti pacifica,7131,202.88.79.14,pti pacifica,true,,0,OK,1,3,1773,2351,2617,200
+www.google.com,GW,Guinea-Bissau,orange-bissau,37559,197.214.91.124,orange-bissau,true,,0,OK,2,3,722,1170,1280,200
+www.google.com,GN,Guinea,orange guinea,37461,197.149.242.53,orange guinea,true,,0,OK,1,3,834,1566,1706,200
+www.google.com,GU,Guam,lumen,9246,209.164.184.0,lumen,true,,0,OK,2,4,1986,2584,2829,200
+www.google.com,GY,Guyana,u mobile cellular inc.,52433,181.177.218.16,u mobile cellular inc.,false,,0,OK,2,4,668,1179,1299,200
+www.google.com,GY,Guyana,e-networks inc,52253,190.108.215.200,e-networks inc,false,,0,OK,2,4,692,1109,1241,200
+www.google.com,GW,Guinea-Bissau,orange-bissau,37559,197.214.91.124,orange-bissau,false,,0,OK,1,3,1064,1580,1698,200
+www.google.com,GN,Guinea,orange guinea,37461,197.149.242.53,orange guinea,false,,0,OK,1,3,1664,2349,2493,200
+www.google.com,GW,Guinea-Bissau,mtn-bissau,327769,154.73.60.223,mtn-bissau,false,,0,OK,2,4,1214,1984,2196,200
+www.google.com,GY,Guyana,guyana telephone & telegraph co.,19863,181.199.224.229,guyana telephone & telegraph co.,false,,0,OK,2,4,527,807,892,200
+www.google.com,GY,Guyana,e-networks inc,52253,190.108.215.200,e-networks inc,true,,0,OK,2,3,729,1101,1197,200
+www.google.com,GP,Guadeloupe,outremer telecom,20776,109.62.71.108,outremer telecom,true,,0,OK,1,3,2990,3947,4157,200
+www.google.com,HK,Hong Kong,hutchison telephone company,,,,true,,56,CURLE_RECV_ERROR,2,4,0,0,68,0
+www.google.com,GH,Ghana,airtel-ghana,37030,41.215.163.157,airtel-ghana,true,,0,OK,2,3,6485,7793,7993,200
+www.google.com,GM,Gambia,qcell,37309,41.223.215.40,qcell,false,,0,OK,2,3,11251,11740,11909,200
+www.google.com,GY,Guyana,guyana telephone & telegraph co.,19863,181.199.224.229,guyana telephone & telegraph co.,true,,0,OK,1,3,889,1157,1240,200
+www.google.com,GY,Guyana,u mobile cellular inc.,52433,181.177.218.16,u mobile cellular inc.,true,,0,OK,1,4,612,1670,1801,200
+www.google.com,GW,Guinea-Bissau,mtn-bissau,327769,154.73.60.223,mtn-bissau,true,,0,OK,2,4,1818,2562,2750,200
+www.google.com,HN,Honduras,claro guatemala,14754,181.115.108.52,claro guatemala,false,,0,OK,2,4,489,879,1010,200
+www.google.com,HK,Hong Kong,hutchison telephone company,,,,false,,56,CURLE_RECV_ERROR,2,4,0,0,67,0
+www.google.com,HK,Hong Kong,china unicom global,,,,true,,56,CURLE_RECV_ERROR,1,3,0,0,63,0
+www.google.com,HT,Haiti,alpha communications network,27653,200.113.251.210,alpha communications network,false,,0,OK,2,3,726,1134,1530,200
+www.google.com,HK,Hong Kong,smartone mobile communications,,,,false,,56,CURLE_RECV_ERROR,2,3,0,0,72,0
+www.google.com,HK,Hong Kong,smartone mobile communications,,,,true,,56,CURLE_RECV_ERROR,2,4,0,0,68,0
+www.google.com,HK,Hong Kong,china mobile,,,,false,,56,CURLE_RECV_ERROR,1,3,0,0,59,0
+www.google.com,HK,Hong Kong,china unicom global,,,,false,,56,CURLE_RECV_ERROR,2,3,0,0,64,0
+www.google.com,HK,Hong Kong,china mobile,,,,true,,56,CURLE_RECV_ERROR,1,4,0,0,75,0
+www.google.com,HK,Hong Kong,multibyte info technology,,,,true,,56,CURLE_RECV_ERROR,1,3,0,0,74,0
+www.google.com,HK,Hong Kong,multibyte info technology,,,,false,,56,CURLE_RECV_ERROR,2,3,0,0,67,0
+www.google.com,HN,Honduras,claro guatemala,14754,181.115.108.52,claro guatemala,true,,0,OK,2,4,935,1305,1424,200
+www.google.com,HT,Haiti,alpha communications network,27653,200.113.251.210,alpha communications network,true,,0,OK,2,4,1441,1908,2161,200
+www.google.com,HK,Hong Kong,csl mobile,38819,14.0.152.180,csl mobile,false,,0,OK,2,3,908,1351,1434,200
+www.google.com,HK,Hong Kong,hutchison hk,10118,203.145.95.239,hutchison hk,true,,0,OK,2,4,1163,1994,2091,200
+www.google.com,HU,Hungary,magyar telekom,5483,37.76.4.165,magyar telekom,true,,0,OK,2,3,752,1176,1248,200
+www.google.com,HU,Hungary,netfone telecom tavkozlesi es szolgaltato kft,,,,false,,56,CURLE_RECV_ERROR,63,65,0,0,131,0
+www.google.com,HK,Hong Kong,csl mobile,38819,14.0.152.180,csl mobile,true,,0,OK,2,4,1370,1830,1897,200
+www.google.com,HU,Hungary,one hungary,21334,130.43.211.40,one hungary,false,,0,OK,2,3,581,1220,1350,200
+www.google.com,HU,Hungary,netfone telecom tavkozlesi es szolgaltato kft,,,,true,,56,CURLE_RECV_ERROR,2,4,0,0,71,0
+www.google.com,HU,Hungary,one hungary,21334,130.43.211.40,one hungary,true,,0,OK,2,4,854,1488,1544,200
+www.google.com,HT,Haiti,natcom s.a,52260,190.115.176.98,natcom s.a,true,,0,OK,2,4,2481,3436,3912,200
+www.google.com,HU,Hungary,magyar telekom,5483,37.76.4.165,magyar telekom,false,,0,OK,1,3,581,1022,1141,200
+www.google.com,HU,Hungary,yettel hungary,213155,84.225.189.236,yettel hungary,true,,0,OK,1,3,407,1015,1080,200
+www.google.com,HU,Hungary,yettel hungary,213155,84.225.189.236,yettel hungary,false,,0,OK,1,3,464,1101,1170,200
+www.google.com,HK,Hong Kong,hutchison hk,10118,203.145.95.239,hutchison hk,false,,0,OK,4,6,2755,3231,3391,200
+www.google.com,IS,Iceland,nova hf,44735,46.182.186.52,nova hf,false,,0,OK,1,3,540,858,970,200
+www.google.com,IS,Iceland,vodafone iceland,12969,194.144.158.17,vodafone iceland,true,,0,OK,1,3,495,756,796,200
+www.google.com,IS,Iceland,nova hf,44735,46.182.186.52,nova hf,true,,0,OK,1,3,926,1236,1305,200
+www.google.com,HK,Hong Kong,china mobile hong kong,9231,182.239.121.148,china mobile hong kong,false,,0,OK,2,4,1722,3090,3995,200
+www.google.com,IS,Iceland,vodafone iceland,12969,194.144.158.17,vodafone iceland,false,,0,OK,1,4,863,1117,1156,200
+www.google.com,HT,Haiti,natcom s.a,52260,190.115.175.227,natcom s.a,false,,0,OK,2,3,4306,4632,4730,200
+www.google.com,IN,India,nextra,,,,true,,56,CURLE_RECV_ERROR,1,3,0,0,139,0
+www.google.com,IN,India,nextra,,,,false,,56,CURLE_RECV_ERROR,1,3,0,0,142,0
+www.google.com,HN,Honduras,tigo honduras,52262,186.2.154.245,tigo honduras,true,,0,OK,1,3,2367,3514,4906,200
+www.google.com,IS,Iceland,mila hf,6677,194.105.229.28,mila hf,false,,0,OK,1,3,1229,2003,2208,200
+www.google.com,IS,Iceland,mila hf,6677,194.105.229.28,mila hf,true,,0,OK,2,3,1674,2003,2079,200
+www.google.com,IN,India,vodafone idea,45271,1.187.166.10,vodafone idea,false,,0,OK,1,3,924,2217,2319,200
+www.google.com,HK,Hong Kong,china mobile hong kong,9231,182.239.121.148,china mobile hong kong,true,,0,OK,1,3,3954,5040,5427,200
+www.google.com,IN,India,airtel,45609,223.228.88.186,airtel,false,,0,OK,2,3,1179,1734,1855,200
+www.google.com,IN,India,jio,55836,157.50.154.33,jio,false,,0,OK,2,4,973,2157,2410,200
+www.google.com,IN,India,jio,55836,157.50.154.33,jio,true,,0,OK,1,3,1694,2298,2378,200
+www.google.com,IN,India,vodafone idea,45271,1.187.166.10,vodafone idea,true,,0,OK,1,3,925,2143,2243,200
+www.google.com,ID,Indonesia,indosat,4761,114.10.20.242,indosat,false,,0,OK,1,3,786,1203,1294,200
+www.google.com,IN,India,airtel,45609,223.228.88.186,airtel,true,,0,OK,1,3,1638,2227,2351,200
+www.google.com,HN,Honduras,tigo honduras,52262,186.2.154.245,tigo honduras,false,,0,OK,2,4,5067,6012,6671,200
+www.google.com,ID,Indonesia,telkomsel - indihome,,,,false,,56,CURLE_RECV_ERROR,1,3,0,0,87,0
+www.google.com,ID,Indonesia,orion cyber internet,,,,false,,56,CURLE_RECV_ERROR,1,3,0,0,75,0
+www.google.com,ID,Indonesia,orion cyber internet,,,,true,,56,CURLE_RECV_ERROR,2,4,0,0,82,0
+www.google.com,ID,Indonesia,telkomsel - indihome,,,,true,,56,CURLE_RECV_ERROR,1,3,0,0,76,0
+www.google.com,ID,Indonesia,indosat,4761,114.10.20.242,indosat,true,,0,OK,2,4,1290,1740,1792,200
+www.google.com,ID,Indonesia,xl axiata,24203,140.213.243.87,xl axiata,false,,0,OK,2,3,939,1482,1667,200
+www.google.com,ID,Indonesia,by.u,23693,182.0.102.118,by.u,true,,0,OK,1,3,1130,1706,1895,200
+www.google.com,ID,Indonesia,xl axiata,24203,140.213.243.87,xl axiata,true,,0,OK,1,3,1737,2254,2416,200
+www.google.com,ID,Indonesia,pt telkom indonesia,7713,36.84.67.92,pt telkom indonesia,false,,0,OK,2,4,1098,1612,1704,200
+www.google.com,ID,Indonesia,telkomsel,23693,114.122.71.141,telkomsel,true,,0,OK,2,3,3143,3567,3575,200
+www.google.com,ID,Indonesia,pt telkom indonesia,7713,36.84.67.92,pt telkom indonesia,true,,0,OK,2,3,1850,2271,2367,200
+www.google.com,ID,Indonesia,by.u,23693,182.0.102.118,by.u,false,,0,OK,1,3,1691,2511,2590,200
+www.google.com,IR,"Iran, Islamic Republic of",rightel,,,,false,,56,CURLE_RECV_ERROR,1,3,0,0,65,0
+www.google.com,IR,"Iran, Islamic Republic of",rightel,,,,true,,56,CURLE_RECV_ERROR,1,3,0,0,65,0
+www.google.com,IR,"Iran, Islamic Republic of",pardis fanvari partak,205647,37.202.167.152,pardis fanvari partak,true,,0,OK,2,4,997,1961,2092,200
+www.google.com,IQ,Iraq,Hala Al Rafidain Company for Communications and Internet LTD.,,,,false,,56,CURLE_RECV_ERROR,2,3,0,0,77,0
+www.google.com,IQ,Iraq,Hala Al Rafidain Company for Communications and Internet LTD.,,,,true,,56,CURLE_RECV_ERROR,2,4,0,0,80,0
+www.google.com,IR,"Iran, Islamic Republic of",rightel communication service company pjs,57218,37.156.157.104,rightel communication service company pjs,false,,0,OK,1,3,2005,3111,3512,200
+www.google.com,IR,"Iran, Islamic Republic of",pardis fanvari partak,205647,37.202.167.152,pardis fanvari partak,false,,0,OK,2,3,1013,2008,2103,200
+www.google.com,IQ,Iraq,korek telecom company for communications,59625,185.84.71.78,korek telecom company for communications,true,,0,OK,1,3,789,1763,2003,200
+www.google.com,IR,"Iran, Islamic Republic of",rightel communication service company pjs,57218,37.156.157.104,rightel communication service company pjs,true,,0,OK,2,3,1128,2943,3098,200
+www.google.com,ID,Indonesia,telkomsel,23693,114.124.208.238,telkomsel,false,,0,OK,2,4,7573,7996,8033,200
+www.google.com,IQ,Iraq,asiacell communications pjsc,51684,185.95.205.29,asiacell communications pjsc,false,,0,OK,1,4,1073,2319,2511,200
+www.google.com,IQ,Iraq,allay nawroz telecom company for communication/ltd,,,,false,,56,CURLE_RECV_ERROR,1,3,0,0,26,0
+www.google.com,IQ,Iraq,allay nawroz telecom company for communication/ltd,,,,true,,56,CURLE_RECV_ERROR,1,3,0,0,25,0
+www.google.com,GN,Guinea,areeba-guinea,,,,false,,56,CURLE_RECV_ERROR,54,56,0,0,15585,0
+www.google.com,GN,Guinea,areeba-guinea,,,,true,,56,CURLE_RECV_ERROR,1,3,0,0,15609,0
+www.google.com,IQ,Iraq,shabaka sfn al-haditha for general trading & infor,,,,true,,56,CURLE_RECV_ERROR,1,3,0,0,72,0
+www.google.com,IQ,Iraq,al atheer telecommunication-iraq co. incorporated,59588,198.160.168.137,al atheer telecommunication-iraq co. incorporated,false,,0,OK,3,5,1250,2188,2566,200
+www.google.com,IQ,Iraq,Shams Telecom Networks and Internet Service Ltd,,,,false,,56,CURLE_RECV_ERROR,2,4,0,0,73,0
+www.google.com,IQ,Iraq,asiacell communications pjsc,51684,185.95.205.29,asiacell communications pjsc,true,,0,OK,2,4,1915,2915,3228,200
+www.google.com,IQ,Iraq,Shams Telecom Networks and Internet Service Ltd,,,,true,,56,CURLE_RECV_ERROR,1,3,0,0,77,0
+www.google.com,IQ,Iraq,shabaka sfn al-haditha for general trading & infor,,,,false,,56,CURLE_RECV_ERROR,1,3,0,0,82,0
+www.google.com,IQ,Iraq,horizon scope mobile telecom wll,,,,true,,56,CURLE_RECV_ERROR,1,3,0,0,75,0
+www.google.com,IR,"Iran, Islamic Republic of",mobile communication company of iran,197207,89.198.239.123,mobile communication company of iran,false,,0,OK,1,3,3231,4362,6932,200
+www.google.com,IQ,Iraq,al atheer telecommunication-iraq co. incorporated,59588,198.160.168.137,al atheer telecommunication-iraq co. incorporated,true,,0,OK,2,4,1676,2726,2961,200
+www.google.com,IQ,Iraq,horizon scope mobile telecom wll,,,,false,,56,CURLE_RECV_ERROR,2,3,0,0,70,0
+www.google.com,IQ,Iraq,comm1,211908,204.157.177.57,comm1,false,,0,OK,2,4,975,2348,2870,200
+www.google.com,IQ,Iraq,seven net,51018,95.159.86.149,seven net,false,,0,OK,1,3,867,1538,1724,200
+www.google.com,IQ,Iraq,tishknet internet services,200865,37.17.147.180,tishknet internet services,true,,0,OK,1,4,635,1203,1297,200
+www.google.com,IR,"Iran, Islamic Republic of",mtn irancell,44244,2.145.166.205,mtn irancell,true,,0,OK,1,4,5892,6874,7016,200
+www.google.com,ID,Indonesia,smartfren,18004,114.79.1.37,smartfren,true,,35,CURLE_SSL_CONNECT_ERROR,1,3,0,0,10650,0
+www.google.com,IE,Ireland,vodafone ireland,15502,64.43.50.88,vodafone ireland,false,,0,OK,2,3,533,810,966,200
+www.google.com,IQ,Iraq,seven net,51018,95.159.86.149,seven net,true,,0,OK,2,3,1857,2383,2513,200
+www.google.com,IQ,Iraq,tishknet internet services,200865,37.17.147.180,tishknet internet services,false,,0,OK,1,3,1434,1953,2051,200
+www.google.com,IQ,Iraq,comm1,211908,204.157.177.57,comm1,true,,0,OK,42,44,1761,2946,3091,200
+www.google.com,IE,Ireland,vodafone ireland,15502,64.43.50.88,vodafone ireland,true,,0,OK,1,3,524,722,782,200
+www.google.com,IE,Ireland,sky broadband,5607,51.199.232.44,sky broadband,true,,0,OK,1,3,660,975,1042,200
+www.google.com,IE,Ireland,three ireland,13280,80.233.33.163,three ireland,false,,0,OK,2,3,764,1002,1208,200
+www.google.com,IQ,Iraq,telsat broadband ltd,51684,223.25.125.115,telsat broadband ltd,false,,0,OK,1,3,864,2044,2046,200
+www.google.com,IE,Ireland,play broadband,,,,false,,56,CURLE_RECV_ERROR,1,3,0,0,69,0
+www.google.com,IE,Ireland,virgin media ireland,,,,false,,56,CURLE_RECV_ERROR,2,3,0,0,67,0
+www.google.com,IE,Ireland,play broadband,,,,true,,56,CURLE_RECV_ERROR,1,3,0,0,72,0
+www.google.com,IE,Ireland,virgin media ireland,,,,true,,56,CURLE_RECV_ERROR,2,3,0,0,95,0
+www.google.com,IE,Ireland,lycamobile,31404,83.137.6.165,lycamobile,false,,0,OK,1,3,787,1200,1202,200
+www.google.com,IE,Ireland,sky broadband,5607,51.199.232.44,sky broadband,false,,0,OK,1,3,591,904,965,200
+www.google.com,IM,Isle of Man,manx telecom trading,,,,false,,56,CURLE_RECV_ERROR,1,3,0,0,62,0
+www.google.com,IM,Isle of Man,manx telecom trading,,,,true,,56,CURLE_RECV_ERROR,2,4,0,0,68,0
+www.google.com,IE,Ireland,three ireland,13280,80.233.33.163,three ireland,true,,0,OK,1,3,643,900,1136,200
+www.google.com,IE,Ireland,eir broadband,15751,212.129.81.218,eir broadband,false,,0,OK,1,3,817,1088,1167,200
+www.google.com,IE,Ireland,lycamobile,31404,83.137.6.165,lycamobile,true,,0,OK,1,3,965,1307,1410,200
+www.google.com,IQ,Iraq,telsat broadband ltd,51684,223.25.125.115,telsat broadband ltd,true,,0,OK,2,3,1672,2889,2890,200
+www.google.com,IE,Ireland,eir broadband,15751,212.129.81.218,eir broadband,true,,0,OK,1,3,1759,2115,2195,200
+www.google.com,IE,Ireland,aspider solutions international holdings,196640,188.65.190.74,aspider solutions international holdings,false,,0,OK,1,3,588,975,1078,200
+www.google.com,IQ,Iraq,korek telecom company for communications,59625,185.84.71.78,korek telecom company for communications,false,,0,OK,1,3,1447,3799,4419,200
+www.google.com,IM,Isle of Man,sure (guernsey),8680,37.18.142.159,sure (guernsey),true,,0,OK,1,3,610,1236,1355,200
+www.google.com,IE,Ireland,aspider solutions international holdings,196640,188.65.190.74,aspider solutions international holdings,true,,0,OK,1,3,1202,1572,1793,200
+www.google.com,IM,Isle of Man,sure (guernsey),8680,37.18.142.159,sure (guernsey),false,,0,OK,1,3,838,1444,1673,200
+www.google.com,IL,Israel,pelephone,16116,141.226.88.126,pelephone,false,,0,OK,1,3,839,1645,1830,200
+www.google.com,IL,Israel,telzar 019 international telecommunications servic,51825,46.31.101.21,telzar 019 international telecommunications servic,false,,0,OK,1,3,811,1598,1599,200
+www.google.com,IL,Israel,hotnet,12849,5.28.190.92,hotnet,false,,0,OK,1,3,994,1738,1859,200
+www.google.com,IL,Israel,cellcom,1680,46.210.206.50,cellcom,false,,0,OK,1,3,1161,2099,2207,200
+www.google.com,IL,Israel,xfone 018,,,,false,,56,CURLE_RECV_ERROR,1,3,0,0,85,0
+www.google.com,IL,Israel,xfone 018,,,,true,,56,CURLE_RECV_ERROR,2,3,0,0,79,0
+www.google.com,IL,Israel,pelephone,16116,141.226.88.126,pelephone,true,,0,OK,1,2,1188,2162,2247,200
+www.google.com,IL,Israel,partner communications,12400,2.54.133.18,partner communications,true,,0,OK,2,4,801,1501,1654,200
+www.google.com,IL,Israel,hotnet,12849,5.28.190.92,hotnet,true,,0,OK,42,44,972,1686,2048,200
+www.google.com,ID,Indonesia,smartfren,18004,114.79.0.102,smartfren,false,,35,CURLE_SSL_CONNECT_ERROR,1,3,0,0,14106,0
+www.google.com,IN,India,bsnl,9829,117.237.234.205,bsnl,false,,0,OK,2,3,6276,8013,15874,200
+www.google.com,IL,Israel,cellcom,1680,46.210.206.50,cellcom,true,,0,OK,2,3,1608,2527,2888,200
+www.google.com,IL,Israel,telzar 019 international telecommunications servic,51825,46.31.101.21,telzar 019 international telecommunications servic,true,,0,OK,1,2,616,1468,1469,200
+www.google.com,IN,India,bsnl,9829,117.237.234.205,bsnl,true,,0,OK,2,4,2927,4961,16680,200
+www.google.com,IL,Israel,partner communications,12400,2.54.133.18,partner communications,false,,0,OK,1,2,672,1465,1554,200
+www.google.com,IT,Italy,wind tre,1267,151.82.62.146,wind tre,false,,0,OK,1,3,415,993,1047,200
+www.google.com,IR,"Iran, Islamic Republic of",mtn irancell,44244,5.122.168.49,mtn irancell,false,,56,CURLE_RECV_ERROR,50,52,12624,0,12625,0
+www.google.com,IT,Italy,wind tre,1267,151.82.62.146,wind tre,true,,0,OK,2,4,564,1162,1232,200
+www.google.com,IT,Italy,vodafone italia,30722,5.90.51.174,vodafone italia,false,,0,OK,1,3,598,1196,1277,200
+www.google.com,IL,Israel,wecom mobile,210625,147.236.229.224,wecom mobile,true,,0,OK,1,3,2901,3601,3714,200
+www.google.com,IT,Italy,iliad italia,29447,78.208.149.204,iliad italia,false,,0,OK,2,4,661,1109,1271,200
+www.google.com,IT,Italy,vodafone italia,30722,5.90.51.174,vodafone italia,true,,0,OK,2,3,790,1416,1488,200
+www.google.com,IT,Italy,tim mobile,16232,62.18.181.216,tim mobile,false,,0,OK,2,4,600,1151,1269,200
+www.google.com,IT,Italy,fastweb,12874,93.40.43.254,fastweb,false,,0,OK,2,4,525,1158,1234,200
+www.google.com,IT,Italy,iliad italia,29447,78.208.149.204,iliad italia,true,,0,OK,2,4,1093,1564,1640,200
+www.google.com,IT,Italy,tiscali,8612,193.207.120.136,tiscali,false,,0,OK,1,3,1889,2482,2702,200
+www.google.com,IT,Italy,fastweb,12874,93.40.43.254,fastweb,true,,0,OK,1,3,972,1603,1668,200
+www.google.com,IT,Italy,vodafone italia dsl,,,,false,,56,CURLE_RECV_ERROR,2,4,0,0,128,0
+www.google.com,IT,Italy,tim mobile,16232,62.18.181.216,tim mobile,true,,0,OK,2,3,1165,1726,1910,200
+www.google.com,IT,Italy,vodafone italia dsl,,,,true,,56,CURLE_RECV_ERROR,1,2,0,0,150,0
+www.google.com,IT,Italy,vola,60451,185.135.92.215,vola,false,,0,OK,2,4,529,982,1077,200
+www.google.com,IT,Italy,vola,60451,185.135.92.215,vola,true,,0,OK,2,3,781,1203,1258,200
+www.google.com,JM,Jamaica,digicel fiber,40786,69.160.103.36,digicel fiber,false,,0,OK,2,4,398,674,744,200
+www.google.com,JM,Jamaica,digicel jamaica,40786,104.244.231.134,digicel jamaica,false,,0,OK,2,3,528,850,956,200
+www.google.com,JM,Jamaica,digicel jamaica,40786,104.244.231.134,digicel jamaica,true,,0,OK,2,3,902,1200,1271,200
+www.google.com,IT,Italy,tiscali,8612,193.207.144.177,tiscali,true,,0,OK,1,3,1577,2282,2741,200
+www.google.com,JM,Jamaica,digicel fiber,40786,69.160.103.36,digicel fiber,true,,0,OK,2,4,361,643,708,200
+www.google.com,IT,Italy,plintron europe limited,31404,185.186.107.128,plintron europe limited,false,,0,OK,1,3,2609,3230,3416,200
+www.google.com,IT,Italy,digi italy,61079,185.19.165.182,digi italy,false,,0,OK,2,3,1153,2969,3373,200
+www.google.com,IT,Italy,spusu italy,51265,62.240.135.8,spusu italy,false,,0,OK,1,3,1952,2768,2992,200
+www.google.com,IT,Italy,plintron europe limited,31404,185.186.107.128,plintron europe limited,true,,0,OK,2,4,2815,3380,3730,200
+www.google.com,IL,Israel,hot mobile,21450,80.246.130.11,hot mobile,true,,0,OK,2,3,3968,5220,6579,200
+www.google.com,JM,Jamaica,cable and wireless jamaica,10278,67.213.150.24,cable and wireless jamaica,false,,0,OK,77,79,1542,2099,2480,200
+www.google.com,IT,Italy,spusu italy,51265,62.240.135.8,spusu italy,true,,0,OK,1,3,2702,3343,3472,200
+www.google.com,IT,Italy,digi italy,61079,185.19.165.182,digi italy,true,,0,OK,2,3,3083,3813,3938,200
+www.google.com,JP,Japan,rakuten mobile network,138384,133.106.202.95,rakuten mobile network,false,,0,OK,2,4,1038,1597,1652,200
+www.google.com,JM,Jamaica,cable and wireless jamaica,10278,67.213.150.24,cable and wireless jamaica,true,,0,OK,1,3,2046,2525,2653,200
+www.google.com,JP,Japan,u-next co.,,,,false,,56,CURLE_RECV_ERROR,2,4,0,0,74,0
+www.google.com,JP,Japan,ntt docomo,9605,49.109.224.70,ntt docomo,false,,0,OK,2,4,1172,2160,2302,200
+www.google.com,JP,Japan,rakuten mobile network,138384,133.106.202.95,rakuten mobile network,true,,0,OK,1,3,1669,2203,2262,200
+www.google.com,IL,Israel,wecom mobile,210625,147.236.231.102,wecom mobile,false,,0,OK,1,3,3775,5795,8984,200
+www.google.com,JP,Japan,ntt docomo,9605,49.109.224.70,ntt docomo,true,,0,OK,2,3,1986,2648,2775,200
+www.google.com,IL,Israel,hot mobile,21450,80.246.130.11,hot mobile,false,,0,OK,1,3,5691,6994,7531,200
+www.google.com,JP,Japan,au one net,2516,182.249.47.195,au one net,false,,0,OK,1,3,1191,1719,1834,200
+www.google.com,JP,Japan,softbank corp.,17676,126.208.152.230,softbank corp.,false,,0,OK,1,3,1227,1792,2322,200
+www.google.com,JP,Japan,ntt communications corporation,4713,60.42.82.179,ntt communications corporation,false,,0,OK,1,3,1390,2907,3553,200
+www.google.com,JP,Japan,arteria networks corporation,,,,true,,56,CURLE_RECV_ERROR,2,4,0,0,79,0
+www.google.com,JP,Japan,open computer network,,,,false,,56,CURLE_RECV_ERROR,2,3,0,0,84,0
+www.google.com,JP,Japan,u-next co.,,,,true,,56,CURLE_RECV_ERROR,1,3,0,0,86,0
+www.google.com,JP,Japan,open computer network,,,,true,,56,CURLE_RECV_ERROR,2,3,0,0,93,0
+www.google.com,JP,Japan,logiclinks,,,,false,,56,CURLE_RECV_ERROR,1,3,0,0,79,0
+www.google.com,JP,Japan,logiclinks,,,,true,,56,CURLE_RECV_ERROR,2,3,0,0,79,0
+www.google.com,JP,Japan,so-net,,,,true,,56,CURLE_RECV_ERROR,2,3,0,0,83,0
+www.google.com,JP,Japan,arteria networks corporation,,,,false,,56,CURLE_RECV_ERROR,2,4,0,0,76,0
+www.google.com,JP,Japan,au one net,2516,182.249.47.195,au one net,true,,0,OK,1,3,1828,2350,2455,200
+www.google.com,JP,Japan,j:com,,,,false,,56,CURLE_RECV_ERROR,2,3,0,0,303,0
+www.google.com,JP,Japan,softbank corp.,17676,126.208.152.230,softbank corp.,true,,0,OK,2,3,2085,2663,3171,200
+www.google.com,JP,Japan,so-net,,,,false,,56,CURLE_RECV_ERROR,41,43,0,0,152,0
+www.google.com,JP,Japan,ntt docomo business,4713,121.113.129.235,ntt docomo business,false,,0,OK,1,3,2217,2709,2818,200
+www.google.com,JP,Japan,j:com,,,,true,,56,CURLE_RECV_ERROR,2,4,0,0,310,0
+www.google.com,JP,Japan,internet initiative japan,2497,133.238.212.194,internet initiative japan,false,,0,OK,2,3,2202,2767,3087,200
+www.google.com,JP,Japan,internet initiative japan,2497,49.239.76.178,internet initiative japan,true,,0,OK,1,3,2229,2878,3010,200
+www.google.com,JE,Jersey,jtglobal,,,,false,,56,CURLE_RECV_ERROR,2,3,0,0,77,0
+www.google.com,JE,Jersey,jtglobal,,,,true,,56,CURLE_RECV_ERROR,2,3,0,0,69,0
+www.google.com,JE,Jersey,jersey airtel,61143,185.16.69.99,jersey airtel,false,,0,OK,1,3,655,1043,1044,200
+www.google.com,JP,Japan,tokai,10010,59.84.19.59,tokai,false,,0,OK,2,4,1027,1718,1865,200
+www.google.com,JE,Jersey,jersey airtel,61143,185.16.69.99,jersey airtel,true,,0,OK,1,3,570,902,954,200
+www.google.com,JE,Jersey,sure (guernsey),8680,185.48.63.18,sure (guernsey),false,,0,OK,1,3,935,1400,1633,200
+www.google.com,JP,Japan,tokai,10010,59.84.19.59,tokai,true,,0,OK,1,3,1602,2280,2420,200
+www.google.com,JO,Jordan,umniah,9038,5.45.135.30,umniah,false,,0,OK,1,4,671,1092,1186,200
+www.google.com,JP,Japan,ntt communications corporation,4713,60.42.82.179,ntt communications corporation,true,,0,OK,2,4,1288,3237,3970,200
+www.google.com,JE,Jersey,sure (guernsey),8680,185.48.63.18,sure (guernsey),true,,0,OK,2,4,1505,2024,2224,200
+www.google.com,JO,Jordan,umniah,9038,5.45.135.30,umniah,true,,0,OK,2,3,1062,1470,1568,200
+www.google.com,KZ,Kazakhstan,kar-tel,,,,false,,56,CURLE_RECV_ERROR,2,4,0,0,73,0
+www.google.com,JO,Jordan,jordanian mobile phone services,48832,176.29.20.32,jordanian mobile phone services,true,,0,OK,2,5,1052,2256,2500,200
+www.google.com,JP,Japan,japan communication,55387,27.253.251.217,japan communication,false,,0,OK,2,3,1598,2554,4728,200
+www.google.com,JO,Jordan,jordan telecommunications psc,8697,212.34.11.54,jordan telecommunications psc,false,,0,OK,2,4,800,1385,1630,200
+www.google.com,JP,Japan,ntt docomo business,4713,219.164.60.36,ntt docomo business,true,,0,OK,1,3,3361,4953,5943,200
+www.google.com,KZ,Kazakhstan,mobile telecom-service llp,,,,false,,56,CURLE_RECV_ERROR,2,4,0,0,68,0
+www.google.com,KZ,Kazakhstan,mobile telecom-service llp,,,,true,,56,CURLE_RECV_ERROR,1,3,0,0,69,0
+www.google.com,KZ,Kazakhstan,kar-tel,,,,true,,56,CURLE_RECV_ERROR,1,3,0,0,69,0
+www.google.com,JO,Jordan,jordan telecommunications psc,8697,212.34.11.54,jordan telecommunications psc,true,,0,OK,1,3,886,1496,1627,200
+www.google.com,KZ,Kazakhstan,tns-plus llp,206026,89.40.192.130,tns-plus llp,false,,0,OK,2,4,959,1379,1645,200
+www.google.com,KZ,Kazakhstan,2day telecom llp,,,,false,,56,CURLE_RECV_ERROR,2,3,0,0,71,0
+www.google.com,KZ,Kazakhstan,2day telecom llp,,,,true,,56,CURLE_RECV_ERROR,2,3,0,0,73,0
+www.google.com,JO,Jordan,jordanian mobile phone services,48832,176.29.20.32,jordanian mobile phone services,false,,0,OK,1,3,1500,2160,2283,200
+www.google.com,KZ,Kazakhstan,tele2 kazakhstan,48503,185.234.24.207,tele2 kazakhstan,false,,0,OK,2,4,1226,1738,2015,200
+www.google.com,JP,Japan,japan communication,55387,27.253.251.217,japan communication,true,,0,OK,1,3,3370,4607,5897,200
+www.google.com,KZ,Kazakhstan,jusan mobile jsc,35104,188.127.44.17,jusan mobile jsc,false,,0,OK,2,3,841,1219,1355,200
+www.google.com,KZ,Kazakhstan,tele2 kazakhstan,48503,185.234.24.207,tele2 kazakhstan,true,,0,OK,2,4,1715,2236,2482,200
+www.google.com,KZ,Kazakhstan,2day telecom,206026,92.49.219.161,2day telecom,false,,0,OK,2,4,1278,1945,2302,200
+www.google.com,KZ,Kazakhstan,kcell jsc,29355,2.79.3.235,kcell jsc,false,,0,OK,2,3,1245,2490,2491,200
+www.google.com,KZ,Kazakhstan,tns-plus llp,206026,89.40.192.130,tns-plus llp,true,,0,OK,2,4,1796,2482,2993,200
+www.google.com,KZ,Kazakhstan,jusan mobile jsc,35104,188.127.44.17,jusan mobile jsc,true,,0,OK,2,4,1435,1877,2108,200
+www.google.com,KZ,Kazakhstan,2day telecom,206026,92.49.219.161,2day telecom,true,,0,OK,1,3,1297,2189,2351,200
+www.google.com,KE,Kenya,safaricom,33771,105.161.177.29,safaricom,false,,0,OK,2,3,861,1788,2129,200
+www.google.com,KE,Kenya,faiba,36866,197.232.62.175,faiba,false,,0,OK,1,3,1066,2510,2699,200
+www.google.com,KZ,Kazakhstan,kcell jsc,29355,2.79.3.235,kcell jsc,true,,0,OK,1,3,2934,3918,4197,200
+www.google.com,KE,Kenya,faiba,36866,197.232.62.175,faiba,true,,0,OK,1,3,795,2033,2230,200
+www.google.com,KE,Kenya,telkom,12455,102.166.18.59,telkom,true,,0,OK,2,4,1146,2160,2446,200
+www.google.com,KE,Kenya,safaricom,33771,105.161.177.29,safaricom,true,,0,OK,1,3,1605,3363,3567,200
+www.google.com,KE,Kenya,airtel kenya,36926,154.159.254.247,airtel kenya,true,,0,OK,2,3,2143,3143,3339,200
+www.google.com,KE,Kenya,airtel kenya,36926,154.159.254.247,airtel kenya,false,,0,OK,61,63,2259,3527,3639,200
+www.google.com,KE,Kenya,jambo-telecoms,328636,102.23.139.212,jambo-telecoms,false,,0,OK,2,4,1092,2294,2765,200
+www.google.com,KR,"Korea, Republic of",sk broadband,,,,false,,56,CURLE_RECV_ERROR,1,3,0,0,67,0
+www.google.com,KR,"Korea, Republic of",sk broadband,,,,true,,56,CURLE_RECV_ERROR,2,3,0,0,68,0
+www.google.com,KE,Kenya,telkom,12455,102.166.18.59,telkom,false,,0,OK,1,3,1257,2489,2565,200
+www.google.com,KE,Kenya,jambo-telecoms,328636,102.23.139.212,jambo-telecoms,true,,0,OK,1,3,2063,2981,3444,200
+www.google.com,KI,Kiribati,amalgamated telecom holdings kiribati,134783,103.250.2.120,amalgamated telecom holdings kiribati,false,,0,OK,1,3,1692,2559,2783,200
+www.google.com,KR,"Korea, Republic of",kt,4766,39.7.28.124,kt,true,,0,OK,2,4,1249,1861,1925,200
+www.google.com,IR,"Iran, Islamic Republic of",mobile communication company of iran,197207,89.198.239.123,mobile communication company of iran,true,,28,CURLE_OPERATION_TIMEDOUT,1,0,0,0,30001,0
+www.google.com,KR,"Korea, Republic of",lg uplus,17853,106.101.10.28,lg uplus,true,,0,OK,1,3,1024,1582,1652,200
+www.google.com,KR,"Korea, Republic of",sk telecom,9644,223.39.194.6,sk telecom,false,,0,OK,2,4,1145,1890,2047,200
+www.google.com,KW,Kuwait,ooredoo kuwait,29357,188.70.51.97,ooredoo kuwait,true,,0,OK,1,3,717,1555,1676,200
+www.google.com,KR,"Korea, Republic of",kt,4766,39.7.28.124,kt,false,,0,OK,2,4,1587,2208,2291,200
+www.google.com,JP,Japan,k-opticom corporation,17511,150.66.120.181,k-opticom corporation,true,,0,OK,1,3,6407,6946,12532,200
+www.google.com,KI,Kiribati,amalgamated telecom holdings kiribati,134783,103.250.2.120,amalgamated telecom holdings kiribati,true,,0,OK,1,3,2777,3674,3896,200
+www.google.com,KR,"Korea, Republic of",sk telecom,9644,223.39.194.6,sk telecom,true,,0,OK,2,4,1853,2451,2596,200
+www.google.com,KW,Kuwait,ooredoo kuwait,29357,188.70.51.97,ooredoo kuwait,false,,0,OK,1,3,645,1437,1547,200
+www.google.com,KW,Kuwait,zain kuwait,42961,37.39.221.152,zain kuwait,false,,0,OK,1,3,713,1555,1715,200
+www.google.com,KR,"Korea, Republic of",lg uplus,17853,106.101.10.28,lg uplus,false,,0,OK,2,3,1731,2451,2537,200
+www.google.com,KW,Kuwait,stc kuwait,47589,37.231.16.230,stc kuwait,false,,0,OK,2,3,968,1646,2166,200
+www.google.com,KG,Kyrgyzstan,alfa telecom cjsc,50223,46.251.198.203,alfa telecom cjsc,false,,0,OK,41,43,744,1100,1205,200
+www.google.com,LA,Lao People's Democratic Republic,etl company,,,,false,,56,CURLE_RECV_ERROR,1,2,0,0,62,0
+www.google.com,KG,Kyrgyzstan,nur telecom,47237,185.117.151.219,nur telecom,false,,0,OK,14,16,729,1114,1245,200
+www.google.com,LA,Lao People's Democratic Republic,etl company,,,,true,,56,CURLE_RECV_ERROR,2,3,0,0,63,0
+www.google.com,KG,Kyrgyzstan,alfa telecom cjsc,50223,46.251.198.203,alfa telecom cjsc,true,,0,OK,2,4,751,1102,1197,200
+www.google.com,KG,Kyrgyzstan,nur telecom,47237,185.117.151.219,nur telecom,true,,0,OK,2,3,1073,1459,1581,200
+www.google.com,KW,Kuwait,zain kuwait,42961,37.39.221.152,zain kuwait,true,,0,OK,1,3,1375,2584,2676,200
+www.google.com,LV,Latvia,bite lietuva,13194,84.15.218.189,bite lietuva,false,,0,OK,2,3,518,829,834,200
+www.google.com,LV,Latvia,tele2 latvia,1257,77.219.5.101,tele2 latvia,false,,0,OK,1,3,514,905,930,200
+www.google.com,LA,Lao People's Democratic Republic,"lao telecom communication, ltc",9873,202.144.185.20,"lao telecom communication, ltc",true,,0,OK,2,3,997,1526,1625,200
+www.google.com,LV,Latvia,bite lietuva,13194,84.15.218.189,bite lietuva,true,,0,OK,1,3,1059,1348,1391,200
+www.google.com,KW,Kuwait,stc kuwait,,37.231.16.230,stc kuwait,true,,0,OK,1,3,1832,3584,3719,200
+www.google.com,LV,Latvia,tele2 latvia,1257,77.219.5.101,tele2 latvia,true,,0,OK,1,3,477,891,946,200
+www.google.com,LV,Latvia,latvijas mobilais telefons sia,24921,80.89.76.87,latvijas mobilais telefons sia,true,,0,OK,2,4,525,1153,1233,200
+www.google.com,KG,Kyrgyzstan,sky mobile,41329,91.247.57.102,sky mobile,false,,0,OK,2,3,1354,2071,2911,200
+www.google.com,LA,Lao People's Democratic Republic,"lao telecom communication, ltc",9873,202.144.185.20,"lao telecom communication, ltc",false,,0,OK,1,3,1711,2261,2382,200
+www.google.com,LA,Lao People's Democratic Republic,star telecom,131267,154.222.5.149,star telecom,true,,0,OK,1,3,1477,2065,2344,200
+www.google.com,LV,Latvia,latvijas mobilais telefons sia,24921,80.89.76.87,latvijas mobilais telefons sia,false,,0,OK,1,3,973,1618,1737,200
+www.google.com,LB,Lebanon,touch lebanon,38999,185.76.178.230,touch lebanon,false,,0,OK,1,3,898,1525,1634,200
+www.google.com,LA,Lao People's Democratic Republic,star telecom,131267,154.222.5.149,star telecom,false,,0,OK,2,3,2435,2923,3071,200
+www.google.com,KG,Kyrgyzstan,sky mobile,41329,91.247.57.102,sky mobile,true,,0,OK,1,2,2780,3237,3676,200
+www.google.com,LB,Lebanon,touch lebanon,38999,185.76.178.230,touch lebanon,true,,0,OK,4,5,1222,1823,1930,200
+www.google.com,LY,Libya,al-madar-al-jadeed,328200,156.38.57.134,al-madar-al-jadeed,false,,0,OK,2,4,623,1090,1188,200
+www.google.com,LS,Lesotho,vodacom-lesotho,37057,197.254.137.8,vodacom-lesotho,true,,0,OK,2,4,1264,2272,2471,200
+www.google.com,LS,Lesotho,econet telecom lesotho,33567,129.232.110.121,econet telecom lesotho,false,,0,OK,1,3,1146,2067,2303,200
+www.google.com,LY,Libya,aljeel aljadeed,,,,false,,56,CURLE_RECV_ERROR,54,56,0,0,125,0
+www.google.com,LY,Libya,aljeel aljadeed,,,,true,,56,CURLE_RECV_ERROR,1,3,0,0,60,0
+www.google.com,LR,Liberia,lonestar,37410,41.57.95.114,lonestar,false,,0,OK,1,3,1037,1919,2034,200
+www.google.com,LY,Libya,libyana-mobile,328286,102.164.97.51,libyana-mobile,false,,0,OK,2,3,532,948,1409,200
+www.google.com,LB,Lebanon,mobile interim company 1 s.a.l.,57513,185.81.141.150,mobile interim company 1 s.a.l.,true,,0,OK,2,4,1727,2504,3800,200
+www.google.com,LY,Libya,libyana-mobile,328286,102.164.97.51,libyana-mobile,true,,0,OK,2,3,829,1287,1427,200
+www.google.com,LR,Liberia,orange liberia,37094,41.191.104.226,orange liberia,false,,0,OK,2,4,1356,2467,2814,200
+www.google.com,LS,Lesotho,econet telecom lesotho,33567,129.232.110.121,econet telecom lesotho,true,,0,OK,1,3,1842,2819,3051,200
+www.google.com,LT,Lithuania,bite lietuva,13194,84.15.177.103,bite lietuva,false,,0,OK,2,4,559,845,978,200
+www.google.com,LR,Liberia,lonestar,37410,41.57.95.114,lonestar,true,,0,OK,2,3,1429,2323,2495,200
+www.google.com,LY,Libya,al-madar-al-jadeed,328200,156.38.57.134,al-madar-al-jadeed,true,,0,OK,2,3,583,1038,1119,200
+www.google.com,LT,Lithuania,tele2 lithuania,1257,90.131.34.53,tele2 lithuania,true,,0,OK,1,3,664,1130,1202,200
+www.google.com,LT,Lithuania,bite lietuva,13194,84.15.177.103,bite lietuva,true,,0,OK,2,3,923,1225,1401,200
+www.google.com,LR,Liberia,orange liberia,37094,41.191.104.226,orange liberia,true,,0,OK,1,3,2423,3443,3651,200
+www.google.com,LB,Lebanon,mobile interim company 1 s.a.l.,57513,185.81.141.150,mobile interim company 1 s.a.l.,false,,0,OK,2,3,4027,4580,5115,200
+www.google.com,LS,Lesotho,vodacom-lesotho,37057,197.254.137.8,vodacom-lesotho,false,,0,OK,2,4,2204,4066,4299,200
+www.google.com,MO,Macao,companhia de telecomunicacoes de macau,,,,false,,56,CURLE_RECV_ERROR,1,3,0,0,63,0
+www.google.com,LT,Lithuania,tele2 lithuania,1257,90.131.34.53,tele2 lithuania,false,,0,OK,2,3,867,1425,1508,200
+www.google.com,MO,Macao,companhia de telecomunicacoes de macau,,,,true,,56,CURLE_RECV_ERROR,1,3,0,0,64,0
+www.google.com,MO,Macao,ctm,,,,true,,56,CURLE_RECV_ERROR,1,3,0,0,64,0
+www.google.com,MO,Macao,ctm,,,,false,,56,CURLE_RECV_ERROR,1,3,0,0,74,0
+www.google.com,LU,Luxembourg,orange belgium,47377,85.94.238.200,orange belgium,true,,0,OK,2,4,548,819,881,200
+www.google.com,LU,Luxembourg,proximus luxembourg,56665,185.40.61.134,proximus luxembourg,false,,0,OK,1,3,710,1093,1162,200
+www.google.com,LU,Luxembourg,post luxembourg,6661,188.115.6.78,post luxembourg,false,,0,OK,2,4,379,1017,1168,200
+www.google.com,MK,"Macedonia, the Former Yugoslav Republic of",mtel dooel skopje,,,,true,,56,CURLE_RECV_ERROR,2,3,0,0,72,0
+www.google.com,JP,Japan,biglobe,2518,125.192.116.26,biglobe,false,,56,CURLE_RECV_ERROR,1,3,12499,0,19050,0
+www.google.com,MK,"Macedonia, the Former Yugoslav Republic of",mtel dooel skopje,,,,false,,56,CURLE_RECV_ERROR,1,3,0,0,72,0
+www.google.com,MK,"Macedonia, the Former Yugoslav Republic of",telekabel,,,,false,,56,CURLE_RECV_ERROR,1,3,0,0,71,0
+www.google.com,MK,"Macedonia, the Former Yugoslav Republic of",telekabel,,,,true,,56,CURLE_RECV_ERROR,2,3,0,0,81,0
+www.google.com,LT,Lithuania,telia lietuva,8764,78.56.157.75,telia lietuva,true,,0,OK,2,3,904,1766,1945,200
+www.google.com,LU,Luxembourg,proximus luxembourg,56665,185.40.61.134,proximus luxembourg,true,,0,OK,2,3,611,842,881,200
+www.google.com,LU,Luxembourg,orange belgium,47377,85.94.238.200,orange belgium,false,,0,OK,2,3,768,1135,1227,200
+www.google.com,LU,Luxembourg,post luxembourg,6661,188.115.6.78,post luxembourg,true,,0,OK,1,3,1051,1691,1841,200
+www.google.com,MK,"Macedonia, the Former Yugoslav Republic of",makedonski telekom ad-skopje,6821,37.25.84.138,makedonski telekom ad-skopje,true,,0,OK,1,3,498,971,1063,200
+www.google.com,LT,Lithuania,telia lietuva,8764,78.56.157.75,telia lietuva,false,,0,OK,1,3,1221,1990,2483,200
+www.google.com,LT,Lithuania,"telia lietuva, ab",8764,88.118.83.103,"telia lietuva, ab",false,,0,OK,1,3,1639,2235,2303,200
+www.google.com,MK,"Macedonia, the Former Yugoslav Republic of",a1 makedonija,43612,185.100.245.54,a1 makedonija,false,,0,OK,1,3,507,1091,1146,200
+www.google.com,MK,"Macedonia, the Former Yugoslav Republic of",makedonski telekom ad-skopje,6821,37.25.84.138,makedonski telekom ad-skopje,false,,0,OK,1,3,677,1124,1184,200
+www.google.com,MW,Malawi,afrimax,,,,false,,56,CURLE_RECV_ERROR,1,3,0,0,78,0
+www.google.com,MW,Malawi,afrimax,,,,true,,56,CURLE_RECV_ERROR,2,3,0,0,78,0
+www.google.com,MK,"Macedonia, the Former Yugoslav Republic of",a1 makedonija,43612,185.100.245.54,a1 makedonija,true,,0,OK,1,3,967,1613,1662,200
+www.google.com,MG,Madagascar,telecom-malagasy,37054,102.18.160.139,telecom-malagasy,false,,0,OK,1,3,1407,2513,2786,200
+www.google.com,MY,Malaysia,maxis communications,9534,113.211.124.198,maxis communications,true,,0,OK,1,3,848,1585,1640,200
+www.google.com,MG,Madagascar,airtel madagascar,37303,41.77.17.240,airtel madagascar,false,,0,OK,1,3,1558,2761,3207,200
+www.google.com,MG,Madagascar,gulfsat-madagascar,328411,197.158.119.97,gulfsat-madagascar,false,,0,OK,1,3,1501,2574,2850,200
+www.google.com,MW,Malawi,airtel malawi,37440,137.115.11.76,airtel malawi,false,,0,OK,2,3,1475,2577,2824,200
+www.google.com,MG,Madagascar,telecom-malagasy,37054,102.18.160.139,telecom-malagasy,true,,0,OK,2,3,2351,3520,3780,200
+www.google.com,MG,Madagascar,airtel madagascar,37303,41.77.17.240,airtel madagascar,true,,0,OK,1,3,2079,3224,3590,200
+www.google.com,MW,Malawi,tnm,37294,102.70.91.13,tnm,true,,0,OK,2,3,1870,2861,3100,200
+www.google.com,MG,Madagascar,gulfsat-madagascar,328411,197.158.119.97,gulfsat-madagascar,true,,0,OK,1,3,2356,3437,3708,200
+www.google.com,MW,Malawi,airtel malawi,37440,137.115.11.76,airtel malawi,true,,0,OK,1,3,2558,3635,3883,200
+www.google.com,MY,Malaysia,maxis communications,9534,113.211.124.198,maxis communications,false,,0,OK,1,3,835,1340,1412,200
+www.google.com,MY,Malaysia,u mobile,38466,27.125.240.50,u mobile,false,,0,OK,1,3,1035,1761,1833,200
+www.google.com,MW,Malawi,tnm,37294,102.70.98.237,tnm,false,,0,OK,1,3,2660,3717,4465,200
+www.google.com,MY,Malaysia,ytl communications sdn bhd,45960,14.1.182.73,ytl communications sdn bhd,false,,0,OK,1,2,1063,1506,1547,200
+www.google.com,LT,Lithuania,"telia lietuva, ab",8764,88.118.3.116,"telia lietuva, ab",true,,0,OK,1,3,4449,5904,7001,200
+www.google.com,MY,Malaysia,celcomdigi berhad,4818,182.62.77.230,celcomdigi berhad,false,,0,OK,85,87,1844,2424,2937,200
+www.google.com,MY,Malaysia,celcomdigi,10030,183.171.70.111,celcomdigi,false,,0,OK,1,3,812,1648,1649,200
+www.google.com,MY,Malaysia,u mobile,38466,27.125.240.50,u mobile,true,,0,OK,1,3,1937,2399,2895,200
+www.google.com,MY,Malaysia,ytl communications sdn bhd,45960,14.1.182.73,ytl communications sdn bhd,true,,0,OK,1,3,1049,1649,1848,200
+www.google.com,MY,Malaysia,tm net,4788,120.140.96.8,tm net,false,,0,OK,1,3,1473,2146,2426,200
+www.google.com,MY,Malaysia,celcomdigi,10030,183.171.70.111,celcomdigi,true,,0,OK,1,3,1649,2376,2527,200
+www.google.com,MY,Malaysia,celcomdigi berhad,4818,182.62.77.230,celcomdigi berhad,true,,0,OK,2,4,3124,3684,3969,200
+www.google.com,MV,Maldives,dhivehi raajjeyge gulhun (dhiraagu),7642,27.114.165.173,dhivehi raajjeyge gulhun (dhiraagu),true,,0,OK,1,3,1272,1996,2153,200
+www.google.com,MV,Maldives,ooredoo maldives,55944,202.153.82.212,ooredoo maldives,false,,0,OK,1,3,1072,1660,1790,200
+www.google.com,MY,Malaysia,tm net,4788,120.140.96.8,tm net,true,,0,OK,2,3,1808,2465,2621,200
+www.google.com,MG,Madagascar,orange madagascar,37037,197.215.195.123,orange madagascar,false,,0,OK,2,4,4342,6818,8061,200
+www.google.com,MV,Maldives,ooredoo maldives,55944,202.153.82.212,ooredoo maldives,true,,0,OK,1,3,1760,2347,2523,200
+www.google.com,MT,Malta,go malta,15735,46.11.240.179,go malta,false,,0,OK,2,3,612,994,1294,200
+www.google.com,MH,Marshall Islands,marshall islands nta isp,,,,false,,56,CURLE_RECV_ERROR,2,3,0,0,70,0
+www.google.com,MV,Maldives,dhivehi raajjeyge gulhun (dhiraagu),7642,27.114.165.173,dhivehi raajjeyge gulhun (dhiraagu),false,,0,OK,2,3,2314,2924,3155,200
+www.google.com,MH,Marshall Islands,marshall islands nta isp,,,,true,,56,CURLE_RECV_ERROR,2,3,0,0,65,0
+www.google.com,MT,Malta,epic communications ltd,33874,185.5.48.156,epic communications ltd,false,,0,OK,2,3,607,1073,1190,200
+www.google.com,MT,Malta,epic communications ltd,33874,185.5.48.156,epic communications ltd,true,,0,OK,2,3,974,1490,1569,200
+www.google.com,MG,Madagascar,orange madagascar,37037,197.215.195.123,orange madagascar,true,,0,OK,1,3,6275,8151,9128,200
+www.google.com,MT,Malta,go malta,15735,46.11.240.179,go malta,true,,0,OK,60,62,510,919,1152,200
+www.google.com,MT,Malta,melita,12709,212.65.104.220,melita,false,,0,OK,1,3,1049,1898,1979,200
+www.google.com,JP,Japan,k-opticom corporation,17511,58.70.241.20,k-opticom corporation,false,,28,CURLE_OPERATION_TIMEDOUT,1,3,9318,13195,30002,200
+www.google.com,MT,Malta,melita,12709,212.65.104.220,melita,true,,0,OK,2,4,1431,1966,2095,200
+www.google.com,MQ,Martinique,orange,16028,193.251.163.36,orange,true,,0,OK,2,4,1297,1759,2001,200
+www.google.com,MQ,Martinique,orange,16028,193.251.163.36,orange,false,,0,OK,2,4,1195,1656,1955,200
+www.google.com,JP,Japan,biglobe,2518,125.192.116.26,biglobe,true,,28,CURLE_OPERATION_TIMEDOUT,2,4,11813,12802,30002,200
+www.google.com,MR,Mauritania,chinguitel,,,,false,,56,CURLE_RECV_ERROR,2,3,0,0,65,0
+www.google.com,MQ,Martinique,free mobile,51207,37.8.179.160,free mobile,false,,0,OK,2,3,886,1651,1678,200
+www.google.com,ML,Mali,orange mali,30985,41.73.107.150,orange mali,true,,0,OK,1,2,4095,4880,5131,200
+www.google.com,MR,Mauritania,chinguitel,,,,true,,56,CURLE_RECV_ERROR,1,4,0,0,67,0
+www.google.com,ML,Mali,orange mali,30985,41.221.191.236,orange mali,false,,0,OK,1,3,3236,5558,5922,200
+www.google.com,MR,Mauritania,mauritel,29544,41.188.102.239,mauritel,false,,0,OK,2,4,837,1416,1519,200
+www.google.com,MQ,Martinique,free mobile,51207,37.8.179.160,free mobile,true,,0,OK,2,3,1116,1683,1896,200
+www.google.com,ML,Mali,mali-atel,328253,196.251.158.15,mali-atel,false,,0,OK,1,3,2125,4353,5676,200
+www.google.com,MQ,Martinique,digicel antilles francaises guyane,48252,94.198.176.91,digicel antilles francaises guyane,false,,0,OK,2,3,1665,2469,4131,200
+www.google.com,MR,Mauritania,mauritel,29544,41.188.102.239,mauritel,true,,0,OK,1,3,1125,1577,1686,200
+www.google.com,MQ,Martinique,outremer telecom,20776,109.62.70.242,outremer telecom,false,,0,OK,2,4,2349,3161,3457,200
+www.google.com,MQ,Martinique,outremer telecom,20776,109.62.70.242,outremer telecom,true,,0,OK,2,4,2436,3520,3714,200
+www.google.com,MU,Mauritius,mtml,37622,41.223.76.67,mtml,false,,0,OK,2,3,1137,2274,2491,200
+www.google.com,YT,Mayotte,sfr,49902,109.122.178.62,sfr,true,,0,OK,2,4,1248,2127,2129,302
+www.google.com,YT,Mayotte,free reunion,202023,139.26.8.140,free reunion,false,,0,OK,2,3,1636,2521,2860,200
+www.google.com,MU,Mauritius,mtml,37622,41.223.76.67,mtml,true,,0,OK,1,3,2390,3391,3652,200
+www.google.com,MQ,Martinique,digicel antilles francaises guyane,48252,94.198.176.91,digicel antilles francaises guyane,true,,0,OK,2,4,4069,5169,7477,200
+www.google.com,MX,Mexico,telcel,28403,200.68.180.231,telcel,false,,0,OK,1,3,844,1160,1302,200
+www.google.com,YT,Mayotte,sfr,49902,109.122.178.62,sfr,false,,0,OK,1,3,2375,3421,3421,302
+www.google.com,MU,Mauritius,emtel,30999,105.235.158.81,emtel,false,,0,OK,2,3,2854,4011,4237,200
+www.google.com,MU,Mauritius,mauritius telecom,23889,196.20.216.119,mauritius telecom,true,,0,OK,1,4,3469,4522,4900,200
+www.google.com,MU,Mauritius,emtel,30999,105.235.147.254,emtel,true,,0,OK,2,4,2341,4257,4657,200
+www.google.com,MX,Mexico,telcel,28403,200.68.180.231,telcel,true,,0,OK,2,3,571,937,1069,200
+www.google.com,YT,Mayotte,free reunion,202023,139.26.8.140,free reunion,true,,0,OK,43,45,2541,3489,3743,200
+www.google.com,MX,Mexico,movistar mexico,7438,201.162.226.73,movistar mexico,true,,0,OK,1,4,1627,2056,2217,200
+www.google.com,MX,Mexico,"mexico red de telecomunicaciones, s. de r.l. de c.",,,,true,,56,CURLE_RECV_ERROR,1,3,0,0,80,0
+www.google.com,MX,Mexico,"mexico red de telecomunicaciones, s. de r.l. de c.",,,,false,,56,CURLE_RECV_ERROR,41,43,0,0,111,0
+www.google.com,MX,Mexico,movistar mexico,7438,201.162.226.67,movistar mexico,false,,0,OK,2,4,505,813,957,200
+www.google.com,MX,Mexico,proyector air networks,,,,false,,56,CURLE_RECV_ERROR,2,3,0,0,75,0
+www.google.com,MX,Mexico,proyector air networks,,,,true,,56,CURLE_RECV_ERROR,1,3,0,0,78,0
+www.google.com,MX,Mexico,at&t mexico,28469,201.175.228.138,at&t mexico,false,,0,OK,1,3,806,1154,1472,200
+www.google.com,MX,Mexico,red compartida,265540,190.123.13.58,red compartida,false,,0,OK,2,4,1479,1750,1870,200
+www.google.com,MX,Mexico,red compartida,265540,190.123.13.58,red compartida,true,,0,OK,2,4,1476,1836,1860,200
+www.google.com,MU,Mauritius,mauritius telecom,23889,196.20.216.20,mauritius telecom,false,,0,OK,1,3,5242,6488,6759,200
+www.google.com,ML,Mali,sotelmabgp,21271,217.64.100.254,sotelmabgp,true,,0,OK,2,3,7783,9551,11441,200
+www.google.com,MD,"Moldova, Republic of",moldcell s.a.,43925,94.139.158.219,moldcell s.a.,true,,0,OK,1,3,646,1195,1247,200
+www.google.com,MX,Mexico,izzi,265594,189.219.149.86,izzi,false,,0,OK,2,4,1370,1710,1810,200
+www.google.com,MX,Mexico,izzi,265594,189.219.149.91,izzi,true,,0,OK,2,4,1598,2106,2216,200
+www.google.com,MX,Mexico,at&t mexico,28469,201.175.228.138,at&t mexico,true,,0,OK,2,4,2001,2267,2578,200
+www.google.com,MN,Mongolia,skymedia corporation,,,,false,,56,CURLE_RECV_ERROR,2,4,0,0,126,0
+www.google.com,MD,"Moldova, Republic of",moldtelecom,8926,188.237.25.230,moldtelecom,true,,0,OK,2,4,588,937,1016,200
+www.google.com,MN,Mongolia,univision,,,,false,,56,CURLE_RECV_ERROR,1,3,0,0,140,0
+www.google.com,MN,Mongolia,univision,,,,true,,56,CURLE_RECV_ERROR,1,3,0,0,73,0
+www.google.com,MD,"Moldova, Republic of",moldcell s.a.,43925,94.139.158.219,moldcell s.a.,false,,0,OK,2,3,583,1145,1203,200
+www.google.com,MD,"Moldova, Republic of",orange moldova,25454,94.243.70.50,orange moldova,false,,0,OK,1,3,766,1833,1877,200
+www.google.com,MN,Mongolia,skymedia corporation,,,,true,,56,CURLE_RECV_ERROR,1,3,0,0,74,0
+www.google.com,MD,"Moldova, Republic of",orange moldova,25454,94.243.70.50,orange moldova,true,,0,OK,1,3,1012,1786,1916,200
+www.google.com,MD,"Moldova, Republic of",moldtelecom,8926,188.237.25.230,moldtelecom,false,,0,OK,41,43,800,1234,1308,200
+www.google.com,MD,"Moldova, Republic of",moldtelecom xdsl,8926,109.185.62.147,moldtelecom xdsl,false,,0,OK,2,4,716,1100,1201,200
+www.google.com,MC,Monaco,monaco telecom,6758,88.209.124.76,monaco telecom,false,,0,OK,2,4,711,1210,1333,200
+www.google.com,MD,"Moldova, Republic of",moldtelecom xdsl,8926,109.185.62.147,moldtelecom xdsl,true,,0,OK,2,3,1170,1576,1727,200
+www.google.com,MC,Monaco,monaco telecom,6758,88.209.124.76,monaco telecom,true,,0,OK,2,4,1396,1915,2011,200
+www.google.com,MN,Mongolia,ondo,141681,103.212.163.5,ondo,true,,0,OK,1,3,1121,1653,1708,200
+www.google.com,MN,Mongolia,mobicom corporation,55805,202.126.88.217,mobicom corporation,false,,0,OK,2,3,1006,1599,1743,200
+www.google.com,MN,Mongolia,g-mobile corporation,24559,103.126.107.245,g-mobile corporation,true,,0,OK,2,3,853,1282,1337,200
+www.google.com,ME,Montenegro,drustvo za telekomunikacije mtel doo,43940,62.4.57.61,drustvo za telekomunikacije mtel doo,false,,0,OK,2,3,597,1503,1572,200
+www.google.com,ME,Montenegro,crnogorski telekom a.d.podgorica,8585,77.222.27.83,crnogorski telekom a.d.podgorica,false,,0,OK,1,3,617,1372,1497,200
+www.google.com,ME,Montenegro,drustvo za telekomunikacije mtel doo,43940,62.4.57.61,drustvo za telekomunikacije mtel doo,true,,0,OK,2,3,519,1403,1470,200
+www.google.com,MN,Mongolia,g-mobile corporation,24559,103.126.107.245,g-mobile corporation,false,,0,OK,2,3,1659,2100,2155,200
+www.google.com,MN,Mongolia,mobicom corporation,55805,202.126.88.217,mobicom corporation,true,,0,OK,2,4,1953,2590,2726,200
+www.google.com,MN,Mongolia,ondo,141681,103.212.163.5,ondo,false,,0,OK,1,3,1933,2469,2714,200
+www.google.com,ME,Montenegro,crnogorski telekom a.d.podgorica,8585,77.222.27.83,crnogorski telekom a.d.podgorica,true,,0,OK,2,3,567,1282,1350,200
+www.google.com,ME,Montenegro,one crna gora doo,15397,79.143.107.40,one crna gora doo,false,,0,OK,1,3,640,1318,1370,200
+www.google.com,ML,Mali,mali-atel,328253,196.251.158.15,mali-atel,true,,0,OK,2,4,12109,13538,15428,200
+www.google.com,ME,Montenegro,one crna gora doo,15397,79.143.107.40,one crna gora doo,true,,0,OK,2,3,1066,1752,1829,200
+www.google.com,MA,Morocco,orange morocco,36925,196.113.220.24,orange morocco,false,,0,OK,2,3,1864,2430,2576,200
+www.google.com,ML,Mali,sotelmabgp,21271,217.64.100.210,sotelmabgp,false,,0,OK,1,3,8146,14884,18534,200
+www.google.com,MM,Myanmar,nine communications company,,,,false,,56,CURLE_RECV_ERROR,1,3,0,0,65,0
+www.google.com,MA,Morocco,maroc telecom,36903,102.51.9.214,maroc telecom,true,,0,OK,2,4,2001,2681,3017,200
+www.google.com,MA,Morocco,orange morocco,36925,196.114.205.213,orange morocco,true,,0,OK,1,3,2399,2956,3221,200
+www.google.com,MA,Morocco,maroc telecom,36903,196.81.29.179,maroc telecom,false,,0,OK,2,3,3885,4443,4554,200
+www.google.com,MZ,Mozambique,movitel,37342,197.218.59.213,movitel,false,,0,OK,2,3,2081,3320,3519,200
+www.google.com,MZ,Mozambique,mcelisp,30619,41.220.201.206,mcelisp,false,,0,OK,2,4,1509,2692,3483,200
+www.google.com,MM,Myanmar,atom myanmar,133385,37.111.44.240,atom myanmar,false,,0,OK,2,4,869,1378,1434,200
+www.google.com,MM,Myanmar,nine communications company,,,,true,,56,CURLE_RECV_ERROR,1,3,0,0,70,0
+www.google.com,MA,Morocco,inwi,36884,105.66.5.17,inwi,false,,0,OK,2,4,1483,2315,5130,200
+www.google.com,MM,Myanmar,mytel,136255,43.252.80.148,mytel,false,,0,OK,2,3,1002,1645,1716,200
+www.google.com,MZ,Mozambique,movitel,37342,197.218.61.163,movitel,true,,0,OK,1,3,3378,4352,4622,200
+www.google.com,MM,Myanmar,atom myanmar,133385,37.111.44.240,atom myanmar,true,,0,OK,1,3,1484,2005,2065,200
+www.google.com,MM,Myanmar,myanma posts and telecommunications,9988,136.228.172.103,myanma posts and telecommunications,true,,0,OK,2,4,882,1393,1470,200
+www.google.com,MA,Morocco,inwi,36884,105.66.5.17,inwi,true,,0,OK,2,3,4669,5353,5683,200
+www.google.com,MM,Myanmar,mytel,136255,43.252.80.148,mytel,true,,0,OK,2,4,1625,2189,2258,200
+www.google.com,MM,Myanmar,myanma posts and telecommunications,9988,136.228.172.103,myanma posts and telecommunications,false,,0,OK,2,3,1283,1779,1863,200
+www.google.com,MM,Myanmar,"telecom international myanmar co, ltd (mytel)",136255,202.191.106.15,"telecom international myanmar co, ltd (mytel)",false,,0,OK,2,4,1221,1785,1854,200
+www.google.com,NR,Nauru,digicel nauru corporation,,,,false,,56,CURLE_RECV_ERROR,1,3,0,0,69,0
+www.google.com,NR,Nauru,digicel nauru corporation,,,,true,,56,CURLE_RECV_ERROR,1,3,0,0,62,0
+www.google.com,MZ,Mozambique,mcelisp,30619,41.220.201.206,mcelisp,true,,0,OK,44,46,1920,3031,3873,200
+www.google.com,MM,Myanmar,"telecom international myanmar co, ltd (mytel)",136255,202.191.106.15,"telecom international myanmar co, ltd (mytel)",true,,0,OK,2,3,1821,2343,2420,200
+www.google.com,NA,Namibia,mtc namibia,37009,105.232.176.34,mtc namibia,false,,0,OK,2,4,1245,2298,2637,200
+www.google.com,NP,Nepal,ncell pvt.,38565,49.126.213.249,ncell pvt.,true,,0,OK,1,2,1084,1915,2046,200
+www.google.com,NP,Nepal,nepal telecom,23752,103.95.18.22,nepal telecom,false,,0,OK,1,3,1090,1768,1886,200
+www.google.com,NL,Netherlands,odido netherlands,31615,178.230.28.0,odido netherlands,false,,0,OK,60,62,497,718,754,200
+www.google.com,NA,Namibia,mtc namibia,37009,105.232.176.34,mtc namibia,true,,0,OK,1,3,1627,2660,2861,200
+www.google.com,MZ,Mozambique,vodacom mozambique,37223,197.235.235.117,vodacom mozambique,false,,0,OK,2,4,4310,8436,8728,200
+www.google.com,NL,Netherlands,odido netherlands,31615,178.230.28.0,odido netherlands,true,,0,OK,1,3,502,714,787,200
+www.google.com,NP,Nepal,ncell pvt.,38565,49.126.213.249,ncell pvt.,false,,0,OK,2,5,1904,3095,3217,200
+www.google.com,NA,Namibia,loc-eight-mobile,329400,102.209.199.4,loc-eight-mobile,false,,0,OK,2,4,1302,3829,4424,200
+www.google.com,NL,Netherlands,cleverenable,,,,true,,56,CURLE_RECV_ERROR,2,3,0,0,67,0
+www.google.com,NP,Nepal,nepal telecom,23752,103.95.18.22,nepal telecom,true,,0,OK,1,3,1792,2508,2636,200
+www.google.com,NL,Netherlands,vodafone libertel b.v.,33915,109.36.140.241,vodafone libertel b.v.,false,,0,OK,2,3,467,919,973,200
+www.google.com,MZ,Mozambique,vodacom mozambique,37223,197.235.235.117,vodacom mozambique,true,,0,OK,2,3,6242,8759,8983,200
+www.google.com,NA,Namibia,loc-eight-mobile,329400,102.209.199.4,loc-eight-mobile,true,,0,OK,1,3,3206,4349,4618,200
+www.google.com,NL,Netherlands,cleverenable,,,,false,,56,CURLE_RECV_ERROR,1,3,0,0,67,0
+www.google.com,NL,Netherlands,ziggo,33915,109.38.147.220,ziggo,false,,0,OK,1,3,730,1089,1181,200
+www.google.com,NL,Netherlands,vodafone libertel b.v.,33915,109.36.140.241,vodafone libertel b.v.,true,,0,OK,1,3,815,1304,1343,200
+www.google.com,NA,Namibia,telecom namibia,36999,197.233.44.36,telecom namibia,true,,0,OK,1,3,3365,4911,5516,200
+www.google.com,NL,Netherlands,1global,30967,185.99.25.41,1global,false,,0,OK,2,4,597,894,957,200
+www.google.com,NL,Netherlands,ziggo,33915,109.38.147.220,ziggo,true,,0,OK,2,4,867,1176,1321,200
+www.google.com,NL,Netherlands,lycamobile,31404,185.237.102.58,lycamobile,false,,0,OK,2,3,674,1007,1089,200
+www.google.com,NL,Netherlands,1global,30967,185.99.25.41,1global,true,,0,OK,1,3,922,1218,1279,200
+www.google.com,NA,Namibia,telecom namibia,36999,197.233.63.215,telecom namibia,false,,0,OK,1,3,2794,5688,6034,200
+www.google.com,NZ,New Zealand,amuri,,,,false,,56,CURLE_RECV_ERROR,2,4,0,0,64,0
+www.google.com,NL,Netherlands,kpn,1136,77.63.47.117,kpn,false,,0,OK,1,4,1764,2841,2875,200
+www.google.com,NZ,New Zealand,amuri,,,,true,,56,CURLE_RECV_ERROR,1,3,0,0,73,0
+www.google.com,NL,Netherlands,lycamobile,31404,185.237.102.58,lycamobile,true,,0,OK,1,3,1034,1424,1468,200
+www.google.com,MR,Mauritania,mattel,37508,102.214.208.59,mattel,false,,0,OK,2,3,3229,9062,23161,200
+www.google.com,NI,Nicaragua,tigo business nicaragua,28036,152.231.40.90,tigo business nicaragua,true,,0,OK,2,3,446,633,684,200
+www.google.com,NI,Nicaragua,claro nicaragua,,,,false,,56,CURLE_RECV_ERROR,2,3,0,0,69,0
+www.google.com,NL,Netherlands,kpn,1136,77.63.47.117,kpn,true,,0,OK,2,3,2503,3262,3403,200
+www.google.com,NI,Nicaragua,claro nicaragua,,,,true,,56,CURLE_RECV_ERROR,1,4,0,0,75,0
+www.google.com,NI,Nicaragua,claro guatemala,14754,186.77.135.63,claro guatemala,false,,0,OK,1,3,519,923,950,200
+www.google.com,NI,Nicaragua,tigo business nicaragua,28036,152.231.40.90,tigo business nicaragua,false,,0,OK,2,4,357,584,622,200
+www.google.com,NC,New Caledonia,opt-nc,18200,43.224.195.189,opt-nc,false,,0,OK,1,3,1455,2205,2419,200
+www.google.com,NI,Nicaragua,claro guatemala,14754,186.77.135.63,claro guatemala,true,,0,OK,2,3,735,1074,1208,200
+www.google.com,NZ,New Zealand,one nz,9500,49.224.216.60,one nz,true,,0,OK,2,3,1775,2666,3005,200
+www.google.com,NE,Niger,sonitel,,,,false,,56,CURLE_RECV_ERROR,2,3,0,0,55,0
+www.google.com,NE,Niger,sonitel,,,,true,,56,CURLE_RECV_ERROR,2,4,0,0,64,0
+www.google.com,NC,New Caledonia,opt-nc,18200,43.224.195.189,opt-nc,true,,0,OK,2,4,2320,3029,3249,200
+www.google.com,NZ,New Zealand,spark new zealand,4771,122.63.80.66,spark new zealand,true,,0,OK,1,3,1810,2602,2992,200
+www.google.com,NZ,New Zealand,2degrees,9790,161.29.97.237,2degrees,true,,0,OK,2,4,1492,2454,2707,200
+www.google.com,NE,Niger,airtel niger,37531,197.214.4.202,airtel niger,false,,0,OK,2,4,1069,1696,1877,200
+www.google.com,NZ,New Zealand,one nz,9500,49.224.216.60,one nz,false,,0,OK,1,3,2577,3394,3501,200
+www.google.com,NZ,New Zealand,spark new zealand,4771,122.63.80.66,spark new zealand,false,,0,OK,2,3,3160,3868,4083,200
+www.google.com,NE,Niger,atlantique-telecom-niger,37205,102.220.25.172,atlantique-telecom-niger,true,,0,OK,2,3,1142,1886,2097,200
+www.google.com,NG,Nigeria,9mobile,,,,false,,56,CURLE_RECV_ERROR,1,3,0,0,104,0
+www.google.com,NZ,New Zealand,2degrees,9790,161.29.97.237,2degrees,false,,0,OK,2,3,2896,3652,3877,200
+www.google.com,NE,Niger,airtel niger,37531,197.214.4.202,airtel niger,true,,0,OK,59,61,1842,2464,2632,200
+www.google.com,NG,Nigeria,smile nigeria,,,,false,,56,CURLE_RECV_ERROR,2,3,0,0,103,0
+www.google.com,NG,Nigeria,9mobile,,,,true,,56,CURLE_RECV_ERROR,2,3,0,0,106,0
+www.google.com,MP,Northern Mariana Islands,pti pacifica,,,,false,,56,CURLE_RECV_ERROR,1,2,0,0,64,0
+www.google.com,NG,Nigeria,smile nigeria,,,,true,,56,CURLE_RECV_ERROR,1,3,0,0,98,0
+www.google.com,MP,Northern Mariana Islands,pti pacifica,,,,true,,56,CURLE_RECV_ERROR,1,3,0,0,66,0
+www.google.com,NE,Niger,orange niger,37233,41.203.151.162,orange niger,true,,0,OK,1,3,2395,3391,3612,200
+www.google.com,NO,Norway,lyse tele,203995,46.46.247.26,lyse tele,false,,0,OK,1,3,589,1228,1289,200
+www.google.com,NE,Niger,atlantique-telecom-niger,37205,102.220.25.172,atlantique-telecom-niger,false,,0,OK,1,3,3213,3837,4037,200
+www.google.com,NG,Nigeria,mtn nigeria,29465,102.89.76.60,mtn nigeria,false,,0,OK,1,3,2051,2828,3312,200
+www.google.com,NG,Nigeria,airtel networks limited,36873,105.113.107.225,airtel networks limited,false,,0,OK,1,3,2106,2923,3282,200
+www.google.com,NG,Nigeria,airtel networks limited,36873,105.113.107.225,airtel networks limited,true,,0,OK,2,3,1675,2522,2923,200
+www.google.com,NG,Nigeria,mtn nigeria,29465,102.90.80.166,mtn nigeria,true,,0,OK,2,4,2328,3470,3473,200
+www.google.com,NG,Nigeria,globacom,37148,197.211.57.45,globacom,true,,0,OK,2,3,2099,3207,3549,200
+www.google.com,NG,Nigeria,globacom,37148,197.211.57.35,globacom,false,,0,OK,2,4,1288,2231,2760,200
+www.google.com,NO,Norway,lycamobile,,,,false,,56,CURLE_RECV_ERROR,2,4,0,0,76,0
+www.google.com,NO,Norway,lycamobile,,,,true,,56,CURLE_RECV_ERROR,2,4,0,0,66,0
+www.google.com,OM,Oman,omantel,,,,false,,56,CURLE_RECV_ERROR,2,4,0,0,74,0
+www.google.com,NO,Norway,telia norge,12929,89.8.58.149,telia norge,false,,0,OK,1,3,1601,1897,2075,200
+www.google.com,OM,Oman,omantel,,,,true,,56,CURLE_RECV_ERROR,1,3,0,0,69,0
+www.google.com,NO,Norway,telenor norge,2119,77.16.39.220,telenor norge,false,,0,OK,2,3,629,1065,1112,200
+www.google.com,NO,Norway,telenor norge,2119,77.16.39.220,telenor norge,true,,0,OK,1,3,791,1281,1337,200
+www.google.com,NO,Norway,telia norge,12929,89.8.58.149,telia norge,true,,0,OK,2,4,1428,1874,2305,200
+www.google.com,NG,Nigeria,spectranet,37340,41.217.67.11,spectranet,false,,0,OK,1,3,2316,3238,3509,200
+www.google.com,NO,Norway,cogent communications,212449,149.7.162.142,cogent communications,true,,0,OK,1,3,875,1343,1439,200
+www.google.com,PK,Pakistan,paknet merged into ptcl,,,,false,,56,CURLE_RECV_ERROR,1,3,0,0,83,0
+www.google.com,PK,Pakistan,paknet merged into ptcl,,,,true,,56,CURLE_RECV_ERROR,1,3,0,0,83,0
+www.google.com,NO,Norway,lyse tele,203995,46.46.247.26,lyse tele,true,,0,OK,2,3,804,1421,1483,200
+www.google.com,NO,Norway,cogent communications,212449,149.7.162.142,cogent communications,false,,0,OK,1,3,1157,1634,1699,200
+www.google.com,OM,Oman,ooredoo oman,50010,5.21.134.33,ooredoo oman,false,,0,OK,1,3,928,1901,2221,200
+www.google.com,MR,Mauritania,mattel,37508,102.214.208.59,mattel,true,,28,CURLE_OPERATION_TIMEDOUT,2,0,0,0,30000,0
+www.google.com,OM,Oman,vodafone oman,212661,212.146.162.76,vodafone oman,true,,0,OK,58,60,1190,2237,2368,200
+www.google.com,NG,Nigeria,spectranet,37340,41.217.66.71,spectranet,true,,0,OK,2,3,3226,4618,5124,200
+www.google.com,OM,Oman,ooredoo oman,50010,5.21.134.33,ooredoo oman,true,,0,OK,2,3,1805,2708,2939,200
+www.google.com,MX,Mexico,"altan redes, s.a.p.i. de c. v.",265540,190.123.11.62,"altan redes, s.a.p.i. de c. v.",false,,0,OK,1,3,12127,19659,25365,200
+www.google.com,OM,Oman,vodafone oman,212661,212.146.162.76,vodafone oman,false,,0,OK,71,72,2109,3165,3264,200
+www.google.com,PK,Pakistan,telenor,24499,103.191.118.89,telenor,false,,0,OK,1,3,974,1958,2070,200
+www.google.com,PK,Pakistan,china mobile,,,,false,,56,CURLE_RECV_ERROR,2,4,0,0,86,0
+www.google.com,PK,Pakistan,china mobile,,,,true,,56,CURLE_RECV_ERROR,1,3,0,0,82,0
+www.google.com,PK,Pakistan,special communication organization,18053,118.107.131.206,special communication organization,false,,0,OK,1,3,2485,3535,3692,200
+www.google.com,PK,Pakistan,special communication organization,18053,118.107.131.206,special communication organization,true,,0,OK,2,4,2175,3226,3377,200
+www.google.com,PK,Pakistan,telenor,24499,103.191.118.89,telenor,true,,0,OK,1,3,1140,2131,2247,200
+www.google.com,PK,Pakistan,pakistan mobile communication limited,45669,154.91.161.27,pakistan mobile communication limited,true,,0,OK,2,3,1975,2968,3079,200
+www.google.com,PK,Pakistan,originet (pvt.) ltd.,24499,160.30.109.76,originet (pvt.) ltd.,false,,0,OK,1,3,1117,2108,2215,200
+www.google.com,PK,Pakistan,zong,59257,223.123.113.184,zong,true,,0,OK,1,3,2237,3580,3717,200
+www.google.com,PK,Pakistan,telehouse pvt ltd,,,,false,,56,CURLE_RECV_ERROR,2,4,0,0,92,0
+www.google.com,PK,Pakistan,ptcl,56167,119.155.212.144,ptcl,false,,0,OK,2,3,1178,2384,2568,200
+www.google.com,PW,Palau,palau national communications corp.,,,,false,,56,CURLE_RECV_ERROR,2,3,0,0,67,0
+www.google.com,PK,Pakistan,telehouse pvt ltd,,,,true,,56,CURLE_RECV_ERROR,2,4,0,0,90,0
+www.google.com,NE,Niger,orange niger,37233,41.203.144.192,orange niger,false,,0,OK,2,3,4587,6373,9804,200
+www.google.com,PW,Palau,palau national communications corp.,,,,true,,56,CURLE_RECV_ERROR,79,80,0,0,142,0
+www.google.com,PS,"Palestine, State of",jawwal,,,,true,,56,CURLE_RECV_ERROR,60,62,0,0,127,0
+www.google.com,PS,"Palestine, State of",jawwal,,,,false,,56,CURLE_RECV_ERROR,1,3,0,0,77,0
+www.google.com,PK,Pakistan,pakistan mobile communication limited,45669,154.80.125.214,pakistan mobile communication limited,false,,0,OK,1,3,2705,3947,4093,200
+www.google.com,PK,Pakistan,originet (pvt.) ltd.,24499,160.30.109.76,originet (pvt.) ltd.,true,,0,OK,2,3,1502,2518,2587,200
+www.google.com,PK,Pakistan,hazara communication,24499,103.157.210.70,hazara communication,false,,0,OK,1,3,1285,2285,2421,200
+www.google.com,PK,Pakistan,zong,59257,223.123.113.184,zong,false,,0,OK,2,4,2405,4668,4840,200
+www.google.com,PK,Pakistan,ptcl,56167,119.155.212.144,ptcl,true,,0,OK,1,3,2040,3236,3400,200
+www.google.com,PA,Panama,cable & wireless panama,11556,201.226.201.238,cable & wireless panama,false,,0,OK,2,4,493,811,907,200
+www.google.com,PA,Panama,cable & wireless panama,11556,201.226.201.238,cable & wireless panama,true,,0,OK,2,4,729,1063,1208,200
+www.google.com,PK,Pakistan,telenor pakistan,24499,37.111.138.201,telenor pakistan,false,,0,OK,2,4,2526,3609,3749,200
+www.google.com,PG,Papua New Guinea,digitec papua new guinea,,,,true,,56,CURLE_RECV_ERROR,2,4,0,0,67,0
+www.google.com,PG,Papua New Guinea,digitec papua new guinea,,,,false,,56,CURLE_RECV_ERROR,2,4,0,0,67,0
+www.google.com,PK,Pakistan,hazara communication,24499,103.157.210.70,hazara communication,true,,0,OK,2,3,1915,3833,3966,200
+www.google.com,PS,"Palestine, State of",wataniya palestine mobile telecommunication compan,48966,185.88.83.49,wataniya palestine mobile telecommunication compan,false,,0,OK,2,4,1907,2483,2635,200
+www.google.com,PS,"Palestine, State of",wataniya palestine mobile telecommunication compan,48966,185.88.83.49,wataniya palestine mobile telecommunication compan,true,,0,OK,2,4,1901,2477,2583,200
+www.google.com,MX,Mexico,"altan redes, s.a.p.i. de c. v.",265540,190.123.11.62,"altan redes, s.a.p.i. de c. v.",true,,28,CURLE_OPERATION_TIMEDOUT,1,4,14480,27110,30002,200
+www.google.com,PY,Paraguay,personal paraguay,,,,true,,56,CURLE_RECV_ERROR,1,3,0,0,67,0
+www.google.com,PY,Paraguay,personal paraguay,,,,false,,56,CURLE_RECV_ERROR,1,3,0,0,77,0
+www.google.com,PY,Paraguay,claro argentina,,,,false,,56,CURLE_RECV_ERROR,2,3,0,0,70,0
+www.google.com,PA,Panama,tigo panama,14709,181.197.54.18,tigo panama,false,,0,OK,1,3,2107,2717,2881,200
+www.google.com,PY,Paraguay,claro argentina,,,,true,,56,CURLE_RECV_ERROR,63,65,0,0,129,0
+www.google.com,PE,Peru,claro movil,,,,false,,56,CURLE_RECV_ERROR,2,3,0,0,78,0
+www.google.com,PE,Peru,claro movil,,,,true,,56,CURLE_RECV_ERROR,2,4,0,0,80,0
+www.google.com,PK,Pakistan,jazz,45669,154.80.16.174,jazz,true,,0,OK,2,4,2750,3928,4274,200
+www.google.com,PK,Pakistan,telenor pakistan,24499,37.111.164.175,telenor pakistan,true,,0,OK,2,3,2489,3870,4445,200
+www.google.com,PY,Paraguay,claro paraguay,19037,186.182.71.203,claro paraguay,true,,0,OK,1,3,845,1241,1417,200
+www.google.com,PE,Peru,fibra movistar,6147,190.237.123.43,fibra movistar,false,,0,OK,2,3,345,525,566,200
+www.google.com,PK,Pakistan,jazz,45669,154.80.26.16,jazz,false,,0,OK,1,3,2939,4465,4668,200
+www.google.com,PE,Peru,claro fibra,,,,false,,56,CURLE_RECV_ERROR,2,4,0,0,75,0
+www.google.com,PE,Peru,claro fibra,,,,true,,56,CURLE_RECV_ERROR,2,3,0,0,75,0
+www.google.com,PE,Peru,bitel,262210,181.176.85.39,bitel,false,,0,OK,2,4,470,706,763,200
+www.google.com,PY,Paraguay,claro paraguay,19037,186.182.71.203,claro paraguay,false,,0,OK,2,4,895,1376,1546,200
+www.google.com,PE,Peru,fibra movistar,6147,190.237.123.43,fibra movistar,true,,0,OK,1,3,461,637,670,200
+www.google.com,PY,Paraguay,tigo paraguay,23201,181.124.134.139,tigo paraguay,false,,0,OK,2,3,1053,1603,1911,200
+www.google.com,PE,Peru,entel peru,21575,132.157.128.250,entel peru,false,,0,OK,1,3,808,1066,1340,200
+www.google.com,PA,Panama,tigo panama,14709,181.197.54.18,tigo panama,true,,0,OK,2,4,3813,4427,4547,200
+www.google.com,PE,Peru,claro fibra coaxial,12252,190.117.98.39,claro fibra coaxial,false,,0,OK,2,3,455,758,811,200
+www.google.com,PE,Peru,entel peru,21575,132.157.128.250,entel peru,true,,0,OK,1,3,1324,1561,1702,200
+www.google.com,PY,Paraguay,tigo paraguay,23201,181.124.134.139,tigo paraguay,true,,0,OK,2,4,1674,2211,2446,200
+www.google.com,PE,Peru,claro fibra coaxial,12252,190.117.98.39,claro fibra coaxial,true,,0,OK,1,3,804,1016,1068,200
+www.google.com,PE,Peru,bitel,262210,181.176.85.39,bitel,true,,0,OK,2,4,591,918,1054,200
+www.google.com,PE,Peru,movistar peru,6147,190.239.88.154,movistar peru,true,,0,OK,2,4,671,1004,1150,200
+www.google.com,PE,Peru,movistar,6147,190.237.122.1,movistar,false,,0,OK,2,3,496,731,834,200
+www.google.com,PE,Peru,claro peru,12252,179.7.106.124,claro peru,true,,0,OK,1,3,879,1247,1375,200
+www.google.com,PE,Peru,movistar peru,6147,190.239.88.154,movistar peru,false,,0,OK,2,3,1056,1420,1624,200
+www.google.com,PE,Peru,movistar,6147,190.237.122.1,movistar,true,,0,OK,2,4,671,905,1015,200
+www.google.com,PH,Philippines,globe business direct internet access,,,,false,,56,CURLE_RECV_ERROR,2,4,0,0,70,0
+www.google.com,PE,Peru,claro peru,12252,179.7.106.124,claro peru,false,,0,OK,2,3,1025,1375,1508,200
+www.google.com,PH,Philippines,globe business direct internet access,,,,true,,56,CURLE_RECV_ERROR,2,4,0,0,83,0
+www.google.com,PH,Philippines,globe business gfiber broadband plan,132199,222.127.48.143,globe business gfiber broadband plan,false,,0,OK,42,44,841,1317,1461,200
+www.google.com,PH,Philippines,smart communications,10139,175.176.27.223,smart communications,false,,0,OK,2,4,859,1347,1424,200
+www.google.com,PH,Philippines,globe telecom,4775,110.54.228.245,globe telecom,false,,0,OK,1,3,1021,1572,1662,200
+www.google.com,PG,Papua New Guinea,vodafone png,139898,43.245.57.118,vodafone png,false,,0,OK,1,3,5108,6049,6489,200
+www.google.com,PH,Philippines,globe business gfiber broadband plan,132199,222.127.48.143,globe business gfiber broadband plan,true,,0,OK,1,3,912,1414,1493,200
+www.google.com,PL,Poland,orange polska,5617,79.162.21.1,orange polska,false,,0,OK,2,4,572,1320,1321,200
+www.google.com,PH,Philippines,dito telecommunity corp.,139831,131.226.100.71,dito telecommunity corp.,true,,0,OK,2,3,1272,1781,1841,200
+www.google.com,PH,Philippines,smart communications,10139,175.176.27.223,smart communications,true,,0,OK,2,4,1612,2114,2231,200
+www.google.com,PH,Philippines,globe telecom,4775,110.54.228.245,globe telecom,true,,0,OK,2,4,1860,2389,2477,200
+www.google.com,PL,Poland,t-mobile polska,12912,188.146.42.119,t-mobile polska,false,,0,OK,1,3,680,1405,1474,200
+www.google.com,PH,Philippines,dito telecommunity corp.,139831,131.226.100.71,dito telecommunity corp.,false,,0,OK,1,3,1803,2263,2329,200
+www.google.com,PL,Poland,orange mobile,5617,37.225.49.8,orange mobile,false,,0,OK,2,4,507,1069,1169,200
+www.google.com,PL,Poland,akknet sp. z o.o.,31242,194.63.128.45,akknet sp. z o.o.,false,,0,OK,1,3,433,948,981,200
+www.google.com,PL,Poland,plus poland,8374,31.0.93.70,plus poland,false,,0,OK,1,3,431,971,1003,200
+www.google.com,PK,Pakistan,multacom corporation,45669,154.81.233.233,multacom corporation,true,,0,OK,2,4,6618,8901,9067,200
+www.google.com,PG,Papua New Guinea,vodafone png,139898,43.245.57.118,vodafone png,true,,0,OK,2,3,5756,6644,6943,200
+www.google.com,PL,Poland,play,39603,46.112.86.4,play,false,,0,OK,2,4,1758,2358,2582,200
+www.google.com,PL,Poland,play,39603,46.112.86.4,play,true,,0,OK,2,3,1524,2284,2339,200
+www.google.com,PL,Poland,t-mobile polska,12912,188.146.42.119,t-mobile polska,true,,0,OK,2,4,926,1747,1822,200
+www.google.com,PL,Poland,orange mobile,5617,37.225.49.8,orange mobile,true,,0,OK,2,3,992,1576,1623,200
+www.google.com,PL,Poland,akknet sp. z o.o.,31242,194.63.128.45,akknet sp. z o.o.,true,,0,OK,1,3,370,904,933,200
+www.google.com,PL,Poland,foxnet isp sp. z o.o.,31242,193.151.103.133,foxnet isp sp. z o.o.,true,,0,OK,1,4,367,1550,1579,200
+www.google.com,PL,Poland,orange polska,5617,79.162.21.1,orange polska,true,,0,OK,2,4,653,1269,1350,200
+www.google.com,PL,Poland,alkom sp. z o.o.,31242,85.14.103.144,alkom sp. z o.o.,false,,0,OK,1,3,552,1098,1231,200
+www.google.com,PT,Portugal,vodafone portugal,12353,148.69.197.193,vodafone portugal,false,,0,OK,2,3,490,902,976,200
+www.google.com,PT,Portugal,nos comunicacoes,2860,87.196.75.94,nos comunicacoes,false,,0,OK,2,3,537,943,1022,200
+www.google.com,PL,Poland,plus poland,8374,31.0.93.70,plus poland,true,,0,OK,1,3,609,1107,1137,200
+www.google.com,PT,Portugal,meo,42863,89.214.114.147,meo,true,,0,OK,2,4,513,941,1023,200
+www.google.com,PT,Portugal,digi portugal,20879,176.223.60.143,digi portugal,true,,0,OK,2,3,534,916,989,200
+www.google.com,PL,Poland,alkom sp. z o.o.,31242,85.14.103.144,alkom sp. z o.o.,true,,0,OK,2,4,838,1413,1505,200
+www.google.com,PT,Portugal,vodafone portugal,12353,148.69.197.193,vodafone portugal,true,,0,OK,1,3,668,1081,1144,200
+www.google.com,PT,Portugal,nos comunicacoes,2860,87.196.75.94,nos comunicacoes,true,,0,OK,2,3,608,999,1054,200
+www.google.com,PL,Poland,comasoft,9141,92.244.32.95,comasoft,false,,0,OK,2,3,904,1680,1953,200
+www.google.com,PT,Portugal,meo,42863,89.214.114.147,meo,false,,0,OK,2,3,811,1243,1328,200
+www.google.com,PT,Portugal,digi portugal,20879,176.223.60.143,digi portugal,false,,0,OK,2,4,547,908,988,200
+www.google.com,PR,Puerto Rico,liberty pr,14638,24.42.44.215,liberty pr,false,,0,OK,85,86,425,694,889,200
+www.google.com,PL,Poland,foxnet isp sp. z o.o.,31242,193.151.103.133,foxnet isp sp. z o.o.,false,,0,OK,2,4,841,2239,2273,200
+www.google.com,PR,Puerto Rico,claro puerto rico,10396,173.228.198.110,claro puerto rico,false,,0,OK,2,3,686,1005,1254,200
+www.google.com,PL,Poland,comasoft,9141,92.244.32.95,comasoft,true,,0,OK,2,4,1971,2580,2800,200
+www.google.com,PR,Puerto Rico,liberty pr,14638,24.42.44.215,liberty pr,true,,0,OK,1,3,645,920,1082,200
+www.google.com,PR,Puerto Rico,t-mobile usa,21928,172.59.17.4,t-mobile usa,false,,0,OK,1,3,830,1152,1508,200
+www.google.com,PR,Puerto Rico,claro puerto rico,10396,173.228.198.110,claro puerto rico,true,,0,OK,2,4,659,1127,1232,200
+www.google.com,RE,Réunion,zeop,,,,true,,56,CURLE_RECV_ERROR,2,3,0,0,67,0
+www.google.com,RE,Réunion,zeop,,,,false,,56,CURLE_RECV_ERROR,1,3,0,0,68,0
+www.google.com,PK,Pakistan,multacom corporation,45669,154.81.230.142,multacom corporation,false,,56,CURLE_RECV_ERROR,1,4,12174,0,12175,0
+www.google.com,PR,Puerto Rico,t-mobile usa,21928,172.59.17.4,t-mobile usa,true,,0,OK,2,4,1222,1805,2070,200
+www.google.com,QA,Qatar,vodafone qatar,48728,212.70.110.17,vodafone qatar,true,,0,OK,2,3,862,1704,1744,200
+www.google.com,PT,Portugal,lycamobile,31404,185.237.102.84,lycamobile,true,,0,OK,1,4,1812,2282,2400,200
+www.google.com,QA,Qatar,vodafone qatar,48728,212.70.110.17,vodafone qatar,false,,0,OK,1,3,1438,2256,2321,200
+www.google.com,RO,Romania,orange romania,8953,109.166.134.61,orange romania,true,,0,OK,2,3,437,691,758,200
+www.google.com,RO,Romania,digi romania business,8708,86.122.208.141,digi romania business,false,,0,OK,1,3,363,934,958,200
+www.google.com,RO,Romania,vodafone romania,12302,213.233.85.188,vodafone romania,true,,0,OK,2,3,660,1336,1393,200
+www.google.com,RE,Réunion,orange,199140,80.12.254.206,orange,false,,0,OK,2,3,1574,2387,2576,200
+www.google.com,RE,Réunion,telco oi,327697,139.26.135.154,telco oi,true,,0,OK,1,3,1498,2554,2774,200
+www.google.com,RO,Romania,telekom romania mobile communications,35725,178.138.195.204,telekom romania mobile communications,true,,0,OK,1,3,627,964,1047,200
+www.google.com,RO,Romania,vodafone romania,12302,213.233.85.188,vodafone romania,false,,0,OK,2,3,839,1620,1700,200
+www.google.com,RO,Romania,orange romania,8953,109.166.134.61,orange romania,false,,0,OK,2,3,438,686,736,200
+www.google.com,RE,Réunion,sfr,49902,77.143.4.134,sfr,false,,0,OK,1,3,1311,2416,2650,200
+www.google.com,RO,Romania,orange romania communications,9050,109.98.195.70,orange romania communications,false,,0,OK,1,3,842,1295,1408,200
+www.google.com,RO,Romania,digi romania business,8708,86.122.208.141,digi romania business,true,,0,OK,2,4,366,938,975,200
+www.google.com,RO,Romania,telekom romania mobile communications,35725,178.138.195.204,telekom romania mobile communications,false,,0,OK,2,4,521,883,948,200
+www.google.com,RE,Réunion,telco oi,327697,139.26.135.154,telco oi,false,,0,OK,2,3,2109,3151,3427,200
+www.google.com,RO,Romania,orange romania communications,9050,109.98.195.70,orange romania communications,true,,0,OK,1,3,1009,1461,1686,200
+www.google.com,RE,Réunion,orange,199140,80.12.254.206,orange,true,,0,OK,2,3,2700,3529,3753,200
+www.google.com,RO,Romania,digi romania,8708,82.76.106.39,digi romania,false,,0,OK,1,3,515,1230,1320,200
+www.google.com,RE,Réunion,sfr,49902,77.143.4.134,sfr,true,,0,OK,2,4,2372,3349,3586,200
+www.google.com,PT,Portugal,lycamobile,31404,185.237.102.81,lycamobile,false,,0,OK,1,4,2483,3772,5820,200
+www.google.com,RO,Romania,digi romania,8708,82.76.106.39,digi romania,true,,0,OK,2,4,953,1655,1734,200
+www.google.com,RU,Russian Federation,mts pjsc,8359,213.87.133.139,mts pjsc,false,,0,OK,1,3,568,904,990,200
+www.google.com,RU,Russian Federation,pjsc megafon,31205,188.162.5.13,pjsc megafon,false,,0,OK,2,4,1175,1637,1765,200
+www.google.com,RU,Russian Federation,t-mob,,,,false,,56,CURLE_RECV_ERROR,2,3,0,0,86,0
+www.google.com,RU,Russian Federation,t-mob,,,,true,,56,CURLE_RECV_ERROR,1,3,0,0,95,0
+www.google.com,RU,Russian Federation,ekaterinburg-2000,31499,213.151.27.8,ekaterinburg-2000,false,,0,OK,1,3,827,1249,1362,200
+www.google.com,RU,Russian Federation,sberbank-telecom,206673,185.174.128.248,sberbank-telecom,false,,0,OK,1,3,566,903,982,200
+www.google.com,RU,Russian Federation,tbank jsc,205638,193.143.65.151,tbank jsc,false,,0,OK,2,3,714,1468,1581,200
+www.google.com,RU,Russian Federation,invest mobile,,,,true,,56,CURLE_RECV_ERROR,1,3,0,0,96,0
+www.google.com,RU,Russian Federation,pjsc megafon,31205,188.162.5.13,pjsc megafon,true,,0,OK,2,3,1598,2086,2304,200
+www.google.com,RU,Russian Federation,ekaterinburg-2000,31499,213.151.27.8,ekaterinburg-2000,true,,0,OK,80,82,1172,1654,1720,200
+www.google.com,RU,Russian Federation,sberbank-telecom,206673,185.174.128.248,sberbank-telecom,true,,0,OK,2,3,705,1037,1112,200
+www.google.com,RU,Russian Federation,jsc vainah telecom,49724,188.0.189.200,jsc vainah telecom,false,,0,OK,55,57,805,1676,1802,200
+www.google.com,RU,Russian Federation,mts pjsc,8359,213.87.133.139,mts pjsc,true,,0,OK,2,4,470,795,865,200
+www.google.com,RU,Russian Federation,dom.ru,51570,176.215.67.97,dom.ru,true,,0,OK,1,3,355,550,584,200
+www.google.com,RU,Russian Federation,tbank jsc,205638,193.143.65.151,tbank jsc,true,,0,OK,1,3,1463,2236,2338,200
+www.google.com,RU,Russian Federation,isp balzer-telecom,,,,false,,56,CURLE_RECV_ERROR,1,3,0,0,93,0
+www.google.com,RU,Russian Federation,dom.ru,51570,176.215.67.97,dom.ru,false,,0,OK,1,3,357,541,577,200
+www.google.com,PG,Papua New Guinea,digicel png,,,,false,,56,CURLE_RECV_ERROR,2,4,0,0,16359,0
+www.google.com,RU,Russian Federation,jsc vainah telecom,49724,188.0.189.200,jsc vainah telecom,true,,0,OK,1,3,981,1852,1962,200
+www.google.com,RU,Russian Federation,isp balzer-telecom,,,,true,,56,CURLE_RECV_ERROR,2,3,0,0,90,0
+www.google.com,RU,Russian Federation,ozyorsk telecom cjsc.,48043,91.205.236.150,ozyorsk telecom cjsc.,true,,0,OK,2,3,542,772,815,200
+www.google.com,RU,Russian Federation,tele2 russia,41330,176.59.132.218,tele2 russia,false,,0,OK,1,3,1227,1683,1834,200
+www.google.com,RU,Russian Federation,ooo vtc-mobile,,,,false,,56,CURLE_RECV_ERROR,2,4,0,0,98,0
+www.google.com,RU,Russian Federation,novokuznetsk telecom,47530,62.122.55.39,novokuznetsk telecom,false,,0,OK,1,2,843,1198,1298,200
+www.google.com,RU,Russian Federation,ooo vtc-mobile,,,,true,,56,CURLE_RECV_ERROR,2,3,0,0,96,0
+www.google.com,RU,Russian Federation,ozyorsk telecom cjsc.,48043,91.205.236.150,ozyorsk telecom cjsc.,false,,0,OK,1,3,824,1055,1096,200
+www.google.com,RU,Russian Federation,s.u.e. dpr republic operator of networks,204108,185.253.41.45,s.u.e. dpr republic operator of networks,true,,0,OK,27,29,1993,2443,3434,200
+www.google.com,RU,Russian Federation,jv a-mobile,,,,false,,56,CURLE_RECV_ERROR,2,3,0,0,90,0
+www.google.com,RU,Russian Federation,novokuznetsk telecom,47530,62.122.55.39,novokuznetsk telecom,true,,0,OK,1,3,1189,1553,1643,200
+www.google.com,RU,Russian Federation,mts ojsc,,,,true,,56,CURLE_RECV_ERROR,1,4,0,0,90,0
+www.google.com,RU,Russian Federation,zao aquafon-gsm,,,,false,,56,CURLE_RECV_ERROR,1,3,0,0,92,0
+www.google.com,RU,Russian Federation,beeline,16345,176.15.254.63,beeline,false,,0,OK,2,4,1181,1644,1897,200
+www.google.com,RU,Russian Federation,invest mobile,,,,false,,56,CURLE_RECV_ERROR,1,3,0,0,83,0
+www.google.com,RU,Russian Federation,jv a-mobile,,,,true,,56,CURLE_RECV_ERROR,1,3,0,0,87,0
+www.google.com,RU,Russian Federation,llc alfa-mobile,,,,false,,56,CURLE_RECV_ERROR,2,3,0,0,91,0
+www.google.com,RU,Russian Federation,llc alfa-mobile,,,,true,,56,CURLE_RECV_ERROR,1,3,0,0,89,0
+www.google.com,RU,Russian Federation,zao aquafon-gsm,,,,true,,56,CURLE_RECV_ERROR,1,3,0,0,88,0
+www.google.com,RU,Russian Federation,tele2 russia,41330,176.59.132.218,tele2 russia,true,,0,OK,1,3,1687,2155,2445,200
+www.google.com,RU,Russian Federation,innovation solutions center ltd.,,,,false,,56,CURLE_RECV_ERROR,1,3,0,0,87,0
+www.google.com,RU,Russian Federation,innovation solutions center ltd.,,,,true,,56,CURLE_RECV_ERROR,1,2,0,0,90,0
+www.google.com,RU,Russian Federation,sistemy svyazi llc,,,,false,,56,CURLE_RECV_ERROR,2,3,0,0,97,0
+www.google.com,RU,Russian Federation,mts ojsc,,,,false,,56,CURLE_RECV_ERROR,1,3,0,0,104,0
+www.google.com,RU,Russian Federation,sistemy svyazi llc,,,,true,,56,CURLE_RECV_ERROR,3,4,0,0,122,0
+www.google.com,RU,Russian Federation,jsc ufanet,41704,95.105.118.171,jsc ufanet,false,,0,OK,1,3,489,733,809,200
+www.google.com,RU,Russian Federation,tattelecom,28840,91.107.100.205,tattelecom,false,,0,OK,1,3,1008,1518,1616,200
+www.google.com,RU,Russian Federation,rostelecom,42610,178.140.154.237,rostelecom,false,,0,OK,1,3,1500,1715,1769,200
+www.google.com,RU,Russian Federation,beeline,16345,176.15.254.63,beeline,true,,0,OK,1,3,1531,2060,2219,200
+www.google.com,RU,Russian Federation,rostelecom,12389,188.254.126.200,rostelecom,true,,0,OK,2,4,900,1134,1199,200
+www.google.com,RU,Russian Federation,jsc ufanet,41704,95.105.118.171,jsc ufanet,true,,0,OK,1,3,495,736,811,200
+www.google.com,RU,Russian Federation,tattelecom,28840,91.107.100.205,tattelecom,true,,0,OK,2,3,822,1225,1330,200
+www.google.com,RU,Russian Federation,s.u.e. dpr republic operator of networks,204108,185.253.41.45,s.u.e. dpr republic operator of networks,false,,0,OK,1,3,806,1338,1864,200
+www.google.com,LC,Saint Lucia,digicel saint lucia,33582,192.147.231.9,digicel saint lucia,true,,0,OK,2,3,842,1242,1352,200
+www.google.com,KN,Saint Kitts and Nevis,flow,14813,204.16.112.102,flow,false,,0,OK,2,4,1146,1548,1783,200
+www.google.com,RW,Rwanda,mtn rwanda,36890,41.186.132.218,mtn rwanda,true,,0,OK,2,4,998,1874,2239,200
+www.google.com,LC,Saint Lucia,digicel saint lucia,33582,192.147.231.9,digicel saint lucia,false,,0,OK,1,3,1356,1815,2003,200
+www.google.com,MF,Saint Martin (French part),dauphin telecom,33392,208.91.192.194,dauphin telecom,false,,0,OK,65,66,545,894,1019,200
+www.google.com,KN,Saint Kitts and Nevis,flow,14813,204.16.112.102,flow,true,,0,OK,3,5,1453,1933,2430,200
+www.google.com,RW,Rwanda,airtel rwanda,327707,197.157.135.104,airtel rwanda,false,,0,OK,2,3,934,2384,2761,200
+www.google.com,RW,Rwanda,mtn rwanda,36890,41.186.132.218,mtn rwanda,false,,0,OK,1,3,1611,2497,2768,200
+www.google.com,MF,Saint Martin (French part),dauphin telecom,33392,208.91.192.194,dauphin telecom,true,,0,OK,2,3,625,935,1168,200
+www.google.com,LC,Saint Lucia,flow,14813,209.59.91.130,flow,true,,0,OK,1,3,1244,1784,2837,200
+www.google.com,PG,Papua New Guinea,digicel png,,,,true,,56,CURLE_RECV_ERROR,2,4,0,0,21090,0
+www.google.com,LC,Saint Lucia,flow,14813,209.59.91.130,flow,false,,0,OK,2,4,2973,3361,3515,200
+www.google.com,RW,Rwanda,airtel rwanda,327707,197.157.135.104,airtel rwanda,true,,0,OK,2,3,2707,3735,3950,200
+www.google.com,SA,Saudi Arabia,etihad salam telecom cjsc,35753,82.167.18.140,etihad salam telecom cjsc,false,,0,OK,2,3,846,1390,1496,200
+www.google.com,SA,Saudi Arabia,zain saudi arabia,43766,51.36.233.215,zain saudi arabia,false,,0,OK,2,4,899,1502,1793,200
+www.google.com,SA,Saudi Arabia,stc saudi,39891,188.53.124.1,stc saudi,true,,0,OK,1,3,680,1272,1503,200
+www.google.com,SA,Saudi Arabia,stc saudi,39891,188.53.124.1,stc saudi,false,,0,OK,1,3,1228,1810,1925,200
+www.google.com,SA,Saudi Arabia,zain saudi arabia,43766,51.36.233.215,zain saudi arabia,true,,0,OK,2,4,793,1407,1533,200
+www.google.com,WS,Samoa,vodafone samoa,17993,202.4.33.219,vodafone samoa,false,,0,OK,1,4,1610,2599,2941,200
+www.google.com,SA,Saudi Arabia,pfa mihalascu viorel,,,,false,,56,CURLE_RECV_ERROR,1,3,0,0,262,0
+www.google.com,SA,Saudi Arabia,pfa mihalascu viorel,,,,true,,56,CURLE_RECV_ERROR,2,3,0,0,261,0
+www.google.com,ST,Sao Tome and Principe,cst-net,328191,197.159.174.226,cst-net,false,,0,OK,1,3,1479,3031,3295,200
+www.google.com,SA,Saudi Arabia,etihad salam telecom cjsc,35753,82.167.18.140,etihad salam telecom cjsc,true,,0,OK,1,3,748,1316,1474,200
+www.google.com,WS,Samoa,vodafone samoa,17993,202.4.33.219,vodafone samoa,true,,0,OK,1,3,3142,4105,4443,200
+www.google.com,ST,Sao Tome and Principe,cst-net,328191,197.159.174.226,cst-net,true,,0,OK,2,3,2775,4314,4880,200
+www.google.com,SA,Saudi Arabia,mobily,35819,37.42.198.124,mobily,false,,0,OK,3,4,884,2951,3641,200
+www.google.com,SA,Saudi Arabia,zain kuwait,42961,37.37.37.37,zain kuwait,true,,0,OK,1,2,959,1922,2396,200
+www.google.com,QA,Qatar,ooredoo qatar,,,,true,,56,CURLE_RECV_ERROR,1,3,0,0,16273,0
+www.google.com,SA,Saudi Arabia,zain kuwait,42961,37.37.37.37,zain kuwait,false,,0,OK,61,63,902,1856,2175,200
+www.google.com,SA,Saudi Arabia,mobily,35819,37.42.198.124,mobily,true,,0,OK,1,3,1286,3324,3684,200
+www.google.com,SN,Senegal,tigo senegal,37649,102.164.189.6,tigo senegal,false,,0,OK,20,22,1777,2365,2463,200
+www.google.com,SN,Senegal,sonatel,8346,41.82.183.202,sonatel,true,,0,OK,1,3,860,1293,1413,200
+www.google.com,SN,Senegal,sonatel,8346,41.82.178.114,sonatel,false,,0,OK,1,3,1844,2402,2625,200
+www.google.com,SN,Senegal,sudatel-senegal,37196,41.219.52.101,sudatel-senegal,false,,0,OK,2,4,735,1571,1696,200
+www.google.com,SN,Senegal,tigo senegal,37649,102.164.189.6,tigo senegal,true,,0,OK,1,3,921,1514,1830,200
+www.google.com,RS,Serbia,a1 srbija d.o.o,44143,77.243.23.29,a1 srbija d.o.o,false,,0,OK,2,3,701,1386,1523,200
+www.google.com,SC,Seychelles,airtelseychelles,,,,true,,56,CURLE_RECV_ERROR,2,3,0,0,70,0
+www.google.com,SC,Seychelles,airtelseychelles,,,,false,,56,CURLE_RECV_ERROR,2,3,0,0,73,0
+www.google.com,RS,Serbia,mts serbia,8400,212.200.181.146,mts serbia,false,,0,OK,2,3,579,1247,1416,200
+www.google.com,RS,Serbia,a1 srbija d.o.o,44143,77.243.23.29,a1 srbija d.o.o,true,,0,OK,1,3,788,1508,1610,200
+www.google.com,SN,Senegal,sudatel-senegal,37196,41.219.52.101,sudatel-senegal,true,,0,OK,1,3,1378,2181,2379,200
+www.google.com,RS,Serbia,mts serbia,8400,212.200.181.146,mts serbia,true,,0,OK,2,3,878,1594,1690,200
+www.google.com,RS,Serbia,telenor d.o.o.,15958,109.245.227.78,telenor d.o.o.,false,,0,OK,2,3,974,2468,2610,200
+www.google.com,SA,Saudi Arabia,rcell,214707,205.209.93.61,rcell,false,,0,OK,2,4,3989,5395,6309,200
+www.google.com,SL,Sierra Leone,pcs-holdings-limited,,,,false,,56,CURLE_RECV_ERROR,58,60,0,0,142,0
+www.google.com,SL,Sierra Leone,pcs-holdings-limited,,,,true,,56,CURLE_RECV_ERROR,1,3,0,0,78,0
+www.google.com,RS,Serbia,telenor d.o.o.,15958,109.245.227.78,telenor d.o.o.,true,,0,OK,2,3,2351,3361,3593,200
+www.google.com,SC,Seychelles,cable & wireless (seychelles),36958,41.86.49.204,cable & wireless (seychelles),true,,0,OK,2,4,841,2352,2557,200
+www.google.com,SC,Seychelles,cable & wireless (seychelles),36958,41.86.49.204,cable & wireless (seychelles),false,,0,OK,2,3,1529,2421,2601,200
+www.google.com,SG,Singapore,m1,4773,119.56.16.5,m1,true,,0,OK,1,2,759,1228,1301,200
+www.google.com,SG,Singapore,singtel mobile,45143,119.234.67.192,singtel mobile,false,,0,OK,2,4,809,1248,1323,200
+www.google.com,SL,Sierra Leone,qcell,328297,102.143.21.74,qcell,true,,0,OK,2,3,2125,3065,3461,200
+www.google.com,SG,Singapore,m1,4773,119.56.16.5,m1,false,,0,OK,1,3,931,1401,1514,200
+www.google.com,SG,Singapore,simba telecom,4817,210.10.6.226,simba telecom,false,,0,OK,1,4,734,1322,1390,200
+www.google.com,SG,Singapore,singtel mobile,45143,119.234.67.192,singtel mobile,true,,0,OK,1,3,1479,1890,1971,200
+www.google.com,SL,Sierra Leone,zain,37164,197.215.23.75,zain,true,,0,OK,1,3,2783,3486,3939,200
+www.google.com,SG,Singapore,starhub,4657,117.20.154.125,starhub,true,,0,OK,2,4,667,1017,1085,200
+www.google.com,SL,Sierra Leone,zain,37164,197.215.25.253,zain,false,,0,OK,1,3,3346,4066,4249,200
+www.google.com,SG,Singapore,starhub,4657,117.20.154.125,starhub,false,,0,OK,2,4,1205,1558,1619,200
+www.google.com,SA,Saudi Arabia,rcell,214707,205.209.93.61,rcell,true,,0,OK,1,3,6280,7942,9584,200
+www.google.com,SK,Slovakia,"swan, a.s.",5578,84.245.121.4,"swan, a.s.",true,,0,OK,2,4,480,1122,1191,200
+www.google.com,SK,Slovakia,slovak telekom,6855,195.91.25.136,slovak telekom,false,,0,OK,1,3,578,1082,1144,200
+www.google.com,SG,Singapore,simba telecom,4817,210.10.6.226,simba telecom,true,,0,OK,2,4,966,1779,1910,200
+www.google.com,SK,Slovakia,slovak telekom,6855,195.91.25.136,slovak telekom,true,,0,OK,1,3,862,1370,1498,200
+www.google.com,SL,Sierra Leone,qcell,328297,102.143.21.74,qcell,false,,0,OK,1,3,3958,5535,5946,200
+www.google.com,SX,Sint Maarten (Dutch part),smitcoms n.v.,27781,201.220.12.113,smitcoms n.v.,true,,0,OK,36,38,1728,2034,2139,200
+www.google.com,SK,Slovakia,"swan, a.s.",5578,84.245.121.4,"swan, a.s.",false,,0,OK,2,4,452,1085,1150,200
+www.google.com,SI,Slovenia,t-2,,,,false,,56,CURLE_RECV_ERROR,1,3,0,0,66,0
+www.google.com,SK,Slovakia,o2 slovakia,28952,46.34.252.106,o2 slovakia,true,,0,OK,2,4,559,1046,1119,200
+www.google.com,SI,Slovenia,t-2,,,,true,,56,CURLE_RECV_ERROR,2,4,0,0,67,0
+www.google.com,SX,Sint Maarten (Dutch part),smitcoms n.v.,27781,201.220.12.113,smitcoms n.v.,false,,0,OK,75,77,1865,2240,2398,200
+www.google.com,SL,Sierra Leone,africell sierra leone,36988,102.206.185.236,africell sierra leone,true,,0,OK,1,3,2296,3520,6074,200
+www.google.com,SK,Slovakia,o2 slovakia,28952,46.34.252.106,o2 slovakia,false,,0,OK,1,3,818,1235,1304,200
+www.google.com,SK,Slovakia,orange slovensko,15962,85.237.234.21,orange slovensko,false,,0,OK,1,3,584,1225,1382,200
+www.google.com,SO,Somalia,somtel-somalia,,,,false,,56,CURLE_RECV_ERROR,2,4,0,0,71,0
+www.google.com,SI,Slovenia,telemach,3212,176.76.100.146,telemach,false,,0,OK,2,3,503,1105,1201,200
+www.google.com,SI,Slovenia,a1 slovenija,21283,46.122.97.98,a1 slovenija,false,,0,OK,43,44,668,1325,1435,200
+www.google.com,SK,Slovakia,orange slovensko,15962,85.237.234.21,orange slovensko,true,,0,OK,2,3,1274,1682,1792,200
+www.google.com,SI,Slovenia,telemach,3212,176.76.100.146,telemach,true,,0,OK,2,3,964,1554,1613,200
+www.google.com,SI,Slovenia,a1 slovenija,21283,46.122.97.98,a1 slovenija,true,,0,OK,37,39,1178,1867,1946,200
+www.google.com,WS,Samoa,digicel samoa,,,,true,,56,CURLE_RECV_ERROR,2,4,0,0,16338,0
+www.google.com,SO,Somalia,golis-telecom,,,,false,,56,CURLE_RECV_ERROR,2,4,0,0,66,0
+www.google.com,SO,Somalia,amtel,,,,true,,56,CURLE_RECV_ERROR,2,4,0,0,66,0
+www.google.com,SO,Somalia,somlink-wireless,,,,false,,56,CURLE_RECV_ERROR,1,3,0,0,62,0
+www.google.com,SO,Somalia,somtel-somalia,,,,true,,56,CURLE_RECV_ERROR,2,4,0,0,66,0
+www.google.com,SO,Somalia,amtel,,,,false,,56,CURLE_RECV_ERROR,1,3,0,0,65,0
+www.google.com,SL,Sierra Leone,africell sierra leone,36988,102.206.185.236,africell sierra leone,false,,0,OK,2,3,2890,3906,7937,200
+www.google.com,SO,Somalia,golis-telecom,,,,true,,56,CURLE_RECV_ERROR,2,3,0,0,68,0
+www.google.com,SO,Somalia,somlink-wireless,,,,true,,56,CURLE_RECV_ERROR,1,3,0,0,74,0
+www.google.com,SO,Somalia,hormuud,37371,197.220.88.186,hormuud,false,,0,OK,2,3,1077,1832,1998,200
+www.google.com,SI,Slovenia,telekom slovenije,5603,178.58.124.120,telekom slovenije,false,,0,OK,1,3,1267,3303,3355,200
+www.google.com,SO,Somalia,hormuud,37371,197.220.88.186,hormuud,true,,0,OK,1,3,1595,2894,3120,200
+www.google.com,SI,Slovenia,telekom slovenije,5603,178.58.124.120,telekom slovenije,true,,0,OK,1,3,3306,4078,4207,200
+www.google.com,SO,Somalia,telesom,37473,154.115.237.67,telesom,false,,0,OK,2,4,1340,2403,2775,200
+www.google.com,QA,Qatar,ooredoo qatar,8781,176.203.160.75,ooredoo qatar,false,,56,CURLE_RECV_ERROR,2,4,1039,0,29313,0
+www.google.com,SO,Somalia,telesom,37473,154.115.237.67,telesom,true,,0,OK,2,3,2206,3181,3508,200
+www.google.com,ZA,South Africa,mtn sa mobile,12091,41.116.102.23,mtn sa mobile,false,,0,OK,2,3,1164,3354,3593,200
+www.google.com,ZA,South Africa,telkom internet,37457,41.144.172.6,telkom internet,false,,0,OK,2,4,1377,3014,4024,200
+www.google.com,ZA,South Africa,mtn sa mobile,12091,41.116.102.23,mtn sa mobile,true,,0,OK,2,4,1899,3610,4019,200
+www.google.com,ZA,South Africa,vodacom,29975,41.13.104.66,vodacom,false,,0,OK,2,4,1469,2643,3363,200
+www.google.com,ZA,South Africa,cell c,37168,105.4.5.98,cell c,true,,0,OK,2,4,1360,2276,2492,200
+www.google.com,WS,Samoa,digicel samoa,,,,false,,56,CURLE_RECV_ERROR,2,4,0,0,20971,0
+www.google.com,ZA,South Africa,telkom limited,37457,102.254.21.4,telkom limited,false,,0,OK,83,84,1297,2288,2545,200
+www.google.com,ZA,South Africa,vodacom,29975,41.13.104.66,vodacom,true,,0,OK,1,3,2218,3176,3537,200
+www.google.com,ZA,South Africa,cell c,37168,105.4.5.98,cell c,false,,0,OK,2,3,908,1803,2001,200
+www.google.com,SS,South Sudan,mtn south sudan,,,,false,,56,CURLE_RECV_ERROR,2,4,0,0,63,0
+www.google.com,ZA,South Africa,telkom limited,37457,102.254.21.4,telkom limited,true,,0,OK,1,3,1983,2958,3194,200
+www.google.com,SS,South Sudan,digitel-holdings,,,,false,,56,CURLE_RECV_ERROR,2,3,0,0,70,0
+www.google.com,SS,South Sudan,digitel-holdings,,,,true,,56,CURLE_RECV_ERROR,2,4,0,0,66,0
+www.google.com,RU,Russian Federation,mcs,47204,45.131.49.155,mcs,true,,28,CURLE_OPERATION_TIMEDOUT,2,4,589,899,30000,200
+www.google.com,SS,South Sudan,mtn south sudan,,,,true,,56,CURLE_RECV_ERROR,2,3,0,0,67,0
+www.google.com,ZA,South Africa,telkom internet,37457,41.144.172.6,telkom internet,true,,0,OK,2,4,2521,3567,4472,200
+www.google.com,ZA,South Africa,rain,37105,41.56.85.83,rain,false,,0,OK,2,4,1024,1944,2133,200
+www.google.com,ZA,South Africa,mtn business solutions,12091,197.70.4.34,mtn business solutions,false,,0,OK,2,4,1174,2118,2581,200
+www.google.com,ZA,South Africa,rain,37105,41.56.85.83,rain,true,,0,OK,2,4,1676,2629,2833,200
+www.google.com,ES,Spain,aire networks,29119,84.236.194.179,aire networks,true,,0,OK,1,3,637,1063,1166,200
+www.google.com,ES,Spain,digi spain,57269,79.116.247.215,digi spain,false,,0,OK,2,3,567,1319,1409,200
+www.google.com,ZA,South Africa,mtn business solutions,12091,197.70.4.34,mtn business solutions,true,,0,OK,2,4,1785,3489,3905,200
+www.google.com,ES,Spain,digi spain,57269,79.116.247.215,digi spain,true,,0,OK,2,3,1149,1593,1727,200
+www.google.com,RU,Russian Federation,mcs,47204,45.131.49.155,mcs,false,,28,CURLE_OPERATION_TIMEDOUT,1,3,525,799,30000,200
+www.google.com,ES,Spain,orange espana,12479,90.167.177.65,orange espana,false,,0,OK,1,3,681,1177,1490,200
+www.google.com,ES,Spain,vodafone spain,12430,77.208.170.231,vodafone spain,false,,0,OK,1,3,573,995,1105,200
+www.google.com,ES,Spain,orange espana,12479,90.167.177.65,orange espana,true,,0,OK,87,89,1285,1775,1875,200
+www.google.com,ES,Spain,vodafone spain,12430,77.208.170.231,vodafone spain,true,,0,OK,2,3,568,992,1081,200
+www.google.com,ZA,South Africa,mtn sa,12091,196.11.241.44,mtn sa,true,,0,OK,2,3,1073,4051,4869,200
+www.google.com,SB,Solomon Islands,bemobile solomon islands,132462,103.21.248.254,bemobile solomon islands,false,,0,OK,3,4,9456,11634,11635,302
+www.google.com,ES,Spain,telefonica de espana static ip,3352,95.124.136.117,telefonica de espana static ip,false,,0,OK,2,3,491,889,994,200
+www.google.com,ES,Spain,avatel telecom,200845,45.138.255.224,avatel telecom,false,,0,OK,1,3,444,849,942,200
+www.google.com,ES,Spain,telefonica de espana,3352,176.87.120.142,telefonica de espana,false,,0,OK,2,3,751,1272,1387,200
+www.google.com,ZA,South Africa,mtn sa,12091,196.11.241.44,mtn sa,false,,0,OK,2,3,1604,4464,4871,200
+www.google.com,ES,Spain,telefonica de espana static ip,3352,95.124.136.117,telefonica de espana static ip,true,,0,OK,2,4,511,906,976,200
+www.google.com,ES,Spain,avatel telecom,200845,45.138.255.224,avatel telecom,true,,0,OK,1,3,524,959,1027,200
+www.google.com,SS,South Sudan,telecom-4g,37376,41.79.122.217,telecom-4g,true,,0,OK,2,3,2980,4182,4477,200
+www.google.com,ES,Spain,zinnia telecomunicaciones sl.,204811,185.239.72.4,zinnia telecomunicaciones sl.,true,,0,OK,1,3,780,1368,1460,200
+www.google.com,ES,Spain,aire networks,29119,84.236.194.179,aire networks,false,,0,OK,1,3,577,1021,1565,200
+www.google.com,ES,Spain,digi spain telecom,57269,79.117.87.146,digi spain telecom,true,,0,OK,1,3,685,1212,1333,200
+www.google.com,ES,Spain,citelia,29119,194.49.59.85,citelia,false,,0,OK,1,3,566,999,1059,200
+www.google.com,ES,Spain,ena operador de telecomunicaciones s.l.,209344,185.133.202.252,ena operador de telecomunicaciones s.l.,false,,0,OK,2,3,640,1099,1185,200
+www.google.com,ES,Spain,"procono, s.a.",34977,93.114.159.13,"procono, s.a.",true,,0,OK,1,3,864,1317,1558,200
+www.google.com,ES,Spain,"open cable telecomunicaciones, s.l.",,,,false,,56,CURLE_RECV_ERROR,2,3,0,0,122,0
+www.google.com,SS,South Sudan,telecom-4g,37376,41.79.122.217,telecom-4g,false,,0,OK,2,3,4383,5818,6033,200
+www.google.com,ES,Spain,citelia,29119,194.49.59.85,citelia,true,,0,OK,2,4,736,1132,1202,200
+www.google.com,ES,Spain,"open cable telecomunicaciones, s.l.",,,,true,,56,CURLE_RECV_ERROR,2,4,0,0,136,0
+www.google.com,ES,Spain,zinnia telecomunicaciones sl.,204811,185.239.72.4,zinnia telecomunicaciones sl.,false,,0,OK,1,4,1021,1651,1716,200
+www.google.com,ES,Spain,telefonica de espana,3352,176.87.120.142,telefonica de espana,true,,0,OK,1,3,649,1159,1268,200
+www.google.com,ES,Spain,"procono, s.a.",34977,93.114.159.13,"procono, s.a.",false,,0,OK,1,3,1433,1895,2063,200
+www.google.com,ES,Spain,jazztel,12479,37.132.7.55,jazztel,false,,0,OK,1,3,437,747,784,200
+www.google.com,ES,Spain,euskaltel,12338,91.116.2.170,euskaltel,true,,0,OK,2,3,510,843,881,200
+www.google.com,ES,Spain,ena operador de telecomunicaciones s.l.,209344,185.133.202.252,ena operador de telecomunicaciones s.l.,true,,0,OK,2,4,621,1058,1147,200
+www.google.com,ES,Spain,jazztel,12479,37.132.7.55,jazztel,true,,0,OK,1,4,738,1045,1083,200
+www.google.com,ES,Spain,euskaltel,12338,91.116.2.170,euskaltel,false,,0,OK,2,4,720,1046,1082,200
+www.google.com,ES,Spain,digi spain telecom,57269,79.117.87.146,digi spain telecom,false,,0,OK,1,3,753,1227,1374,200
+www.google.com,SO,Somalia,somtel,,,,false,,56,CURLE_RECV_ERROR,2,4,0,0,14099,0
+www.google.com,SB,Solomon Islands,bemobile solomon islands,132462,103.21.248.254,bemobile solomon islands,true,,0,OK,1,3,12974,14933,14934,302
+www.google.com,SO,Somalia,somtel,,,,true,,56,CURLE_RECV_ERROR,2,4,0,0,14193,0
+www.google.com,LK,Sri Lanka,mobitel,45356,212.104.231.180,mobitel,false,,0,OK,2,3,1021,1508,1604,200
+www.google.com,LK,Sri Lanka,airtel lanka,18001,223.224.11.36,airtel lanka,false,,0,OK,2,4,928,1706,1836,200
+www.google.com,LK,Sri Lanka,dialog axiata,18001,175.157.216.72,dialog axiata,true,,0,OK,2,3,991,1767,1827,200
+www.google.com,ES,Spain,yoigo,15704,46.222.207.100,yoigo,true,,0,OK,2,4,5992,6779,6992,200
+www.google.com,LK,Sri Lanka,hutchison telecommunications lanka private,17470,103.247.51.220,hutchison telecommunications lanka private,true,,0,OK,2,4,1018,1604,1776,200
+www.google.com,LK,Sri Lanka,airtel lanka,18001,223.224.11.36,airtel lanka,true,,0,OK,1,3,1260,2028,2161,200
+www.google.com,LK,Sri Lanka,mobitel,45356,212.104.231.180,mobitel,true,,0,OK,2,3,1911,2418,2549,200
+www.google.com,SR,Suriname,telesur,27775,186.179.192.155,telesur,true,,0,OK,2,4,412,721,813,200
+www.google.com,SD,Sudan,sudatel,15706,197.252.5.43,sudatel,false,,0,OK,2,3,876,1468,1596,200
+www.google.com,SD,Sudan,zain sudan,36998,41.95.239.138,zain sudan,false,,0,OK,137,139,1201,1888,2032,200
+www.google.com,LK,Sri Lanka,hutchison telecommunications lanka private,17470,103.247.51.220,hutchison telecommunications lanka private,false,,0,OK,2,4,1601,2406,2581,200
+www.google.com,SR,Suriname,telesur,27775,186.179.192.155,telesur,false,,0,OK,2,3,845,1157,1260,200
+www.google.com,LK,Sri Lanka,dialog axiata,18001,175.157.216.72,dialog axiata,false,,0,OK,1,3,1837,3133,3220,200
+www.google.com,SR,Suriname,digicel suriname nv,52398,168.121.86.160,digicel suriname nv,false,,0,OK,2,4,729,1275,1355,200
+www.google.com,SD,Sudan,zain sudan,36998,41.95.239.138,zain sudan,true,,0,OK,2,3,1083,1717,1842,200
+www.google.com,SD,Sudan,sudatel,15706,197.252.5.43,sudatel,true,,0,OK,2,4,1417,2039,2162,200
+www.google.com,SR,Suriname,digicel suriname nv,52398,168.121.86.160,digicel suriname nv,true,,0,OK,1,3,690,1256,1336,200
+www.google.com,SE,Sweden,telenor sverige,8434,94.234.94.142,telenor sverige,false,,0,OK,1,3,512,760,791,200
+www.google.com,SD,Sudan,mtn sudan,36972,102.124.35.75,mtn sudan,false,,0,OK,1,3,1149,2389,2684,200
+www.google.com,LK,Sri Lanka,hutch sri lanka,132447,45.121.88.38,hutch sri lanka,true,,0,OK,192,194,2221,3298,3330,200
+www.google.com,LK,Sri Lanka,hutch sri lanka,132447,45.121.88.38,hutch sri lanka,false,,0,OK,2,3,2393,3427,3506,200
+www.google.com,SE,Sweden,telia mobile,3301,90.238.19.206,telia mobile,true,,0,OK,2,4,613,932,991,200
+www.google.com,SE,Sweden,telenor sverige,8434,94.234.94.142,telenor sverige,true,,0,OK,1,3,865,1124,1255,200
+www.google.com,SE,Sweden,tele2 sweden,1257,83.191.126.171,tele2 sweden,false,,0,OK,1,3,554,993,1056,200
+www.google.com,SE,Sweden,lycamobile,,,,false,,56,CURLE_RECV_ERROR,1,3,0,0,72,0
+www.google.com,SE,Sweden,lycamobile,,,,true,,56,CURLE_RECV_ERROR,1,3,0,0,75,0
+www.google.com,SE,Sweden,ownit broadband,33885,94.137.105.156,ownit broadband,true,,0,OK,1,3,315,620,658,200
+www.google.com,SE,Sweden,tele2 sweden,1257,83.191.126.171,tele2 sweden,true,,0,OK,1,3,936,1364,1394,200
+www.google.com,SE,Sweden,ownit broadband,33885,94.137.105.156,ownit broadband,false,,0,OK,2,4,540,732,737,200
+www.google.com,SZ,Eswatini,swazi mobile,328169,165.73.133.39,swazi mobile,true,,0,OK,2,3,1149,2039,2348,200
+www.google.com,SE,Sweden,telenor sverige ab,8434,178.31.122.183,telenor sverige ab,false,,0,OK,2,3,488,785,827,200
+www.google.com,SE,Sweden,telia mobile,3301,90.238.19.206,telia mobile,false,,0,OK,2,3,550,913,993,200
+www.google.com,SD,Sudan,mtn sudan,36972,102.124.35.75,mtn sudan,true,,0,OK,1,3,1823,3200,3450,200
+www.google.com,SE,Sweden,telenor sverige ab,8434,178.31.122.183,telenor sverige ab,true,,0,OK,2,4,900,1149,1190,200
+www.google.com,SE,Sweden,gotalandsnatet ab,12597,212.3.15.136,gotalandsnatet ab,false,,0,OK,1,4,500,772,877,200
+www.google.com,CH,Switzerland,monzoon networks,,,,false,,56,CURLE_RECV_ERROR,2,4,0,0,69,0
+www.google.com,SE,Sweden,hi3g access ab,44034,94.191.136.174,hi3g access ab,false,,0,OK,1,3,1469,1866,2062,200
+www.google.com,CH,Switzerland,salt mobile,15796,213.55.199.61,salt mobile,false,,0,OK,2,4,377,756,807,200
+www.google.com,SZ,Eswatini,swazi mobile,328169,165.73.133.39,swazi mobile,false,,0,OK,1,3,1972,2933,3135,200
+www.google.com,SE,Sweden,gotalandsnatet ab,12597,212.3.15.136,gotalandsnatet ab,true,,0,OK,1,3,815,1093,1193,200
+www.google.com,CH,Switzerland,swisscom,3303,178.197.195.100,swisscom,true,,0,OK,1,3,707,1078,1126,200
+www.google.com,CH,Switzerland,monzoon networks,,,,true,,56,CURLE_RECV_ERROR,93,95,0,0,162,0
+www.google.com,CH,Switzerland,mass response service,51265,197.211.185.192,mass response service,false,,0,OK,2,4,568,944,1011,200
+www.google.com,SY,Syrian Arab Republic,rcell,,,,false,,56,CURLE_RECV_ERROR,2,4,0,0,67,0
+www.google.com,SZ,Eswatini,swazimtn-ltd,327765,41.211.35.212,swazimtn-ltd,false,,0,OK,1,3,1225,2179,3206,200
+www.google.com,SY,Syrian Arab Republic,rcell,,,,true,,56,CURLE_RECV_ERROR,1,3,0,0,62,0
+www.google.com,CH,Switzerland,lycamobile,31404,83.137.6.190,lycamobile,false,,0,OK,1,3,614,926,1001,200
+www.google.com,CH,Switzerland,swisscom,3303,178.197.195.100,swisscom,false,,0,OK,2,4,883,1271,1315,200
+www.google.com,CH,Switzerland,salt mobile,15796,213.55.199.61,salt mobile,true,,0,OK,2,3,450,836,889,200
+www.google.com,CH,Switzerland,mass response service,51265,197.211.185.192,mass response service,true,,0,OK,2,3,513,927,1055,200
+www.google.com,SE,Sweden,hi3g access ab,44034,94.191.136.174,hi3g access ab,true,,0,OK,1,3,1604,2190,2796,200
+www.google.com,CH,Switzerland,lycamobile,31404,83.137.6.190,lycamobile,true,,0,OK,1,3,1030,1479,1577,200
+www.google.com,SY,Syrian Arab Republic,syriatel mobile telecom,48065,46.213.187.245,syriatel mobile telecom,false,,0,OK,11,13,754,1343,1465,200
+www.google.com,TW,"Taiwan, Province of China",chunghwa telecom,17421,111.83.253.63,chunghwa telecom,false,,0,OK,1,3,834,1271,1294,200
+www.google.com,SZ,Eswatini,swazimtn-ltd,327765,41.211.35.212,swazimtn-ltd,true,,0,OK,1,3,2970,3876,4577,200
+www.google.com,CH,Switzerland,sunrise,6730,194.230.158.235,sunrise,false,,0,OK,1,3,1962,2618,2777,200
+www.google.com,TW,"Taiwan, Province of China",twn broadband,24158,49.215.47.163,twn broadband,false,,0,OK,1,3,989,1631,1649,200
+www.google.com,SY,Syrian Arab Republic,syriatel mobile telecom,48065,46.213.187.245,syriatel mobile telecom,true,,0,OK,1,3,1296,1878,1965,200
+www.google.com,TW,"Taiwan, Province of China",taiwan mobile,24158,101.8.23.239,taiwan mobile,true,,0,OK,1,3,850,1303,1357,200
+www.google.com,SY,Syrian Arab Republic,syrian telecom,29256,178.171.207.253,syrian telecom,false,,0,OK,73,75,1187,2009,2433,200
+www.google.com,TW,"Taiwan, Province of China",fareastone,9674,27.240.209.177,fareastone,false,,0,OK,1,3,1225,1699,1958,200
+www.google.com,TW,"Taiwan, Province of China",chunghwa telecom,17421,111.83.253.63,chunghwa telecom,true,,0,OK,1,3,1587,2031,2045,200
+www.google.com,TW,"Taiwan, Province of China",twn broadband,24158,49.215.47.163,twn broadband,true,,0,OK,1,3,1245,1788,1840,200
+www.google.com,TW,"Taiwan, Province of China",taiwan mobile,24158,101.8.23.239,taiwan mobile,false,,0,OK,2,3,1425,1869,1894,200
+www.google.com,TW,"Taiwan, Province of China",asia pacific telecom,131591,222.250.138.226,asia pacific telecom,false,,0,OK,1,3,935,1453,1553,200
+www.google.com,CH,Switzerland,sunrise,6730,194.230.158.235,sunrise,true,,0,OK,1,3,2676,3549,4116,200
+www.google.com,TW,"Taiwan, Province of China",fareastone,9674,27.240.209.177,fareastone,true,,0,OK,1,3,1863,2387,2706,200
+www.google.com,TJ,Tajikistan,tcell (cjsc indigo tajikistan),47139,109.75.54.100,tcell (cjsc indigo tajikistan),true,,0,OK,2,3,888,1596,1745,200
+www.google.com,SY,Syrian Arab Republic,syrian telecom,29256,178.171.207.253,syrian telecom,true,,0,OK,1,4,2432,3202,3423,200
+www.google.com,TJ,Tajikistan,cjsc indigo tajikistan,48887,217.8.47.62,cjsc indigo tajikistan,false,,0,OK,2,4,917,1536,1716,200
+www.google.com,TJ,Tajikistan,tcell (cjsc indigo tajikistan),47139,109.75.54.100,tcell (cjsc indigo tajikistan),false,,0,OK,1,3,969,1667,1823,200
+www.google.com,TW,"Taiwan, Province of China",asia pacific telecom,131591,222.250.138.226,asia pacific telecom,true,,0,OK,1,3,1768,2561,2667,200
+www.google.com,TJ,Tajikistan,cjsc babilon-mobile,204106,77.247.198.234,cjsc babilon-mobile,false,,0,OK,1,3,1220,2193,2303,200
+www.google.com,TJ,Tajikistan,closed joint stock company tt mobile,43197,62.89.208.30,closed joint stock company tt mobile,false,,0,OK,2,4,1433,2254,2588,200
+www.google.com,TJ,Tajikistan,zet-mobile,34557,85.9.129.52,zet-mobile,false,,0,OK,1,3,1703,2033,2120,200
+www.google.com,TJ,Tajikistan,llc babilon-t,24722,46.20.204.100,llc babilon-t,false,,0,OK,2,4,920,1391,1773,200
+www.google.com,TJ,Tajikistan,closed joint stock company tt mobile,43197,62.89.208.30,closed joint stock company tt mobile,true,,0,OK,1,3,2538,3013,3365,200
+www.google.com,TJ,Tajikistan,cjsc babilon-mobile,204106,77.247.198.234,cjsc babilon-mobile,true,,0,OK,1,3,2129,3024,3171,200
+www.google.com,TJ,Tajikistan,cjsc indigo tajikistan,48887,217.8.47.62,cjsc indigo tajikistan,true,,0,OK,2,4,1607,2225,2601,200
+www.google.com,TJ,Tajikistan,llc babilon-t,24722,46.20.204.100,llc babilon-t,true,,0,OK,1,3,1654,2109,2284,200
+www.google.com,TZ,"Tanzania, United Republic of",mic tanzania,37035,154.74.171.26,mic tanzania,false,,0,OK,1,3,1326,2350,2557,200
+www.google.com,TZ,"Tanzania, United Republic of",ttcldata,33765,41.59.122.17,ttcldata,false,,0,OK,2,3,1149,1880,2287,200
+www.google.com,TH,Thailand,ais mobile,131445,182.232.112.225,ais mobile,false,,0,OK,2,4,914,1350,1391,200
+www.google.com,TH,Thailand,dtac,24378,1.47.135.123,dtac,true,,0,OK,2,4,939,1400,1474,200
+www.google.com,TH,Thailand,3bb broadband,,,,false,,56,CURLE_RECV_ERROR,2,4,0,0,104,0
+www.google.com,TZ,"Tanzania, United Republic of",vodacom tanzania,36908,197.250.60.174,vodacom tanzania,false,,0,OK,2,3,893,2055,2585,200
+www.google.com,TZ,"Tanzania, United Republic of",halotel,327885,196.249.121.253,halotel,false,,0,OK,2,4,1765,2992,3293,200
+www.google.com,TZ,"Tanzania, United Republic of",mic tanzania,37035,154.74.171.26,mic tanzania,true,,0,OK,1,3,2094,3313,3530,200
+www.google.com,TH,Thailand,national telecom public company,,,,false,,56,CURLE_RECV_ERROR,2,3,0,0,93,0
+www.google.com,TH,Thailand,3bb broadband,,,,true,,56,CURLE_RECV_ERROR,2,3,0,0,74,0
+www.google.com,TH,Thailand,national telecom public company,,,,true,,56,CURLE_RECV_ERROR,1,4,0,0,67,0
+www.google.com,TL,Timor-Leste,telkomcel,,,,false,,56,CURLE_RECV_ERROR,2,4,0,0,124,0
+www.google.com,TL,Timor-Leste,timor telecom,,,,false,,56,CURLE_RECV_ERROR,2,4,0,0,79,0
+www.google.com,TZ,"Tanzania, United Republic of",airtel tanzania,37133,197.186.29.60,airtel tanzania,true,,0,OK,10,12,1095,2574,3124,200
+www.google.com,TL,Timor-Leste,telkomcel,,,,true,,56,CURLE_RECV_ERROR,2,4,0,0,74,0
+www.google.com,TL,Timor-Leste,timor telecom,,,,true,,56,CURLE_RECV_ERROR,2,4,0,0,74,0
+www.google.com,TH,Thailand,ais mobile,131445,182.232.112.225,ais mobile,true,,0,OK,1,3,1675,2137,2178,200
+www.google.com,TZ,"Tanzania, United Republic of",ttcldata,33765,41.59.122.17,ttcldata,true,,0,OK,2,4,2171,3087,3223,200
+www.google.com,TZ,"Tanzania, United Republic of",vodacom tanzania,36908,197.250.60.174,vodacom tanzania,true,,0,OK,58,60,1979,2810,2999,200
+www.google.com,TH,Thailand,dtac,24378,1.47.135.123,dtac,false,,0,OK,2,3,744,1187,1238,200
+www.google.com,TH,Thailand,ais eds,45458,49.229.60.178,ais eds,false,,0,OK,2,3,865,1270,1298,200
+www.google.com,TH,Thailand,true mobile,132618,223.24.139.175,true mobile,false,,0,OK,2,4,1305,2508,2727,200
+www.google.com,TZ,"Tanzania, United Republic of",halotel,327885,196.249.121.253,halotel,true,,0,OK,1,3,2156,3902,4003,200
+www.google.com,TZ,"Tanzania, United Republic of",airtel tanzania,37133,197.186.29.60,airtel tanzania,false,,0,OK,2,4,2750,4421,4679,200
+www.google.com,TH,Thailand,ais eds,45458,49.229.60.178,ais eds,true,,0,OK,2,3,1545,2027,2091,200
+www.google.com,TT,Trinidad and Tobago,bmobile dsl,5639,190.59.182.170,bmobile dsl,false,,0,OK,1,3,591,934,1139,200
+www.google.com,TT,Trinidad and Tobago,digicel trinidad & tobago,27800,181.118.42.139,digicel trinidad & tobago,false,,0,OK,2,4,642,1020,1134,200
+www.google.com,TL,Timor-Leste,viettel timor leste,133606,103.94.182.28,viettel timor leste,false,,0,OK,2,4,2229,2837,3201,200
+www.google.com,TO,Tonga,digicel tonga,38198,202.43.14.254,digicel tonga,false,,0,OK,60,62,1380,2356,2357,200
+www.google.com,TH,Thailand,true mobile,132618,223.24.139.175,true mobile,true,,0,OK,3,5,2895,3983,4423,200
+www.google.com,TT,Trinidad and Tobago,telecommunication services of trinidad and tobago,5639,190.58.10.6,telecommunication services of trinidad and tobago,false,,0,OK,2,4,430,806,904,200
+www.google.com,TL,Timor-Leste,viettel timor leste,133606,103.94.182.28,viettel timor leste,true,,0,OK,2,4,2345,3319,3559,200
+www.google.com,TT,Trinidad and Tobago,digicel trinidad & tobago,27800,181.118.42.139,digicel trinidad & tobago,true,,0,OK,2,4,1115,1502,1620,200
+www.google.com,TJ,Tajikistan,zet-mobile,34557,85.9.144.95,zet-mobile,true,,0,OK,1,3,7629,8018,8206,200
+www.google.com,TO,Tonga,digicel tonga,38198,202.43.14.254,digicel tonga,true,,0,OK,1,3,2407,3136,3306,200
+www.google.com,TT,Trinidad and Tobago,bmobile dsl,5639,190.59.182.170,bmobile dsl,true,,0,OK,41,42,694,1052,1272,200
+www.google.com,TT,Trinidad and Tobago,telecommunication services of trinidad and tobago,5639,190.58.10.6,telecommunication services of trinidad and tobago,true,,0,OK,2,4,467,1071,1180,200
+www.google.com,TO,Tonga,tonga communications internet network,38201,103.239.160.5,tonga communications internet network,false,,0,OK,2,4,2108,3217,3536,200
+www.google.com,TG,Togo,togocom,24691,196.168.124.137,togocom,false,,0,OK,2,3,3134,4106,4357,200
+www.google.com,TN,Tunisia,"yatanarpon teleport, internet service provider",327934,102.25.79.47,"yatanarpon teleport, internet service provider",false,,0,OK,2,4,560,1228,1229,200
+www.google.com,TN,Tunisia,tunisie telecom,327934,196.187.146.75,tunisie telecom,true,,0,OK,2,4,823,1427,1429,200
+www.google.com,TN,Tunisia,"yatanarpon teleport, internet service provider",327934,102.25.79.47,"yatanarpon teleport, internet service provider",true,,0,OK,2,3,620,1056,1121,200
+www.google.com,TN,Tunisia,tunisie telecom,327934,196.187.146.75,tunisie telecom,false,,0,OK,2,4,1151,1563,1617,200
+www.google.com,TR,Turkey,turkcell,16135,176.238.225.137,turkcell,false,,0,OK,1,3,517,1199,1273,200
+www.google.com,TO,Tonga,tonga communications internet network,38201,103.239.160.5,tonga communications internet network,true,,0,OK,1,3,3386,4475,4805,200
+www.google.com,TR,Turkey,turk telekom,20978,46.104.16.59,turk telekom,false,,0,OK,1,3,485,1260,1384,200
+www.google.com,TR,Turkey,fibim fibernet gsm san. ve tic. a.s,,,,false,,56,CURLE_RECV_ERROR,2,4,0,0,94,0
+www.google.com,TR,Turkey,fibim fibernet gsm san. ve tic. a.s,,,,true,,56,CURLE_RECV_ERROR,2,4,0,0,91,0
+www.google.com,TN,Tunisia,ooredoo tunisia,37693,102.173.95.215,ooredoo tunisia,false,,0,OK,2,3,1412,2148,2318,200
+www.google.com,TN,Tunisia,orange internet,37492,197.27.150.136,orange internet,true,,0,OK,1,3,2643,3165,3351,200
+www.google.com,TR,Turkey,turk telekom,20978,46.104.16.59,turk telekom,true,,0,OK,1,4,601,1271,1456,200
+www.google.com,TC,Turks and Caicos Islands,digicel turks and caicos,394311,204.110.58.52,digicel turks and caicos,false,,0,OK,1,3,329,480,521,200
+www.google.com,TR,Turkey,turkcell,16135,176.238.225.137,turkcell,true,,0,OK,2,4,504,1190,1271,200
+www.google.com,TR,Turkey,vodafone,15897,46.221.118.36,vodafone,true,,0,OK,2,3,572,1318,1370,200
+www.google.com,TC,Turks and Caicos Islands,digicel turks and caicos,394311,204.110.58.52,digicel turks and caicos,true,,0,OK,2,4,390,546,596,200
+www.google.com,TN,Tunisia,ooredoo tunisia,37693,102.173.95.215,ooredoo tunisia,true,,0,OK,2,3,2313,3148,3361,200
+www.google.com,TN,Tunisia,orange internet,37492,197.27.150.136,orange internet,false,,0,OK,2,3,3861,4527,4710,200
+www.google.com,TN,Tunisia,orange tunisie,37492,196.224.165.237,orange tunisie,true,,0,OK,2,4,2598,4309,4731,200
+www.google.com,TR,Turkey,vodafone,15897,46.221.118.36,vodafone,false,,0,OK,2,3,698,1482,1544,200
+www.google.com,TR,Turkey,vodafone turkey,15897,46.154.24.222,vodafone turkey,false,,0,OK,2,4,1645,2348,2401,200
+www.google.com,TR,Turkey,vodafone turkey,15897,176.216.7.37,vodafone turkey,true,,0,OK,2,4,1777,2479,2535,200
+www.google.com,TN,Tunisia,orange tunisie,37492,196.224.165.237,orange tunisie,false,,0,OK,2,4,3913,4743,4914,200
+www.google.com,UA,Ukraine,k-telekom,,,,false,,56,CURLE_RECV_ERROR,2,4,0,0,95,0
+www.google.com,TG,Togo,atlantique telecom,37229,41.78.138.26,atlantique telecom,false,,0,OK,2,4,7482,8446,8841,200
+www.google.com,UG,Uganda,tangerine-ug,37113,41.75.172.196,tangerine-ug,false,,0,OK,1,3,912,1835,1998,200
+www.google.com,UA,Ukraine,ktk telecom,,,,true,,56,CURLE_RECV_ERROR,2,4,0,0,98,0
+www.google.com,UA,Ukraine,ktk telecom,,,,false,,56,CURLE_RECV_ERROR,2,4,0,0,103,0
+www.google.com,UG,Uganda,mtn uganda,20294,41.210.147.7,mtn uganda,false,,0,OK,1,3,1213,2092,2344,200
+www.google.com,ES,Spain,yoigo,15704,46.222.102.109,yoigo,false,,35,CURLE_SSL_CONNECT_ERROR,2,3,0,0,27847,0
+www.google.com,UA,Ukraine,k-telekom,,,,true,,56,CURLE_RECV_ERROR,1,3,0,0,109,0
+www.google.com,UA,Ukraine,vodafone ukraine,21497,89.209.125.135,vodafone ukraine,false,,0,OK,59,61,766,1572,1680,200
+www.google.com,UA,Ukraine,kyivstar,15895,46.211.149.248,kyivstar,true,,0,OK,77,79,718,1523,1697,200
+www.google.com,UA,Ukraine,kyivstar,15895,46.211.149.248,kyivstar,false,,0,OK,1,4,995,1742,1811,200
+www.google.com,UG,Uganda,tangerine-ug,37113,41.75.172.196,tangerine-ug,true,,0,OK,1,3,1350,2201,2355,200
+www.google.com,UA,Ukraine,vodafone ukraine,21497,89.209.125.135,vodafone ukraine,true,,0,OK,58,60,1388,2068,2160,200
+www.google.com,GB,United Kingdom,telna,,,,false,,56,CURLE_RECV_ERROR,1,3,0,0,118,0
+www.google.com,UA,Ukraine,lifecell,34058,88.155.21.67,lifecell,false,,0,OK,2,4,648,1549,1746,200
+www.google.com,GB,United Kingdom,telna,,,,true,,56,CURLE_RECV_ERROR,2,3,0,0,107,0
+www.google.com,GB,United Kingdom,orange,,,,true,,56,CURLE_RECV_ERROR,2,3,0,0,112,0
+www.google.com,UG,Uganda,mtn uganda,20294,41.210.147.7,mtn uganda,true,,0,OK,2,3,2012,2893,3144,200
+www.google.com,UG,Uganda,airtel uganda,37075,197.239.11.241,airtel uganda,false,,0,OK,2,4,1713,3137,3386,200
+www.google.com,GB,United Kingdom,plan communications,,,,false,,56,CURLE_RECV_ERROR,2,3,0,0,114,0
+www.google.com,GB,United Kingdom,1global,,,,false,,56,CURLE_RECV_ERROR,2,4,0,0,112,0
+www.google.com,GB,United Kingdom,plan communications,,,,true,,56,CURLE_RECV_ERROR,2,4,0,0,124,0
+www.google.com,GB,United Kingdom,working group two,,,,false,,56,CURLE_RECV_ERROR,2,3,0,0,104,0
+www.google.com,GB,United Kingdom,working group two,,,,true,,56,CURLE_RECV_ERROR,1,3,0,0,119,0
+www.google.com,GB,United Kingdom,arelion sweden ab,,,,false,,56,CURLE_RECV_ERROR,2,4,0,0,102,0
+www.google.com,GB,United Kingdom,arelion sweden ab,,,,true,,56,CURLE_RECV_ERROR,2,4,0,0,114,0
+www.google.com,GB,United Kingdom,orange,,,,false,,56,CURLE_RECV_ERROR,2,4,0,0,114,0
+www.google.com,GB,United Kingdom,1global,,,,true,,56,CURLE_RECV_ERROR,2,4,0,0,106,0
+www.google.com,GB,United Kingdom,three,206067,92.40.176.207,three,false,,0,OK,2,3,537,768,816,200
+www.google.com,GB,United Kingdom,mass response service,,,,false,,56,CURLE_RECV_ERROR,2,3,0,0,108,0
+www.google.com,UA,Ukraine,lifecell,34058,88.155.21.67,lifecell,true,,0,OK,2,3,1269,2048,2627,200
+www.google.com,GB,United Kingdom,mass response service,,,,true,,56,CURLE_RECV_ERROR,2,3,0,0,108,0
+www.google.com,GB,United Kingdom,three,206067,92.40.176.207,three,true,,0,OK,2,3,379,671,703,200
+www.google.com,AE,United Arab Emirates,e& uae,5384,2.48.205.156,e& uae,false,,0,OK,1,3,899,1801,1970,200
+www.google.com,GB,United Kingdom,bt,2856,31.94.28.249,bt,false,,0,OK,2,3,505,792,854,200
+www.google.com,GB,United Kingdom,sparks communications,,,,false,,56,CURLE_RECV_ERROR,2,3,0,0,111,0
+www.google.com,GB,United Kingdom,sparks communications,,,,true,,56,CURLE_RECV_ERROR,2,4,0,0,112,0
+www.google.com,AE,United Arab Emirates,du,15802,94.205.15.7,du,false,,0,OK,2,4,1269,2159,2347,200
+www.google.com,AE,United Arab Emirates,du telecom,15802,94.202.215.219,du telecom,false,,0,OK,2,3,1324,2246,2477,200
+www.google.com,GB,United Kingdom,lycamobile,,,,false,,56,CURLE_RECV_ERROR,2,4,0,0,109,0
+www.google.com,UG,Uganda,airtel uganda,37075,197.239.11.241,airtel uganda,true,,0,OK,1,3,3162,4371,4752,200
+www.google.com,GB,United Kingdom,transatel,198335,185.194.184.40,transatel,false,,0,OK,2,4,915,1392,1654,200
+www.google.com,GB,United Kingdom,lycamobile,,,,true,,56,CURLE_RECV_ERROR,1,3,0,0,123,0
+www.google.com,AE,United Arab Emirates,e& uae,5384,2.48.205.156,e& uae,true,,0,OK,2,4,1497,2406,2565,200
+www.google.com,GB,United Kingdom,bt,2856,31.94.28.249,bt,true,,0,OK,2,4,802,1076,1168,200
+www.google.com,AE,United Arab Emirates,du,15802,94.205.15.7,du,true,,0,OK,2,3,1911,2761,2851,200
+www.google.com,GB,United Kingdom,vodafone,25135,148.252.144.150,vodafone,false,,0,OK,2,4,614,1163,1394,200
+www.google.com,GB,United Kingdom,transatel,198335,185.194.184.40,transatel,true,,0,OK,1,3,1670,2122,2278,200
+www.google.com,GB,United Kingdom,sky broadband,5607,78.86.4.37,sky broadband,false,,0,OK,1,3,749,1157,1239,200
+www.google.com,US,United States,t-mobile usa,21928,172.59.123.148,t-mobile usa,false,,0,OK,1,4,580,939,1018,200
+www.google.com,GB,United Kingdom,vodafone,25135,148.252.144.150,vodafone,true,,0,OK,1,3,1275,1607,1879,200
+www.google.com,US,United States,at&t internet,7018,209.77.164.142,at&t internet,false,,0,OK,1,3,580,1057,1105,200
+www.google.com,US,United States,t-mobile usa,21928,172.59.123.148,t-mobile usa,true,,0,OK,2,4,986,1347,1432,200
+www.google.com,GB,United Kingdom,sky broadband,5607,78.86.4.37,sky broadband,true,,0,OK,2,4,1173,1563,1600,200
+www.google.com,AE,United Arab Emirates,du telecom,15802,94.202.215.219,du telecom,true,,0,OK,2,3,1991,4159,4208,200
+www.google.com,US,United States,verizon wireless,6167,174.207.160.187,verizon wireless,false,,0,OK,59,61,433,670,752,200
+www.google.com,US,United States,at&t wireless,6389,74.231.213.126,at&t wireless,false,,0,OK,2,4,855,1210,1369,200
+www.google.com,US,United States,at&t wireless,6389,74.231.213.126,at&t wireless,true,,0,OK,2,4,984,1307,1408,200
+www.google.com,US,United States,verizon wireless,6167,174.207.160.187,verizon wireless,true,,0,OK,2,3,537,804,874,200
+www.google.com,GB,United Kingdom,o2 uk,35228,82.132.229.234,o2 uk,true,,0,OK,2,4,1756,2334,2338,200
+www.google.com,GB,United Kingdom,o2 uk,35228,82.132.234.196,o2 uk,false,,0,OK,2,4,1946,2401,2461,200
+www.google.com,US,United States,c spire,15212,69.197.198.3,c spire,false,,0,OK,1,3,381,660,751,200
+www.google.com,US,United States,ne colorado cellular,32307,199.47.67.62,ne colorado cellular,false,,0,OK,5,7,505,769,843,200
+www.google.com,US,United States,iraqcell,,,,true,,56,CURLE_RECV_ERROR,2,3,0,0,523,0
+www.google.com,US,United States,iraqcell,,,,false,,56,CURLE_RECV_ERROR,2,3,0,0,543,0
+www.google.com,US,United States,optimum,19108,74.196.19.157,optimum,true,,0,OK,2,3,273,437,504,200
+www.google.com,US,United States,c spire,15212,69.197.198.3,c spire,true,,0,OK,2,4,729,1028,1123,200
+www.google.com,US,United States,ne colorado cellular,32307,199.47.67.62,ne colorado cellular,true,,0,OK,1,4,775,1038,1108,200
+www.google.com,US,United States,optimum,19108,74.196.19.157,optimum,false,,0,OK,1,3,574,737,789,200
+www.google.com,US,United States,gci communications,,,,false,,56,CURLE_RECV_ERROR,2,4,0,0,486,0
+www.google.com,US,United States,gci communications,,,,true,,56,CURLE_RECV_ERROR,2,4,0,0,484,0
+www.google.com,US,United States,pavlov media,23473,68.234.164.173,pavlov media,false,,0,OK,2,3,238,390,439,200
+www.google.com,US,United States,nex-tech wireless,395172,199.66.120.168,nex-tech wireless,true,,0,OK,1,3,455,689,793,200
+www.google.com,US,United States,cellcom,,,,true,,56,CURLE_RECV_ERROR,2,4,0,0,530,0
+www.google.com,US,United States,pavlov media,23473,68.234.164.173,pavlov media,true,,0,OK,1,4,211,357,390,200
+www.google.com,US,United States,fiberfi,,,,false,,56,CURLE_RECV_ERROR,1,3,0,0,515,0
+www.google.com,US,United States,nex-tech wireless,395172,199.66.120.168,nex-tech wireless,false,,0,OK,1,3,915,1158,1243,200
+www.google.com,US,United States,strata networks,30432,69.55.106.22,strata networks,false,,0,OK,1,3,719,1033,1157,200
+www.google.com,US,United States,verizon 5g home,,,,true,,56,CURLE_RECV_ERROR,1,3,0,0,484,0
+www.google.com,US,United States,fiberfi,,,,true,,56,CURLE_RECV_ERROR,1,3,0,0,472,0
+www.google.com,US,United States,smith bagley,,,,false,,56,CURLE_RECV_ERROR,1,3,0,0,469,0
+www.google.com,US,United States,at&t internet,7018,209.77.164.142,at&t internet,true,,0,OK,2,4,297,626,672,200
+www.google.com,US,United States,panhandle telecommunications systems,,,,false,,56,CURLE_RECV_ERROR,1,3,0,0,536,0
+www.google.com,US,United States,cellcom,,,,false,,56,CURLE_RECV_ERROR,2,4,0,0,476,0
+www.google.com,US,United States,strata networks,30432,69.55.106.22,strata networks,true,,0,OK,2,4,966,1272,1358,200
+www.google.com,US,United States,northwestern indiana telephone co.,,,,false,,56,CURLE_RECV_ERROR,1,3,0,0,487,0
+www.google.com,US,United States,northwestern indiana telephone co.,,,,true,,56,CURLE_RECV_ERROR,1,3,0,0,466,0
+www.google.com,US,United States,smith bagley,,,,true,,56,CURLE_RECV_ERROR,2,4,0,0,482,0
+www.google.com,US,United States,carolina west wireless,,,,false,,56,CURLE_RECV_ERROR,2,3,0,0,469,0
+www.google.com,US,United States,uscellular,6614,166.182.81.127,uscellular,false,,0,OK,2,3,1125,1856,3413,200
+www.google.com,US,United States,pioneer long distance,11650,65.255.80.184,pioneer long distance,false,,0,OK,2,3,213,775,776,302
+www.google.com,US,United States,panhandle telecommunications systems,,,,true,,56,CURLE_RECV_ERROR,2,4,0,0,460,0
+www.google.com,US,United States,verizon 5g home,,,,false,,56,CURLE_RECV_ERROR,2,3,0,0,500,0
+www.google.com,US,United States,boost mobile,398378,35.33.213.88,boost mobile,false,,0,OK,2,3,1379,2282,3439,200
+www.google.com,US,United States,pioneer long distance,11650,65.255.80.184,pioneer long distance,true,,0,OK,2,4,179,507,508,302
+www.google.com,US,United States,carolina west wireless,,,,true,,56,CURLE_RECV_ERROR,1,3,0,0,461,0
+www.google.com,US,United States,optimum mobile,,,,true,,56,CURLE_RECV_ERROR,2,3,0,0,464,0
+www.google.com,US,United States,valley internet,,,,false,,56,CURLE_RECV_ERROR,1,3,0,0,455,0
+www.google.com,US,United States,optimum mobile,,,,false,,56,CURLE_RECV_ERROR,1,3,0,0,455,0
+www.google.com,US,United States,optimum online,,,,false,,56,CURLE_RECV_ERROR,1,3,0,0,466,0
+www.google.com,US,United States,valley internet,,,,true,,56,CURLE_RECV_ERROR,2,4,0,0,487,0
+www.google.com,US,United States,optimum online,,,,true,,56,CURLE_RECV_ERROR,1,3,0,0,426,0
+www.google.com,US,United States,telna,,,,true,,56,CURLE_RECV_ERROR,2,3,0,0,458,0
+www.google.com,US,United States,telna,,,,false,,56,CURLE_RECV_ERROR,2,3,0,0,461,0
+www.google.com,UY,Uruguay,telstar,,,,false,,56,CURLE_RECV_ERROR,1,3,0,0,74,0
+www.google.com,UY,Uruguay,telstar,,,,true,,56,CURLE_RECV_ERROR,1,3,0,0,70,0
+www.google.com,US,United States,hutchinson regional medical center,53383,74.121.128.248,hutchinson regional medical center,true,,0,OK,2,4,400,537,577,200
+www.google.com,US,United States,hutchinson regional medical center,53383,74.121.128.248,hutchinson regional medical center,false,,0,OK,1,3,812,938,986,200
+www.google.com,US,United States,boost mobile,398378,35.33.213.88,boost mobile,true,,0,OK,2,4,1576,3139,4222,200
+www.google.com,UY,Uruguay,claro uruguay,11664,200.71.1.87,claro uruguay,true,,0,OK,2,3,733,1072,1275,200
+www.google.com,US,United States,uscellular,6614,166.182.81.127,uscellular,true,,0,OK,1,3,2922,4088,5246,200
+www.google.com,UZ,Uzbekistan,city-line-uz,,,,false,,56,CURLE_RECV_ERROR,2,4,0,0,67,0
+www.google.com,UZ,Uzbekistan,city-line-uz,,,,true,,56,CURLE_RECV_ERROR,1,3,0,0,71,0
+www.google.com,UY,Uruguay,claro uruguay,11664,200.71.1.87,claro uruguay,false,,0,OK,2,4,1256,1584,1711,200
+www.google.com,UY,Uruguay,movistar uruguay,19422,152.156.177.47,movistar uruguay,true,,0,OK,1,3,1118,1709,2040,200
+www.google.com,UY,Uruguay,antel uruguay,6057,190.132.98.177,antel uruguay,false,,0,OK,2,3,1121,2084,2172,200
+www.google.com,UY,Uruguay,antel uruguay,6057,190.132.98.177,antel uruguay,true,,0,OK,2,3,1712,2150,2211,200
+www.google.com,UY,Uruguay,movistar uruguay,19422,152.156.177.47,movistar uruguay,false,,0,OK,2,3,1896,2329,2520,200
+www.google.com,UZ,Uzbekistan,universal mobile systems lcc,64466,185.213.229.43,universal mobile systems lcc,false,,0,OK,74,76,833,1630,1770,200
+www.google.com,UZ,Uzbekistan,coscom liability company,49273,188.113.235.230,coscom liability company,false,,0,OK,1,3,1295,2204,2415,200
+www.google.com,UZ,Uzbekistan,unitel,41202,95.214.211.138,unitel,true,,0,OK,2,4,1510,2431,2756,200
+www.google.com,UZ,Uzbekistan,coscom liability company,49273,188.113.235.230,coscom liability company,true,,0,OK,1,3,2050,2747,2947,200
+www.google.com,UZ,Uzbekistan,universal mobile systems lcc,64466,185.213.229.43,universal mobile systems lcc,true,,0,OK,1,4,953,1782,1910,200
+www.google.com,UZ,Uzbekistan,unitel,41202,95.214.211.138,unitel,false,,0,OK,1,2,962,1958,2108,200
+www.google.com,VE,"Venezuela, Bolivarian Republic of",corporacion digitel,264731,186.167.165.128,corporacion digitel,false,,0,OK,1,4,544,898,1037,200
+www.google.com,UZ,Uzbekistan,unitel llc,41202,37.110.211.71,unitel llc,false,,0,OK,1,3,1243,1901,2048,200
+www.google.com,VE,"Venezuela, Bolivarian Republic of",corporacion digitel,264731,186.167.165.128,corporacion digitel,true,,0,OK,1,3,591,973,1121,200
+www.google.com,UZ,Uzbekistan,unitel llc,41202,37.110.211.71,unitel llc,true,,0,OK,2,4,1825,2351,2547,200
+www.google.com,UZ,Uzbekistan,uztelecom,201767,92.63.205.148,uztelecom,true,,0,OK,1,3,1080,2158,2614,200
+www.google.com,VE,"Venezuela, Bolivarian Republic of",telefonica venezolana,6306,161.140.126.182,telefonica venezolana,false,,0,OK,1,4,1580,1992,2111,200
+www.google.com,VU,Vanuatu,digicel vanuatu,132429,103.75.21.243,digicel vanuatu,false,,0,OK,1,3,1506,2293,2525,200
+www.google.com,VN,Viet Nam,vietnamobile telecommunications joint stock compan,,,,false,,56,CURLE_RECV_ERROR,2,3,0,0,67,0
+www.google.com,VE,"Venezuela, Bolivarian Republic of",telefonica venezolana,6306,161.140.126.182,telefonica venezolana,true,,0,OK,1,3,1355,1779,1912,200
+www.google.com,VE,"Venezuela, Bolivarian Republic of",telecomunicaciones movilnet,27889,201.238.3.191,telecomunicaciones movilnet,false,,0,OK,2,4,662,1116,1455,200
+www.google.com,VN,Viet Nam,vietnamobile telecommunications joint stock compan,,,,true,,56,CURLE_RECV_ERROR,1,3,0,0,69,0
+www.google.com,VG,"Virgin Islands, British",digicel british virgin islands,,,,false,,56,CURLE_RECV_ERROR,2,3,0,0,65,0
+www.google.com,VG,"Virgin Islands, British",digicel british virgin islands,,,,true,,56,CURLE_RECV_ERROR,1,3,0,0,63,0
+www.google.com,VE,"Venezuela, Bolivarian Republic of",telecomunicaciones movilnet,27889,201.238.3.191,telecomunicaciones movilnet,true,,0,OK,1,3,1194,1611,1885,200
+www.google.com,TG,Togo,togocom,24691,196.168.201.215,togocom,true,,0,OK,1,3,12048,18961,22495,200
+www.google.com,VN,Viet Nam,viettel group,7552,27.78.7.40,viettel group,false,,0,OK,2,4,1089,1648,1732,200
+www.google.com,GB,United Kingdom,sure south atlantic,210841,80.73.219.196,sure south atlantic,true,,0,OK,2,4,8824,11907,12846,200
+www.google.com,YE,Yemen,yemen net,,,,false,,56,CURLE_RECV_ERROR,2,3,0,0,77,0
+www.google.com,YE,Yemen,yemen net,,,,true,,56,CURLE_RECV_ERROR,56,58,0,0,122,0
+www.google.com,VU,Vanuatu,digicel vanuatu,132429,103.75.21.243,digicel vanuatu,true,,0,OK,1,3,2395,3174,3446,200
+www.google.com,VG,"Virgin Islands, British",flow,14813,205.217.244.208,flow,false,,0,OK,1,3,674,1022,1141,200
+www.google.com,VN,Viet Nam,vnpt,45899,113.185.73.12,vnpt,true,,0,OK,2,3,1437,2261,2430,200
+www.google.com,UZ,Uzbekistan,uztelecom,201767,92.63.205.148,uztelecom,false,,0,OK,2,3,4231,5355,5667,200
+www.google.com,VI,"Virgin Islands, U.S.",viya,14434,66.185.32.23,viya,false,,0,OK,1,3,575,926,1113,200
+www.google.com,VN,Viet Nam,mobifone,131429,103.199.34.169,mobifone,true,,0,OK,2,3,1025,1563,1669,200
+www.google.com,VG,"Virgin Islands, British",flow,14813,205.217.244.208,flow,true,,0,OK,2,3,1019,1397,1571,200
+www.google.com,VI,"Virgin Islands, U.S.",viya,14434,66.185.32.23,viya,true,,0,OK,1,3,531,920,1030,200
+www.google.com,VN,Viet Nam,viettel group,7552,27.78.7.40,viettel group,true,,0,OK,1,3,1270,1890,2073,200
+www.google.com,VN,Viet Nam,vnpt,45899,113.185.73.12,vnpt,false,,0,OK,2,3,1610,2232,2529,200
+www.google.com,VN,Viet Nam,mobifone,131429,103.199.34.169,mobifone,false,,0,OK,1,4,1930,2449,2642,200
+www.google.com,ZM,Zambia,mtn zambia,36962,41.216.95.231,mtn zambia,true,,0,OK,14,16,1341,2437,2690,200
+www.google.com,ZM,Zambia,airtel zambia,37287,45.215.237.5,airtel zambia,false,,0,OK,2,4,1463,2452,2693,200
+www.google.com,ZW,Zimbabwe,netone-cellular,328088,102.128.79.166,netone-cellular,true,,0,OK,2,4,1236,2155,2399,200
+www.google.com,ZW,Zimbabwe,telone,37204,197.221.253.78,telone,false,,0,OK,1,3,1274,2494,2513,200
+www.google.com,ZM,Zambia,mtn zambia,36962,41.216.95.231,mtn zambia,false,,0,OK,1,3,2064,3223,3431,200
+www.google.com,ZM,Zambia,airtel zambia,37287,45.215.237.5,airtel zambia,true,,0,OK,1,3,2392,3516,3891,200
+www.google.com,ZW,Zimbabwe,netone-cellular,328088,102.128.79.166,netone-cellular,false,,0,OK,1,3,1228,2186,2405,200
+www.google.com,TG,Togo,atlantique telecom,37229,41.78.136.126,atlantique telecom,true,,0,OK,2,3,15101,21710,26240,200
+www.google.com,ZW,Zimbabwe,tagtel-communications,329425,197.157.206.2,tagtel-communications,true,,0,OK,1,3,1527,3056,3519,200
+www.google.com,ZM,Zambia,beeline-telecoms-limited,329444,102.208.220.203,beeline-telecoms-limited,false,,0,OK,2,3,2334,3510,3844,200
+www.google.com,ZW,Zimbabwe,telone,37204,197.221.253.78,telone,true,,0,OK,2,4,2205,3227,3525,200
+www.google.com,GB,United Kingdom,sure south atlantic,210841,80.73.219.196,sure south atlantic,false,,0,OK,2,3,11617,14099,15595,200
+www.google.com,ZM,Zambia,zamtel,37154,165.58.128.47,zamtel,true,,0,OK,2,3,2981,4368,4935,200
+www.google.com,ZM,Zambia,zamtel,37154,165.56.182.41,zamtel,false,,0,OK,1,3,3229,4447,5379,200
+www.google.com,ZM,Zambia,beeline-telecoms-limited,329444,102.208.220.203,beeline-telecoms-limited,true,,0,OK,1,3,4538,5695,6022,200
+www.google.com,ZW,Zimbabwe,tagtel-communications,329425,197.157.206.2,tagtel-communications,false,,0,OK,1,3,1751,3076,3549,200
+www.google.com,ZW,Zimbabwe,liquid intelligent technologies,37332,41.173.57.30,liquid intelligent technologies,true,,0,OK,2,4,2815,3783,4028,200
+www.google.com,ZW,Zimbabwe,liquid telecommunications,56696,77.246.55.170,liquid telecommunications,false,,56,CURLE_RECV_ERROR,1,3,10118,0,10484,0
+www.google.com,ZW,Zimbabwe,liquid intelligent technologies,37332,41.173.57.11,liquid intelligent technologies,false,,0,OK,1,3,6151,9875,12904,200
+www.google.com,ZW,Zimbabwe,liquid telecommunications,56696,77.246.55.170,liquid telecommunications,true,,0,OK,1,3,1666,4290,25226,200

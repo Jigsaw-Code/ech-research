@@ -1,0 +1,1757 @@
+domain,country_code,country_name,isp,asn,exit_node_ip,exit_node_isp,ech_grease,error,curl_exit_code,curl_error_name,dns_lookup_ms,tcp_connection_ms,tls_handshake_ms,server_time_ms,total_time_ms,http_status
+www.youtube.com,AF,Afghanistan,multacom corporation,,,,false,,56,CURLE_RECV_ERROR,17,20,0,0,129,0
+www.youtube.com,AF,Afghanistan,etisalat afghanistan,,,,true,,56,CURLE_RECV_ERROR,24,26,0,0,135,0
+www.youtube.com,AF,Afghanistan,telecom development company afghanistan,,,,false,,56,CURLE_RECV_ERROR,23,29,0,0,135,0
+www.youtube.com,AF,Afghanistan,multacom corporation,,,,true,,56,CURLE_RECV_ERROR,58,61,0,0,172,0
+www.youtube.com,AF,Afghanistan,etisalat afghanistan,,,,false,,56,CURLE_RECV_ERROR,26,28,0,0,142,0
+www.youtube.com,AF,Afghanistan,telecom development company afghanistan,,,,true,,56,CURLE_RECV_ERROR,24,26,0,0,143,0
+www.youtube.com,AF,Afghanistan,afghan wireless,,,,false,,56,CURLE_RECV_ERROR,24,26,0,0,142,0
+www.youtube.com,AF,Afghanistan,afghan wireless,,,,true,,56,CURLE_RECV_ERROR,19,21,0,0,139,0
+www.youtube.com,AX,Åland Islands,alands telekommunikation ab,,,,true,,56,CURLE_RECV_ERROR,1,3,0,0,61,0
+www.youtube.com,AX,Åland Islands,alands telekommunikation ab,,,,false,,56,CURLE_RECV_ERROR,1,3,0,0,62,0
+www.youtube.com,AL,Albania,vodafone albania,50973,188.172.109.38,vodafone albania,true,,0,OK,1,3,679,1029,1565,200
+www.youtube.com,DZ,Algeria,algerie telecom,36947,197.113.82.243,algerie telecom,true,,0,OK,2,5,668,1042,1584,200
+www.youtube.com,AL,Albania,vodafone albania,50973,188.172.109.38,vodafone albania,false,,0,OK,2,4,1257,1740,1984,200
+www.youtube.com,AS,American Samoa,blue sky communications,,,,false,,56,CURLE_RECV_ERROR,2,4,0,0,66,0
+www.youtube.com,AS,American Samoa,blue sky communications,,,,true,,56,CURLE_RECV_ERROR,1,4,0,0,65,0
+www.youtube.com,AD,Andorra,"andorra telecom, s.a.u.",,,,false,,56,CURLE_RECV_ERROR,1,3,0,0,64,0
+www.youtube.com,AD,Andorra,"andorra telecom, s.a.u.",,,,true,,56,CURLE_RECV_ERROR,1,3,0,0,61,0
+www.youtube.com,DZ,Algeria,algerie telecom,36947,197.113.82.243,algerie telecom,false,,0,OK,3,4,1125,1521,2008,200
+www.youtube.com,AL,Albania,one albania,50616,31.22.48.183,one albania,false,,0,OK,2,4,569,947,2685,200
+www.youtube.com,DZ,Algeria,wataniya-telecom,33779,105.235.135.42,wataniya-telecom,true,,0,OK,3,5,2923,3291,4141,200
+www.youtube.com,AL,Albania,one albania,50616,31.22.48.183,one albania,true,,0,OK,2,4,1252,2308,5004,200
+www.youtube.com,DZ,Algeria,wataniya-telecom,33779,41.221.26.219,wataniya-telecom,false,,0,OK,2,4,3288,3745,4943,200
+www.youtube.com,AF,Afghanistan,mtn afghanistan,132471,156.229.38.195,mtn afghanistan,false,,0,OK,11,14,1475,2320,5901,200
+www.youtube.com,DZ,Algeria,atm,327712,154.121.102.171,atm,true,,0,OK,1,3,600,1001,5546,200
+www.youtube.com,AO,Angola,unitel,37119,105.168.169.57,unitel,true,,0,OK,2,3,1392,2221,4023,200
+www.youtube.com,AF,Afghanistan,mtn afghanistan,132471,156.229.38.195,mtn afghanistan,true,,0,OK,19,23,2881,3777,6907,200
+www.youtube.com,AG,Antigua and Barbuda,digicel,33576,104.255.178.198,digicel,false,,0,OK,2,3,621,937,2128,200
+www.youtube.com,AF,Afghanistan,afghan wireless communication company,138322,152.36.193.223,afghan wireless communication company,false,,0,OK,22,23,1573,3314,7803,200
+www.youtube.com,AO,Angola,unitel,37119,105.168.169.57,unitel,false,,0,OK,1,3,2585,4000,5346,200
+www.youtube.com,AG,Antigua and Barbuda,digicel,33576,104.255.178.198,digicel,true,,0,OK,1,3,525,1201,2278,200
+www.youtube.com,DZ,Algeria,optimum-telecom-algeria,327931,129.45.68.51,optimum-telecom-algeria,true,,0,OK,1,4,698,1113,7962,200
+www.youtube.com,AO,Angola,aas1,328943,102.214.36.193,aas1,false,,0,OK,1,3,2303,3233,5843,200
+www.youtube.com,AG,Antigua and Barbuda,flow,14813,204.16.112.151,flow,true,,0,OK,1,3,778,1191,3480,200
+www.youtube.com,AF,Afghanistan,afghan wireless communication company,138322,152.36.193.223,afghan wireless communication company,true,,0,OK,59,61,3592,5157,9924,200
+www.youtube.com,DZ,Algeria,optimum-telecom-algeria,327931,129.45.68.51,optimum-telecom-algeria,false,,0,OK,1,3,6989,7382,8338,200
+www.youtube.com,AG,Antigua and Barbuda,flow,14813,204.16.112.151,flow,false,,0,OK,1,3,2080,2505,4119,200
+www.youtube.com,AR,Argentina,claro argentina,11664,181.238.79.24,claro argentina,false,,0,OK,1,3,1028,1515,4307,200
+www.youtube.com,AO,Angola,aas1,328943,102.214.36.193,aas1,true,,0,OK,40,41,1734,3960,7328,200
+www.youtube.com,AR,Argentina,personal,7303,181.13.78.89,personal,false,,0,OK,1,3,2105,2849,5229,200
+www.youtube.com,AM,Armenia,viva armenia cjsc,43733,217.76.10.55,viva armenia cjsc,false,,0,OK,55,57,1353,2083,3006,200
+www.youtube.com,DZ,Algeria,atm,327712,154.121.102.171,atm,false,,0,OK,2,3,4237,4628,10974,200
+www.youtube.com,AF,Afghanistan,afghan telecom,55330,180.94.93.147,afghan telecom,false,,0,OK,25,27,1988,2934,13795,200
+www.youtube.com,AM,Armenia,telecom armenia ojsc,12297,87.241.145.77,telecom armenia ojsc,false,,0,OK,1,3,559,970,2955,200
+www.youtube.com,AR,Argentina,claro argentina,11664,181.238.79.24,claro argentina,true,,0,OK,1,4,1715,3974,5790,200
+www.youtube.com,AM,Armenia,viva armenia cjsc,43733,217.76.10.55,viva armenia cjsc,true,,0,OK,1,3,1688,2472,3564,200
+www.youtube.com,AR,Argentina,personal,7303,181.9.212.34,personal,true,,0,OK,1,3,888,1413,5495,200
+www.youtube.com,AW,Aruba,new millennium telecom services n.v.,264645,138.255.255.83,new millennium telecom services n.v.,false,,0,OK,1,3,712,1022,2878,200
+www.youtube.com,AU,Australia,vocus,,,,false,,56,CURLE_RECV_ERROR,42,45,0,0,118,0
+www.youtube.com,AU,Australia,vocus,,,,true,,56,CURLE_RECV_ERROR,2,4,0,0,70,0
+www.youtube.com,AM,Armenia,telecom armenia ojsc,12297,87.241.145.77,telecom armenia ojsc,true,,0,OK,1,3,1958,2390,3915,200
+www.youtube.com,AT,Austria,mass response service,51265,41.66.98.178,mass response service,false,,0,OK,2,3,472,884,1425,200
+www.youtube.com,AW,Aruba,new millennium telecom services n.v.,264645,138.255.255.83,new millennium telecom services n.v.,true,,0,OK,1,3,1109,2152,4646,200
+www.youtube.com,AT,Austria,hutchison drei austria gmbh,25255,91.141.68.152,hutchison drei austria gmbh,false,,0,OK,2,4,856,1374,2298,200
+www.youtube.com,AU,Australia,telstra internet,1221,1.145.60.34,telstra internet,false,,0,OK,1,3,1458,2385,5126,200
+www.youtube.com,AT,Austria,hutchison drei austria gmbh,25255,91.141.68.152,hutchison drei austria gmbh,true,,0,OK,1,3,948,1282,2104,200
+www.youtube.com,AM,Armenia,ucom,44395,178.78.139.255,ucom,false,,0,OK,1,3,1473,3547,11197,200
+www.youtube.com,AT,Austria,magenta telekom,8412,213.162.87.108,magenta telekom,false,,0,OK,2,3,780,1174,3204,200
+www.youtube.com,AT,Austria,telekom austria,8447,213.225.0.121,telekom austria,false,,0,OK,2,4,586,919,1891,200
+www.youtube.com,AU,Australia,telstra internet,1221,1.145.60.34,telstra internet,true,,0,OK,2,4,3071,5013,7207,200
+www.youtube.com,AT,Austria,telekom austria,8447,213.225.0.121,telekom austria,true,,0,OK,1,3,648,1422,2022,200
+www.youtube.com,AT,Austria,hutchison drei austria,8437,213.90.120.122,hutchison drei austria,false,,0,OK,2,4,502,798,1071,200
+www.youtube.com,AU,Australia,vodafone australia,133612,120.18.61.66,vodafone australia,true,,0,OK,2,4,1269,2042,8011,200
+www.youtube.com,AT,Austria,1global,,,,false,,56,CURLE_RECV_ERROR,1,3,0,0,85,0
+www.youtube.com,AT,Austria,mass response service,51265,41.66.98.178,mass response service,true,,0,OK,2,3,474,794,1255,200
+www.youtube.com,AT,Austria,1global,,,,true,,56,CURLE_RECV_ERROR,2,3,0,0,83,0
+www.youtube.com,AM,Armenia,ucom,44395,178.78.139.255,ucom,true,,0,OK,2,4,6622,7618,9993,200
+www.youtube.com,AU,Australia,optus,4804,49.197.220.34,optus,false,,0,OK,1,3,1692,2617,8770,200
+www.youtube.com,AT,Austria,magenta telekom,8412,213.162.87.108,magenta telekom,true,,0,OK,2,4,2256,2588,3687,200
+www.youtube.com,AT,Austria,hutchison drei austria,8437,213.90.120.122,hutchison drei austria,true,,0,OK,1,4,531,841,1198,200
+www.youtube.com,AZ,Azerbaijan,azercell telecom,31721,5.191.104.195,azercell telecom,false,,0,OK,2,4,652,1150,1788,200
+www.youtube.com,AZ,Azerbaijan,bakcell,197830,5.44.35.92,bakcell,false,,0,OK,2,4,857,1371,2074,200
+www.youtube.com,AZ,Azerbaijan,azercell telecom,31721,5.191.104.195,azercell telecom,true,,0,OK,1,3,1296,1778,2452,200
+www.youtube.com,AZ,Azerbaijan,bakcell,197830,5.44.35.92,bakcell,true,,0,OK,2,4,1418,2000,2629,200
+www.youtube.com,BS,Bahamas,alivfibr,,,,true,,56,CURLE_RECV_ERROR,42,43,0,0,112,0
+www.youtube.com,AU,Australia,optus,4804,49.197.220.34,optus,true,,0,OK,2,3,3989,8176,11008,200
+www.youtube.com,BS,Bahamas,alivfibr,,,,false,,56,CURLE_RECV_ERROR,2,4,0,0,75,0
+www.youtube.com,BS,Bahamas,cable bahamas,,,,false,,56,CURLE_RECV_ERROR,2,3,0,0,64,0
+www.youtube.com,BS,Bahamas,cable bahamas,,,,true,,56,CURLE_RECV_ERROR,2,3,0,0,69,0
+www.youtube.com,AT,Austria,lycamobile,31404,83.137.6.60,lycamobile,false,,0,OK,50,52,1096,1479,4729,200
+www.youtube.com,AF,Afghanistan,afghan telecom,55330,180.94.93.147,afghan telecom,true,,0,OK,22,23,6492,13930,25970,200
+www.youtube.com,AT,Austria,lycamobile,31404,83.137.6.60,lycamobile,true,,0,OK,2,4,1159,3598,5234,200
+www.youtube.com,BH,Bahrain,batelco,5416,193.188.123.63,batelco,false,,0,OK,1,3,761,1193,1828,200
+www.youtube.com,AG,Antigua and Barbuda,apua,11594,208.83.82.216,apua,true,,0,OK,2,3,837,5937,20396,200
+www.youtube.com,BH,Bahrain,stc bahrain,51375,37.131.105.134,stc bahrain,false,,0,OK,2,3,781,1248,2269,200
+www.youtube.com,BH,Bahrain,stc bahrain,51375,37.131.105.134,stc bahrain,true,,0,OK,2,3,1314,2243,2812,200
+www.youtube.com,BH,Bahrain,batelco,5416,193.188.123.63,batelco,true,,0,OK,2,4,776,1217,1463,200
+www.youtube.com,BS,Bahamas,bealiv ltd,15146,65.75.105.27,bealiv ltd,true,,0,OK,1,3,575,903,6406,200
+www.youtube.com,AG,Antigua and Barbuda,apua,11594,208.83.82.216,apua,false,,0,OK,1,3,945,1326,22605,200
+www.youtube.com,BS,Bahamas,bahamas telecommunications corporation,8014,204.236.104.140,bahamas telecommunications corporation,false,,0,OK,2,3,586,939,5266,200
+www.youtube.com,BD,Bangladesh,banglalink digital communications ltd.,45245,43.245.120.102,banglalink digital communications ltd.,false,,0,OK,1,3,972,1604,3054,200
+www.youtube.com,BD,Bangladesh,teletalk bangladesh,45925,103.230.107.19,teletalk bangladesh,true,,0,OK,1,3,922,1512,2684,200
+www.youtube.com,AU,Australia,vodafone australia,133612,120.18.61.66,vodafone australia,false,,0,OK,1,3,2593,3227,16866,200
+www.youtube.com,BD,Bangladesh,banglalink digital communications ltd.,45245,43.245.120.102,banglalink digital communications ltd.,true,,0,OK,1,4,2372,3043,4528,200
+www.youtube.com,AR,Argentina,telefonica de argentina,22927,186.141.202.60,telefonica de argentina,true,,35,CURLE_SSL_CONNECT_ERROR,1,3,0,0,22921,0
+www.youtube.com,AR,Argentina,telefonica de argentina,22927,186.141.202.60,telefonica de argentina,false,,56,CURLE_RECV_ERROR,1,3,1189,1993,23763,200
+www.youtube.com,BD,Bangladesh,telenor,24389,119.30.38.106,telenor,false,,0,OK,1,3,950,1457,3464,200
+www.youtube.com,BH,Bahrain,zain bahrain b.s.c.,31452,109.161.144.104,zain bahrain b.s.c.,false,,0,OK,2,3,929,1642,6737,200
+www.youtube.com,BS,Bahamas,bahamas telecommunications corporation,8014,204.236.104.140,bahamas telecommunications corporation,true,,0,OK,1,4,759,2630,8532,200
+www.youtube.com,BD,Bangladesh,teletalk bangladesh,45925,103.230.107.19,teletalk bangladesh,false,,0,OK,64,66,1074,1681,2738,200
+www.youtube.com,BH,Bahrain,zain bahrain b.s.c.,31452,109.161.144.104,zain bahrain b.s.c.,true,,0,OK,1,3,4124,5825,7146,200
+www.youtube.com,BD,Bangladesh,banglalink,45245,202.86.218.6,banglalink,true,,0,OK,1,3,1328,2185,6278,200
+www.youtube.com,BS,Bahamas,bealiv ltd,15146,65.75.105.27,bealiv ltd,false,,0,OK,1,3,4598,5014,10399,200
+www.youtube.com,BD,Bangladesh,telenor,24389,119.30.38.106,telenor,true,,0,OK,2,3,3643,4453,6040,200
+www.youtube.com,BD,Bangladesh,grameenphone,24389,37.111.200.3,grameenphone,false,,0,OK,2,4,1048,1625,4617,200
+www.youtube.com,AZ,Azerbaijan,nar,42779,77.244.116.11,nar,false,,0,OK,1,3,953,1525,13693,200
+www.youtube.com,BB,Barbados,digicel barbados,35900,63.143.76.190,digicel barbados,false,,0,OK,2,3,1630,2634,3868,200
+www.youtube.com,BB,Barbados,flow,14813,104.200.102.207,flow,true,,0,OK,1,3,708,1145,4809,200
+www.youtube.com,BY,Belarus,a1 belarus,42772,151.249.186.222,a1 belarus,false,,0,OK,2,3,524,894,1583,200
+www.youtube.com,BY,Belarus,mts belarus,25106,46.216.240.198,mts belarus,false,,0,OK,1,3,972,1354,3534,200
+www.youtube.com,BY,Belarus,a1 belarus,42772,151.249.186.222,a1 belarus,true,,0,OK,1,3,896,1423,1958,200
+www.youtube.com,BD,Bangladesh,robi,24432,42.0.5.235,robi,true,,0,OK,1,3,1317,6333,8750,200
+www.youtube.com,BY,Belarus,elnet,,,,true,,56,CURLE_RECV_ERROR,2,4,0,0,85,0
+www.youtube.com,BY,Belarus,elnet,,,,false,,56,CURLE_RECV_ERROR,1,4,0,0,78,0
+www.youtube.com,BB,Barbados,digicel barbados,35900,63.143.76.190,digicel barbados,true,,0,OK,2,3,984,1569,5625,200
+www.youtube.com,BY,Belarus,mts belarus,25106,46.216.240.198,mts belarus,true,,0,OK,1,3,1608,2734,4250,200
+www.youtube.com,BB,Barbados,flow,14813,104.200.102.207,flow,false,,0,OK,2,4,788,4534,6296,200
+www.youtube.com,BY,Belarus,isp garant-catv-gomel,42772,151.249.220.177,isp garant-catv-gomel,true,,0,OK,2,3,491,825,1900,200
+www.youtube.com,BD,Bangladesh,grameenphone,24389,37.111.200.3,grameenphone,true,,0,OK,1,3,4494,5010,7882,200
+www.youtube.com,AZ,Azerbaijan,nar,42779,77.244.116.11,nar,true,,0,OK,1,3,1414,3719,17124,200
+www.youtube.com,BY,Belarus,isp garant-catv-gomel,42772,151.249.220.177,isp garant-catv-gomel,false,,0,OK,1,3,698,1468,2114,200
+www.youtube.com,BD,Bangladesh,banglalink,45245,202.86.218.6,banglalink,false,,0,OK,2,4,2901,3755,7767,200
+www.youtube.com,BE,Belgium,belgacom international carrier services,,,,true,,56,CURLE_RECV_ERROR,1,3,0,0,84,0
+www.youtube.com,BE,Belgium,digi belgium,,,,false,,56,CURLE_RECV_ERROR,2,3,0,0,74,0
+www.youtube.com,BE,Belgium,digi belgium,,,,true,,56,CURLE_RECV_ERROR,41,42,0,0,111,0
+www.youtube.com,BE,Belgium,proximus,5432,37.184.21.99,proximus,true,,0,OK,1,3,445,708,1778,200
+www.youtube.com,BE,Belgium,telenet,6848,188.188.112.57,telenet,false,,0,OK,1,3,575,1027,2615,200
+www.youtube.com,BE,Belgium,belgacom international carrier services,,,,false,,56,CURLE_RECV_ERROR,1,3,0,0,71,0
+www.youtube.com,BE,Belgium,proximus,5432,37.184.21.99,proximus,false,,0,OK,1,3,967,1275,2354,200
+www.youtube.com,BE,Belgium,lycamobile,31404,217.181.98.245,lycamobile,false,,0,OK,1,3,708,1254,1729,200
+www.youtube.com,BE,Belgium,telenet,6848,188.188.112.57,telenet,true,,0,OK,1,3,737,1736,3182,200
+www.youtube.com,BE,Belgium,lycamobile,31404,217.181.98.245,lycamobile,true,,0,OK,2,3,845,1238,1603,200
+www.youtube.com,BZ,Belize,belize telemedia limited,10269,190.197.48.220,belize telemedia limited,true,,0,OK,1,3,275,454,727,200
+www.youtube.com,BZ,Belize,belize telemedia limited,10269,190.197.48.220,belize telemedia limited,false,,0,OK,1,3,319,483,637,200
+www.youtube.com,BJ,Benin,moov benin,37136,156.0.213.172,moov benin,false,,0,OK,2,3,953,1542,2811,200
+www.youtube.com,BY,Belarus,gomelsky rtsc garant,42772,92.38.64.254,gomelsky rtsc garant,false,,0,OK,1,3,781,1228,7455,200
+www.youtube.com,BM,Bermuda,one communications bermuda,,,,false,,56,CURLE_RECV_ERROR,55,56,0,0,118,0
+www.youtube.com,BM,Bermuda,digicel bermuda,,,,false,,56,CURLE_RECV_ERROR,1,3,0,0,68,0
+www.youtube.com,BM,Bermuda,digicel bermuda,,,,true,,56,CURLE_RECV_ERROR,2,3,0,0,66,0
+www.youtube.com,BM,Bermuda,paradise mobile ltd.,,,,false,,56,CURLE_RECV_ERROR,2,3,0,0,75,0
+www.youtube.com,BD,Bangladesh,robi,24432,42.0.5.235,robi,false,,0,OK,2,3,5880,11653,13766,200
+www.youtube.com,BM,Bermuda,one communications bermuda,,,,true,,56,CURLE_RECV_ERROR,2,3,0,0,73,0
+www.youtube.com,BM,Bermuda,paradise mobile ltd.,,,,true,,56,CURLE_RECV_ERROR,2,3,0,0,64,0
+www.youtube.com,BY,Belarus,gomelsky rtsc garant,42772,92.38.64.254,gomelsky rtsc garant,true,,0,OK,2,3,1177,3542,7714,200
+www.youtube.com,BY,Belarus,unitary enterprise velcom,42772,178.163.170.14,unitary enterprise velcom,true,,0,OK,2,4,854,1324,12947,200
+www.youtube.com,BE,Belgium,orange belgium,47377,94.109.57.151,orange belgium,false,,0,OK,1,3,1405,1766,7093,200
+www.youtube.com,BZ,Belize,speednet wireless,262239,190.211.145.13,speednet wireless,false,,0,OK,1,3,476,735,4594,200
+www.youtube.com,BZ,Belize,speednet wireless,262239,190.211.145.13,speednet wireless,true,,0,OK,1,3,575,1371,5736,200
+www.youtube.com,BJ,Benin,moov benin,37136,156.0.213.172,moov benin,true,,0,OK,2,4,1050,1667,3456,200
+www.youtube.com,BO,"Bolivia, Plurinational State of",telefonica celular de bolivia s.a.,27882,189.28.89.192,telefonica celular de bolivia s.a.,true,,0,OK,2,4,921,1254,2154,200
+www.youtube.com,BY,Belarus,best cjsc,44087,109.126.158.175,best cjsc,false,,0,OK,41,42,840,1223,13427,200
+www.youtube.com,BO,"Bolivia, Plurinational State of",telefonica celular de bolivia s.a.,27882,189.28.89.192,telefonica celular de bolivia s.a.,false,,0,OK,1,3,1213,1953,2348,200
+www.youtube.com,BO,"Bolivia, Plurinational State of",tigo bolivia,,,,false,,56,CURLE_RECV_ERROR,1,3,0,0,67,0
+www.youtube.com,BE,Belgium,orange belgium,47377,94.109.57.151,orange belgium,true,,0,OK,2,3,1753,6819,9558,200
+www.youtube.com,BO,"Bolivia, Plurinational State of",tigo bolivia,,,,true,,56,CURLE_RECV_ERROR,2,3,0,0,98,0
+www.youtube.com,BQ,"Bonaire, Sint Eustatius and Saba",setar aruba,,,,false,,56,CURLE_RECV_ERROR,3,4,0,0,69,0
+www.youtube.com,BQ,"Bonaire, Sint Eustatius and Saba",setar aruba,,,,true,,56,CURLE_RECV_ERROR,1,4,0,0,69,0
+www.youtube.com,BY,Belarus,unitary enterprise a1,42772,151.249.137.216,unitary enterprise a1,true,,0,OK,1,3,1639,2128,11702,200
+www.youtube.com,BT,Bhutan,druknet isp,18024,119.2.125.172,druknet isp,false,,0,OK,2,3,2170,2866,4080,200
+www.youtube.com,BT,Bhutan,druknet isp,18024,119.2.125.172,druknet isp,true,,0,OK,1,3,993,1591,5520,200
+www.youtube.com,BT,Bhutan,tashi infocomm,137412,118.103.138.233,tashi infocomm,false,,0,OK,1,3,2364,3057,6529,200
+www.youtube.com,BY,Belarus,unitary enterprise velcom,42772,178.163.170.14,unitary enterprise velcom,false,,0,OK,2,4,10220,10637,15818,200
+www.youtube.com,BA,Bosnia and Herzegovina,jp ht d.d. mostar,20875,212.39.117.37,jp ht d.d. mostar,false,,0,OK,1,3,763,1224,4073,200
+www.youtube.com,BA,Bosnia and Herzegovina,bh telecom d.d. sarajevo,9146,109.163.173.203,bh telecom d.d. sarajevo,false,,0,OK,47,49,964,1300,3108,200
+www.youtube.com,BY,Belarus,best cjsc,44087,109.126.158.175,best cjsc,true,,0,OK,2,3,1231,7363,19903,200
+www.youtube.com,BA,Bosnia and Herzegovina,jp ht d.d. mostar,20875,212.39.117.37,jp ht d.d. mostar,true,,0,OK,2,4,1764,2105,3520,200
+www.youtube.com,BT,Bhutan,tashi infocomm,137412,118.103.138.97,tashi infocomm,true,,0,OK,2,3,2602,3599,9462,200
+www.youtube.com,BR,Brazil,ita.net telecom,,,,true,,56,CURLE_RECV_ERROR,2,3,0,0,111,0
+www.youtube.com,BR,Brazil,db3 servicos de telecomunicacoes s.a,,,,true,,56,CURLE_RECV_ERROR,2,4,0,0,112,0
+www.youtube.com,BR,Brazil,renovtec servicos de tecnologia eireli,,,,false,,56,CURLE_RECV_ERROR,2,4,0,0,112,0
+www.youtube.com,BA,Bosnia and Herzegovina,bh telecom d.d. sarajevo,9146,109.163.173.203,bh telecom d.d. sarajevo,true,,0,OK,1,3,1154,1503,3076,200
+www.youtube.com,BR,Brazil,now fibra provedor de internet ltda,,,,false,,56,CURLE_RECV_ERROR,2,3,0,0,113,0
+www.youtube.com,BR,Brazil,now fibra provedor de internet ltda,,,,true,,56,CURLE_RECV_ERROR,2,4,0,0,128,0
+www.youtube.com,BY,Belarus,unitary enterprise a1,42772,151.249.137.216,unitary enterprise a1,false,,0,OK,1,3,11985,12354,17824,200
+www.youtube.com,BR,Brazil,pcsupri informatica ltda,,,,false,,56,CURLE_RECV_ERROR,1,3,0,0,119,0
+www.youtube.com,BR,Brazil,pcsupri informatica ltda,,,,true,,56,CURLE_RECV_ERROR,2,3,0,0,109,0
+www.youtube.com,BR,Brazil,renovtec servicos de tecnologia eireli,,,,true,,56,CURLE_RECV_ERROR,2,4,0,0,101,0
+www.youtube.com,BR,Brazil,db3 servicos de telecomunicacoes s.a,,,,false,,56,CURLE_RECV_ERROR,2,3,0,0,111,0
+www.youtube.com,BR,Brazil,algar telecom,,,,false,,56,CURLE_RECV_ERROR,1,3,0,0,118,0
+www.youtube.com,BR,Brazil,mobilelink provedor de servicos de internet ltda,,,,true,,56,CURLE_RECV_ERROR,1,3,0,0,102,0
+www.youtube.com,BR,Brazil,algar telecom,,,,true,,56,CURLE_RECV_ERROR,2,3,0,0,112,0
+www.youtube.com,BO,"Bolivia, Plurinational State of",nuevatel pcs de bolivia s.a.,28024,161.56.42.119,nuevatel pcs de bolivia s.a.,false,,0,OK,1,3,2870,3548,8187,200
+www.youtube.com,BR,Brazil,mobilelink provedor de servicos de internet ltda,,,,false,,56,CURLE_RECV_ERROR,2,4,0,0,105,0
+www.youtube.com,BW,Botswana,obo,36963,41.74.48.126,obo,true,,0,OK,1,3,1217,1874,5112,200
+www.youtube.com,BR,Brazil,claro brazil,22085,189.95.132.98,claro brazil,false,,0,OK,2,3,827,1254,3845,200
+www.youtube.com,BW,Botswana,obo,36963,41.74.48.126,obo,false,,0,OK,1,3,2298,4635,6414,200
+www.youtube.com,BR,Brazil,surf telecom s.a.,,,,true,,56,CURLE_RECV_ERROR,2,3,0,0,115,0
+www.youtube.com,BR,Brazil,ita.net telecom,,,,false,,56,CURLE_RECV_ERROR,1,3,0,0,112,0
+www.youtube.com,BR,Brazil,vivo,27699,189.69.156.111,vivo,false,,0,OK,1,3,524,800,4124,200
+www.youtube.com,BR,Brazil,surf telecom s.a.,,,,false,,56,CURLE_RECV_ERROR,60,61,0,0,197,0
+www.youtube.com,BR,Brazil,claro brazil,22085,189.95.132.98,claro brazil,true,,0,OK,1,3,2041,3601,5168,200
+www.youtube.com,BA,Bosnia and Herzegovina,mtel bosnia,25144,46.239.6.43,mtel bosnia,false,,0,OK,1,3,1593,2250,12271,200
+www.youtube.com,BR,Brazil,vivo,27699,189.69.156.111,vivo,true,,0,OK,1,3,2477,3631,4911,200
+www.youtube.com,BR,Brazil,brisanet,28126,177.37.201.57,brisanet,true,,0,OK,1,3,710,1061,2553,200
+www.youtube.com,BO,"Bolivia, Plurinational State of",nuevatel pcs de bolivia s.a.,28024,161.138.109.203,nuevatel pcs de bolivia s.a.,true,,0,OK,2,3,4774,5913,14115,200
+www.youtube.com,BR,Brazil,brisanet,28126,177.37.201.57,brisanet,false,,0,OK,1,3,871,2247,3065,200
+www.youtube.com,BN,Brunei Darussalam,unified national networks (unn) sdn bhd,10094,61.6.209.226,unified national networks (unn) sdn bhd,false,,0,OK,1,3,834,1351,2250,200
+www.youtube.com,BR,Brazil,tim live,26615,177.30.169.92,tim live,false,,0,OK,2,3,925,1331,3718,200
+www.youtube.com,BR,Brazil,tim brasil,26615,177.51.17.136,tim brasil,true,,0,OK,2,4,1959,2420,3539,200
+www.youtube.com,BN,Brunei Darussalam,unified national networks (unn) sdn bhd,10094,61.6.209.226,unified national networks (unn) sdn bhd,true,,0,OK,2,3,1132,1593,2288,200
+www.youtube.com,BR,Brazil,tim brasil,26615,179.249.50.124,tim brasil,false,,0,OK,1,3,1194,1584,4352,200
+www.youtube.com,BR,Brazil,tim live,26615,177.30.169.92,tim live,true,,0,OK,1,3,1106,3014,4794,200
+www.youtube.com,BA,Bosnia and Herzegovina,mtel bosnia,25144,46.239.6.43,mtel bosnia,true,,0,OK,1,3,2313,11648,17190,200
+www.youtube.com,BG,Bulgaria,global communication net,,,,false,,56,CURLE_RECV_ERROR,1,3,0,0,74,0
+www.youtube.com,BG,Bulgaria,global communication net,,,,true,,56,CURLE_RECV_ERROR,2,4,0,0,68,0
+www.youtube.com,BJ,Benin,benin telecom,37424,197.234.221.32,benin telecom,true,,0,OK,1,3,2215,5304,25560,200
+www.youtube.com,BG,Bulgaria,lycamobile,31404,193.148.51.55,lycamobile,true,,0,OK,44,47,673,1085,1740,200
+www.youtube.com,BG,Bulgaria,yettel bulgaria,29244,149.62.208.146,yettel bulgaria,false,,0,OK,2,3,1818,2182,5155,200
+www.youtube.com,BG,Bulgaria,yettel bulgaria,29244,149.62.206.1,yettel bulgaria,true,,0,OK,1,3,660,1130,2188,200
+www.youtube.com,BG,Bulgaria,lycamobile,31404,193.148.51.55,lycamobile,false,,0,OK,2,4,591,987,1549,200
+www.youtube.com,BF,Burkina Faso,telecel-faso,,,,false,,56,CURLE_RECV_ERROR,2,3,0,0,67,0
+www.youtube.com,BF,Burkina Faso,telecel-faso,,,,true,,56,CURLE_RECV_ERROR,1,3,0,0,72,0
+www.youtube.com,BG,Bulgaria,a1 bulgaria,12716,176.222.15.71,a1 bulgaria,false,,0,OK,1,3,690,1089,5051,200
+www.youtube.com,BG,Bulgaria,vivacom,8866,95.43.165.13,vivacom,false,,0,OK,2,3,675,1161,6154,200
+www.youtube.com,BI,Burundi,ucom-wic,,,,false,,56,CURLE_RECV_ERROR,1,3,0,0,65,0
+www.youtube.com,BI,Burundi,ucom-wic,,,,true,,56,CURLE_RECV_ERROR,1,3,0,0,69,0
+www.youtube.com,BW,Botswana,botswana telecommunications corporation,,,,true,,56,CURLE_RECV_ERROR,41,43,0,0,15703,0
+www.youtube.com,BF,Burkina Faso,orange burkina faso,37577,197.239.114.138,orange burkina faso,false,,0,OK,2,4,1153,1895,4507,200
+www.youtube.com,BJ,Benin,benin telecom,37424,197.234.221.32,benin telecom,false,,28,CURLE_OPERATION_TIMEDOUT,2,4,6113,14230,30000,200
+www.youtube.com,BG,Bulgaria,a1 bulgaria,12716,176.222.15.71,a1 bulgaria,true,,0,OK,2,3,927,4882,7922,200
+www.youtube.com,BG,Bulgaria,vivacom,8866,95.43.165.13,vivacom,true,,0,OK,1,3,2152,6181,8750,200
+www.youtube.com,BR,Brazil,unifique telecomunicacoes sa,28343,200.237.125.200,unifique telecomunicacoes sa,false,,0,OK,1,3,1405,2219,16100,200
+www.youtube.com,BR,Brazil,unifique telecomunicacoes sa,28343,200.237.125.200,unifique telecomunicacoes sa,true,,0,OK,1,3,1061,1495,18302,200
+www.youtube.com,KH,Cambodia,dishawaves infonet pvt. ltd.,,,,false,,56,CURLE_RECV_ERROR,1,3,0,0,63,0
+www.youtube.com,BF,Burkina Faso,orange burkina faso,37577,197.239.114.138,orange burkina faso,true,,0,OK,2,4,2098,4319,6256,200
+www.youtube.com,BF,Burkina Faso,onatel,25543,154.66.165.229,onatel,false,,0,OK,1,3,1126,1634,7853,200
+www.youtube.com,KH,Cambodia,south east asia telecom cambodia co.,,,,false,,56,CURLE_RECV_ERROR,1,3,0,0,65,0
+www.youtube.com,BF,Burkina Faso,onatel,25543,154.66.165.229,onatel,true,,0,OK,2,3,1612,3886,7667,200
+www.youtube.com,KH,Cambodia,dishawaves infonet pvt. ltd.,,,,true,,56,CURLE_RECV_ERROR,1,3,0,0,68,0
+www.youtube.com,KH,Cambodia,south east asia telecom cambodia co.,,,,true,,56,CURLE_RECV_ERROR,1,3,0,0,65,0
+www.youtube.com,BW,Botswana,botswana telecommunications corporation,14988,168.167.26.168,botswana telecommunications corporation,false,,56,CURLE_RECV_ERROR,6,8,1875,0,22821,0
+www.youtube.com,KH,Cambodia,"smart axiata co.,ltd",45498,117.20.115.246,"smart axiata co.,ltd",true,,0,OK,1,3,1512,2571,6138,200
+www.youtube.com,KH,Cambodia,metfone,38623,119.13.61.189,metfone,false,,0,OK,2,4,1714,2290,3283,200
+www.youtube.com,KH,Cambodia,flash broadband pvt. ltd.,38623,45.119.135.172,flash broadband pvt. ltd.,false,,0,OK,1,3,837,1325,3017,200
+www.youtube.com,BO,"Bolivia, Plurinational State of",entel bolivia,6568,181.115.136.129,entel bolivia,true,,28,CURLE_OPERATION_TIMEDOUT,2,3,904,1612,30001,200
+www.youtube.com,KH,Cambodia,metfone,38623,119.13.61.189,metfone,true,,0,OK,47,49,961,1453,5948,200
+www.youtube.com,BO,"Bolivia, Plurinational State of",entel bolivia,6568,181.115.136.129,entel bolivia,false,,28,CURLE_OPERATION_TIMEDOUT,1,3,3612,4969,30001,200
+www.youtube.com,KH,Cambodia,flash broadband pvt. ltd.,38623,45.119.135.172,flash broadband pvt. ltd.,true,,0,OK,2,4,1767,2182,3212,200
+www.youtube.com,KH,Cambodia,cellcard,17976,203.144.92.105,cellcard,false,,0,OK,1,3,1175,1717,6393,200
+www.youtube.com,KH,Cambodia,cellcard,,,,true,,56,CURLE_RECV_ERROR,2,3,0,0,6294,0
+www.youtube.com,CA,Canada,rogers cable,812,97.109.189.243,rogers cable,false,,0,OK,1,3,313,523,832,200
+www.youtube.com,KH,Cambodia,"smart axiata co.,ltd",45498,117.20.115.246,"smart axiata co.,ltd",false,,0,OK,2,3,2759,6026,8767,200
+www.youtube.com,CA,Canada,rogers cable,812,97.109.189.243,rogers cable,true,,0,OK,1,3,403,622,868,200
+www.youtube.com,CA,Canada,telus communications,852,207.148.176.43,telus communications,false,,0,OK,2,3,760,1197,1778,200
+www.youtube.com,CA,Canada,rogers wireless,812,72.143.235.3,rogers wireless,false,,0,OK,1,3,549,805,1413,200
+www.youtube.com,CA,Canada,rogers wireless,812,72.143.235.3,rogers wireless,true,,0,OK,2,4,775,1156,1470,200
+www.youtube.com,CA,Canada,telus communications,852,207.148.176.43,telus communications,true,,0,OK,1,3,889,1597,1945,200
+www.youtube.com,CM,Cameroon,orange cameroun,36912,102.244.221.203,orange cameroun,false,,0,OK,1,3,1219,2092,5126,200
+www.youtube.com,CA,Canada,videotron ltee,5769,204.48.79.140,videotron ltee,false,,0,OK,1,3,377,709,3883,200
+www.youtube.com,CA,Canada,bell dsl internet,577,142.127.9.127,bell dsl internet,false,,0,OK,1,3,605,1348,1818,200
+www.youtube.com,BI,Burundi,viettel burundi,327799,154.117.192.131,viettel burundi,true,,0,OK,2,4,1329,1959,13811,200
+www.youtube.com,KH,Cambodia,smart axiata,45498,117.20.116.237,smart axiata,false,,0,OK,1,3,2586,3789,9852,200
+www.youtube.com,CA,Canada,ssi micro,,,,false,,56,CURLE_RECV_ERROR,1,3,0,0,76,0
+www.youtube.com,CA,Canada,bell dsl internet,577,142.127.9.127,bell dsl internet,true,,0,OK,2,4,1086,1519,2176,200
+www.youtube.com,CM,Cameroon,camtel,15964,165.210.39.222,camtel,false,,0,OK,2,4,1212,2036,7196,200
+www.youtube.com,CA,Canada,freedom mobile,20365,199.7.159.58,freedom mobile,false,,0,OK,2,3,787,1364,3709,200
+www.youtube.com,CA,Canada,sasktel,803,142.165.85.220,sasktel,true,,0,OK,2,3,459,803,1888,200
+www.youtube.com,KH,Cambodia,smart axiata,45498,117.20.116.237,smart axiata,true,,0,OK,2,4,5273,9134,11741,200
+www.youtube.com,CA,Canada,freedom mobile,20365,199.7.159.58,freedom mobile,true,,0,OK,1,3,1253,3403,4716,200
+www.youtube.com,CA,Canada,bell canada,577,142.180.217.78,bell canada,false,,0,OK,1,3,1184,1309,1443,200
+www.youtube.com,CA,Canada,bell canada,577,142.122.72.31,bell canada,true,,0,OK,2,3,370,539,732,200
+www.youtube.com,CA,Canada,ssi micro,,,,true,,56,CURLE_RECV_ERROR,1,3,0,0,75,0
+www.youtube.com,CA,Canada,virgin plus,577,142.182.197.179,virgin plus,true,,0,OK,1,3,400,635,1429,200
+www.youtube.com,CA,Canada,bell mobility,577,174.90.223.190,bell mobility,false,,0,OK,1,3,1217,2246,7229,200
+www.youtube.com,CA,Canada,videotron ltee,5769,204.48.79.140,videotron ltee,true,,0,OK,1,3,460,995,3114,200
+www.youtube.com,CA,Canada,virgin plus,577,142.182.197.179,virgin plus,false,,0,OK,2,4,618,870,1591,200
+www.youtube.com,CA,Canada,shaw communications,20365,208.98.222.64,shaw communications,false,,0,OK,41,43,467,841,5453,200
+www.youtube.com,CA,Canada,sasktel,803,142.165.85.220,sasktel,false,,0,OK,1,3,490,842,2068,200
+www.youtube.com,CM,Cameroon,camtel,15964,165.210.39.222,camtel,true,,0,OK,1,3,2774,6752,12251,200
+www.youtube.com,BI,Burundi,viettel burundi,327799,154.117.192.131,viettel burundi,false,,0,OK,1,3,1402,12737,20401,200
+www.youtube.com,CF,Central African Republic,telecel-centrafrique,,,,false,,56,CURLE_RECV_ERROR,42,44,0,0,134,0
+www.youtube.com,CF,Central African Republic,telecel-centrafrique,,,,true,,56,CURLE_RECV_ERROR,2,3,0,0,75,0
+www.youtube.com,KY,Cayman Islands,digicel cayman,13771,66.54.123.8,digicel cayman,false,,0,OK,39,40,739,1191,2616,200
+www.youtube.com,CM,Cameroon,orange cameroun,36912,102.244.221.203,orange cameroun,true,,0,OK,43,45,1335,3034,13192,200
+www.youtube.com,KY,Cayman Islands,digicel cayman,13771,66.54.123.8,digicel cayman,true,,0,OK,37,39,1138,1786,3176,200
+www.youtube.com,CV,Cape Verde,alou,37517,41.221.207.30,alou,true,,0,OK,1,3,1281,2028,5609,200
+www.youtube.com,CA,Canada,bell mobility,577,174.90.223.190,bell mobility,true,,0,OK,2,3,2970,6217,11599,200
+www.youtube.com,TD,Chad,airtel chad,327756,154.73.113.226,airtel chad,false,,0,OK,2,3,1190,1828,3044,200
+www.youtube.com,CV,Cape Verde,tmais,37575,41.79.127.65,tmais,false,,0,OK,1,3,1315,1963,6673,200
+www.youtube.com,TD,Chad,airtel chad,327756,154.73.113.226,airtel chad,true,,0,OK,2,4,1938,2606,3653,200
+www.youtube.com,CV,Cape Verde,alou,37517,41.221.207.30,alou,false,,0,OK,1,3,2133,5461,9021,200
+www.youtube.com,CL,Chile,movistar movil chile,7418,191.125.10.62,movistar movil chile,true,,0,OK,54,56,1761,2152,3667,200
+www.youtube.com,CL,Chile,entel hogar fibra,27651,181.43.58.66,entel hogar fibra,false,,0,OK,2,4,629,927,2735,200
+www.youtube.com,CA,Canada,shaw communications,20365,208.98.222.64,shaw communications,true,,0,OK,1,2,5229,5711,13885,200
+www.youtube.com,CL,Chile,entel chile,27651,181.42.250.181,entel chile,true,,0,OK,2,4,914,1291,3553,200
+www.youtube.com,CV,Cape Verde,tmais,37575,41.79.127.65,tmais,true,,0,OK,42,44,1380,5377,9428,200
+www.youtube.com,CL,Chile,movistar chile,7418,181.203.66.13,movistar chile,false,,0,OK,1,3,528,804,1840,200
+www.youtube.com,CL,Chile,movistar movil chile,7418,186.41.157.182,movistar movil chile,false,,0,OK,2,3,1983,2788,5232,200
+www.youtube.com,CA,Canada,eastlink,,,,false,,56,CURLE_RECV_ERROR,2,3,0,0,15234,0
+www.youtube.com,CF,Central African Republic,orange central african republic,37460,197.242.180.20,orange central african republic,true,,0,OK,1,3,4683,5520,9696,200
+www.youtube.com,TD,Chad,millicom-chad,327802,154.73.167.36,millicom-chad,true,,0,OK,2,3,2612,3351,8002,200
+www.youtube.com,CN,China,henan mobile communications co.,,,,false,,56,CURLE_RECV_ERROR,1,3,0,0,72,0
+www.youtube.com,CL,Chile,entel hogar fibra,27651,181.43.58.66,entel hogar fibra,true,,0,OK,1,3,2162,2463,3752,200
+www.youtube.com,CL,Chile,movistar chile,7418,181.203.66.13,movistar chile,true,,0,OK,1,3,1709,1987,2571,200
+www.youtube.com,CN,China,china mobile hebei,,,,false,,56,CURLE_RECV_ERROR,1,3,0,0,76,0
+www.youtube.com,CN,China,henan mobile communications co.,,,,true,,56,CURLE_RECV_ERROR,2,3,0,0,78,0
+www.youtube.com,CN,China,china mobile hebei,,,,true,,56,CURLE_RECV_ERROR,1,3,0,0,80,0
+www.youtube.com,CF,Central African Republic,orange central african republic,37460,197.242.180.20,orange central african republic,false,,0,OK,1,3,3037,3906,8480,200
+www.youtube.com,CL,Chile,claro chile,6535,186.174.73.186,claro chile,true,,0,OK,2,3,528,861,2759,200
+www.youtube.com,CN,China,china mobile,,,,false,,56,CURLE_RECV_ERROR,2,4,0,0,1636,0
+www.youtube.com,CN,China,china mobile,,,,true,,56,CURLE_RECV_ERROR,2,3,0,0,1709,0
+www.youtube.com,CL,Chile,entel chile,27651,181.42.250.181,entel chile,false,,0,OK,2,3,889,1380,3274,200
+www.youtube.com,CL,Chile,claro chile,6535,186.174.73.186,claro chile,false,,0,OK,2,4,2041,2373,3462,200
+www.youtube.com,CA,Canada,eastlink,,,,true,,56,CURLE_RECV_ERROR,2,3,0,0,20145,0
+www.youtube.com,CO,Colombia,movistar colombia,3816,186.103.39.145,movistar colombia,false,,0,OK,2,4,1912,2428,3492,200
+www.youtube.com,CL,Chile,mundo chile,27901,190.114.52.173,mundo chile,false,,0,OK,2,4,866,3244,7304,200
+www.youtube.com,CL,Chile,wom chile,52341,186.189.71.224,wom chile,false,,0,OK,2,3,707,1119,6471,200
+www.youtube.com,CO,Colombia,tigo colombia,27831,191.95.32.41,tigo colombia,false,,0,OK,2,4,689,1113,2951,200
+www.youtube.com,CO,Colombia,claro colombia,26611,191.156.245.206,claro colombia,true,,0,OK,1,3,2562,2973,3772,200
+www.youtube.com,CL,Chile,mundo chile,27901,190.114.52.173,mundo chile,true,,0,OK,40,41,1385,3698,8579,200
+www.youtube.com,CL,Chile,wom chile,52341,186.189.71.224,wom chile,true,,0,OK,2,4,1351,6150,8033,200
+www.youtube.com,CM,Cameroon,mtn cameroon,30992,129.0.99.35,mtn cameroon,false,,28,CURLE_OPERATION_TIMEDOUT,2,3,2296,4030,30001,200
+www.youtube.com,CO,Colombia,partners telecom colombia sas,271773,179.19.190.199,partners telecom colombia sas,true,,0,OK,1,4,1029,1510,2792,200
+www.youtube.com,CM,Cameroon,mtn cameroon,30992,129.0.99.35,mtn cameroon,true,,28,CURLE_OPERATION_TIMEDOUT,2,4,4723,0,30001,0
+www.youtube.com,CO,Colombia,claro colombia,26611,191.156.41.183,claro colombia,false,,0,OK,1,3,1971,3669,6794,200
+www.youtube.com,CO,Colombia,partners telecom colombia sas,271773,179.19.190.199,partners telecom colombia sas,false,,0,OK,2,3,1550,2262,4468,200
+www.youtube.com,CO,Colombia,etb,19429,186.31.151.200,etb,true,,0,OK,2,4,1216,1565,5229,200
+www.youtube.com,TD,Chad,millicom-chad,327802,154.73.161.77,millicom-chad,false,,0,OK,1,3,11562,12533,19121,200
+www.youtube.com,CO,Colombia,tigo colombia,27831,191.95.32.41,tigo colombia,true,,0,OK,54,56,1699,2109,7452,200
+www.youtube.com,CO,Colombia,movistar colombia,3816,186.169.234.45,movistar colombia,true,,0,OK,2,4,971,2066,7650,200
+www.youtube.com,CO,Colombia,etb,19429,186.31.151.200,etb,false,,0,OK,1,3,2608,5068,7456,200
+www.youtube.com,CD,"Congo, the Democratic Republic of the",vodacom congo,37453,169.159.211.3,vodacom congo,true,,0,OK,2,4,1058,1773,3195,200
+www.youtube.com,CK,Cook Islands,vodafone cook islands,,,,false,,56,CURLE_RECV_ERROR,40,42,0,0,103,0
+www.youtube.com,CK,Cook Islands,vodafone cook islands,,,,true,,56,CURLE_RECV_ERROR,1,3,0,0,65,0
+www.youtube.com,CD,"Congo, the Democratic Republic of the",vodacom congo,37453,169.159.211.3,vodacom congo,false,,0,OK,2,3,1156,2349,3108,200
+www.youtube.com,CD,"Congo, the Democratic Republic of the",orange rdc,37447,169.239.158.229,orange rdc,true,,0,OK,1,3,2153,2861,6805,200
+www.youtube.com,CG,Congo,mtn congo,37463,169.255.121.166,mtn congo,false,,0,OK,2,3,1164,1928,8698,200
+www.youtube.com,CN,China,china telecom,,,,true,,56,CURLE_RECV_ERROR,2,3,0,0,16327,0
+www.youtube.com,CD,"Congo, the Democratic Republic of the",airtel drc,37020,41.243.13.230,airtel drc,false,,0,OK,43,45,1133,1813,7464,200
+www.youtube.com,CN,China,china unicom,,,,false,,56,CURLE_RECV_ERROR,1,3,0,0,16301,0
+www.youtube.com,CG,Congo,airtel congo,37550,197.214.239.111,airtel congo,false,,0,OK,2,3,1491,2370,8866,200
+www.youtube.com,CG,Congo,airtel congo,37550,197.214.239.111,airtel congo,true,,0,OK,1,3,3248,6127,9595,200
+www.youtube.com,CR,Costa Rica,grupo ice,11830,201.191.254.201,grupo ice,false,,0,OK,2,4,876,1256,2113,200
+www.youtube.com,CD,"Congo, the Democratic Republic of the",airtel drc,37020,41.243.13.230,airtel drc,true,,0,OK,2,3,1937,5689,8500,200
+www.youtube.com,CD,"Congo, the Democratic Republic of the",orange rdc,37447,102.206.156.87,orange rdc,false,,0,OK,2,4,2090,3229,7981,200
+www.youtube.com,CR,Costa Rica,grupo ice,11830,201.191.254.201,grupo ice,true,,0,OK,2,4,1496,1825,2819,200
+www.youtube.com,CR,Costa Rica,claro cr telecomunicaciones s.a.,14754,186.151.109.119,claro cr telecomunicaciones s.a.,false,,0,OK,1,3,511,1144,4309,200
+www.youtube.com,CD,"Congo, the Democratic Republic of the",africell-drc,327738,154.73.23.188,africell-drc,false,,0,OK,1,3,1633,2553,6490,200
+www.youtube.com,CG,Congo,mtn congo,37463,169.255.121.166,mtn congo,true,,0,OK,2,4,3346,7007,12077,200
+www.youtube.com,HR,Croatia,a1 hrvatska mobile,12810,95.168.105.21,a1 hrvatska mobile,true,,0,OK,37,39,543,973,1859,200
+www.youtube.com,CI,Côte d'Ivoire,mtn cote divoire,36974,196.47.128.157,mtn cote divoire,false,,0,OK,1,3,982,1697,4603,200
+www.youtube.com,CN,China,china telecom,,,,false,,56,CURLE_RECV_ERROR,1,3,0,0,19518,0
+www.youtube.com,HR,Croatia,a1 hrvatska mobile,12810,95.168.105.21,a1 hrvatska mobile,false,,0,OK,1,3,701,1175,1689,200
+www.youtube.com,CI,Côte d'Ivoire,orange cote divoire,29571,160.154.150.237,orange cote divoire,false,,0,OK,2,4,1148,2130,4546,200
+www.youtube.com,CN,China,china unicom,,,,true,,56,CURLE_RECV_ERROR,1,3,0,0,21040,0
+www.youtube.com,CD,"Congo, the Democratic Republic of the",africell-drc,327738,154.73.23.188,africell-drc,true,,0,OK,1,3,2470,6204,8273,200
+www.youtube.com,HR,Croatia,hrvatski telekom,5391,46.188.246.242,hrvatski telekom,false,,0,OK,2,4,549,1042,2693,200
+www.youtube.com,HR,Croatia,telemach hrvatska d.o.o.,205714,86.33.92.212,telemach hrvatska d.o.o.,true,,0,OK,2,4,427,713,1329,200
+www.youtube.com,CR,Costa Rica,claro cr telecomunicaciones s.a.,14754,186.151.109.119,claro cr telecomunicaciones s.a.,true,,0,OK,1,3,943,4106,6848,200
+www.youtube.com,HR,Croatia,vipnet,12810,109.227.24.155,vipnet,true,,0,OK,1,3,557,930,1450,200
+www.youtube.com,CI,Côte d'Ivoire,orange cote divoire,29571,160.154.150.237,orange cote divoire,true,,0,OK,1,3,1312,1940,4895,200
+www.youtube.com,HR,Croatia,telemach hrvatska d.o.o.,205714,86.33.92.212,telemach hrvatska d.o.o.,false,,0,OK,1,4,672,1132,1694,200
+www.youtube.com,HR,Croatia,hrvatski telekom,5391,46.188.246.242,hrvatski telekom,true,,0,OK,1,3,1266,2631,3303,200
+www.youtube.com,HR,Croatia,vipnet,12810,109.227.24.155,vipnet,false,,0,OK,1,3,848,1242,1628,200
+www.youtube.com,CW,Curaçao,verizon internet services,11081,65.208.123.6,verizon internet services,false,,0,OK,1,3,484,772,1282,200
+www.youtube.com,CW,Curaçao,verizon internet services,11081,65.208.123.6,verizon internet services,true,,0,OK,1,3,928,1245,1624,200
+www.youtube.com,CI,Côte d'Ivoire,atlantique telecom,37190,102.212.189.89,atlantique telecom,true,,0,OK,42,44,1596,2142,5222,200
+www.youtube.com,CI,Côte d'Ivoire,mtn cote divoire,36974,196.47.128.157,mtn cote divoire,true,,0,OK,2,3,3105,4083,6241,200
+www.youtube.com,CY,Cyprus,cyprus telecommunications authority - cyprus,6866,46.199.40.88,cyprus telecommunications authority - cyprus,false,,0,OK,1,4,638,1026,2835,200
+www.youtube.com,CY,Cyprus,epic,15805,94.46.239.123,epic,false,,0,OK,1,3,809,1514,3743,200
+www.youtube.com,CI,Côte d'Ivoire,atlantique telecom,37190,102.212.189.89,atlantique telecom,false,,0,OK,1,4,6478,6931,8752,200
+www.youtube.com,CY,Cyprus,winet,,,,false,,56,CURLE_RECV_ERROR,1,3,0,0,70,0
+www.youtube.com,CY,Cyprus,kktc telsim,62211,185.43.229.153,kktc telsim,false,,0,OK,1,4,730,1135,4506,200
+www.youtube.com,CY,Cyprus,winet,,,,true,,56,CURLE_RECV_ERROR,2,4,0,0,66,0
+www.youtube.com,CY,Cyprus,cyprus telecommunications authority - cyprus,6866,46.199.40.88,cyprus telecommunications authority - cyprus,true,,0,OK,1,3,795,1198,2843,200
+www.youtube.com,CZ,Czech Republic,t-mobile czech dsl,13036,89.24.49.153,t-mobile czech dsl,false,,0,OK,2,3,417,690,1363,200
+www.youtube.com,CY,Cyprus,kktc telsim,62211,185.43.229.153,kktc telsim,true,,0,OK,1,3,1303,4376,5884,200
+www.youtube.com,CY,Cyprus,kktcell,47883,37.34.12.177,kktcell,false,,0,OK,1,3,894,1329,3346,200
+www.youtube.com,CY,Cyprus,primetel plc,8544,217.175.220.169,primetel plc,false,,0,OK,1,2,1599,2022,5299,200
+www.youtube.com,CY,Cyprus,primetel plc,8544,217.175.220.169,primetel plc,true,,0,OK,43,44,1336,1976,5304,200
+www.youtube.com,DK,Denmark,telenor a/s,,,,true,,56,CURLE_RECV_ERROR,1,3,0,0,26,0
+www.youtube.com,CZ,Czech Republic,t-mobile czech dsl,13036,89.24.49.153,t-mobile czech dsl,true,,0,OK,1,3,419,693,1339,200
+www.youtube.com,CY,Cyprus,epic,15805,94.46.239.123,epic,true,,0,OK,1,4,3623,4420,7070,200
+www.youtube.com,CZ,Czech Republic,o2 czech republic,5610,37.188.249.197,o2 czech republic,false,,0,OK,2,3,660,1081,2322,200
+www.youtube.com,CZ,Czech Republic,vodafone czech republic,16019,46.135.18.178,vodafone czech republic,false,,0,OK,40,42,474,741,1594,200
+www.youtube.com,CZ,Czech Republic,vodafone czech republic,16019,46.135.18.178,vodafone czech republic,true,,0,OK,31,33,883,1354,1997,200
+www.youtube.com,CY,Cyprus,kktcell,47883,37.34.12.177,kktcell,true,,0,OK,1,3,2608,3018,4273,200
+www.youtube.com,DK,Denmark,tdc net,3292,87.49.147.64,tdc net,true,,0,OK,2,3,529,769,1299,200
+www.youtube.com,DK,Denmark,tdc net,3292,87.49.147.64,tdc net,false,,0,OK,1,3,493,907,2115,200
+www.youtube.com,DK,Denmark,leissner data ab,,,,false,,56,CURLE_RECV_ERROR,1,3,0,0,70,0
+www.youtube.com,DK,Denmark,leissner data ab,,,,true,,56,CURLE_RECV_ERROR,1,3,0,0,68,0
+www.youtube.com,DK,Denmark,telenor a/s,,,,false,,56,CURLE_RECV_ERROR,1,3,0,0,27,0
+www.youtube.com,CZ,Czech Republic,o2 czech republic,5610,37.188.249.197,o2 czech republic,true,,0,OK,1,2,1538,1868,3072,200
+www.youtube.com,DK,Denmark,lycamobile,31404,83.137.6.172,lycamobile,false,,0,OK,1,3,685,980,1766,200
+www.youtube.com,CY,Cyprus,cablenet communication systems,35432,80.244.29.13,cablenet communication systems,false,,0,OK,2,4,810,1488,8483,200
+www.youtube.com,DK,Denmark,lycamobile,31404,83.137.6.172,lycamobile,true,,0,OK,1,3,621,1251,1763,200
+www.youtube.com,DM,Dominica,digicel saint lucia,,,,false,,56,CURLE_RECV_ERROR,1,3,0,0,66,0
+www.youtube.com,DM,Dominica,digicel saint lucia,,,,true,,56,CURLE_RECV_ERROR,1,3,0,0,69,0
+www.youtube.com,DK,Denmark,hi3g access ab,44034,109.56.152.130,hi3g access ab,false,,0,OK,2,3,1565,1851,2863,200
+www.youtube.com,DK,Denmark,hi3g access ab,44034,77.241.136.77,hi3g access ab,true,,0,OK,1,3,1035,1264,3419,200
+www.youtube.com,DM,Dominica,flow,14813,205.217.244.127,flow,true,,0,OK,1,4,610,1001,2246,200
+www.youtube.com,DK,Denmark,telia,3308,62.198.143.98,telia,false,,0,OK,1,3,893,1508,5570,200
+www.youtube.com,DM,Dominica,flow,14813,205.217.244.127,flow,false,,0,OK,1,3,864,2119,3120,200
+www.youtube.com,CR,Costa Rica,movistar costa rica,262202,200.119.186.90,movistar costa rica,true,,0,OK,2,3,552,1011,20467,200
+www.youtube.com,DK,Denmark,telia,3308,62.198.143.98,telia,true,,0,OK,1,3,1986,5564,6665,200
+www.youtube.com,CW,Curaçao,digicel curacao,,,,true,,56,CURLE_RECV_ERROR,41,43,0,0,15256,0
+www.youtube.com,DO,Dominican Republic,altice dominicana s.a.,28118,152.166.192.198,altice dominicana s.a.,true,,0,OK,1,3,501,911,3743,200
+www.youtube.com,DJ,Djibouti,djibouti telecom,30990,197.241.122.245,djibouti telecom,false,,0,OK,2,3,955,1580,6553,200
+www.youtube.com,EC,Ecuador,otecel s.a.,7315,181.188.200.229,otecel s.a.,true,,0,OK,2,4,538,805,1427,200
+www.youtube.com,EC,Ecuador,otecel s.a.,7315,181.188.200.229,otecel s.a.,false,,0,OK,2,4,468,740,1262,200
+www.youtube.com,DO,Dominican Republic,visnetwork srl,273861,38.44.241.58,visnetwork srl,false,,0,OK,2,3,361,564,3237,200
+www.youtube.com,DO,Dominican Republic,altice dominicana s.a.,28118,152.166.192.198,altice dominicana s.a.,false,,0,OK,1,3,2669,3103,5235,200
+www.youtube.com,EC,Ecuador,otecel,,,,false,,56,CURLE_RECV_ERROR,1,3,0,0,73,0
+www.youtube.com,EC,Ecuador,otecel,,,,true,,56,CURLE_RECV_ERROR,1,3,0,0,73,0
+www.youtube.com,DJ,Djibouti,djibouti telecom,30990,197.241.122.245,djibouti telecom,true,,0,OK,2,4,2282,6450,8952,200
+www.youtube.com,DO,Dominican Republic,visnetwork srl,273861,38.44.241.58,visnetwork srl,true,,0,OK,2,3,3166,3406,4838,200
+www.youtube.com,CY,Cyprus,cablenet communication systems,35432,80.244.29.13,cablenet communication systems,true,,0,OK,1,3,6076,6522,15101,200
+www.youtube.com,CW,Curaçao,digicel curacao,,,,false,,56,CURLE_RECV_ERROR,1,3,0,0,19914,0
+www.youtube.com,EC,Ecuador,conecel,23487,190.63.250.16,conecel,false,,0,OK,2,3,580,898,7504,200
+www.youtube.com,CR,Costa Rica,movistar costa rica,262202,200.119.187.57,movistar costa rica,false,,28,CURLE_OPERATION_TIMEDOUT,2,4,2778,3729,30001,200
+www.youtube.com,EG,Egypt,vodafone egypt,36935,196.128.175.140,vodafone egypt,false,,0,OK,2,3,700,1228,4955,200
+www.youtube.com,EC,Ecuador,conecel,23487,190.63.250.16,conecel,true,,0,OK,1,3,2607,3257,8009,200
+www.youtube.com,EC,Ecuador,cnt ep,28006,200.85.80.246,cnt ep,true,,0,OK,41,43,968,1428,8021,200
+www.youtube.com,EG,Egypt,e& egypt,36992,105.206.106.247,e& egypt,false,,0,OK,2,4,671,1102,8096,200
+www.youtube.com,DO,Dominican Republic,viva dominicana,46198,190.8.36.108,viva dominicana,false,,0,OK,1,3,1474,2011,13075,200
+www.youtube.com,DO,Dominican Republic,viva dominicana,46198,190.8.32.252,viva dominicana,true,,0,OK,2,3,1581,1851,13355,200
+www.youtube.com,SV,El Salvador,movistar el salvador,263783,190.57.92.220,movistar el salvador,true,,0,OK,2,4,739,1068,3003,200
+www.youtube.com,SV,El Salvador,claro guatemala,14754,179.5.155.30,claro guatemala,false,,0,OK,1,3,573,922,1758,200
+www.youtube.com,CU,Cuba,"empresa de telecomunicaciones de cuba, s.a.",27725,152.207.158.33,"empresa de telecomunicaciones de cuba, s.a.",false,,0,OK,1,3,724,1117,28202,200
+www.youtube.com,SV,El Salvador,ca network s.a. de c.v.,,,,false,,56,CURLE_RECV_ERROR,2,4,0,0,72,0
+www.youtube.com,SV,El Salvador,claro el salvador,,,,true,,56,CURLE_RECV_ERROR,91,93,0,0,164,0
+www.youtube.com,SV,El Salvador,claro el salvador,,,,false,,56,CURLE_RECV_ERROR,2,3,0,0,69,0
+www.youtube.com,SV,El Salvador,claro guatemala,14754,179.5.155.30,claro guatemala,true,,0,OK,2,3,459,1090,1610,200
+www.youtube.com,EC,Ecuador,cnt ep,28006,200.85.80.246,cnt ep,false,,0,OK,1,3,1679,4459,10243,200
+www.youtube.com,SV,El Salvador,ca network s.a. de c.v.,,,,true,,56,CURLE_RECV_ERROR,2,4,0,0,67,0
+www.youtube.com,SV,El Salvador,tigo el salvador,17079,181.189.182.100,tigo el salvador,false,,0,OK,2,4,955,1280,1731,200
+www.youtube.com,EG,Egypt,vodafone egypt,36935,196.128.175.140,vodafone egypt,true,,0,OK,2,3,4823,5358,9037,200
+www.youtube.com,GQ,Equatorial Guinea,getesa (orange equatorial guinea),,,,false,,56,CURLE_RECV_ERROR,4,5,0,0,73,0
+www.youtube.com,GQ,Equatorial Guinea,getesa (orange equatorial guinea),,,,true,,56,CURLE_RECV_ERROR,2,4,0,0,72,0
+www.youtube.com,SV,El Salvador,tigo el salvador,17079,181.189.182.100,tigo el salvador,true,,0,OK,2,4,1110,1400,1887,200
+www.youtube.com,CU,Cuba,"empresa de telecomunicaciones de cuba, s.a.",27725,152.207.158.33,"empresa de telecomunicaciones de cuba, s.a.",true,,28,CURLE_OPERATION_TIMEDOUT,1,3,2526,9501,30000,200
+www.youtube.com,DO,Dominican Republic,claro dominican republic,6400,190.167.233.214,claro dominican republic,true,,0,OK,62,64,3138,8823,17366,200
+www.youtube.com,SV,El Salvador,movistar el salvador,263783,190.57.92.220,movistar el salvador,false,,0,OK,2,4,676,1079,2774,200
+www.youtube.com,EG,Egypt,telecom egypt,8452,154.185.79.15,telecom egypt,true,,0,OK,43,45,4736,5210,6801,200
+www.youtube.com,SV,El Salvador,digicel s.a. de c.v.,27903,200.89.86.76,digicel s.a. de c.v.,true,,0,OK,1,3,1117,1580,2864,200
+www.youtube.com,EE,Estonia,tele2 estonia,1257,91.129.104.83,tele2 estonia,false,,0,OK,4,6,491,819,2271,200
+www.youtube.com,EE,Estonia,telia eesti,3249,46.131.79.125,telia eesti,true,,0,OK,1,3,780,1084,1641,200
+www.youtube.com,EG,Egypt,orange egypt,37069,105.180.240.169,orange egypt,true,,0,OK,2,4,2314,3174,8767,200
+www.youtube.com,EE,Estonia,telia eesti,3249,46.131.79.125,telia eesti,false,,0,OK,1,2,793,1182,1647,200
+www.youtube.com,EG,Egypt,e& egypt,36992,105.206.106.247,e& egypt,true,,0,OK,1,3,964,1954,11592,200
+www.youtube.com,FO,Faroe Islands,p/f telefonverkid,,,,false,,56,CURLE_RECV_ERROR,1,3,0,0,28,0
+www.youtube.com,FO,Faroe Islands,p/f telefonverkid,,,,true,,56,CURLE_RECV_ERROR,1,3,0,0,31,0
+www.youtube.com,EE,Estonia,tele2 estonia,1257,91.129.104.83,tele2 estonia,true,,0,OK,2,4,1115,2115,2859,200
+www.youtube.com,EE,Estonia,elisa eesti,2586,87.119.186.99,elisa eesti,false,,0,OK,4,7,800,1166,3521,200
+www.youtube.com,FO,Faroe Islands,nema,20963,81.25.191.134,nema,false,,0,OK,1,3,512,822,1254,200
+www.youtube.com,SV,El Salvador,digicel s.a. de c.v.,27903,200.89.86.76,digicel s.a. de c.v.,false,,0,OK,2,5,3637,4055,5339,200
+www.youtube.com,FO,Faroe Islands,nema,20963,81.25.191.134,nema,true,,0,OK,1,3,654,1016,1428,200
+www.youtube.com,DO,Dominican Republic,claro dominican republic,6400,190.167.233.214,claro dominican republic,false,,0,OK,2,4,2746,3834,21824,200
+www.youtube.com,EE,Estonia,elisa eesti,2586,87.119.186.99,elisa eesti,true,,0,OK,58,60,1643,2540,4141,200
+www.youtube.com,GQ,Equatorial Guinea,muni-eg,,,,false,,56,CURLE_RECV_ERROR,2,4,0,0,6186,0
+www.youtube.com,GQ,Equatorial Guinea,muni-eg,,,,true,,56,CURLE_RECV_ERROR,2,4,0,0,6280,0
+www.youtube.com,FI,Finland,elisa mobile,719,85.76.105.145,elisa mobile,false,,0,OK,2,4,594,877,2169,200
+www.youtube.com,FI,Finland,telia finland,1759,176.72.85.227,telia finland,true,,0,OK,53,54,718,1132,2484,200
+www.youtube.com,FI,Finland,dna oyj,16086,37.33.160.108,dna oyj,true,,0,OK,1,3,732,982,1424,200
+www.youtube.com,FI,Finland,dna oyj,16086,37.33.160.108,dna oyj,false,,0,OK,2,4,888,1292,1650,200
+www.youtube.com,EG,Egypt,telecom egypt,8452,154.189.164.217,telecom egypt,false,,56,CURLE_RECV_ERROR,2,3,8823,0,13756,0
+www.youtube.com,FI,Finland,elisa mobile,719,85.76.105.145,elisa mobile,true,,0,OK,1,4,1109,2104,3391,200
+www.youtube.com,FI,Finland,telia finland,1759,176.72.85.227,telia finland,false,,0,OK,1,3,1096,1578,2727,200
+www.youtube.com,ET,Ethiopia,ethiopian telecommunication corporation,24757,196.191.61.26,ethiopian telecommunication corporation,true,,0,OK,1,3,1052,1795,6315,200
+www.youtube.com,FR,France,bouygues telecom,5410,212.194.201.1,bouygues telecom,true,,0,OK,1,3,424,674,1323,200
+www.youtube.com,FR,France,bouygues telecom,5410,212.194.201.1,bouygues telecom,false,,0,OK,2,3,686,919,1339,200
+www.youtube.com,FJ,Fiji,digicel fiji,45355,45.117.247.231,digicel fiji,false,,0,OK,1,4,1814,2625,5971,200
+www.youtube.com,ET,Ethiopia,ethiopian telecommunication corporation,24757,196.191.61.26,ethiopian telecommunication corporation,false,,0,OK,2,4,1528,3510,7564,200
+www.youtube.com,FR,France,free sas,51207,78.244.210.149,free sas,false,,0,OK,2,3,597,1083,2662,200
+www.youtube.com,FI,Finland,elisa,719,83.245.239.54,elisa,false,,0,OK,1,3,640,911,4221,200
+www.youtube.com,FR,France,free mobile,51207,37.165.138.238,free mobile,false,,0,OK,1,3,497,844,1370,200
+www.youtube.com,FR,France,free sas,51207,78.244.210.149,free sas,true,,0,OK,1,3,946,1689,2987,200
+www.youtube.com,FJ,Fiji,digicel fiji,45355,45.117.247.231,digicel fiji,true,,0,OK,1,3,2951,5628,7579,200
+www.youtube.com,FR,France,sfr,15557,77.131.12.34,sfr,false,,0,OK,2,4,548,876,4214,200
+www.youtube.com,FR,France,free mobile,51207,37.165.138.238,free mobile,true,,0,OK,1,3,447,695,1117,200
+www.youtube.com,FR,France,sfr,15557,77.131.12.34,sfr,true,,0,OK,2,4,2566,3943,5229,200
+www.youtube.com,FI,Finland,elisa,719,83.245.239.54,elisa,true,,0,OK,1,3,1557,4186,6591,200
+www.youtube.com,FR,France,orne thd spl,,,,true,,56,CURLE_RECV_ERROR,2,3,0,0,209,0
+www.youtube.com,FJ,Fiji,vodafone fiji,38442,27.123.137.118,vodafone fiji,true,,0,OK,1,4,2061,3961,10481,200
+www.youtube.com,FR,France,orne thd spl,,,,false,,56,CURLE_RECV_ERROR,2,3,0,0,198,0
+www.youtube.com,FR,France,arelion sweden ab,1299,80.239.186.179,arelion sweden ab,false,,0,OK,2,3,524,838,2429,200
+www.youtube.com,GF,French Guiana,orange,,,,false,,56,CURLE_RECV_ERROR,1,3,0,0,68,0
+www.youtube.com,GF,French Guiana,orange,,,,true,,56,CURLE_RECV_ERROR,2,4,0,0,68,0
+www.youtube.com,FR,France,cogent communications,174,149.7.98.80,cogent communications,true,,0,OK,2,3,1650,2013,3812,200
+www.youtube.com,FR,France,arelion sweden ab,1299,80.239.186.179,arelion sweden ab,true,,0,OK,1,3,1760,2152,3157,200
+www.youtube.com,GF,French Guiana,outremer telecom,20776,109.62.66.121,outremer telecom,true,,0,OK,2,4,443,733,1867,200
+www.youtube.com,PF,French Polynesia,vodafone,,,,false,,56,CURLE_RECV_ERROR,1,3,0,0,64,0
+www.youtube.com,PF,French Polynesia,vodafone,,,,true,,56,CURLE_RECV_ERROR,2,4,0,0,72,0
+www.youtube.com,GF,French Guiana,outremer telecom,20776,109.62.66.121,outremer telecom,false,,0,OK,2,4,770,1836,2461,200
+www.youtube.com,FR,France,syma,207589,185.109.254.163,syma,true,,0,OK,2,3,533,865,5621,200
+www.youtube.com,FR,France,orange,3215,92.184.100.163,orange,false,,0,OK,42,44,926,1405,8762,200
+www.youtube.com,FJ,Fiji,vodafone fiji,38442,27.123.137.118,vodafone fiji,false,,0,OK,2,3,3554,10472,14966,200
+www.youtube.com,FR,France,syma,207589,185.109.254.163,syma,false,,0,OK,1,3,1029,2868,6556,200
+www.youtube.com,PF,French Polynesia,vini,55943,64.140.148.105,vini,true,,0,OK,1,3,1056,1862,6152,200
+www.youtube.com,ET,Ethiopia,safaricom,328988,102.218.51.32,safaricom,true,,0,OK,1,3,1596,2339,18728,200
+www.youtube.com,EG,Egypt,orange egypt,37069,105.180.240.169,orange egypt,false,,28,CURLE_OPERATION_TIMEDOUT,2,4,2026,2923,30000,200
+www.youtube.com,PF,French Polynesia,vini,55943,64.140.148.105,vini,false,,0,OK,41,43,1269,3926,7458,200
+www.youtube.com,GA,Gabon,gabon-telecom,16058,154.112.8.149,gabon-telecom,false,,0,OK,2,4,1300,2098,7060,200
+www.youtube.com,GM,Gambia,africell,37524,197.148.78.154,africell,false,,0,OK,1,3,2155,2787,6114,200
+www.youtube.com,GE,Georgia,zao aquafon-gsm,,,,false,,56,CURLE_RECV_ERROR,1,3,0,0,70,0
+www.youtube.com,GE,Georgia,zao aquafon-gsm,,,,true,,56,CURLE_RECV_ERROR,2,3,0,0,77,0
+www.youtube.com,ET,Ethiopia,safaricom,328988,102.218.51.32,safaricom,false,,0,OK,2,4,8063,18704,23645,200
+www.youtube.com,FR,France,orange,3215,92.184.100.163,orange,true,,0,OK,1,3,4000,8419,16521,200
+www.youtube.com,GE,Georgia,magticom,16010,185.70.55.42,magticom,true,,0,OK,1,3,714,1127,2317,200
+www.youtube.com,GE,Georgia,magticom,16010,185.70.55.42,magticom,false,,0,OK,1,4,649,1115,2317,200
+www.youtube.com,FR,France,lycamobile,31404,194.11.198.205,lycamobile,true,,0,OK,2,3,1970,2898,22088,200
+www.youtube.com,FR,France,lycamobile,31404,194.11.198.205,lycamobile,false,,56,CURLE_RECV_ERROR,1,3,17136,0,19254,0
+www.youtube.com,DE,Germany,lycamobile,31404,193.148.48.78,lycamobile,false,,0,OK,1,3,706,1067,2020,200
+www.youtube.com,FR,France,cogent communications,174,149.7.98.89,cogent communications,false,,0,OK,1,3,1431,2444,19228,200
+www.youtube.com,GA,Gabon,gabon-telecom,16058,154.112.8.149,gabon-telecom,true,,0,OK,2,4,1089,2085,15595,200
+www.youtube.com,DE,Germany,deutsche telekom ag,3320,80.187.74.193,deutsche telekom ag,false,,0,OK,2,4,392,640,1033,200
+www.youtube.com,GE,Georgia,cellfie mobile,41738,91.184.123.203,cellfie mobile,true,,0,OK,2,4,1127,1702,11057,200
+www.youtube.com,DE,Germany,vodafone germany,3209,47.65.179.4,vodafone germany,false,,0,OK,1,4,513,950,3550,200
+www.youtube.com,DE,Germany,deutsche telekom ag,3320,80.187.74.193,deutsche telekom ag,true,,0,OK,1,3,358,599,936,200
+www.youtube.com,GM,Gambia,qcell,37309,155.251.252.53,qcell,false,,35,CURLE_SSL_CONNECT_ERROR,1,3,0,0,17247,0
+www.youtube.com,GM,Gambia,africell,37524,197.148.73.131,africell,true,,0,OK,1,3,1998,2527,14242,200
+www.youtube.com,GM,Gambia,qcell,37309,155.251.252.53,qcell,true,,56,CURLE_RECV_ERROR,2,4,17212,0,17323,0
+www.youtube.com,DE,Germany,play2go international,,,,false,,56,CURLE_RECV_ERROR,1,3,0,0,121,0
+www.youtube.com,DE,Germany,play2go international,,,,true,,56,CURLE_RECV_ERROR,2,4,0,0,107,0
+www.youtube.com,DE,Germany,lebara,33921,194.213.108.4,lebara,false,,0,OK,2,4,938,1454,2278,200
+www.youtube.com,DE,Germany,vodafone germany,3209,47.65.179.4,vodafone germany,true,,0,OK,60,62,2652,3091,5007,200
+www.youtube.com,DE,Germany,lycamobile,31404,193.148.48.78,lycamobile,true,,0,OK,1,3,916,1364,2948,200
+www.youtube.com,DE,Germany,lebara,33921,194.213.108.4,lebara,true,,0,OK,1,3,795,1411,2377,200
+www.youtube.com,GH,Ghana,vodafone ghana,29614,197.251.240.122,vodafone ghana,false,,0,OK,2,3,1043,1658,3283,200
+www.youtube.com,DE,Germany,1global,30967,185.99.24.40,1global,false,,0,OK,1,3,5648,6064,6956,200
+www.youtube.com,DE,Germany,1global,30967,185.99.24.40,1global,true,,0,OK,2,4,5146,5703,6552,200
+www.youtube.com,GH,Ghana,mtn ghana,30986,154.161.172.0,mtn ghana,false,,0,OK,43,44,1224,2113,4978,200
+www.youtube.com,GH,Ghana,vodafone ghana,29614,197.251.240.122,vodafone ghana,true,,0,OK,2,3,948,1575,3936,200
+www.youtube.com,GH,Ghana,mtn ghana,30986,154.161.172.0,mtn ghana,true,,0,OK,1,3,1935,3057,5987,200
+www.youtube.com,GR,Greece,vodafone greece,3329,62.74.26.217,vodafone greece,true,,0,OK,2,4,616,1009,2681,200
+www.youtube.com,GE,Georgia,jsc silknet,42082,91.151.136.95,jsc silknet,false,,0,OK,28,29,3377,6168,18113,200
+www.youtube.com,GR,Greece,mobile internet,,,,false,,56,CURLE_RECV_ERROR,2,4,0,0,71,0
+www.youtube.com,GR,Greece,mobile internet,,,,true,,56,CURLE_RECV_ERROR,1,3,0,0,72,0
+www.youtube.com,GP,Guadeloupe,orange,,,,true,,56,CURLE_RECV_ERROR,1,3,0,0,69,0
+www.youtube.com,GH,Ghana,airtel-ghana,37030,41.215.169.238,airtel-ghana,true,,0,OK,2,3,3461,4066,7167,200
+www.youtube.com,GR,Greece,cosmote mobile telecommunications,29247,109.178.164.20,cosmote mobile telecommunications,true,,0,OK,13,15,657,1074,3038,200
+www.youtube.com,GA,Gabon,airtel gabon,37616,154.0.186.186,airtel gabon,true,,28,CURLE_OPERATION_TIMEDOUT,1,3,15399,20952,30001,200
+www.youtube.com,GA,Gabon,airtel gabon,37616,154.0.186.186,airtel gabon,false,,28,CURLE_OPERATION_TIMEDOUT,1,4,16594,20186,30002,200
+www.youtube.com,GR,Greece,vodafone greece,3329,62.74.26.217,vodafone greece,false,,0,OK,1,3,1295,1660,3419,200
+www.youtube.com,GR,Greece,cosmote mobile telecommunications,29247,109.178.164.20,cosmote mobile telecommunications,false,,0,OK,40,42,2189,3091,4263,200
+www.youtube.com,GP,Guadeloupe,orange,,,,false,,56,CURLE_RECV_ERROR,1,3,0,0,72,0
+www.youtube.com,GU,Guam,guamcell communications,,,,false,,56,CURLE_RECV_ERROR,2,3,0,0,74,0
+www.youtube.com,GE,Georgia,jsc silknet,42082,91.151.136.95,jsc silknet,true,,0,OK,42,44,1215,1973,20747,200
+www.youtube.com,GP,Guadeloupe,outremer telecom,20776,109.62.71.71,outremer telecom,false,,0,OK,2,3,585,958,2003,200
+www.youtube.com,GP,Guadeloupe,outremer telecom,20776,109.62.71.71,outremer telecom,true,,0,OK,2,4,822,1269,2105,200
+www.youtube.com,GU,Guam,guamcell communications,,,,true,,56,CURLE_RECV_ERROR,1,3,0,0,67,0
+www.youtube.com,GP,Guadeloupe,free mobile,51207,37.8.170.249,free mobile,true,,0,OK,2,4,664,1010,4460,200
+www.youtube.com,GM,Gambia,gamtel,37552,197.231.207.200,gamtel,false,,28,CURLE_OPERATION_TIMEDOUT,43,45,2813,6623,30002,200
+www.youtube.com,GP,Guadeloupe,free mobile,51207,37.8.170.249,free mobile,false,,0,OK,1,3,1113,3878,5572,200
+www.youtube.com,GT,Guatemala,tigo guatemala,23243,190.14.132.9,tigo guatemala,false,,0,OK,2,3,519,984,1814,200
+www.youtube.com,GU,Guam,pti pacifica,7131,202.88.79.111,pti pacifica,false,,0,OK,1,4,1015,1485,4593,200
+www.youtube.com,GM,Gambia,gamtel,37552,197.231.207.200,gamtel,true,,28,CURLE_OPERATION_TIMEDOUT,1,3,8589,0,30001,0
+www.youtube.com,GE,Georgia,cellfie mobile,41738,91.184.113.203,cellfie mobile,false,,28,CURLE_OPERATION_TIMEDOUT,1,3,2553,3145,30002,200
+www.youtube.com,GG,Guernsey,sure (guernsey),,,,false,,56,CURLE_RECV_ERROR,46,47,0,0,110,0
+www.youtube.com,GG,Guernsey,sure (guernsey),,,,true,,56,CURLE_RECV_ERROR,1,4,0,0,65,0
+www.youtube.com,GU,Guam,pti pacifica,7131,202.88.79.111,pti pacifica,true,,0,OK,1,3,1376,3600,5542,200
+www.youtube.com,GT,Guatemala,claro guatemala static ip,14754,190.56.32.122,claro guatemala static ip,false,,0,OK,2,4,571,918,1959,200
+www.youtube.com,GT,Guatemala,claro guatemala static ip,14754,190.56.32.122,claro guatemala static ip,true,,0,OK,2,4,603,1022,2202,200
+www.youtube.com,GP,Guadeloupe,digicel antilles francaises guyane,48252,94.198.181.128,digicel antilles francaises guyane,false,,0,OK,1,3,703,1242,8051,200
+www.youtube.com,GT,Guatemala,claro guatemala,14754,190.56.49.179,claro guatemala,false,,0,OK,2,4,507,829,3775,200
+www.youtube.com,GU,Guam,lumen,9246,209.164.184.0,lumen,false,,0,OK,43,45,1356,2098,7139,200
+www.youtube.com,DE,Germany,o2 deutschland,6805,176.6.142.210,o2 deutschland,true,,0,OK,2,4,2639,8491,24349,200
+www.youtube.com,GT,Guatemala,claro guatemala,14754,190.56.49.179,claro guatemala,true,,0,OK,1,3,665,3411,4192,200
+www.youtube.com,DE,Germany,o2 deutschland,6805,176.6.142.210,o2 deutschland,false,,0,OK,2,4,2006,3245,25381,200
+www.youtube.com,GN,Guinea,orange guinea,37461,197.149.243.113,orange guinea,true,,0,OK,2,3,911,1469,3249,200
+www.youtube.com,GU,Guam,lumen,9246,209.164.184.0,lumen,true,,0,OK,2,4,4482,5786,7034,200
+www.youtube.com,GT,Guatemala,tigo guatemala,23243,190.14.132.9,tigo guatemala,true,,0,OK,2,4,477,949,4290,200
+www.youtube.com,GN,Guinea,orange guinea,37461,197.149.243.113,orange guinea,false,,0,OK,2,4,1419,2670,4073,200
+www.youtube.com,GP,Guadeloupe,digicel antilles francaises guyane,48252,94.198.181.128,digicel antilles francaises guyane,true,,0,OK,2,3,1974,4872,11387,200
+www.youtube.com,GY,Guyana,guyana telephone & telegraph co.,19863,181.199.234.47,guyana telephone & telegraph co.,false,,0,OK,1,4,572,1000,2509,200
+www.youtube.com,GY,Guyana,guyana telephone & telegraph co.,19863,181.199.234.47,guyana telephone & telegraph co.,true,,0,OK,2,3,657,1760,2772,200
+www.youtube.com,GR,Greece,nova greece,,,,false,,56,CURLE_RECV_ERROR,1,3,0,0,15458,0
+www.youtube.com,GY,Guyana,e-networks inc,52253,190.108.215.194,e-networks inc,false,,0,OK,1,3,812,1490,6580,200
+www.youtube.com,HN,Honduras,tigo honduras,52262,186.2.158.60,tigo honduras,true,,0,OK,55,57,590,902,1566,200
+www.youtube.com,HT,Haiti,alpha communications network,27653,200.113.251.210,alpha communications network,false,,0,OK,46,48,1195,4374,6625,200
+www.youtube.com,GY,Guyana,e-networks inc,52253,190.108.215.194,e-networks inc,true,,0,OK,1,4,1302,3933,8589,200
+www.youtube.com,GN,Guinea,areeba-guinea,37612,41.242.89.165,areeba-guinea,true,,0,OK,2,4,1822,2865,10871,200
+www.youtube.com,HK,Hong Kong,hutchison telephone company,,,,true,,56,CURLE_RECV_ERROR,2,4,0,0,69,0
+www.youtube.com,HN,Honduras,tigo honduras,52262,186.2.158.60,tigo honduras,false,,0,OK,2,4,472,807,1442,200
+www.youtube.com,GY,Guyana,u mobile cellular inc.,52433,181.177.218.16,u mobile cellular inc.,false,,0,OK,1,3,1060,1555,11056,200
+www.youtube.com,GW,Guinea-Bissau,orange-bissau,37559,197.214.90.79,orange-bissau,true,,0,OK,1,3,1236,1896,13603,200
+www.youtube.com,HK,Hong Kong,china mobile hong kong,9231,182.239.121.148,china mobile hong kong,false,,0,OK,2,3,956,1503,2968,200
+www.youtube.com,GH,Ghana,airtel-ghana,37030,41.215.163.137,airtel-ghana,false,,28,CURLE_OPERATION_TIMEDOUT,1,3,9623,17381,30000,200
+www.youtube.com,HN,Honduras,claro guatemala,14754,181.115.63.43,claro guatemala,false,,0,OK,2,4,1715,2463,4635,200
+www.youtube.com,HK,Hong Kong,hutchison telephone company,,,,false,,56,CURLE_RECV_ERROR,2,3,0,0,61,0
+www.youtube.com,HK,Hong Kong,china unicom global,,,,true,,56,CURLE_RECV_ERROR,2,4,0,0,71,0
+www.youtube.com,HK,Hong Kong,smartone mobile communications,,,,false,,56,CURLE_RECV_ERROR,2,3,0,0,68,0
+www.youtube.com,HK,Hong Kong,smartone mobile communications,,,,true,,56,CURLE_RECV_ERROR,2,3,0,0,67,0
+www.youtube.com,HK,Hong Kong,china unicom global,,,,false,,56,CURLE_RECV_ERROR,2,29,0,0,137,0
+www.youtube.com,HK,Hong Kong,china mobile,,,,true,,56,CURLE_RECV_ERROR,2,3,0,0,69,0
+www.youtube.com,HK,Hong Kong,china mobile,,,,false,,56,CURLE_RECV_ERROR,2,4,0,0,77,0
+www.youtube.com,HK,Hong Kong,multibyte info technology,,,,false,,56,CURLE_RECV_ERROR,1,3,0,0,66,0
+www.youtube.com,HK,Hong Kong,multibyte info technology,,,,true,,56,CURLE_RECV_ERROR,1,3,0,0,66,0
+www.youtube.com,GW,Guinea-Bissau,orange-bissau,37559,197.214.90.79,orange-bissau,false,,0,OK,1,3,1929,4983,15203,200
+www.youtube.com,HK,Hong Kong,china mobile hong kong,9231,182.239.121.148,china mobile hong kong,true,,0,OK,1,3,2067,2583,4151,200
+www.youtube.com,HN,Honduras,claro guatemala,14754,181.115.63.43,claro guatemala,true,,0,OK,1,3,1846,2424,5642,200
+www.youtube.com,HT,Haiti,alpha communications network,27653,200.113.251.210,alpha communications network,true,,0,OK,1,3,2825,4151,11157,200
+www.youtube.com,HU,Hungary,magyar telekom,5483,37.76.9.121,magyar telekom,true,,0,OK,1,3,517,889,1649,200
+www.youtube.com,GW,Guinea-Bissau,mtn-bissau,327769,154.73.60.17,mtn-bissau,false,,0,OK,1,3,1377,2780,16546,200
+www.youtube.com,HK,Hong Kong,csl mobile,38819,14.0.227.90,csl mobile,false,,0,OK,10,12,1085,1603,3604,200
+www.youtube.com,HU,Hungary,netfone telecom tavkozlesi es szolgaltato kft,,,,false,,56,CURLE_RECV_ERROR,1,3,0,0,75,0
+www.youtube.com,HU,Hungary,netfone telecom tavkozlesi es szolgaltato kft,,,,true,,56,CURLE_RECV_ERROR,1,3,0,0,69,0
+www.youtube.com,HU,Hungary,one hungary,21334,130.43.210.60,one hungary,false,,0,OK,1,3,541,995,2621,200
+www.youtube.com,HU,Hungary,magyar telekom,5483,37.76.9.121,magyar telekom,false,,0,OK,1,4,992,1280,2095,200
+www.youtube.com,HK,Hong Kong,csl mobile,38819,14.0.227.90,csl mobile,true,,0,OK,2,4,2711,3396,4924,200
+www.youtube.com,HU,Hungary,one hungary,21334,130.43.210.60,one hungary,true,,0,OK,2,3,1201,2549,3371,200
+www.youtube.com,GY,Guyana,u mobile cellular inc.,52433,181.177.218.16,u mobile cellular inc.,true,,0,OK,1,3,653,10312,17197,200
+www.youtube.com,GR,Greece,nova greece,25472,91.140.29.246,nova greece,true,,28,CURLE_OPERATION_TIMEDOUT,1,3,628,975,30000,200
+www.youtube.com,GW,Guinea-Bissau,mtn-bissau,327769,154.73.60.17,mtn-bissau,true,,0,OK,1,3,3467,4126,19761,200
+www.youtube.com,IS,Iceland,nova hf,44735,46.182.186.221,nova hf,false,,0,OK,1,3,826,1404,3534,200
+www.youtube.com,IS,Iceland,mila hf,6677,157.157.164.158,mila hf,true,,0,OK,43,45,697,1082,2114,200
+www.youtube.com,IS,Iceland,nova hf,44735,46.182.186.221,nova hf,true,,0,OK,1,3,783,1990,3997,200
+www.youtube.com,IS,Iceland,vodafone iceland,12969,213.220.68.21,vodafone iceland,false,,0,OK,2,4,639,1075,4238,200
+www.youtube.com,IS,Iceland,mila hf,6677,157.157.164.158,mila hf,false,,0,OK,1,3,3885,4255,5179,200
+www.youtube.com,IN,India,vodafone idea,38266,42.107.207.54,vodafone idea,false,,0,OK,1,3,1333,2211,4021,200
+www.youtube.com,GN,Guinea,areeba-guinea,37612,41.242.89.165,areeba-guinea,false,,0,OK,2,4,6165,11539,24147,200
+www.youtube.com,IN,India,nextra,,,,true,,56,CURLE_RECV_ERROR,1,2,0,0,140,0
+www.youtube.com,IN,India,nextra,,,,false,,56,CURLE_RECV_ERROR,1,3,0,0,147,0
+www.youtube.com,IS,Iceland,vodafone iceland,12969,213.220.68.21,vodafone iceland,true,,0,OK,2,4,1314,3502,4900,200
+www.youtube.com,HU,Hungary,yettel hungary,213155,84.225.155.190,yettel hungary,true,,0,OK,2,4,1045,1485,8698,200
+www.youtube.com,ID,Indonesia,telkomsel,23693,182.6.42.204,telkomsel,true,,0,OK,2,3,709,1165,2224,200
+www.youtube.com,IN,India,vodafone idea,38266,42.107.207.54,vodafone idea,true,,0,OK,2,3,1592,2420,4005,200
+www.youtube.com,HK,Hong Kong,hutchison hk,10118,124.217.188.102,hutchison hk,false,,0,OK,1,3,988,2218,14336,200
+www.youtube.com,HU,Hungary,yettel hungary,213155,84.225.155.190,yettel hungary,false,,0,OK,1,3,2880,4014,9509,200
+www.youtube.com,ID,Indonesia,telkomsel,23693,182.6.42.204,telkomsel,false,,0,OK,42,43,2090,2485,3350,200
+www.youtube.com,ID,Indonesia,pt telkom indonesia,7713,36.84.67.92,pt telkom indonesia,false,,0,OK,2,4,922,1412,2472,200
+www.youtube.com,HK,Hong Kong,hutchison hk,10118,124.217.188.102,hutchison hk,true,,0,OK,54,56,13699,14831,16177,200
+www.youtube.com,ID,Indonesia,telkomsel - indihome,,,,true,,56,CURLE_RECV_ERROR,2,4,0,0,83,0
+www.youtube.com,IN,India,jio,55836,152.59.165.10,jio,false,,35,CURLE_SSL_CONNECT_ERROR,2,4,0,0,10592,0
+www.youtube.com,ID,Indonesia,orion cyber internet,,,,false,,56,CURLE_RECV_ERROR,1,3,0,0,83,0
+www.youtube.com,ID,Indonesia,telkomsel - indihome,,,,false,,56,CURLE_RECV_ERROR,1,3,0,0,79,0
+www.youtube.com,ID,Indonesia,orion cyber internet,,,,true,,56,CURLE_RECV_ERROR,2,3,0,0,77,0
+www.youtube.com,IN,India,jio,55836,152.56.128.87,jio,true,,0,OK,1,3,5482,6250,11131,200
+www.youtube.com,ID,Indonesia,smartfren,18004,114.79.2.114,smartfren,false,,0,OK,1,3,919,1463,6303,200
+www.youtube.com,IR,"Iran, Islamic Republic of",rightel communication service company pjs,,,,false,,56,CURLE_RECV_ERROR,1,3,0,0,392,0
+www.youtube.com,ID,Indonesia,pt telkom indonesia,7713,36.84.67.92,pt telkom indonesia,true,,0,OK,40,42,1254,2031,3364,200
+www.youtube.com,ID,Indonesia,xl axiata,24203,140.213.29.107,xl axiata,false,,0,OK,2,3,2068,2927,7211,200
+www.youtube.com,IR,"Iran, Islamic Republic of",mobile communication company of iran,,,,true,,56,CURLE_RECV_ERROR,1,3,0,0,1486,0
+www.youtube.com,HT,Haiti,natcom s.a,52260,190.115.178.85,natcom s.a,true,,28,CURLE_OPERATION_TIMEDOUT,1,3,6615,10393,30001,200
+www.youtube.com,ID,Indonesia,xl axiata,24203,140.213.29.107,xl axiata,true,,0,OK,1,3,2442,4183,8206,200
+www.youtube.com,IN,India,airtel,45609,106.221.224.105,airtel,false,,56,CURLE_RECV_ERROR,1,3,6941,0,13937,0
+www.youtube.com,IR,"Iran, Islamic Republic of",rightel,,,,false,,56,CURLE_RECV_ERROR,1,3,0,0,101,0
+www.youtube.com,IR,"Iran, Islamic Republic of",pardis fanvari partak,,,,false,,56,CURLE_RECV_ERROR,1,3,0,0,225,0
+www.youtube.com,IR,"Iran, Islamic Republic of",rightel communication service company pjs,,,,true,,56,CURLE_RECV_ERROR,42,44,0,0,296,0
+www.youtube.com,IR,"Iran, Islamic Republic of",rightel,,,,true,,56,CURLE_RECV_ERROR,2,3,0,0,157,0
+www.youtube.com,IQ,Iraq,Hala Al Rafidain Company for Communications and Internet LTD.,,,,false,,56,CURLE_RECV_ERROR,2,4,0,0,121,0
+www.youtube.com,IR,"Iran, Islamic Republic of",mtn irancell,,,,true,,56,CURLE_RECV_ERROR,1,3,0,0,2419,0
+www.youtube.com,IQ,Iraq,Hala Al Rafidain Company for Communications and Internet LTD.,,,,true,,56,CURLE_RECV_ERROR,1,3,0,0,133,0
+www.youtube.com,HT,Haiti,natcom s.a,52260,190.115.178.85,natcom s.a,false,,28,CURLE_OPERATION_TIMEDOUT,1,3,6665,29229,30001,200
+www.youtube.com,ID,Indonesia,smartfren,18004,114.79.2.114,smartfren,true,,0,OK,1,3,5790,6378,9455,200
+www.youtube.com,ID,Indonesia,indosat,4761,114.10.142.171,indosat,true,,0,OK,1,3,1885,3276,13730,200
+www.youtube.com,IQ,Iraq,korek telecom company for communications,59625,185.240.17.216,korek telecom company for communications,true,,0,OK,1,2,669,1159,2700,200
+www.youtube.com,IQ,Iraq,allay nawroz telecom company for communication/ltd,,,,false,,56,CURLE_RECV_ERROR,1,3,0,0,24,0
+www.youtube.com,IQ,Iraq,allay nawroz telecom company for communication/ltd,,,,true,,56,CURLE_RECV_ERROR,2,4,0,0,25,0
+www.youtube.com,IR,"Iran, Islamic Republic of",mobile communication company of iran,,,,false,,56,CURLE_RECV_ERROR,2,4,0,0,7362,0
+www.youtube.com,IQ,Iraq,korek telecom company for communications,59625,185.240.17.216,korek telecom company for communications,false,,0,OK,1,2,748,1259,2443,200
+www.youtube.com,IQ,Iraq,asiacell communications pjsc,51684,212.95.136.119,asiacell communications pjsc,false,,0,OK,1,3,2143,2921,5115,200
+www.youtube.com,IQ,Iraq,al atheer telecommunication-iraq co. incorporated,59588,151.236.178.1,al atheer telecommunication-iraq co. incorporated,false,,0,OK,1,3,1108,1780,5770,200
+www.youtube.com,IQ,Iraq,Shams Telecom Networks and Internet Service Ltd,,,,false,,56,CURLE_RECV_ERROR,1,3,0,0,72,0
+www.youtube.com,IQ,Iraq,Shams Telecom Networks and Internet Service Ltd,,,,true,,56,CURLE_RECV_ERROR,1,3,0,0,102,0
+www.youtube.com,IQ,Iraq,asiacell communications pjsc,51684,212.95.136.119,asiacell communications pjsc,true,,0,OK,1,3,4180,5195,7078,200
+www.youtube.com,IQ,Iraq,horizon scope mobile telecom wll,,,,false,,56,CURLE_RECV_ERROR,1,3,0,0,102,0
+www.youtube.com,IQ,Iraq,al atheer telecommunication-iraq co. incorporated,59588,151.236.178.1,al atheer telecommunication-iraq co. incorporated,true,,0,OK,1,3,1606,3983,7251,200
+www.youtube.com,IQ,Iraq,comm1,211908,204.157.177.100,comm1,false,,0,OK,1,2,1378,2732,7702,200
+www.youtube.com,IQ,Iraq,horizon scope mobile telecom wll,,,,true,,56,CURLE_RECV_ERROR,1,3,0,0,78,0
+www.youtube.com,IQ,Iraq,telsat broadband ltd,,,,false,,56,CURLE_RECV_ERROR,1,3,0,0,82,0
+www.youtube.com,ID,Indonesia,by.u,23693,182.0.102.118,by.u,false,,0,OK,2,4,2886,3573,14202,200
+www.youtube.com,IQ,Iraq,telsat broadband ltd,,,,true,,56,CURLE_RECV_ERROR,2,4,0,0,96,0
+www.youtube.com,IQ,Iraq,comm1,211908,204.157.177.100,comm1,true,,0,OK,2,4,3637,6180,8232,200
+www.youtube.com,IQ,Iraq,tishknet internet services,200865,37.17.151.169,tishknet internet services,false,,0,OK,1,3,1104,1631,3697,200
+www.youtube.com,IQ,Iraq,shabaka sfn al-haditha for general trading & infor,51018,178.22.34.42,shabaka sfn al-haditha for general trading & infor,true,,0,OK,56,58,1242,2235,6950,200
+www.youtube.com,IE,Ireland,three ireland,13280,80.233.63.141,three ireland,false,,0,OK,1,3,688,1068,2779,200
+www.youtube.com,IQ,Iraq,tishknet internet services,200865,37.17.151.169,tishknet internet services,true,,0,OK,1,3,1126,2600,4112,200
+www.youtube.com,ID,Indonesia,by.u,23693,182.0.102.118,by.u,true,,0,OK,1,3,2476,4230,16818,200
+www.youtube.com,IE,Ireland,virgin media ireland,,,,true,,56,CURLE_RECV_ERROR,1,3,0,0,85,0
+www.youtube.com,IR,"Iran, Islamic Republic of",mtn irancell,,,,false,,56,CURLE_RECV_ERROR,1,3,0,0,15501,0
+www.youtube.com,IE,Ireland,lycamobile,31404,83.137.6.162,lycamobile,true,,0,OK,1,3,772,1264,4489,200
+www.youtube.com,IE,Ireland,virgin media ireland,,,,false,,56,CURLE_RECV_ERROR,1,3,0,0,77,0
+www.youtube.com,IQ,Iraq,seven net,51018,95.159.86.149,seven net,false,,0,OK,1,3,1303,2310,8469,200
+www.youtube.com,IE,Ireland,aspider solutions international holdings,,,,false,,56,CURLE_RECV_ERROR,1,3,0,0,80,0
+www.youtube.com,IR,"Iran, Islamic Republic of",pardis fanvari partak,,,,true,,56,CURLE_RECV_ERROR,1,3,0,0,15498,0
+www.youtube.com,IE,Ireland,aspider solutions international holdings,,,,true,,56,CURLE_RECV_ERROR,1,3,0,0,84,0
+www.youtube.com,IE,Ireland,eir broadband,15751,212.129.73.116,eir broadband,true,,0,OK,1,3,1418,1960,2695,200
+www.youtube.com,IE,Ireland,eir broadband,15751,212.129.81.175,eir broadband,false,,0,OK,1,3,1704,2016,3180,200
+www.youtube.com,IE,Ireland,sky broadband,5607,51.199.232.44,sky broadband,false,,0,OK,1,3,777,1135,2024,200
+www.youtube.com,IM,Isle of Man,manx telecom trading,,,,false,,56,CURLE_RECV_ERROR,2,3,0,0,65,0
+www.youtube.com,IM,Isle of Man,manx telecom trading,,,,true,,56,CURLE_RECV_ERROR,1,3,0,0,70,0
+www.youtube.com,IQ,Iraq,shabaka sfn al-haditha for general trading & infor,51018,178.22.34.42,shabaka sfn al-haditha for general trading & infor,false,,0,OK,1,4,2046,5268,8365,200
+www.youtube.com,IE,Ireland,three ireland,13280,80.233.63.141,three ireland,true,,0,OK,43,44,1260,1975,3774,200
+www.youtube.com,IE,Ireland,sky broadband,5607,51.199.232.44,sky broadband,true,,0,OK,1,3,1160,1506,2093,200
+www.youtube.com,IE,Ireland,vodafone ireland,15502,89.19.88.248,vodafone ireland,false,,0,OK,1,3,1824,2131,3634,200
+www.youtube.com,IN,India,airtel,45609,106.221.224.105,airtel,true,,28,CURLE_OPERATION_TIMEDOUT,1,3,13868,26139,30001,200
+www.youtube.com,IQ,Iraq,seven net,51018,95.159.86.149,seven net,true,,0,OK,1,3,3301,8452,10752,200
+www.youtube.com,IN,India,bsnl,9829,117.237.234.205,bsnl,true,,28,CURLE_OPERATION_TIMEDOUT,1,3,3218,7053,30001,200
+www.youtube.com,IL,Israel,cellcom,1680,46.210.138.74,cellcom,false,,0,OK,1,3,1112,1743,2960,200
+www.youtube.com,IN,India,bsnl,9829,117.237.234.205,bsnl,false,,28,CURLE_OPERATION_TIMEDOUT,2,4,5402,22377,30002,200
+www.youtube.com,IE,Ireland,lycamobile,31404,83.137.6.162,lycamobile,false,,0,OK,1,3,1772,2239,6121,200
+www.youtube.com,IL,Israel,hotnet,12849,5.28.189.114,hotnet,false,,0,OK,1,3,764,1300,2620,200
+www.youtube.com,IL,Israel,cellcom,1680,46.210.138.74,cellcom,true,,0,OK,1,3,1833,2857,4119,200
+www.youtube.com,IL,Israel,xfone 018,,,,false,,56,CURLE_RECV_ERROR,1,3,0,0,67,0
+www.youtube.com,IE,Ireland,vodafone ireland,15502,89.19.67.198,vodafone ireland,true,,0,OK,1,3,717,1174,5286,200
+www.youtube.com,IL,Israel,xfone 018,,,,true,,56,CURLE_RECV_ERROR,1,3,0,0,72,0
+www.youtube.com,IL,Israel,hotnet,12849,5.28.189.114,hotnet,true,,0,OK,1,3,1459,1880,3485,200
+www.youtube.com,IE,Ireland,play broadband,6830,89.101.53.4,play broadband,false,,0,OK,1,3,510,855,7536,200
+www.youtube.com,ID,Indonesia,indosat,4761,114.10.142.171,indosat,false,,28,CURLE_OPERATION_TIMEDOUT,1,3,12775,14124,30000,200
+www.youtube.com,IL,Israel,hot mobile,21450,80.246.130.3,hot mobile,false,,0,OK,2,3,834,1223,5193,200
+www.youtube.com,IT,Italy,tim mobile,16232,217.202.5.9,tim mobile,true,,0,OK,41,43,541,852,1679,200
+www.youtube.com,IL,Israel,pelephone,16116,46.19.86.226,pelephone,false,,0,OK,1,3,1334,1861,8312,200
+www.youtube.com,IL,Israel,telzar 019 international telecommunications servic,51825,213.137.72.87,telzar 019 international telecommunications servic,false,,0,OK,1,3,468,868,4484,200
+www.youtube.com,IT,Italy,wind tre,1267,151.82.149.115,wind tre,false,,0,OK,1,3,632,1012,2125,200
+www.youtube.com,IT,Italy,wind tre,1267,151.82.149.115,wind tre,true,,0,OK,2,3,1007,1856,2525,200
+www.youtube.com,IT,Italy,vodafone italia,30722,83.225.110.88,vodafone italia,false,,0,OK,2,4,485,742,1862,200
+www.youtube.com,IT,Italy,tim mobile,16232,217.202.5.9,tim mobile,false,,0,OK,2,4,453,777,1276,200
+www.youtube.com,IT,Italy,vodafone italia,30722,83.225.110.88,vodafone italia,true,,0,OK,1,3,1005,1343,2126,200
+www.youtube.com,IL,Israel,wecom mobile,210625,147.236.229.60,wecom mobile,true,,0,OK,1,3,1088,1848,10770,200
+www.youtube.com,IL,Israel,telzar 019 international telecommunications servic,51825,213.137.72.87,telzar 019 international telecommunications servic,true,,0,OK,1,3,2651,4178,7156,200
+www.youtube.com,IL,Israel,hot mobile,21450,80.246.130.3,hot mobile,true,,0,OK,1,3,1670,4387,8003,200
+www.youtube.com,IT,Italy,iliad italia,29447,78.209.17.248,iliad italia,false,,0,OK,1,3,971,1361,5086,200
+www.youtube.com,IT,Italy,fastweb,12874,93.38.222.48,fastweb,false,,0,OK,2,4,880,1304,3840,200
+www.youtube.com,IL,Israel,partner communications,12400,2.54.149.159,partner communications,false,,0,OK,55,56,645,1025,13031,200
+www.youtube.com,IT,Italy,vola,60451,185.135.92.215,vola,false,,0,OK,42,44,783,1308,3094,200
+www.youtube.com,IT,Italy,vodafone italia dsl,,,,false,,56,CURLE_RECV_ERROR,1,3,0,0,210,0
+www.youtube.com,IT,Italy,iliad italia,29447,78.209.17.248,iliad italia,true,,0,OK,2,3,983,4684,6305,200
+www.youtube.com,IT,Italy,vodafone italia dsl,,,,true,,56,CURLE_RECV_ERROR,1,3,0,0,152,0
+www.youtube.com,IE,Ireland,play broadband,6830,89.101.53.4,play broadband,true,,0,OK,1,3,783,7315,16586,200
+www.youtube.com,IL,Israel,partner communications,12400,2.54.149.159,partner communications,true,,0,OK,2,3,908,3084,14963,200
+www.youtube.com,IT,Italy,fastweb,12874,93.38.222.48,fastweb,true,,0,OK,1,3,744,1158,2640,200
+www.youtube.com,JM,Jamaica,digicel fiber,40786,69.160.102.200,digicel fiber,false,,0,OK,64,66,356,524,817,200
+www.youtube.com,IL,Israel,pelephone,16116,46.19.86.226,pelephone,true,,0,OK,2,3,6119,6516,14493,200
+www.youtube.com,IT,Italy,tiscali,8612,193.207.117.246,tiscali,true,,0,OK,1,3,546,1202,3293,200
+www.youtube.com,IT,Italy,vola,60451,185.135.92.215,vola,true,,0,OK,2,3,447,805,2463,200
+www.youtube.com,JM,Jamaica,digicel fiber,40786,69.160.102.200,digicel fiber,true,,0,OK,1,3,275,480,615,200
+www.youtube.com,IT,Italy,spusu italy,51265,62.240.135.8,spusu italy,false,,0,OK,2,3,2137,2973,8577,200
+www.youtube.com,IT,Italy,digi italy,61079,185.19.165.182,digi italy,true,,0,OK,2,3,3185,5142,8189,200
+www.youtube.com,JP,Japan,ntt docomo business,4713,114.191.241.202,ntt docomo business,false,,0,OK,1,3,964,1418,2016,200
+www.youtube.com,IT,Italy,tiscali,8612,193.207.117.246,tiscali,false,,0,OK,1,3,2233,2637,4292,200
+www.youtube.com,IT,Italy,spusu italy,51265,62.240.135.8,spusu italy,true,,0,OK,2,3,1390,5660,8027,200
+www.youtube.com,IL,Israel,wecom mobile,210625,147.236.229.60,wecom mobile,false,,0,OK,1,3,4584,5752,15803,200
+www.youtube.com,JP,Japan,ntt docomo,9605,160.249.1.72,ntt docomo,false,,0,OK,1,3,1084,1614,3304,200
+www.youtube.com,JM,Jamaica,digicel jamaica,40786,173.225.242.229,digicel jamaica,false,,0,OK,1,3,620,1121,5717,200
+www.youtube.com,JP,Japan,softbank corp.,17676,126.33.114.126,softbank corp.,false,,0,OK,1,3,988,1636,2619,200
+www.youtube.com,JP,Japan,ntt docomo,9605,160.249.1.72,ntt docomo,true,,0,OK,2,3,2564,3119,4208,200
+www.youtube.com,JP,Japan,softbank corp.,17676,126.33.114.126,softbank corp.,true,,0,OK,43,45,1997,2537,2854,200
+www.youtube.com,JP,Japan,rakuten mobile network,138384,133.106.49.85,rakuten mobile network,false,,0,OK,2,3,1174,1980,5095,200
+www.youtube.com,JM,Jamaica,digicel jamaica,40786,173.225.242.229,digicel jamaica,true,,0,OK,1,3,807,3181,6988,200
+www.youtube.com,IT,Italy,digi italy,61079,185.19.165.182,digi italy,false,,0,OK,1,3,1824,2665,13659,200
+www.youtube.com,JP,Japan,ntt docomo business,4713,114.191.241.202,ntt docomo business,true,,0,OK,1,2,815,1263,2311,200
+www.youtube.com,IT,Italy,plintron europe limited,31404,185.186.107.128,plintron europe limited,false,,0,OK,2,4,1478,2084,13391,200
+www.youtube.com,JP,Japan,rakuten mobile network,138384,133.106.49.85,rakuten mobile network,true,,0,OK,1,3,2671,4215,5922,200
+www.youtube.com,JP,Japan,biglobe,2518,125.196.13.36,biglobe,true,,0,OK,2,4,1072,1597,3387,200
+www.youtube.com,JP,Japan,logiclinks,,,,false,,56,CURLE_RECV_ERROR,2,4,0,0,79,0
+www.youtube.com,JP,Japan,open computer network,,,,false,,56,CURLE_RECV_ERROR,1,3,0,0,84,0
+www.youtube.com,JP,Japan,open computer network,,,,true,,56,CURLE_RECV_ERROR,1,3,0,0,79,0
+www.youtube.com,JP,Japan,so-net,,,,false,,56,CURLE_RECV_ERROR,1,3,0,0,84,0
+www.youtube.com,JP,Japan,internet initiative japan,2497,49.239.81.138,internet initiative japan,false,,0,OK,1,3,1250,1976,4095,200
+www.youtube.com,JP,Japan,u-next co.,,,,false,,56,CURLE_RECV_ERROR,1,3,0,0,82,0
+www.youtube.com,JP,Japan,so-net,,,,true,,56,CURLE_RECV_ERROR,1,3,0,0,84,0
+www.youtube.com,JP,Japan,u-next co.,,,,true,,56,CURLE_RECV_ERROR,1,3,0,0,76,0
+www.youtube.com,JP,Japan,logiclinks,,,,true,,56,CURLE_RECV_ERROR,1,3,0,0,77,0
+www.youtube.com,JP,Japan,arteria networks corporation,,,,true,,56,CURLE_RECV_ERROR,2,4,0,0,84,0
+www.youtube.com,JP,Japan,arteria networks corporation,,,,false,,56,CURLE_RECV_ERROR,2,3,0,0,81,0
+www.youtube.com,JP,Japan,j:com,,,,true,,56,CURLE_RECV_ERROR,1,3,0,0,310,0
+www.youtube.com,JP,Japan,ntt communications corporation,4713,60.35.23.130,ntt communications corporation,false,,0,OK,2,4,1013,1565,2180,200
+www.youtube.com,JP,Japan,tokai,,,,false,,56,CURLE_RECV_ERROR,1,2,0,0,126,0
+www.youtube.com,JP,Japan,tokai,,,,true,,56,CURLE_RECV_ERROR,1,3,0,0,80,0
+www.youtube.com,JP,Japan,k-opticom corporation,17511,58.188.5.4,k-opticom corporation,false,,0,OK,2,4,1684,2362,3965,200
+www.youtube.com,JE,Jersey,jersey airtel,,,,false,,56,CURLE_RECV_ERROR,1,3,0,0,101,0
+www.youtube.com,JP,Japan,j:com,,,,false,,56,CURLE_RECV_ERROR,1,3,0,0,317,0
+www.youtube.com,JE,Jersey,jersey airtel,,,,true,,56,CURLE_RECV_ERROR,1,3,0,0,205,0
+www.youtube.com,JP,Japan,ntt communications corporation,4713,60.35.23.130,ntt communications corporation,true,,0,OK,1,3,2074,2623,3039,200
+www.youtube.com,IM,Isle of Man,sure (guernsey),8680,37.18.142.190,sure (guernsey),true,,28,CURLE_OPERATION_TIMEDOUT,1,3,1827,3226,30000,200
+www.youtube.com,JE,Jersey,sure (guernsey),8680,185.48.63.231,sure (guernsey),false,,0,OK,1,3,1517,1751,1940,200
+www.youtube.com,JP,Japan,internet initiative japan,2497,49.239.81.138,internet initiative japan,true,,0,OK,1,3,1871,3728,7005,200
+www.youtube.com,IM,Isle of Man,sure (guernsey),8680,37.18.142.190,sure (guernsey),false,,28,CURLE_OPERATION_TIMEDOUT,1,3,2901,5783,30000,200
+www.youtube.com,JP,Japan,biglobe,2518,125.196.13.36,biglobe,false,,0,OK,1,3,1467,2005,5946,200
+www.youtube.com,JM,Jamaica,cable and wireless jamaica,10278,67.213.150.24,cable and wireless jamaica,true,,0,OK,1,3,3242,4557,13307,200
+www.youtube.com,JP,Japan,k-opticom corporation,17511,58.188.5.4,k-opticom corporation,true,,0,OK,1,3,2883,3882,7793,200
+www.youtube.com,JE,Jersey,jtglobal,8681,199.66.128.182,jtglobal,false,,0,OK,1,3,1098,1615,3911,200
+www.youtube.com,JO,Jordan,jordanian mobile phone services,48832,176.29.15.13,jordanian mobile phone services,true,,0,OK,1,3,896,1524,3351,200
+www.youtube.com,KZ,Kazakhstan,tele2 kazakhstan,48503,176.64.6.27,tele2 kazakhstan,false,,0,OK,40,42,758,1107,1973,200
+www.youtube.com,JE,Jersey,jtglobal,8681,199.66.128.182,jtglobal,true,,0,OK,1,3,1420,2371,5684,200
+www.youtube.com,JM,Jamaica,cable and wireless jamaica,10278,67.213.150.24,cable and wireless jamaica,false,,0,OK,1,3,1652,2990,16859,200
+www.youtube.com,IT,Italy,plintron europe limited,31404,185.186.107.128,plintron europe limited,true,,0,OK,1,3,6455,11670,20525,200
+www.youtube.com,JO,Jordan,jordanian mobile phone services,48832,176.29.15.13,jordanian mobile phone services,false,,0,OK,1,3,782,2477,3596,200
+www.youtube.com,KZ,Kazakhstan,tele2 kazakhstan,48503,176.64.6.27,tele2 kazakhstan,true,,0,OK,1,3,830,1169,1996,200
+www.youtube.com,JO,Jordan,umniah,9038,109.107.226.119,umniah,false,,0,OK,2,4,728,1190,5961,200
+www.youtube.com,KZ,Kazakhstan,kar-tel,,,,false,,56,CURLE_RECV_ERROR,1,3,0,0,70,0
+www.youtube.com,KZ,Kazakhstan,kar-tel,,,,true,,56,CURLE_RECV_ERROR,64,66,0,0,135,0
+www.youtube.com,JO,Jordan,jordan telecommunications psc,8697,212.34.22.21,jordan telecommunications psc,false,,0,OK,1,3,1065,1700,6477,200
+www.youtube.com,JO,Jordan,jordan telecommunications psc,8697,212.34.22.21,jordan telecommunications psc,true,,0,OK,1,3,2200,4477,6896,200
+www.youtube.com,KZ,Kazakhstan,jusan mobile jsc,35104,217.196.27.34,jusan mobile jsc,true,,0,OK,1,3,593,882,1696,200
+www.youtube.com,KZ,Kazakhstan,2day telecom llp,,,,false,,56,CURLE_RECV_ERROR,1,3,0,0,70,0
+www.youtube.com,KZ,Kazakhstan,2day telecom llp,,,,true,,56,CURLE_RECV_ERROR,1,3,0,0,72,0
+www.youtube.com,KZ,Kazakhstan,kcell jsc,29355,2.78.145.95,kcell jsc,false,,0,OK,1,3,1880,2366,3979,200
+www.youtube.com,KZ,Kazakhstan,mobile telecom-service llp,29555,85.117.100.68,mobile telecom-service llp,true,,0,OK,41,43,986,1612,6342,200
+www.youtube.com,KZ,Kazakhstan,jusan mobile jsc,35104,217.196.27.34,jusan mobile jsc,false,,0,OK,1,3,827,1087,1896,200
+www.youtube.com,KZ,Kazakhstan,kcell jsc,29355,2.78.145.95,kcell jsc,true,,0,OK,1,3,1646,2209,3954,200
+www.youtube.com,KZ,Kazakhstan,tns-plus llp,206026,95.82.115.234,tns-plus llp,false,,0,OK,2,3,878,1407,5356,200
+www.youtube.com,JO,Jordan,umniah,9038,109.107.226.119,umniah,true,,0,OK,1,3,779,2527,9317,200
+www.youtube.com,KE,Kenya,safaricom,33771,196.96.88.181,safaricom,false,,0,OK,1,3,1004,1559,2896,200
+www.youtube.com,KZ,Kazakhstan,mobile telecom-service llp,29555,85.117.100.68,mobile telecom-service llp,false,,0,OK,1,3,4346,4854,6595,200
+www.youtube.com,KE,Kenya,faiba,36866,197.232.62.241,faiba,false,,0,OK,1,3,1565,2339,3865,200
+www.youtube.com,KZ,Kazakhstan,tns-plus llp,206026,95.82.115.234,tns-plus llp,true,,0,OK,1,3,1712,5365,7646,200
+www.youtube.com,KE,Kenya,safaricom,33771,196.96.88.181,safaricom,true,,0,OK,1,3,1871,2767,3434,200
+www.youtube.com,KE,Kenya,faiba,36866,197.232.62.241,faiba,true,,0,OK,1,3,2073,2707,4754,200
+www.youtube.com,KR,"Korea, Republic of",kt,4766,118.235.66.62,kt,true,,0,OK,2,4,1523,2356,3365,200
+www.youtube.com,KE,Kenya,airtel kenya,36926,154.159.252.154,airtel kenya,false,,0,OK,2,4,2191,3200,10806,200
+www.youtube.com,JP,Japan,au one net,2516,106.146.79.98,au one net,false,,28,CURLE_OPERATION_TIMEDOUT,1,3,837,1337,30001,200
+www.youtube.com,KE,Kenya,airtel kenya,36926,154.159.252.154,airtel kenya,true,,0,OK,1,3,8497,9102,11982,200
+www.youtube.com,KI,Kiribati,amalgamated telecom holdings kiribati,134783,103.250.2.120,amalgamated telecom holdings kiribati,false,,0,OK,55,57,2006,3061,8911,200
+www.youtube.com,JP,Japan,au one net,2516,106.146.79.98,au one net,true,,28,CURLE_OPERATION_TIMEDOUT,45,47,1407,2354,30000,200
+www.youtube.com,KR,"Korea, Republic of",sk broadband,,,,false,,56,CURLE_RECV_ERROR,1,3,0,0,65,0
+www.youtube.com,KR,"Korea, Republic of",sk broadband,,,,true,,56,CURLE_RECV_ERROR,1,3,0,0,76,0
+www.youtube.com,KI,Kiribati,amalgamated telecom holdings kiribati,134783,103.250.2.120,amalgamated telecom holdings kiribati,true,,0,OK,1,3,6370,8796,10022,200
+www.youtube.com,KZ,Kazakhstan,2day telecom,206026,92.49.219.161,2day telecom,true,,0,OK,1,3,6172,6807,16017,200
+www.youtube.com,KR,"Korea, Republic of",kt,4766,118.235.66.62,kt,false,,0,OK,41,43,1287,2202,3146,200
+www.youtube.com,KW,Kuwait,zain kuwait,42961,188.236.169.28,zain kuwait,false,,0,OK,1,3,869,1368,2039,200
+www.youtube.com,JP,Japan,japan communication,55387,27.253.251.217,japan communication,true,,28,CURLE_OPERATION_TIMEDOUT,2,4,4951,12010,30001,200
+www.youtube.com,KW,Kuwait,zain kuwait,42961,188.236.169.28,zain kuwait,true,,0,OK,45,47,1188,2400,2874,200
+www.youtube.com,KW,Kuwait,stc kuwait,47589,37.231.91.19,stc kuwait,false,,0,OK,2,3,944,1483,2611,200
+www.youtube.com,JP,Japan,japan communication,55387,27.253.251.217,japan communication,false,,28,CURLE_OPERATION_TIMEDOUT,41,43,2213,3666,30000,200
+www.youtube.com,KW,Kuwait,stc kuwait,47589,37.231.91.19,stc kuwait,true,,0,OK,2,3,868,1705,2495,200
+www.youtube.com,KZ,Kazakhstan,2day telecom,206026,92.49.219.161,2day telecom,false,,0,OK,1,3,7571,15581,19976,200
+www.youtube.com,KG,Kyrgyzstan,alfa telecom cjsc,50223,46.251.217.167,alfa telecom cjsc,false,,0,OK,1,3,733,1108,1750,200
+www.youtube.com,KR,"Korea, Republic of",lg uplus,17853,117.111.8.164,lg uplus,true,,0,OK,1,3,1011,1588,8184,200
+www.youtube.com,KW,Kuwait,ooredoo kuwait,29357,188.70.40.240,ooredoo kuwait,false,,0,OK,1,3,989,1628,7043,200
+www.youtube.com,KG,Kyrgyzstan,alfa telecom cjsc,50223,46.251.217.167,alfa telecom cjsc,true,,0,OK,2,4,711,1080,1748,200
+www.youtube.com,JE,Jersey,sure (guernsey),8680,185.48.63.60,sure (guernsey),true,,28,CURLE_OPERATION_TIMEDOUT,2,3,10319,14510,30000,200
+www.youtube.com,KR,"Korea, Republic of",sk telecom,9644,223.38.90.188,sk telecom,false,,0,OK,65,67,1428,2435,11391,200
+www.youtube.com,LA,Lao People's Democratic Republic,etl company,,,,true,,56,CURLE_RECV_ERROR,1,3,0,0,65,0
+www.youtube.com,LA,Lao People's Democratic Republic,etl company,,,,false,,56,CURLE_RECV_ERROR,1,3,0,0,65,0
+www.youtube.com,KR,"Korea, Republic of",lg uplus,17853,117.111.8.164,lg uplus,false,,0,OK,1,4,2505,3518,8835,200
+www.youtube.com,LV,Latvia,bite lietuva,13194,84.15.218.9,bite lietuva,false,,0,OK,1,3,499,754,1422,200
+www.youtube.com,KW,Kuwait,ooredoo kuwait,29357,188.70.40.240,ooredoo kuwait,true,,0,OK,2,3,5819,6458,7703,200
+www.youtube.com,KE,Kenya,jambo-telecoms,328636,102.23.139.212,jambo-telecoms,false,,0,OK,2,4,1875,2859,22552,200
+www.youtube.com,LA,Lao People's Democratic Republic,star telecom,131267,154.222.5.149,star telecom,false,,0,OK,1,3,1025,1633,5388,200
+www.youtube.com,LA,Lao People's Democratic Republic,"lao telecom communication, ltc",9873,202.144.185.20,"lao telecom communication, ltc",false,,0,OK,2,3,1044,1601,5451,200
+www.youtube.com,LA,Lao People's Democratic Republic,star telecom,131267,154.222.5.149,star telecom,true,,0,OK,1,3,2155,3150,5681,200
+www.youtube.com,LV,Latvia,tele2 latvia,1257,77.219.14.62,tele2 latvia,true,,0,OK,1,3,1054,1373,3021,200
+www.youtube.com,KG,Kyrgyzstan,sky mobile,41329,91.247.63.154,sky mobile,false,,0,OK,1,3,720,1083,8368,200
+www.youtube.com,LV,Latvia,latvijas mobilais telefons sia,24921,212.3.198.2,latvijas mobilais telefons sia,false,,0,OK,1,3,449,838,5922,200
+www.youtube.com,LV,Latvia,bite lietuva,13194,84.15.218.9,bite lietuva,true,,0,OK,45,47,546,815,1865,200
+www.youtube.com,KG,Kyrgyzstan,nur telecom,47237,95.87.66.178,nur telecom,false,,0,OK,1,3,960,1407,9774,200
+www.youtube.com,LV,Latvia,latvijas mobilais telefons sia,24921,212.3.198.2,latvijas mobilais telefons sia,true,,0,OK,1,3,1064,1631,5563,200
+www.youtube.com,LA,Lao People's Democratic Republic,"lao telecom communication, ltc",9873,202.144.185.20,"lao telecom communication, ltc",true,,0,OK,2,4,2799,5423,7460,200
+www.youtube.com,LV,Latvia,tele2 latvia,1257,77.219.14.62,tele2 latvia,false,,0,OK,1,3,771,1103,2489,200
+www.youtube.com,LB,Lebanon,touch lebanon,38999,185.76.178.230,touch lebanon,false,,0,OK,1,3,961,1421,2901,200
+www.youtube.com,KG,Kyrgyzstan,sky mobile,41329,91.247.63.154,sky mobile,true,,0,OK,41,43,985,1848,10223,200
+www.youtube.com,KR,"Korea, Republic of",sk telecom,9644,223.38.90.188,sk telecom,true,,0,OK,1,3,9766,10596,19093,200
+www.youtube.com,LB,Lebanon,touch lebanon,38999,185.76.178.230,touch lebanon,true,,0,OK,1,3,1177,2344,3234,200
+www.youtube.com,LR,Liberia,orange liberia,37094,41.191.104.226,orange liberia,true,,0,OK,1,3,1147,1774,2773,200
+www.youtube.com,KG,Kyrgyzstan,nur telecom,47237,95.87.66.178,nur telecom,true,,0,OK,1,3,2039,6099,12971,200
+www.youtube.com,LY,Libya,aljeel aljadeed,,,,false,,56,CURLE_RECV_ERROR,2,3,0,0,67,0
+www.youtube.com,LR,Liberia,orange liberia,37094,41.191.104.226,orange liberia,false,,0,OK,1,3,1607,2354,3557,200
+www.youtube.com,LY,Libya,aljeel aljadeed,,,,true,,56,CURLE_RECV_ERROR,1,3,0,0,62,0
+www.youtube.com,KE,Kenya,telkom,12455,102.166.18.59,telkom,false,,28,CURLE_OPERATION_TIMEDOUT,2,3,2349,3863,30002,200
+www.youtube.com,LS,Lesotho,vodacom-lesotho,37057,197.254.137.8,vodacom-lesotho,true,,0,OK,1,3,1367,2104,4997,200
+www.youtube.com,LY,Libya,libyana-mobile,328286,102.164.100.13,libyana-mobile,false,,0,OK,2,3,716,1198,2568,200
+www.youtube.com,KE,Kenya,jambo-telecoms,328636,102.23.139.212,jambo-telecoms,true,,28,CURLE_OPERATION_TIMEDOUT,1,3,3691,15937,30001,200
+www.youtube.com,KE,Kenya,telkom,12455,102.166.18.59,telkom,true,,28,CURLE_OPERATION_TIMEDOUT,2,3,6347,0,30001,0
+www.youtube.com,LY,Libya,libyana-mobile,328286,102.164.100.13,libyana-mobile,true,,0,OK,1,3,754,1753,2602,200
+www.youtube.com,LT,Lithuania,tele2 lithuania,1257,83.190.235.48,tele2 lithuania,true,,0,OK,1,3,570,905,1604,200
+www.youtube.com,LS,Lesotho,vodacom-lesotho,37057,197.254.137.8,vodacom-lesotho,false,,0,OK,2,4,2175,4835,6628,200
+www.youtube.com,LT,Lithuania,telia lietuva,8764,188.69.123.117,telia lietuva,false,,0,OK,1,3,775,1392,2891,200
+www.youtube.com,LT,Lithuania,"telia lietuva, ab",8764,88.118.47.199,"telia lietuva, ab",false,,0,OK,1,3,638,1075,2062,200
+www.youtube.com,LT,Lithuania,tele2 lithuania,1257,83.190.235.48,tele2 lithuania,false,,0,OK,2,4,568,916,1695,200
+www.youtube.com,LT,Lithuania,"telia lietuva, ab",8764,88.118.47.199,"telia lietuva, ab",true,,0,OK,1,3,886,1358,1849,200
+www.youtube.com,LU,Luxembourg,post luxembourg,6661,83.99.110.156,post luxembourg,false,,0,OK,1,3,461,661,807,200
+www.youtube.com,LB,Lebanon,mobile interim company 1 s.a.l.,57513,91.232.100.82,mobile interim company 1 s.a.l.,true,,0,OK,1,3,827,1671,9921,200
+www.youtube.com,LT,Lithuania,telia lietuva,8764,188.69.123.117,telia lietuva,true,,0,OK,1,3,1364,2559,3800,200
+www.youtube.com,MO,Macao,ctm,,,,true,,56,CURLE_RECV_ERROR,1,3,0,0,61,0
+www.youtube.com,MO,Macao,ctm,,,,false,,56,CURLE_RECV_ERROR,2,3,0,0,63,0
+www.youtube.com,LU,Luxembourg,post luxembourg,6661,83.99.110.156,post luxembourg,true,,0,OK,62,64,626,884,1019,200
+www.youtube.com,MO,Macao,companhia de telecomunicacoes de macau,,,,false,,56,CURLE_RECV_ERROR,1,3,0,0,67,0
+www.youtube.com,MO,Macao,companhia de telecomunicacoes de macau,,,,true,,56,CURLE_RECV_ERROR,1,3,0,0,65,0
+www.youtube.com,MK,"Macedonia, the Former Yugoslav Republic of",makedonski telekom ad-skopje,,,,true,,56,CURLE_RECV_ERROR,1,3,0,0,64,0
+www.youtube.com,MK,"Macedonia, the Former Yugoslav Republic of",makedonski telekom ad-skopje,,,,false,,56,CURLE_RECV_ERROR,2,4,0,0,68,0
+www.youtube.com,MK,"Macedonia, the Former Yugoslav Republic of",mtel dooel skopje,,,,true,,56,CURLE_RECV_ERROR,1,3,0,0,60,0
+www.youtube.com,MK,"Macedonia, the Former Yugoslav Republic of",mtel dooel skopje,,,,false,,56,CURLE_RECV_ERROR,1,3,0,0,66,0
+www.youtube.com,MK,"Macedonia, the Former Yugoslav Republic of",telekabel,,,,false,,56,CURLE_RECV_ERROR,1,3,0,0,65,0
+www.youtube.com,LU,Luxembourg,proximus luxembourg,56665,185.40.61.108,proximus luxembourg,false,,0,OK,3,4,663,992,2529,200
+www.youtube.com,MK,"Macedonia, the Former Yugoslav Republic of",telekabel,,,,true,,56,CURLE_RECV_ERROR,1,3,0,0,62,0
+www.youtube.com,MK,"Macedonia, the Former Yugoslav Republic of",a1 makedonija,43612,185.100.245.54,a1 makedonija,false,,0,OK,1,3,499,863,1386,200
+www.youtube.com,LY,Libya,al-madar-al-jadeed,328200,156.38.54.230,al-madar-al-jadeed,false,,0,OK,42,44,618,981,7454,200
+www.youtube.com,LU,Luxembourg,orange belgium,47377,85.94.239.91,orange belgium,false,,0,OK,1,3,1586,1868,2338,200
+www.youtube.com,LS,Lesotho,econet telecom lesotho,33567,129.232.121.180,econet telecom lesotho,false,,0,OK,1,3,1403,2110,10022,200
+www.youtube.com,MK,"Macedonia, the Former Yugoslav Republic of",a1 makedonija,43612,185.100.245.54,a1 makedonija,true,,0,OK,1,3,1173,1521,1975,200
+www.youtube.com,LU,Luxembourg,proximus luxembourg,56665,185.40.61.108,proximus luxembourg,true,,0,OK,2,3,1234,1535,2959,200
+www.youtube.com,LB,Lebanon,mobile interim company 1 s.a.l.,57513,91.232.100.82,mobile interim company 1 s.a.l.,false,,0,OK,1,2,3852,6372,13896,200
+www.youtube.com,LR,Liberia,lonestar,37410,41.57.95.114,lonestar,false,,0,OK,1,3,2040,2834,11357,200
+www.youtube.com,MW,Malawi,afrimax,,,,false,,56,CURLE_RECV_ERROR,1,3,0,0,74,0
+www.youtube.com,LS,Lesotho,econet telecom lesotho,33567,129.232.121.180,econet telecom lesotho,true,,0,OK,1,3,3494,9952,14258,200
+www.youtube.com,LR,Liberia,lonestar,37410,41.57.95.114,lonestar,true,,0,OK,1,2,3014,5523,13220,200
+www.youtube.com,MW,Malawi,afrimax,,,,true,,56,CURLE_RECV_ERROR,1,3,0,0,74,0
+www.youtube.com,MG,Madagascar,orange madagascar,37037,41.74.208.8,orange madagascar,false,,0,OK,1,3,1563,2565,6325,200
+www.youtube.com,MG,Madagascar,airtel madagascar,37303,41.77.17.254,airtel madagascar,true,,0,OK,1,3,1555,2405,5897,200
+www.youtube.com,LY,Libya,al-madar-al-jadeed,328200,156.38.54.230,al-madar-al-jadeed,true,,0,OK,1,3,7583,7942,12891,200
+www.youtube.com,LT,Lithuania,bite lietuva,13194,84.15.176.112,bite lietuva,false,,0,OK,1,3,1856,2270,11861,200
+www.youtube.com,LT,Lithuania,bite lietuva,13194,84.15.176.112,bite lietuva,true,,0,OK,1,3,1796,2599,11987,200
+www.youtube.com,MG,Madagascar,orange madagascar,37037,41.74.208.8,orange madagascar,true,,0,OK,1,3,2571,5347,7542,200
+www.youtube.com,MY,Malaysia,maxis communications,9534,113.211.102.175,maxis communications,true,,0,OK,2,4,799,1266,2386,200
+www.youtube.com,MG,Madagascar,airtel madagascar,37303,41.77.17.254,airtel madagascar,false,,0,OK,1,3,2471,5671,7967,200
+www.youtube.com,LU,Luxembourg,orange belgium,47377,85.94.238.200,orange belgium,true,,0,OK,4,6,1811,2627,10847,200
+www.youtube.com,MY,Malaysia,celcomdigi berhad,4818,182.63.62.210,celcomdigi berhad,false,,0,OK,1,3,994,1572,3628,200
+www.youtube.com,MY,Malaysia,u mobile,38466,27.125.249.25,u mobile,false,,0,OK,1,3,1129,1731,2689,200
+www.youtube.com,MY,Malaysia,maxis communications,9534,113.211.102.175,maxis communications,false,,0,OK,83,85,1060,1575,2933,200
+www.youtube.com,MY,Malaysia,u mobile,38466,27.125.249.25,u mobile,true,,0,OK,1,3,1617,2346,3101,200
+www.youtube.com,MW,Malawi,tnm,37294,102.70.107.57,tnm,false,,0,OK,69,70,1872,3159,7939,200
+www.youtube.com,MY,Malaysia,celcomdigi berhad,4818,182.63.62.210,celcomdigi berhad,true,,0,OK,2,3,1361,2981,4617,200
+www.youtube.com,MY,Malaysia,celcomdigi,10030,183.171.191.215,celcomdigi,true,,0,OK,1,2,1078,1504,2173,200
+www.youtube.com,MY,Malaysia,celcomdigi,10030,183.171.191.215,celcomdigi,false,,0,OK,1,3,1929,2296,3338,200
+www.youtube.com,MY,Malaysia,ytl communications sdn bhd,45960,14.1.183.176,ytl communications sdn bhd,false,,0,OK,1,3,955,1537,4698,200
+www.youtube.com,MW,Malawi,tnm,37294,102.70.107.57,tnm,true,,0,OK,2,3,2622,4219,10497,200
+www.youtube.com,MY,Malaysia,tm net,4788,120.140.96.8,tm net,false,,0,OK,2,3,1731,2433,4969,200
+www.youtube.com,MV,Maldives,ooredoo maldives,55944,216.183.216.206,ooredoo maldives,false,,0,OK,1,3,1458,2487,3406,200
+www.youtube.com,MV,Maldives,dhivehi raajjeyge gulhun (dhiraagu),7642,27.114.165.156,dhivehi raajjeyge gulhun (dhiraagu),true,,0,OK,1,3,1296,2025,4153,200
+www.youtube.com,MV,Maldives,ooredoo maldives,55944,216.183.216.206,ooredoo maldives,true,,0,OK,2,4,2541,3339,3992,200
+www.youtube.com,MY,Malaysia,ytl communications sdn bhd,45960,14.1.183.176,ytl communications sdn bhd,true,,0,OK,1,3,3056,3644,5905,200
+www.youtube.com,MV,Maldives,dhivehi raajjeyge gulhun (dhiraagu),7642,27.114.165.156,dhivehi raajjeyge gulhun (dhiraagu),false,,0,OK,1,3,2218,4086,5486,200
+www.youtube.com,MT,Malta,go malta,15735,46.11.240.139,go malta,false,,0,OK,1,3,585,916,1872,200
+www.youtube.com,ML,Mali,orange mali,30985,41.73.105.61,orange mali,true,,0,OK,46,48,983,1574,3530,200
+www.youtube.com,MT,Malta,epic communications ltd,33874,185.5.48.39,epic communications ltd,false,,0,OK,2,3,1248,1888,2704,200
+www.youtube.com,MY,Malaysia,tm net,4788,120.140.96.8,tm net,true,,0,OK,1,3,2783,4046,8010,200
+www.youtube.com,MH,Marshall Islands,marshall islands nta isp,,,,false,,56,CURLE_RECV_ERROR,1,3,0,0,67,0
+www.youtube.com,MH,Marshall Islands,marshall islands nta isp,,,,true,,56,CURLE_RECV_ERROR,63,64,0,0,128,0
+www.youtube.com,MT,Malta,go malta,15735,46.11.240.139,go malta,true,,0,OK,1,3,541,891,1617,200
+www.youtube.com,MT,Malta,epic communications ltd,33874,185.5.48.39,epic communications ltd,true,,0,OK,1,3,1419,1964,2938,200
+www.youtube.com,MG,Madagascar,gulfsat-madagascar,328411,197.158.119.97,gulfsat-madagascar,false,,0,OK,1,3,1832,2715,18669,200
+www.youtube.com,MQ,Martinique,digicel antilles francaises guyane,48252,94.198.176.36,digicel antilles francaises guyane,false,,0,OK,1,4,547,829,1674,200
+www.youtube.com,MG,Madagascar,telecom-malagasy,37054,102.18.161.83,telecom-malagasy,true,,0,OK,2,4,1587,2614,22048,200
+www.youtube.com,MT,Malta,melita,12709,212.65.104.220,melita,false,,0,OK,1,3,1044,1849,4115,200
+www.youtube.com,MQ,Martinique,digicel antilles francaises guyane,48252,94.198.176.36,digicel antilles francaises guyane,true,,0,OK,2,3,1041,1377,2562,200
+www.youtube.com,MW,Malawi,airtel malawi,37440,137.115.8.174,airtel malawi,false,,0,OK,84,86,1669,2634,17656,200
+www.youtube.com,MT,Malta,melita,12709,212.65.104.220,melita,true,,0,OK,1,3,1101,2311,3797,200
+www.youtube.com,MR,Mauritania,mauritel,29544,41.188.108.144,mauritel,false,,0,OK,2,4,720,1140,1746,200
+www.youtube.com,MQ,Martinique,orange,16028,193.251.163.94,orange,true,,0,OK,1,3,683,1233,6780,200
+www.youtube.com,MR,Mauritania,mauritel,29544,41.188.108.144,mauritel,true,,0,OK,42,43,594,1036,1644,200
+www.youtube.com,MR,Mauritania,chinguitel,,,,false,,56,CURLE_RECV_ERROR,1,3,0,0,78,0
+www.youtube.com,MR,Mauritania,chinguitel,,,,true,,56,CURLE_RECV_ERROR,1,3,0,0,81,0
+www.youtube.com,MQ,Martinique,orange,16028,193.251.163.94,orange,false,,0,OK,1,4,565,3939,7326,200
+www.youtube.com,MQ,Martinique,free mobile,51207,37.8.179.160,free mobile,false,,0,OK,1,3,1015,1530,6296,200
+www.youtube.com,MG,Madagascar,gulfsat-madagascar,328411,197.158.119.97,gulfsat-madagascar,true,,0,OK,1,3,3057,6950,27860,200
+www.youtube.com,MG,Madagascar,telecom-malagasy,37054,102.18.161.83,telecom-malagasy,false,,28,CURLE_OPERATION_TIMEDOUT,2,3,3738,21023,30000,200
+www.youtube.com,MR,Mauritania,mattel,37508,102.214.211.157,mattel,false,,0,OK,1,9,1939,2486,8261,200
+www.youtube.com,MU,Mauritius,emtel,30999,105.235.147.221,emtel,false,,0,OK,1,3,1247,1904,4690,200
+www.youtube.com,ML,Mali,orange mali,30985,41.221.181.132,orange mali,false,,0,OK,1,3,1957,2589,19811,200
+www.youtube.com,MQ,Martinique,free mobile,51207,37.8.179.160,free mobile,true,,0,OK,1,3,1347,5956,10606,200
+www.youtube.com,MU,Mauritius,mauritius telecom,23889,196.20.186.71,mauritius telecom,false,,0,OK,1,3,1656,2615,6069,200
+www.youtube.com,MQ,Martinique,outremer telecom,20776,109.62.70.242,outremer telecom,false,,0,OK,1,3,1747,3057,12748,200
+www.youtube.com,MU,Mauritius,emtel,30999,105.235.147.221,emtel,true,,0,OK,1,3,1148,1830,3919,200
+www.youtube.com,MU,Mauritius,mtml,37622,41.223.76.62,mtml,true,,0,OK,2,4,1345,2051,3542,200
+www.youtube.com,MW,Malawi,airtel malawi,37440,137.115.8.174,airtel malawi,true,,28,CURLE_OPERATION_TIMEDOUT,1,3,3127,17286,30001,200
+www.youtube.com,MU,Mauritius,mauritius telecom,23889,196.20.186.71,mauritius telecom,true,,0,OK,1,2,2051,5106,7529,200
+www.youtube.com,MQ,Martinique,outremer telecom,20776,109.62.70.242,outremer telecom,true,,0,OK,1,3,4938,12320,14173,200
+www.youtube.com,MX,Mexico,"altan redes, s.a.p.i. de c. v.",,,,false,,56,CURLE_RECV_ERROR,1,2,0,0,73,0
+www.youtube.com,MX,Mexico,"altan redes, s.a.p.i. de c. v.",,,,true,,56,CURLE_RECV_ERROR,1,3,0,0,78,0
+www.youtube.com,MX,Mexico,telcel,28403,200.68.170.35,telcel,false,,0,OK,63,65,589,920,2159,200
+www.youtube.com,MU,Mauritius,mtml,37622,41.223.76.67,mtml,false,,0,OK,64,66,2533,3440,7367,200
+www.youtube.com,MX,Mexico,izzi,265594,189.219.149.86,izzi,true,,0,OK,57,60,761,1166,1847,200
+www.youtube.com,MX,Mexico,telcel,28403,200.68.170.35,telcel,true,,0,OK,1,3,1051,2037,3322,200
+www.youtube.com,MX,Mexico,izzi,265594,189.219.149.86,izzi,false,,0,OK,1,3,903,1388,2052,200
+www.youtube.com,MX,Mexico,movistar mexico,7438,201.162.232.40,movistar mexico,true,,0,OK,1,2,538,846,3424,200
+www.youtube.com,MR,Mauritania,mattel,,,,true,,56,CURLE_RECV_ERROR,2,4,0,0,15505,0
+www.youtube.com,MX,Mexico,proyector air networks,,,,false,,56,CURLE_RECV_ERROR,1,3,0,0,78,0
+www.youtube.com,MX,Mexico,proyector air networks,,,,true,,56,CURLE_RECV_ERROR,1,3,0,0,95,0
+www.youtube.com,ML,Mali,sotelmabgp,21271,217.64.100.217,sotelmabgp,false,,28,CURLE_OPERATION_TIMEDOUT,2,4,2226,3703,30001,200
+www.youtube.com,MX,Mexico,movistar mexico,7438,201.162.232.40,movistar mexico,false,,0,OK,40,42,546,862,3571,200
+www.youtube.com,MD,"Moldova, Republic of",moldcell s.a.,43925,94.139.154.41,moldcell s.a.,true,,0,OK,1,3,678,1189,2438,200
+www.youtube.com,MD,"Moldova, Republic of",orange moldova,25454,94.243.70.255,orange moldova,false,,0,OK,1,3,660,1047,2367,200
+www.youtube.com,ML,Mali,mali-atel,328253,196.251.158.2,mali-atel,false,,28,CURLE_OPERATION_TIMEDOUT,2,4,1919,5345,30002,200
+www.youtube.com,MX,Mexico,red compartida,265540,202.5.96.116,red compartida,true,,0,OK,2,3,1932,3801,11244,200
+www.youtube.com,ML,Mali,sotelmabgp,21271,217.64.100.217,sotelmabgp,true,,28,CURLE_OPERATION_TIMEDOUT,1,3,8132,13087,30000,200
+www.youtube.com,ML,Mali,mali-atel,328253,196.251.158.2,mali-atel,true,,28,CURLE_OPERATION_TIMEDOUT,2,4,3311,0,30002,0
+www.youtube.com,MD,"Moldova, Republic of",orange moldova,25454,94.243.70.255,orange moldova,true,,0,OK,2,3,1104,1492,2497,200
+www.youtube.com,MD,"Moldova, Republic of",moldcell s.a.,43925,94.139.154.41,moldcell s.a.,false,,0,OK,1,3,688,1053,2814,200
+www.youtube.com,MD,"Moldova, Republic of",moldtelecom xdsl,8926,109.185.62.147,moldtelecom xdsl,true,,0,OK,1,3,903,1336,2046,200
+www.youtube.com,MN,Mongolia,univision,,,,false,,56,CURLE_RECV_ERROR,1,2,0,0,64,0
+www.youtube.com,MN,Mongolia,univision,,,,true,,56,CURLE_RECV_ERROR,1,3,0,0,90,0
+www.youtube.com,MX,Mexico,red compartida,265540,202.5.96.116,red compartida,false,,0,OK,63,65,1892,3181,11793,200
+www.youtube.com,MD,"Moldova, Republic of",moldtelecom xdsl,8926,109.185.62.147,moldtelecom xdsl,false,,0,OK,1,3,1414,2002,2659,200
+www.youtube.com,MN,Mongolia,skymedia corporation,,,,false,,56,CURLE_RECV_ERROR,1,3,0,0,62,0
+www.youtube.com,MC,Monaco,monaco telecom,6758,88.209.124.76,monaco telecom,false,,0,OK,2,3,804,1232,3420,200
+www.youtube.com,MN,Mongolia,ondo,141681,103.212.163.5,ondo,false,,0,OK,1,3,1061,1615,2533,200
+www.youtube.com,MN,Mongolia,g-mobile corporation,24559,103.126.107.245,g-mobile corporation,false,,0,OK,1,2,881,1366,2212,200
+www.youtube.com,MN,Mongolia,skymedia corporation,,,,true,,56,CURLE_RECV_ERROR,83,85,0,0,147,0
+www.youtube.com,MX,Mexico,at&t mexico,28469,189.203.119.150,at&t mexico,true,,0,OK,1,3,2458,3686,13098,200
+www.youtube.com,MN,Mongolia,mobicom corporation,55805,202.126.88.217,mobicom corporation,true,,0,OK,1,3,1035,1649,3719,200
+www.youtube.com,MC,Monaco,monaco telecom,6758,88.209.124.76,monaco telecom,true,,0,OK,1,3,865,2507,4615,200
+www.youtube.com,MD,"Moldova, Republic of",moldtelecom,8926,188.237.24.222,moldtelecom,true,,0,OK,1,3,689,1242,6300,200
+www.youtube.com,MN,Mongolia,ondo,141681,103.212.163.5,ondo,true,,0,OK,1,3,1142,1689,2563,200
+www.youtube.com,YT,Mayotte,sfr,49902,109.122.178.44,sfr,true,,0,OK,1,3,1407,3080,20798,200
+www.youtube.com,MN,Mongolia,mobicom corporation,55805,202.126.88.217,mobicom corporation,false,,0,OK,1,3,2475,3368,4537,200
+www.youtube.com,ME,Montenegro,one crna gora doo,15397,79.143.107.40,one crna gora doo,false,,0,OK,1,3,610,983,1479,200
+www.youtube.com,MN,Mongolia,g-mobile corporation,24559,103.126.107.245,g-mobile corporation,true,,0,OK,1,3,799,1272,2307,200
+www.youtube.com,MD,"Moldova, Republic of",moldtelecom,8926,188.237.24.222,moldtelecom,false,,0,OK,63,65,1186,4114,7616,200
+www.youtube.com,ME,Montenegro,drustvo za telekomunikacije mtel doo,43940,62.4.57.61,drustvo za telekomunikacije mtel doo,false,,0,OK,1,3,870,1425,2345,200
+www.youtube.com,ME,Montenegro,one crna gora doo,15397,79.143.107.40,one crna gora doo,true,,0,OK,1,3,889,1267,1728,200
+www.youtube.com,YT,Mayotte,free reunion,202023,139.26.22.213,free reunion,false,,0,OK,1,3,1693,2738,20396,200
+www.youtube.com,ME,Montenegro,drustvo za telekomunikacije mtel doo,43940,62.4.57.61,drustvo za telekomunikacije mtel doo,true,,0,OK,1,3,1557,2221,2777,200
+www.youtube.com,ME,Montenegro,crnogorski telekom a.d.podgorica,8585,77.222.24.77,crnogorski telekom a.d.podgorica,false,,0,OK,1,3,563,861,4004,200
+www.youtube.com,MX,Mexico,at&t mexico,28469,189.203.119.150,at&t mexico,false,,0,OK,1,3,2185,3838,16343,200
+www.youtube.com,ME,Montenegro,crnogorski telekom a.d.podgorica,8585,77.222.24.77,crnogorski telekom a.d.podgorica,true,,0,OK,1,3,1255,1761,3827,200
+www.youtube.com,MA,Morocco,inwi,36884,105.74.66.141,inwi,false,,0,OK,1,3,1103,1558,3105,200
+www.youtube.com,MA,Morocco,maroc telecom,36903,102.52.69.75,maroc telecom,false,,0,OK,1,3,892,1395,3138,200
+www.youtube.com,MM,Myanmar,nine communications company,,,,false,,56,CURLE_RECV_ERROR,80,81,0,0,139,0
+www.youtube.com,MA,Morocco,maroc telecom,36903,102.52.69.75,maroc telecom,true,,0,OK,1,3,780,1755,3114,200
+www.youtube.com,MA,Morocco,inwi,36884,105.74.66.141,inwi,true,,0,OK,1,2,1322,2379,3869,200
+www.youtube.com,MM,Myanmar,nine communications company,,,,true,,56,CURLE_RECV_ERROR,1,3,0,0,62,0
+www.youtube.com,YT,Mayotte,free reunion,202023,139.26.22.213,free reunion,true,,0,OK,1,2,3384,7027,24604,200
+www.youtube.com,MZ,Mozambique,vodacom mozambique,37223,197.235.255.152,vodacom mozambique,false,,0,OK,1,3,1126,2337,4843,200
+www.youtube.com,MM,Myanmar,mytel,136255,43.252.80.148,mytel,false,,0,OK,1,3,1129,1843,2857,200
+www.youtube.com,MM,Myanmar,mytel,136255,43.252.80.148,mytel,true,,0,OK,1,3,1991,2521,3485,200
+www.youtube.com,MM,Myanmar,myanma posts and telecommunications,9988,136.228.172.103,myanma posts and telecommunications,false,,0,OK,1,2,1030,1589,2644,200
+www.youtube.com,MZ,Mozambique,vodacom mozambique,37223,197.235.255.152,vodacom mozambique,true,,0,OK,1,2,3464,4131,5944,200
+www.youtube.com,MX,Mexico,"mexico red de telecomunicaciones, s. de r.l. de c.",28536,177.233.162.12,"mexico red de telecomunicaciones, s. de r.l. de c.",true,,0,OK,1,3,4616,9344,22507,200
+www.youtube.com,MM,Myanmar,"telecom international myanmar co, ltd (mytel)",136255,202.191.106.15,"telecom international myanmar co, ltd (mytel)",true,,0,OK,1,2,1139,1715,2793,200
+www.youtube.com,MM,Myanmar,atom myanmar,133385,37.111.12.153,atom myanmar,false,,0,OK,76,78,1618,2889,6146,200
+www.youtube.com,MM,Myanmar,"telecom international myanmar co, ltd (mytel)",136255,202.191.106.15,"telecom international myanmar co, ltd (mytel)",false,,0,OK,1,3,1209,1980,2912,200
+www.youtube.com,MM,Myanmar,atom myanmar,133385,37.111.12.153,atom myanmar,true,,0,OK,1,3,4814,5712,6739,200
+www.youtube.com,NR,Nauru,digicel nauru corporation,,,,false,,56,CURLE_RECV_ERROR,1,3,0,0,64,0
+www.youtube.com,NR,Nauru,digicel nauru corporation,,,,true,,56,CURLE_RECV_ERROR,1,3,0,0,68,0
+www.youtube.com,MM,Myanmar,myanma posts and telecommunications,9988,136.228.172.103,myanma posts and telecommunications,true,,0,OK,1,3,849,1460,2411,200
+www.youtube.com,MZ,Mozambique,movitel,37342,197.218.122.107,movitel,true,,0,OK,1,2,2557,3480,9648,200
+www.youtube.com,YT,Mayotte,sfr,49902,109.122.178.44,sfr,false,,28,CURLE_OPERATION_TIMEDOUT,1,2,16167,18688,30000,200
+www.youtube.com,MX,Mexico,"mexico red de telecomunicaciones, s. de r.l. de c.",28536,177.233.162.12,"mexico red de telecomunicaciones, s. de r.l. de c.",false,,0,OK,1,3,2808,9913,26799,200
+www.youtube.com,MZ,Mozambique,movitel,37342,197.218.122.107,movitel,false,,0,OK,1,3,3024,4710,10703,200
+www.youtube.com,MZ,Mozambique,mcelisp,30619,41.220.200.198,mcelisp,true,,0,OK,1,3,3682,4972,9708,200
+www.youtube.com,NL,Netherlands,odido netherlands,31615,178.230.104.35,odido netherlands,false,,0,OK,1,3,447,706,1164,200
+www.youtube.com,NL,Netherlands,ziggo,33915,109.38.147.220,ziggo,false,,0,OK,1,3,472,779,1699,200
+www.youtube.com,NP,Nepal,nepal telecom,23752,103.95.18.22,nepal telecom,false,,0,OK,1,3,999,1625,2109,200
+www.youtube.com,NL,Netherlands,odido netherlands,31615,178.230.104.35,odido netherlands,true,,0,OK,1,3,445,826,1287,200
+www.youtube.com,NP,Nepal,ncell pvt.,38565,49.126.218.43,ncell pvt.,true,,0,OK,1,2,1431,2192,4052,200
+www.youtube.com,NL,Netherlands,cleverenable,,,,false,,56,CURLE_RECV_ERROR,1,3,0,0,63,0
+www.youtube.com,NP,Nepal,nepal telecom,23752,103.95.18.22,nepal telecom,true,,0,OK,1,2,1688,2307,3124,200
+www.youtube.com,NL,Netherlands,vodafone libertel b.v.,33915,109.36.156.112,vodafone libertel b.v.,false,,0,OK,1,4,451,750,1120,200
+www.youtube.com,NL,Netherlands,lycamobile,,,,false,,56,CURLE_RECV_ERROR,1,3,0,0,69,0
+www.youtube.com,NL,Netherlands,lycamobile,,,,true,,56,CURLE_RECV_ERROR,1,3,0,0,77,0
+www.youtube.com,NL,Netherlands,cleverenable,,,,true,,56,CURLE_RECV_ERROR,1,3,0,0,71,0
+www.youtube.com,NL,Netherlands,kpn,1136,77.63.87.29,kpn,false,,0,OK,93,94,526,771,1617,200
+www.youtube.com,NL,Netherlands,kpn,1136,77.63.87.29,kpn,true,,0,OK,1,3,836,1433,1918,200
+www.youtube.com,NA,Namibia,loc-eight-mobile,329400,102.209.199.4,loc-eight-mobile,true,,0,OK,1,3,1379,2250,6091,200
+www.youtube.com,NA,Namibia,mtc namibia,37009,105.232.176.135,mtc namibia,false,,0,OK,1,3,1868,2674,7293,200
+www.youtube.com,NL,Netherlands,vodafone libertel b.v.,33915,109.36.156.112,vodafone libertel b.v.,true,,0,OK,1,3,634,950,2156,200
+www.youtube.com,NL,Netherlands,ziggo,33915,109.38.147.220,ziggo,true,,0,OK,1,3,824,1225,1921,200
+www.youtube.com,NL,Netherlands,1global,30967,185.99.25.41,1global,false,,0,OK,1,3,822,1142,1938,200
+www.youtube.com,NA,Namibia,loc-eight-mobile,329400,102.209.199.4,loc-eight-mobile,false,,0,OK,1,3,4654,5717,6833,200
+www.youtube.com,NL,Netherlands,1global,30967,185.99.25.41,1global,true,,0,OK,1,3,1099,1698,2217,200
+www.youtube.com,NZ,New Zealand,amuri,,,,true,,56,CURLE_RECV_ERROR,1,3,0,0,71,0
+www.youtube.com,NZ,New Zealand,amuri,,,,false,,56,CURLE_RECV_ERROR,1,2,0,0,62,0
+www.youtube.com,NP,Nepal,ncell pvt.,38565,49.126.218.43,ncell pvt.,false,,0,OK,1,3,2826,4052,7212,200
+www.youtube.com,NA,Namibia,mtc namibia,37009,105.232.176.135,mtc namibia,true,,0,OK,1,3,3557,7158,8985,200
+www.youtube.com,NI,Nicaragua,tigo business nicaragua,28036,152.231.40.90,tigo business nicaragua,false,,0,OK,1,3,431,634,1474,200
+www.youtube.com,NC,New Caledonia,opt-nc,18200,43.224.195.191,opt-nc,false,,0,OK,1,3,1883,2639,3988,200
+www.youtube.com,NZ,New Zealand,one nz,9500,49.224.216.60,one nz,true,,0,OK,1,2,1530,2359,3726,200
+www.youtube.com,NC,New Caledonia,opt-nc,18200,43.224.195.191,opt-nc,true,,0,OK,1,3,2999,3795,4275,200
+www.youtube.com,NI,Nicaragua,claro nicaragua,14754,190.212.137.190,claro nicaragua,false,,0,OK,79,81,467,668,1014,200
+www.youtube.com,MZ,Mozambique,mcelisp,30619,41.220.200.105,mcelisp,false,,0,OK,1,3,3664,6351,17461,200
+www.youtube.com,NI,Nicaragua,claro nicaragua,14754,190.212.137.190,claro nicaragua,true,,0,OK,1,3,324,540,883,200
+www.youtube.com,NI,Nicaragua,claro guatemala,14754,186.77.135.26,claro guatemala,false,,0,OK,1,3,1534,1889,2700,200
+www.youtube.com,NE,Niger,atlantique-telecom-niger,,,,true,,56,CURLE_RECV_ERROR,1,3,0,0,65,0
+www.youtube.com,NE,Niger,atlantique-telecom-niger,,,,false,,56,CURLE_RECV_ERROR,1,3,0,0,66,0
+www.youtube.com,NE,Niger,sonitel,,,,false,,56,CURLE_RECV_ERROR,1,3,0,0,63,0
+www.youtube.com,NE,Niger,sonitel,,,,true,,56,CURLE_RECV_ERROR,1,3,0,0,61,0
+www.youtube.com,NZ,New Zealand,one nz,9500,49.224.216.60,one nz,false,,0,OK,1,3,2858,3659,4244,200
+www.youtube.com,NI,Nicaragua,claro guatemala,14754,186.77.136.79,claro guatemala,true,,0,OK,1,3,1465,1778,3159,200
+www.youtube.com,NI,Nicaragua,tigo business nicaragua,28036,152.231.40.90,tigo business nicaragua,true,,0,OK,1,3,867,1063,1905,200
+www.youtube.com,NZ,New Zealand,spark new zealand,4771,122.63.135.41,spark new zealand,true,,0,OK,1,3,6041,7082,8640,200
+www.youtube.com,NG,Nigeria,mtn nigeria,29465,102.89.84.186,mtn nigeria,false,,0,OK,1,3,1317,1985,6690,200
+www.youtube.com,NE,Niger,orange niger,37233,41.203.144.127,orange niger,false,,0,OK,1,3,2892,4822,8932,200
+www.youtube.com,NG,Nigeria,9mobile,,,,false,,56,CURLE_RECV_ERROR,1,2,0,0,102,0
+www.youtube.com,MA,Morocco,orange morocco,36925,102.103.51.50,orange morocco,false,,28,CURLE_OPERATION_TIMEDOUT,1,3,2916,3647,30000,200
+www.youtube.com,MA,Morocco,orange morocco,36925,102.103.51.50,orange morocco,true,,28,CURLE_OPERATION_TIMEDOUT,1,3,2652,3433,30000,200
+www.youtube.com,NG,Nigeria,smile nigeria,,,,false,,56,CURLE_RECV_ERROR,1,3,0,0,95,0
+www.youtube.com,NG,Nigeria,9mobile,,,,true,,56,CURLE_RECV_ERROR,1,3,0,0,95,0
+www.youtube.com,NG,Nigeria,smile nigeria,,,,true,,56,CURLE_RECV_ERROR,1,3,0,0,106,0
+www.youtube.com,MP,Northern Mariana Islands,pti pacifica,,,,false,,56,CURLE_RECV_ERROR,1,3,0,0,59,0
+www.youtube.com,MP,Northern Mariana Islands,pti pacifica,,,,true,,56,CURLE_RECV_ERROR,1,3,0,0,62,0
+www.youtube.com,NG,Nigeria,globacom,37148,197.211.52.67,globacom,true,,0,OK,1,3,3657,4690,11154,200
+www.youtube.com,NO,Norway,telia norge,12929,89.8.247.60,telia norge,false,,0,OK,1,3,563,857,1290,200
+www.youtube.com,NZ,New Zealand,2degrees,9790,161.29.98.149,2degrees,true,,0,OK,1,3,2355,4855,16812,200
+www.youtube.com,NO,Norway,telia norge,12929,89.8.247.60,telia norge,true,,0,OK,1,3,467,762,1112,200
+www.youtube.com,NO,Norway,lyse tele,203995,46.46.224.1,lyse tele,false,,0,OK,1,2,1133,1530,2542,200
+www.youtube.com,NZ,New Zealand,2degrees,9790,161.29.98.149,2degrees,false,,0,OK,1,2,8968,10597,18681,200
+www.youtube.com,NZ,New Zealand,spark new zealand,4771,115.189.131.179,spark new zealand,false,,56,CURLE_RECV_ERROR,1,3,19067,0,20173,0
+www.youtube.com,NO,Norway,cogent communications,212449,149.7.162.142,cogent communications,true,,0,OK,1,2,877,1285,2095,200
+www.youtube.com,NO,Norway,lycamobile,,,,false,,56,CURLE_RECV_ERROR,1,3,0,0,68,0
+www.youtube.com,NO,Norway,lycamobile,,,,true,,56,CURLE_RECV_ERROR,1,3,0,0,66,0
+www.youtube.com,NG,Nigeria,mtn nigeria,29465,102.89.84.186,mtn nigeria,true,,0,OK,1,2,2761,6499,16617,200
+www.youtube.com,OM,Oman,omantel,,,,false,,56,CURLE_RECV_ERROR,1,2,0,0,70,0
+www.youtube.com,NG,Nigeria,airtel networks limited,36873,105.112.192.151,airtel networks limited,false,,0,OK,1,3,1735,3382,16685,200
+www.youtube.com,NO,Norway,lyse tele,203995,46.46.224.1,lyse tele,true,,0,OK,91,92,779,1336,2401,200
+www.youtube.com,NO,Norway,cogent communications,212449,149.7.162.142,cogent communications,false,,0,OK,1,3,588,904,1797,200
+www.youtube.com,OM,Oman,omantel,,,,true,,56,CURLE_RECV_ERROR,1,2,0,0,66,0
+www.youtube.com,NE,Niger,airtel niger,37531,197.214.27.164,airtel niger,false,,0,OK,1,3,12213,12989,18410,200
+www.youtube.com,NO,Norway,telenor norge,2119,77.18.40.164,telenor norge,false,,0,OK,1,3,1082,1649,4817,200
+www.youtube.com,NA,Namibia,telecom namibia,36999,197.233.124.10,telecom namibia,false,,28,CURLE_OPERATION_TIMEDOUT,86,87,6633,10528,30000,200
+www.youtube.com,NA,Namibia,telecom namibia,36999,197.233.124.10,telecom namibia,true,,28,CURLE_OPERATION_TIMEDOUT,1,3,3363,6919,30000,200
+www.youtube.com,OM,Oman,ooredoo oman,50010,5.21.142.70,ooredoo oman,false,,0,OK,1,3,1105,2004,3374,200
+www.youtube.com,NO,Norway,telenor norge,2119,77.18.40.164,telenor norge,true,,0,OK,1,2,1140,1973,6132,200
+www.youtube.com,OM,Oman,vodafone oman,212661,212.146.162.76,vodafone oman,false,,0,OK,1,3,1214,1892,3101,200
+www.youtube.com,OM,Oman,vodafone oman,212661,212.146.162.76,vodafone oman,true,,0,OK,1,3,2071,2807,3814,200
+www.youtube.com,PK,Pakistan,zong,59257,121.91.34.239,zong,false,,0,OK,1,2,1466,2339,4160,200
+www.youtube.com,PK,Pakistan,pakistan mobile communication limited,45669,154.198.80.30,pakistan mobile communication limited,true,,0,OK,1,3,1986,2731,4035,200
+www.youtube.com,PK,Pakistan,zong,59257,121.91.34.239,zong,true,,0,OK,1,3,2236,4060,4866,200
+www.youtube.com,PK,Pakistan,ptcl,56167,116.71.168.7,ptcl,true,,0,OK,40,41,2325,3117,3583,200
+www.youtube.com,PK,Pakistan,pakistan mobile communication limited,45669,154.91.161.138,pakistan mobile communication limited,false,,0,OK,1,3,2621,3855,5965,200
+www.youtube.com,OM,Oman,ooredoo oman,50010,5.21.142.70,ooredoo oman,true,,0,OK,1,2,1586,2368,7031,200
+www.youtube.com,PK,Pakistan,ptcl,56167,116.71.168.7,ptcl,false,,0,OK,1,3,1459,2262,5531,200
+www.youtube.com,PK,Pakistan,telenor pakistan,24499,37.111.139.142,telenor pakistan,true,,0,OK,1,2,2455,3732,4592,200
+www.youtube.com,PK,Pakistan,telenor pakistan,24499,37.111.139.142,telenor pakistan,false,,0,OK,1,3,1874,2811,6121,200
+www.youtube.com,PK,Pakistan,jazz,45669,154.80.12.59,jazz,false,,0,OK,1,4,1419,2700,4621,200
+www.youtube.com,PK,Pakistan,telehouse pvt ltd,,,,false,,56,CURLE_RECV_ERROR,1,3,0,0,78,0
+www.youtube.com,PK,Pakistan,multacom corporation,45669,154.81.230.214,multacom corporation,true,,0,OK,1,4,2352,3036,4456,200
+www.youtube.com,PK,Pakistan,jazz,45669,154.80.12.59,jazz,true,,0,OK,1,3,2402,3795,4694,200
+www.youtube.com,PK,Pakistan,special communication organization,18053,118.107.132.194,special communication organization,false,,0,OK,1,3,1272,2562,10463,200
+www.youtube.com,PK,Pakistan,china mobile,,,,true,,56,CURLE_RECV_ERROR,1,3,0,0,88,0
+www.youtube.com,PK,Pakistan,china mobile,,,,false,,56,CURLE_RECV_ERROR,1,3,0,0,91,0
+www.youtube.com,PK,Pakistan,telehouse pvt ltd,,,,true,,56,CURLE_RECV_ERROR,1,2,0,0,91,0
+www.youtube.com,PK,Pakistan,paknet merged into ptcl,56167,58.181.103.204,paknet merged into ptcl,true,,0,OK,41,42,1362,2060,3762,200
+www.youtube.com,PW,Palau,palau national communications corp.,,,,true,,56,CURLE_RECV_ERROR,2,3,0,0,63,0
+www.youtube.com,PW,Palau,palau national communications corp.,,,,false,,56,CURLE_RECV_ERROR,1,2,0,0,91,0
+www.youtube.com,NE,Niger,orange niger,37233,41.203.151.34,orange niger,true,,28,CURLE_OPERATION_TIMEDOUT,1,3,6477,13164,30000,200
+www.youtube.com,PK,Pakistan,paknet merged into ptcl,56167,58.181.103.204,paknet merged into ptcl,false,,0,OK,1,3,1969,2947,3704,200
+www.youtube.com,NE,Niger,airtel niger,37531,197.214.13.125,airtel niger,true,,28,CURLE_OPERATION_TIMEDOUT,1,3,11340,13328,30001,200
+www.youtube.com,PK,Pakistan,originet (pvt.) ltd.,24499,160.30.109.76,originet (pvt.) ltd.,true,,0,OK,60,62,1150,1914,6140,200
+www.youtube.com,NG,Nigeria,globacom,37148,129.205.124.229,globacom,false,,56,CURLE_RECV_ERROR,1,3,5087,11964,23244,200
+www.youtube.com,PK,Pakistan,telenor,24499,103.191.118.219,telenor,false,,0,OK,1,3,1223,1948,5228,200
+www.youtube.com,PK,Pakistan,originet (pvt.) ltd.,24499,160.30.109.76,originet (pvt.) ltd.,false,,0,OK,1,3,3299,3966,5983,200
+www.youtube.com,PK,Pakistan,multacom corporation,45669,154.81.239.120,multacom corporation,false,,0,OK,1,3,3651,4554,9288,200
+www.youtube.com,PK,Pakistan,telenor,24499,103.191.118.219,telenor,true,,0,OK,1,3,1386,2335,6644,200
+www.youtube.com,NG,Nigeria,airtel networks limited,36873,105.112.192.151,airtel networks limited,true,,28,CURLE_OPERATION_TIMEDOUT,56,57,13171,13940,30000,200
+www.youtube.com,PS,"Palestine, State of",wataniya palestine mobile telecommunication compan,48966,95.130.93.21,wataniya palestine mobile telecommunication compan,true,,0,OK,1,3,1241,1770,5375,200
+www.youtube.com,PG,Papua New Guinea,digitec papua new guinea,,,,false,,56,CURLE_RECV_ERROR,1,3,0,0,63,0
+www.youtube.com,PS,"Palestine, State of",jawwal,29310,45.147.66.144,jawwal,true,,0,OK,1,3,948,1638,5706,200
+www.youtube.com,PG,Papua New Guinea,digitec papua new guinea,,,,true,,56,CURLE_RECV_ERROR,61,62,0,0,122,0
+www.youtube.com,PS,"Palestine, State of",wataniya palestine mobile telecommunication compan,48966,95.130.93.21,wataniya palestine mobile telecommunication compan,false,,0,OK,1,3,1284,3683,6229,200
+www.youtube.com,PK,Pakistan,special communication organization,18053,118.107.132.194,special communication organization,true,,0,OK,1,2,5133,5978,12832,200
+www.youtube.com,PY,Paraguay,personal paraguay,,,,false,,56,CURLE_RECV_ERROR,1,2,0,0,78,0
+www.youtube.com,PY,Paraguay,tigo paraguay,23201,181.124.134.78,tigo paraguay,true,,0,OK,1,3,787,1119,1960,200
+www.youtube.com,PS,"Palestine, State of",jawwal,29310,45.147.66.144,jawwal,false,,0,OK,1,3,1916,4901,8004,200
+www.youtube.com,PY,Paraguay,claro argentina,,,,false,,56,CURLE_RECV_ERROR,1,3,0,0,63,0
+www.youtube.com,PY,Paraguay,personal paraguay,,,,true,,56,CURLE_RECV_ERROR,1,3,0,0,59,0
+www.youtube.com,PY,Paraguay,claro argentina,,,,true,,56,CURLE_RECV_ERROR,1,3,0,0,64,0
+www.youtube.com,PY,Paraguay,tigo paraguay,23201,181.124.134.78,tigo paraguay,false,,0,OK,2,3,745,1226,1928,200
+www.youtube.com,PG,Papua New Guinea,vodafone png,139898,43.245.57.84,vodafone png,false,,0,OK,1,3,1683,2531,4303,200
+www.youtube.com,PE,Peru,claro movil,,,,false,,56,CURLE_RECV_ERROR,1,3,0,0,67,0
+www.youtube.com,PE,Peru,claro movil,,,,true,,56,CURLE_RECV_ERROR,1,2,0,0,72,0
+www.youtube.com,NG,Nigeria,spectranet,37340,41.217.79.203,spectranet,false,,28,CURLE_OPERATION_TIMEDOUT,1,2,1971,9457,30002,200
+www.youtube.com,PY,Paraguay,claro paraguay,19037,186.123.135.69,claro paraguay,false,,0,OK,1,3,832,1171,2179,200
+www.youtube.com,PG,Papua New Guinea,vodafone png,139898,43.245.57.84,vodafone png,true,,0,OK,1,2,3230,4171,4872,200
+www.youtube.com,PY,Paraguay,claro paraguay,19037,186.123.135.69,claro paraguay,true,,0,OK,1,3,1631,1974,2338,200
+www.youtube.com,NG,Nigeria,spectranet,37340,41.217.79.203,spectranet,true,,28,CURLE_OPERATION_TIMEDOUT,44,46,3769,0,30000,0
+www.youtube.com,PK,Pakistan,hazara communication,24499,103.157.210.228,hazara communication,false,,0,OK,1,2,1374,2005,13570,200
+www.youtube.com,PE,Peru,movistar peru,6147,190.239.70.127,movistar peru,false,,0,OK,1,3,1622,1925,2823,200
+www.youtube.com,PE,Peru,claro peru,12252,179.7.106.142,claro peru,false,,0,OK,1,3,969,1383,3769,200
+www.youtube.com,PE,Peru,movistar,6147,190.237.122.1,movistar,true,,0,OK,1,3,500,785,1531,200
+www.youtube.com,PE,Peru,bitel,262210,181.176.99.167,bitel,true,,0,OK,24,26,764,1131,2712,200
+www.youtube.com,PE,Peru,entel peru,21575,132.184.55.52,entel peru,false,,0,OK,1,3,637,962,5089,200
+www.youtube.com,PE,Peru,claro fibra,,,,false,,56,CURLE_RECV_ERROR,1,3,0,0,72,0
+www.youtube.com,PE,Peru,claro fibra,,,,true,,56,CURLE_RECV_ERROR,1,3,0,0,72,0
+www.youtube.com,PE,Peru,movistar,6147,190.237.122.1,movistar,false,,0,OK,1,3,507,758,1108,200
+www.youtube.com,PA,Panama,tigo panama,14709,190.57.42.32,tigo panama,true,,0,OK,1,3,2730,3134,14211,200
+www.youtube.com,PE,Peru,claro peru,12252,179.7.106.142,claro peru,true,,0,OK,85,87,1839,2286,3820,200
+www.youtube.com,PH,Philippines,globe business gfiber broadband plan,132199,180.190.202.242,globe business gfiber broadband plan,false,,0,OK,1,3,780,1229,1618,200
+www.youtube.com,PE,Peru,claro fibra coaxial,12252,190.117.98.39,claro fibra coaxial,true,,0,OK,1,2,416,648,2020,200
+www.youtube.com,PE,Peru,movistar peru,6147,190.236.30.0,movistar peru,true,,0,OK,1,3,1280,1686,6323,200
+www.youtube.com,PG,Papua New Guinea,digicel png,58460,103.14.89.139,digicel png,true,,0,OK,1,3,4367,5104,11723,200
+www.youtube.com,PE,Peru,entel peru,21575,132.184.55.52,entel peru,true,,0,OK,1,3,2829,3158,7049,200
+www.youtube.com,PH,Philippines,globe business direct internet access,,,,false,,56,CURLE_RECV_ERROR,1,3,0,0,67,0
+www.youtube.com,PH,Philippines,globe business direct internet access,,,,true,,56,CURLE_RECV_ERROR,1,2,0,0,86,0
+www.youtube.com,PE,Peru,claro fibra coaxial,12252,190.117.98.39,claro fibra coaxial,false,,0,OK,1,2,855,2011,3210,200
+www.youtube.com,PH,Philippines,smart communications,10139,175.176.76.67,smart communications,false,,0,OK,1,3,944,1588,3452,200
+www.youtube.com,PG,Papua New Guinea,digicel png,58460,103.14.89.139,digicel png,false,,0,OK,1,3,4308,6884,13603,200
+www.youtube.com,PH,Philippines,dito telecommunity corp.,139831,131.226.107.159,dito telecommunity corp.,true,,0,OK,1,3,879,1745,2868,200
+www.youtube.com,PH,Philippines,smart communications,10139,175.176.76.67,smart communications,true,,0,OK,1,3,2797,3359,4554,200
+www.youtube.com,PH,Philippines,dito telecommunity corp.,139831,131.226.107.159,dito telecommunity corp.,false,,0,OK,1,3,1135,1801,2317,200
+www.youtube.com,PH,Philippines,globe business gfiber broadband plan,132199,180.190.202.242,globe business gfiber broadband plan,true,,0,OK,2,3,796,1269,3079,200
+www.youtube.com,PH,Philippines,globe telecom,4775,110.54.166.202,globe telecom,true,,0,OK,1,2,2262,2879,3942,200
+www.youtube.com,PH,Philippines,globe telecom,4775,110.54.166.202,globe telecom,false,,0,OK,44,45,2222,2748,4298,200
+www.youtube.com,PL,Poland,orange polska,5617,79.162.21.1,orange polska,true,,0,OK,1,3,830,1207,2007,200
+www.youtube.com,PL,Poland,orange mobile,5617,91.94.108.59,orange mobile,false,,0,OK,1,3,581,978,1827,200
+www.youtube.com,PE,Peru,fibra movistar,6147,190.232.27.243,fibra movistar,true,,0,OK,1,3,9583,9902,10944,200
+www.youtube.com,PL,Poland,play,39603,5.173.145.21,play,false,,0,OK,1,3,1632,1925,3143,200
+www.youtube.com,PL,Poland,t-mobile polska,12912,188.146.142.100,t-mobile polska,false,,0,OK,1,3,868,1375,4418,200
+www.youtube.com,PL,Poland,akknet sp. z o.o.,,,,true,,56,CURLE_RECV_ERROR,1,3,0,0,139,0
+www.youtube.com,PL,Poland,akknet sp. z o.o.,,,,false,,56,CURLE_RECV_ERROR,1,3,0,0,131,0
+www.youtube.com,PL,Poland,play,39603,46.113.4.11,play,true,,0,OK,1,3,1080,1395,3047,200
+www.youtube.com,PL,Poland,orange mobile,5617,91.94.108.59,orange mobile,true,,0,OK,1,2,1358,1703,2237,200
+www.youtube.com,PE,Peru,fibra movistar,6147,190.232.27.243,fibra movistar,false,,0,OK,1,3,8116,8661,9771,200
+www.youtube.com,PL,Poland,orange polska,5617,79.162.21.1,orange polska,false,,0,OK,61,63,631,1168,1919,200
+www.youtube.com,PL,Poland,alkom sp. z o.o.,31242,85.14.103.144,alkom sp. z o.o.,false,,0,OK,1,3,563,791,1565,200
+www.youtube.com,PK,Pakistan,hazara communication,24499,103.157.210.228,hazara communication,true,,0,OK,1,3,9298,12094,24595,200
+www.youtube.com,PL,Poland,t-mobile polska,12912,188.146.142.100,t-mobile polska,true,,0,OK,1,3,2384,2794,4420,200
+www.youtube.com,PT,Portugal,digi portugal,20879,176.223.63.54,digi portugal,false,,0,OK,1,3,637,1005,1706,200
+www.youtube.com,PL,Poland,alkom sp. z o.o.,31242,85.14.103.144,alkom sp. z o.o.,true,,0,OK,1,3,1103,1436,2136,200
+www.youtube.com,PL,Poland,foxnet isp sp. z o.o.,31242,193.151.103.133,foxnet isp sp. z o.o.,false,,0,OK,1,3,855,2678,2875,200
+www.youtube.com,PT,Portugal,vodafone portugal,12353,87.103.18.159,vodafone portugal,false,,0,OK,1,3,523,857,1937,200
+www.youtube.com,PL,Poland,foxnet isp sp. z o.o.,31242,193.151.103.133,foxnet isp sp. z o.o.,true,,0,OK,1,3,2299,2807,3012,200
+www.youtube.com,PT,Portugal,vodafone portugal,12353,87.103.18.159,vodafone portugal,true,,0,OK,1,3,767,1115,1735,200
+www.youtube.com,PT,Portugal,digi portugal,20879,176.223.63.54,digi portugal,true,,0,OK,1,3,609,1202,1528,200
+www.youtube.com,PL,Poland,comasoft,9141,92.244.32.95,comasoft,true,,0,OK,1,3,1573,2424,7438,200
+www.youtube.com,PL,Poland,comasoft,9141,92.244.32.95,comasoft,false,,0,OK,1,3,861,1628,7583,200
+www.youtube.com,PA,Panama,tigo panama,14709,190.141.31.223,tigo panama,false,,28,CURLE_OPERATION_TIMEDOUT,82,84,3503,5617,30000,200
+www.youtube.com,PR,Puerto Rico,t-mobile usa,21928,172.59.17.66,t-mobile usa,true,,0,OK,78,79,556,839,5064,200
+www.youtube.com,PA,Panama,cable & wireless panama,11556,201.225.2.51,cable & wireless panama,false,,28,CURLE_OPERATION_TIMEDOUT,1,3,1801,2800,30000,200
+www.youtube.com,PA,Panama,cable & wireless panama,11556,201.225.2.51,cable & wireless panama,true,,0,OK,1,2,2138,2661,29456,200
+www.youtube.com,PR,Puerto Rico,t-mobile usa,21928,172.59.17.66,t-mobile usa,false,,0,OK,1,3,511,3948,7084,200
+www.youtube.com,PT,Portugal,lycamobile,31404,185.237.102.84,lycamobile,false,,0,OK,41,43,1045,1624,9911,200
+www.youtube.com,QA,Qatar,vodafone qatar,48728,37.186.35.30,vodafone qatar,true,,0,OK,1,3,661,1098,2068,200
+www.youtube.com,QA,Qatar,vodafone qatar,48728,37.186.35.30,vodafone qatar,false,,0,OK,1,2,931,1370,1900,200
+www.youtube.com,PR,Puerto Rico,liberty pr,14638,24.42.42.248,liberty pr,false,,0,OK,62,64,616,1104,4744,200
+www.youtube.com,PR,Puerto Rico,claro puerto rico,10396,173.228.198.111,claro puerto rico,true,,0,OK,1,3,669,1326,7301,200
+www.youtube.com,PR,Puerto Rico,liberty pr,14638,24.42.42.248,liberty pr,true,,0,OK,34,36,995,1514,5718,200
+www.youtube.com,RE,Réunion,zeop,,,,true,,56,CURLE_RECV_ERROR,1,3,0,0,60,0
+www.youtube.com,RE,Réunion,zeop,,,,false,,56,CURLE_RECV_ERROR,1,3,0,0,64,0
+www.youtube.com,PT,Portugal,nos comunicacoes,2860,87.196.83.171,nos comunicacoes,false,,0,OK,1,3,1107,1944,14112,200
+www.youtube.com,RE,Réunion,orange,199140,80.12.254.176,orange,false,,0,OK,1,3,998,1637,3049,200
+www.youtube.com,RE,Réunion,orange,199140,80.12.254.176,orange,true,,0,OK,63,64,1326,2241,3315,200
+www.youtube.com,RO,Romania,digi romania business,8708,86.120.195.44,digi romania business,false,,0,OK,1,3,464,742,1064,200
+www.youtube.com,PE,Peru,bitel,262210,181.176.81.249,bitel,false,,28,CURLE_OPERATION_TIMEDOUT,1,3,2888,3795,30001,200
+www.youtube.com,RO,Romania,digi romania business,8708,86.120.195.44,digi romania business,true,,0,OK,1,3,445,731,1030,200
+www.youtube.com,RE,Réunion,telco oi,327697,139.26.135.154,telco oi,true,,0,OK,1,3,1326,2127,6146,200
+www.youtube.com,RO,Romania,orange romania communications,9050,109.102.6.112,orange romania communications,true,,0,OK,1,3,423,691,928,200
+www.youtube.com,PR,Puerto Rico,claro puerto rico,10396,173.228.198.111,claro puerto rico,false,,0,OK,1,3,1034,7201,13095,200
+www.youtube.com,RO,Romania,digi romania,8708,86.120.194.147,digi romania,false,,0,OK,1,3,549,1188,1658,200
+www.youtube.com,PT,Portugal,lycamobile,31404,185.237.102.84,lycamobile,true,,0,OK,1,3,2033,8924,18115,200
+www.youtube.com,RE,Réunion,sfr,49902,109.122.136.121,sfr,false,,0,OK,1,3,1374,2116,6762,200
+www.youtube.com,RO,Romania,vodafone romania,12302,213.233.110.156,vodafone romania,true,,0,OK,1,2,460,775,1823,200
+www.youtube.com,RO,Romania,telekom romania mobile communications,35725,178.138.192.154,telekom romania mobile communications,false,,0,OK,1,3,704,1138,4927,200
+www.youtube.com,RO,Romania,digi romania,8708,86.120.194.147,digi romania,true,,0,OK,1,3,594,1286,1744,200
+www.youtube.com,PT,Portugal,nos comunicacoes,2860,87.196.83.171,nos comunicacoes,true,,0,OK,1,3,2224,13956,20955,200
+www.youtube.com,RO,Romania,orange romania communications,9050,109.102.6.112,orange romania communications,false,,0,OK,1,3,401,654,888,200
+www.youtube.com,RE,Réunion,sfr,49902,109.122.136.121,sfr,true,,0,OK,1,3,2003,6126,7642,200
+www.youtube.com,RO,Romania,vodafone romania,12302,213.233.110.156,vodafone romania,false,,0,OK,1,3,475,796,1545,200
+www.youtube.com,RE,Réunion,telco oi,327697,139.26.135.154,telco oi,false,,0,OK,1,3,3247,4782,9739,200
+www.youtube.com,RO,Romania,telekom romania mobile communications,35725,178.138.192.154,telekom romania mobile communications,true,,0,OK,1,3,936,4232,7686,200
+www.youtube.com,PL,Poland,plus poland,8374,78.30.67.3,plus poland,false,,28,CURLE_OPERATION_TIMEDOUT,1,3,950,1412,30001,200
+www.youtube.com,RU,Russian Federation,invest mobile,,,,false,,56,CURLE_RECV_ERROR,1,3,0,0,91,0
+www.youtube.com,PL,Poland,plus poland,8374,78.30.67.3,plus poland,true,,28,CURLE_OPERATION_TIMEDOUT,1,3,3438,9642,30000,200
+www.youtube.com,RO,Romania,orange romania,8953,109.166.138.113,orange romania,false,,0,OK,58,60,714,1161,9586,200
+www.youtube.com,RU,Russian Federation,novokuznetsk telecom,47530,178.219.210.203,novokuznetsk telecom,false,,0,OK,1,3,597,933,1408,200
+www.youtube.com,PT,Portugal,meo,42863,31.22.148.28,meo,true,,28,CURLE_OPERATION_TIMEDOUT,1,3,1036,1777,30002,200
+www.youtube.com,PT,Portugal,meo,42863,31.22.148.28,meo,false,,28,CURLE_OPERATION_TIMEDOUT,1,3,3141,9246,30002,200
+www.youtube.com,RU,Russian Federation,novokuznetsk telecom,47530,178.219.210.203,novokuznetsk telecom,true,,0,OK,41,42,623,952,1443,200
+www.youtube.com,RO,Romania,orange romania,8953,109.166.138.113,orange romania,true,,0,OK,1,3,7856,8279,19608,200
+www.youtube.com,QA,Qatar,ooredoo qatar,8781,178.152.183.126,ooredoo qatar,false,,28,CURLE_OPERATION_TIMEDOUT,1,3,3529,4167,30000,200
+www.youtube.com,QA,Qatar,ooredoo qatar,8781,178.152.183.126,ooredoo qatar,true,,28,CURLE_OPERATION_TIMEDOUT,1,3,2258,3386,30000,200
+www.youtube.com,RU,Russian Federation,dom.ru,51570,5.3.184.25,dom.ru,false,,35,CURLE_SSL_CONNECT_ERROR,1,3,0,0,21664,0
+www.youtube.com,RU,Russian Federation,beeline,16345,85.249.25.78,beeline,true,,35,CURLE_SSL_CONNECT_ERROR,1,3,0,0,22164,0
+www.youtube.com,RU,Russian Federation,pjsc megafon,31133,178.178.246.149,pjsc megafon,false,,28,CURLE_OPERATION_TIMEDOUT,1,0,0,0,30001,0
+www.youtube.com,RU,Russian Federation,t-mob,,,,false,,56,CURLE_RECV_ERROR,42,43,0,0,122,0
+www.youtube.com,RU,Russian Federation,beeline,16345,176.15.167.66,beeline,false,,28,CURLE_OPERATION_TIMEDOUT,1,0,0,0,30002,0
+www.youtube.com,RU,Russian Federation,zao aquafon-gsm,,,,false,,56,CURLE_RECV_ERROR,1,3,0,0,89,0
+www.youtube.com,RU,Russian Federation,pjsc megafon,31213,94.25.228.106,pjsc megafon,true,,28,CURLE_OPERATION_TIMEDOUT,1,0,0,0,30001,0
+www.youtube.com,RU,Russian Federation,tattelecom,,,,false,,56,CURLE_RECV_ERROR,1,3,0,0,2543,0
+www.youtube.com,RU,Russian Federation,mts pjsc,8359,195.210.170.66,mts pjsc,true,,28,CURLE_OPERATION_TIMEDOUT,1,0,0,0,30002,0
+www.youtube.com,RU,Russian Federation,mts ojsc,,,,false,,56,CURLE_RECV_ERROR,1,3,0,0,123,0
+www.youtube.com,RU,Russian Federation,mts ojsc,,,,true,,56,CURLE_RECV_ERROR,1,2,0,0,90,0
+www.youtube.com,RU,Russian Federation,zao aquafon-gsm,,,,true,,56,CURLE_RECV_ERROR,1,3,0,0,86,0
+www.youtube.com,RU,Russian Federation,mts pjsc,48322,77.93.108.31,mts pjsc,false,,28,CURLE_OPERATION_TIMEDOUT,1,0,0,0,30000,0
+www.youtube.com,RU,Russian Federation,tele2 russia,48190,176.59.208.253,tele2 russia,true,,28,CURLE_OPERATION_TIMEDOUT,1,3,6696,7572,30000,200
+www.youtube.com,RU,Russian Federation,t-mob,,,,true,,56,CURLE_RECV_ERROR,1,3,0,0,90,0
+www.youtube.com,RU,Russian Federation,tele2 russia,48190,176.59.208.253,tele2 russia,false,,28,CURLE_OPERATION_TIMEDOUT,53,55,3319,3963,30000,200
+www.youtube.com,RU,Russian Federation,tattelecom,,,,true,,56,CURLE_RECV_ERROR,1,2,0,0,1744,0
+www.youtube.com,RU,Russian Federation,ozyorsk telecom cjsc.,48043,91.205.236.150,ozyorsk telecom cjsc.,false,,35,CURLE_SSL_CONNECT_ERROR,1,3,0,0,21876,0
+www.youtube.com,RU,Russian Federation,jv a-mobile,,,,true,,56,CURLE_RECV_ERROR,1,3,0,0,88,0
+www.youtube.com,RU,Russian Federation,dom.ru,51570,176.215.67.97,dom.ru,true,,28,CURLE_OPERATION_TIMEDOUT,1,0,0,0,30000,0
+www.youtube.com,RU,Russian Federation,rostelecom,42610,178.140.154.237,rostelecom,false,,28,CURLE_OPERATION_TIMEDOUT,64,0,0,0,30001,0
+www.youtube.com,RU,Russian Federation,ozyorsk telecom cjsc.,48043,91.205.236.150,ozyorsk telecom cjsc.,true,,35,CURLE_SSL_CONNECT_ERROR,1,3,0,0,19515,0
+www.youtube.com,RU,Russian Federation,invest mobile,,,,true,,56,CURLE_RECV_ERROR,1,3,0,0,93,0
+www.youtube.com,RU,Russian Federation,isp balzer-telecom,,,,false,,56,CURLE_RECV_ERROR,1,3,0,0,85,0
+www.youtube.com,RU,Russian Federation,isp balzer-telecom,,,,true,,56,CURLE_RECV_ERROR,1,3,0,0,89,0
+www.youtube.com,RU,Russian Federation,ooo vtc-mobile,,,,true,,56,CURLE_RECV_ERROR,1,3,0,0,90,0
+www.youtube.com,RU,Russian Federation,ooo vtc-mobile,,,,false,,56,CURLE_RECV_ERROR,55,57,0,0,141,0
+www.youtube.com,RU,Russian Federation,jsc vainah telecom,49724,188.0.189.200,jsc vainah telecom,false,,28,CURLE_OPERATION_TIMEDOUT,1,0,0,0,30001,0
+www.youtube.com,RU,Russian Federation,sistemy svyazi llc,,,,false,,56,CURLE_RECV_ERROR,1,3,0,0,88,0
+www.youtube.com,RU,Russian Federation,llc alfa-mobile,,,,false,,56,CURLE_RECV_ERROR,1,3,0,0,87,0
+www.youtube.com,RU,Russian Federation,llc alfa-mobile,,,,true,,56,CURLE_RECV_ERROR,1,3,0,0,95,0
+www.youtube.com,RU,Russian Federation,innovation solutions center ltd.,,,,false,,56,CURLE_RECV_ERROR,1,2,0,0,92,0
+www.youtube.com,RU,Russian Federation,innovation solutions center ltd.,,,,true,,56,CURLE_RECV_ERROR,1,3,0,0,83,0
+www.youtube.com,RU,Russian Federation,sistemy svyazi llc,,,,true,,56,CURLE_RECV_ERROR,62,63,0,0,152,0
+www.youtube.com,RW,Rwanda,mtn rwanda,36890,41.186.135.24,mtn rwanda,true,,0,OK,1,3,1064,1715,4609,200
+www.youtube.com,RU,Russian Federation,jsc vainah telecom,49724,188.0.189.200,jsc vainah telecom,true,,28,CURLE_OPERATION_TIMEDOUT,43,0,0,0,30001,0
+www.youtube.com,RW,Rwanda,mtn rwanda,36890,41.186.135.24,mtn rwanda,false,,0,OK,1,3,1154,1798,3899,200
+www.youtube.com,RU,Russian Federation,sberbank-telecom,206673,185.174.128.248,sberbank-telecom,false,,28,CURLE_OPERATION_TIMEDOUT,1,0,0,0,30001,0
+www.youtube.com,KN,Saint Kitts and Nevis,flow,,,,false,,56,CURLE_RECV_ERROR,1,2,0,0,62,0
+www.youtube.com,KN,Saint Kitts and Nevis,flow,,,,true,,56,CURLE_RECV_ERROR,1,3,0,0,58,0
+www.youtube.com,RU,Russian Federation,tbank jsc,205638,193.143.65.151,tbank jsc,false,,35,CURLE_SSL_CONNECT_ERROR,1,3,0,0,19410,0
+www.youtube.com,RU,Russian Federation,s.u.e. dpr republic operator of networks,,,,false,,56,CURLE_RECV_ERROR,1,3,0,0,15600,0
+www.youtube.com,LC,Saint Lucia,digicel saint lucia,33582,72.14.99.81,digicel saint lucia,false,,0,OK,1,2,1093,1729,4986,200
+www.youtube.com,RU,Russian Federation,sberbank-telecom,206673,185.174.128.248,sberbank-telecom,true,,28,CURLE_OPERATION_TIMEDOUT,40,0,0,0,30000,0
+www.youtube.com,MF,Saint Martin (French part),dauphin telecom,,,,false,,56,CURLE_RECV_ERROR,1,3,0,0,63,0
+www.youtube.com,MF,Saint Martin (French part),dauphin telecom,,,,true,,56,CURLE_RECV_ERROR,1,3,0,0,61,0
+www.youtube.com,RU,Russian Federation,tbank jsc,205638,193.143.65.151,tbank jsc,true,,35,CURLE_SSL_CONNECT_ERROR,1,2,0,0,23565,0
+www.youtube.com,LC,Saint Lucia,digicel saint lucia,33582,72.14.99.81,digicel saint lucia,true,,0,OK,1,3,1471,3801,6635,200
+www.youtube.com,RU,Russian Federation,ekaterinburg-2000,31499,213.151.27.8,ekaterinburg-2000,true,,28,CURLE_OPERATION_TIMEDOUT,1,0,0,0,30001,0
+www.youtube.com,RU,Russian Federation,mcs,47204,45.131.49.155,mcs,false,,28,CURLE_OPERATION_TIMEDOUT,1,3,577,0,30001,0
+www.youtube.com,RU,Russian Federation,mcs,47204,45.131.49.155,mcs,true,,28,CURLE_OPERATION_TIMEDOUT,1,3,959,0,30001,0
+www.youtube.com,RU,Russian Federation,rostelecom,42610,178.140.154.237,rostelecom,true,,28,CURLE_OPERATION_TIMEDOUT,1,0,0,0,30001,0
+www.youtube.com,RU,Russian Federation,s.u.e. dpr republic operator of networks,204108,185.253.40.118,s.u.e. dpr republic operator of networks,true,,28,CURLE_OPERATION_TIMEDOUT,1,0,0,0,30001,0
+www.youtube.com,RU,Russian Federation,jsc ufanet,41704,95.105.124.166,jsc ufanet,false,,28,CURLE_OPERATION_TIMEDOUT,1,0,0,0,30002,0
+www.youtube.com,RW,Rwanda,airtel rwanda,37124,197.157.187.34,airtel rwanda,false,,0,OK,41,43,1241,1898,13247,200
+www.youtube.com,RU,Russian Federation,jsc ufanet,41704,95.105.125.204,jsc ufanet,true,,28,CURLE_OPERATION_TIMEDOUT,1,0,0,0,30001,0
+www.youtube.com,WS,Samoa,vodafone samoa,17993,202.4.33.219,vodafone samoa,false,,0,OK,1,3,1924,2939,6786,200
+www.youtube.com,SA,Saudi Arabia,mobily,35819,149.126.14.68,mobily,false,,0,OK,1,2,854,1473,2411,200
+www.youtube.com,SA,Saudi Arabia,stc saudi,39891,151.254.19.148,stc saudi,false,,0,OK,1,3,1164,1746,3557,200
+www.youtube.com,SA,Saudi Arabia,stc saudi,39891,151.254.19.148,stc saudi,true,,0,OK,1,3,904,1887,3837,200
+www.youtube.com,SA,Saudi Arabia,mobily,35819,149.126.14.68,mobily,true,,0,OK,1,3,1288,1840,2277,200
+www.youtube.com,RU,Russian Federation,ekaterinburg-2000,31499,213.151.22.50,ekaterinburg-2000,false,,28,CURLE_OPERATION_TIMEDOUT,66,0,0,0,30000,0
+www.youtube.com,SA,Saudi Arabia,etihad salam telecom cjsc,35753,82.167.22.174,etihad salam telecom cjsc,false,,0,OK,1,3,1185,1894,5725,200
+www.youtube.com,RW,Rwanda,airtel rwanda,37124,197.157.187.34,airtel rwanda,true,,0,OK,1,2,1724,4963,17922,200
+www.youtube.com,SA,Saudi Arabia,pfa mihalascu viorel,,,,false,,56,CURLE_RECV_ERROR,1,3,0,0,271,0
+www.youtube.com,SA,Saudi Arabia,pfa mihalascu viorel,,,,true,,56,CURLE_RECV_ERROR,1,3,0,0,271,0
+www.youtube.com,WS,Samoa,vodafone samoa,17993,202.4.33.219,vodafone samoa,true,,0,OK,125,126,4591,5607,8070,200
+www.youtube.com,SA,Saudi Arabia,etihad salam telecom cjsc,35753,82.167.22.174,etihad salam telecom cjsc,true,,0,OK,1,3,1993,2585,3834,200
+www.youtube.com,RU,Russian Federation,jv a-mobile,50257,185.10.173.188,jv a-mobile,false,,28,CURLE_OPERATION_TIMEDOUT,1,3,1025,2731,30001,200
+www.youtube.com,SA,Saudi Arabia,zain saudi arabia,43766,51.36.227.67,zain saudi arabia,false,,0,OK,1,3,829,1646,6323,200
+www.youtube.com,SN,Senegal,sonatel,8346,41.82.171.147,sonatel,false,,0,OK,1,2,771,1239,3479,200
+www.youtube.com,SA,Saudi Arabia,zain kuwait,42961,37.37.37.37,zain kuwait,false,,0,OK,1,3,1239,1718,8277,200
+www.youtube.com,SA,Saudi Arabia,zain saudi arabia,43766,51.36.227.67,zain saudi arabia,true,,0,OK,1,2,1827,6085,8149,200
+www.youtube.com,SN,Senegal,sonatel,8346,41.82.171.147,sonatel,true,,0,OK,1,3,2264,2745,4629,200
+www.youtube.com,ST,Sao Tome and Principe,cst-net,328191,197.159.176.200,cst-net,false,,0,OK,78,79,1293,2016,13195,200
+www.youtube.com,ST,Sao Tome and Principe,cst-net,328191,197.159.176.200,cst-net,true,,0,OK,2,3,2305,4244,13506,200
+www.youtube.com,RS,Serbia,mts serbia,8400,185.26.173.200,mts serbia,false,,0,OK,1,2,441,721,1194,200
+www.youtube.com,RS,Serbia,mts serbia,8400,185.26.173.200,mts serbia,true,,0,OK,1,2,408,700,1088,200
+www.youtube.com,SA,Saudi Arabia,rcell,214707,205.209.93.61,rcell,false,,35,CURLE_SSL_CONNECT_ERROR,1,3,0,0,10576,0
+www.youtube.com,RS,Serbia,telenor d.o.o.,15958,109.245.33.200,telenor d.o.o.,false,,0,OK,1,2,702,1050,5191,200
+www.youtube.com,SC,Seychelles,airtelseychelles,,,,false,,56,CURLE_RECV_ERROR,1,2,0,0,64,0
+www.youtube.com,SC,Seychelles,airtelseychelles,,,,true,,56,CURLE_RECV_ERROR,1,3,0,0,65,0
+www.youtube.com,SA,Saudi Arabia,zain kuwait,42961,37.37.37.37,zain kuwait,true,,0,OK,1,3,5733,6305,11585,200
+www.youtube.com,SC,Seychelles,cable & wireless (seychelles),36958,41.86.49.204,cable & wireless (seychelles),false,,0,OK,41,43,1106,1683,3329,200
+www.youtube.com,SN,Senegal,tigo senegal,37649,102.164.189.175,tigo senegal,false,,0,OK,1,2,1618,4639,9584,200
+www.youtube.com,SC,Seychelles,cable & wireless (seychelles),36958,41.86.49.204,cable & wireless (seychelles),true,,0,OK,43,44,1928,3335,4705,200
+www.youtube.com,RS,Serbia,telenor d.o.o.,15958,109.245.33.200,telenor d.o.o.,true,,0,OK,1,2,3778,4143,7975,200
+www.youtube.com,RS,Serbia,a1 srbija d.o.o,44143,95.86.48.148,a1 srbija d.o.o,false,,0,OK,1,2,598,1255,9961,200
+www.youtube.com,SL,Sierra Leone,pcs-holdings-limited,,,,false,,56,CURLE_RECV_ERROR,1,2,0,0,80,0
+www.youtube.com,SL,Sierra Leone,pcs-holdings-limited,,,,true,,56,CURLE_RECV_ERROR,1,3,0,0,77,0
+www.youtube.com,SN,Senegal,tigo senegal,37649,102.164.189.175,tigo senegal,true,,0,OK,1,3,2493,3410,13561,200
+www.youtube.com,LC,Saint Lucia,flow,14813,209.59.91.253,flow,false,,28,CURLE_OPERATION_TIMEDOUT,43,44,1876,4190,30000,200
+www.youtube.com,SL,Sierra Leone,africell sierra leone,36988,102.206.185.234,africell sierra leone,true,,0,OK,63,65,1033,1604,3403,200
+www.youtube.com,SL,Sierra Leone,qcell,328297,102.143.21.30,qcell,true,,0,OK,1,2,1792,2523,4821,200
+www.youtube.com,LC,Saint Lucia,flow,14813,209.59.91.253,flow,true,,28,CURLE_OPERATION_TIMEDOUT,1,3,3699,0,30001,0
+www.youtube.com,RS,Serbia,a1 srbija d.o.o,44143,95.86.48.148,a1 srbija d.o.o,true,,0,OK,1,3,2820,3350,11439,200
+www.youtube.com,WS,Samoa,digicel samoa,38800,203.99.159.243,digicel samoa,true,,28,CURLE_OPERATION_TIMEDOUT,1,2,4176,7783,30001,200
+www.youtube.com,WS,Samoa,digicel samoa,38800,203.99.159.243,digicel samoa,false,,28,CURLE_OPERATION_TIMEDOUT,1,3,27237,0,30002,0
+www.youtube.com,SG,Singapore,simba telecom,4817,210.10.7.86,simba telecom,false,,0,OK,1,2,794,1206,1618,200
+www.youtube.com,SG,Singapore,m1,4773,119.56.16.5,m1,true,,0,OK,1,3,1062,1722,3362,200
+www.youtube.com,SG,Singapore,simba telecom,4817,210.10.7.86,simba telecom,true,,0,OK,1,3,1319,1730,2044,200
+www.youtube.com,SA,Saudi Arabia,rcell,,,,true,,56,CURLE_RECV_ERROR,41,43,0,0,20487,0
+www.youtube.com,SL,Sierra Leone,africell sierra leone,36988,102.206.185.234,africell sierra leone,false,,0,OK,1,2,2032,2666,4695,200
+www.youtube.com,SG,Singapore,starhub,4657,117.20.154.125,starhub,false,,0,OK,1,3,711,1150,2771,200
+www.youtube.com,SG,Singapore,m1,4773,119.56.16.5,m1,false,,0,OK,1,3,1062,1796,3311,200
+www.youtube.com,SL,Sierra Leone,qcell,328297,102.143.21.33,qcell,false,,0,OK,1,2,3596,4694,10244,200
+www.youtube.com,SK,Slovakia,o2 slovakia,28952,46.34.253.49,o2 slovakia,true,,0,OK,1,2,557,912,1451,200
+www.youtube.com,SG,Singapore,starhub,4657,117.20.154.125,starhub,true,,0,OK,1,2,1998,2391,3590,200
+www.youtube.com,SK,Slovakia,orange slovensko,15962,85.237.234.21,orange slovensko,false,,0,OK,1,2,1043,1434,2348,200
+www.youtube.com,SK,Slovakia,o2 slovakia,28952,46.34.253.49,o2 slovakia,false,,0,OK,1,3,402,712,1349,200
+www.youtube.com,SK,Slovakia,slovak telekom,6855,195.91.4.133,slovak telekom,true,,0,OK,1,3,702,1085,4588,200
+www.youtube.com,SI,Slovenia,telemach,3212,176.76.101.123,telemach,true,,0,OK,1,2,485,838,1678,200
+www.youtube.com,SI,Slovenia,t-2,,,,false,,56,CURLE_RECV_ERROR,1,3,0,0,90,0
+www.youtube.com,SK,Slovakia,orange slovensko,15962,85.237.234.21,orange slovensko,true,,0,OK,1,3,1107,1483,2173,200
+www.youtube.com,SI,Slovenia,t-2,,,,true,,56,CURLE_RECV_ERROR,1,3,0,0,66,0
+www.youtube.com,SI,Slovenia,telemach,3212,176.76.101.123,telemach,false,,0,OK,1,2,812,1206,1769,200
+www.youtube.com,SK,Slovakia,slovak telekom,6855,195.91.4.133,slovak telekom,false,,0,OK,1,3,802,1562,5671,200
+www.youtube.com,SI,Slovenia,telekom slovenije,5603,178.58.65.50,telekom slovenije,false,,0,OK,63,65,1302,2261,5495,200
+www.youtube.com,SI,Slovenia,telekom slovenije,5603,178.58.65.50,telekom slovenije,true,,0,OK,1,2,804,1378,5758,200
+www.youtube.com,SN,Senegal,sudatel-senegal,37196,41.219.51.47,sudatel-senegal,true,,56,CURLE_RECV_ERROR,89,91,18270,0,25331,0
+www.youtube.com,SO,Somalia,somtel-somalia,,,,false,,56,CURLE_RECV_ERROR,81,83,0,0,153,0
+www.youtube.com,SI,Slovenia,a1 slovenija,21283,46.122.99.48,a1 slovenija,false,,0,OK,1,3,643,1070,6163,200
+www.youtube.com,SI,Slovenia,a1 slovenija,21283,46.122.99.48,a1 slovenija,true,,0,OK,1,3,807,4705,6635,200
+www.youtube.com,SG,Singapore,singtel mobile,45143,119.234.93.104,singtel mobile,false,,0,OK,1,3,1406,2448,15022,200
+www.youtube.com,SO,Somalia,golis-telecom,,,,true,,56,CURLE_RECV_ERROR,1,3,0,0,74,0
+www.youtube.com,SO,Somalia,somlink-wireless,,,,false,,56,CURLE_RECV_ERROR,1,2,0,0,67,0
+www.youtube.com,SO,Somalia,somlink-wireless,,,,true,,56,CURLE_RECV_ERROR,1,3,0,0,65,0
+www.youtube.com,SO,Somalia,amtel,,,,false,,56,CURLE_RECV_ERROR,1,3,0,0,66,0
+www.youtube.com,SO,Somalia,golis-telecom,,,,false,,56,CURLE_RECV_ERROR,1,3,0,0,70,0
+www.youtube.com,SO,Somalia,somtel-somalia,,,,true,,56,CURLE_RECV_ERROR,1,2,0,0,61,0
+www.youtube.com,SO,Somalia,hormuud,37371,197.220.88.186,hormuud,false,,0,OK,77,78,1178,1670,2796,200
+www.youtube.com,SO,Somalia,amtel,,,,true,,56,CURLE_RECV_ERROR,2,3,0,0,65,0
+www.youtube.com,SN,Senegal,sudatel-senegal,37196,41.219.51.47,sudatel-senegal,false,,28,CURLE_OPERATION_TIMEDOUT,63,65,13111,19721,30000,200
+www.youtube.com,SO,Somalia,hormuud,37371,197.220.88.186,hormuud,true,,0,OK,1,3,1954,2495,3842,200
+www.youtube.com,SL,Sierra Leone,zain,37164,197.215.23.201,zain,true,,0,OK,1,3,12209,14197,23818,200
+www.youtube.com,SX,Sint Maarten (Dutch part),smitcoms n.v.,27781,201.220.12.113,smitcoms n.v.,false,,0,OK,41,43,1883,2334,16585,200
+www.youtube.com,SX,Sint Maarten (Dutch part),smitcoms n.v.,27781,201.220.12.113,smitcoms n.v.,true,,56,CURLE_RECV_ERROR,1,3,16482,0,16482,0
+www.youtube.com,SL,Sierra Leone,zain,37164,197.215.26.10,zain,false,,0,OK,1,3,2533,3613,22651,200
+www.youtube.com,SB,Solomon Islands,bemobile solomon islands,132462,103.21.248.254,bemobile solomon islands,false,,0,OK,1,3,1560,3482,11529,200
+www.youtube.com,ZA,South Africa,mtn sa mobile,12091,41.116.70.73,mtn sa mobile,true,,0,OK,1,3,1176,2144,5153,200
+www.youtube.com,SO,Somalia,telesom,37473,154.115.236.99,telesom,false,,0,OK,1,3,1254,1968,6328,200
+www.youtube.com,ZA,South Africa,telkom internet,37457,41.144.2.10,telkom internet,false,,0,OK,1,2,1026,1914,4439,200
+www.youtube.com,ZA,South Africa,cell c,37168,105.9.91.250,cell c,false,,0,OK,2,3,1145,1789,3400,200
+www.youtube.com,ZA,South Africa,mtn sa mobile,12091,41.116.70.73,mtn sa mobile,false,,0,OK,52,54,1254,4544,6362,200
+www.youtube.com,SO,Somalia,telesom,37473,154.115.236.99,telesom,true,,0,OK,1,3,1862,5829,8884,200
+www.youtube.com,SB,Solomon Islands,bemobile solomon islands,132462,103.21.248.254,bemobile solomon islands,true,,0,OK,1,3,6486,8764,15209,200
+www.youtube.com,ZA,South Africa,telkom internet,37457,41.144.2.10,telkom internet,true,,0,OK,1,3,1346,1985,3633,200
+www.youtube.com,ZA,South Africa,rain,37105,197.185.206.238,rain,false,,0,OK,1,3,2128,2725,4279,200
+www.youtube.com,ZA,South Africa,cell c,37168,105.9.91.250,cell c,true,,0,OK,1,3,1003,1633,3076,200
+www.youtube.com,SS,South Sudan,mtn south sudan,,,,false,,56,CURLE_RECV_ERROR,1,3,0,0,66,0
+www.youtube.com,SS,South Sudan,mtn south sudan,,,,true,,56,CURLE_RECV_ERROR,1,3,0,0,63,0
+www.youtube.com,SS,South Sudan,digitel-holdings,,,,false,,56,CURLE_RECV_ERROR,1,3,0,0,65,0
+www.youtube.com,ZA,South Africa,mtn business solutions,12091,197.70.4.34,mtn business solutions,false,,0,OK,1,2,1641,2389,4424,200
+www.youtube.com,SS,South Sudan,digitel-holdings,,,,true,,56,CURLE_RECV_ERROR,1,3,0,0,63,0
+www.youtube.com,ZA,South Africa,rain,37105,197.185.206.238,rain,true,,0,OK,1,3,1506,2462,3365,200
+www.youtube.com,ES,Spain,aire networks,29119,84.232.97.149,aire networks,true,,0,OK,1,3,639,1004,2543,200
+www.youtube.com,ZA,South Africa,telkom limited,37457,102.254.137.27,telkom limited,false,,0,OK,1,3,1159,1772,8954,200
+www.youtube.com,SG,Singapore,singtel mobile,45143,119.234.93.104,singtel mobile,true,,0,OK,1,3,5321,14726,28552,200
+www.youtube.com,ZA,South Africa,mtn business solutions,12091,197.70.4.34,mtn business solutions,true,,0,OK,81,83,2420,3006,5145,200
+www.youtube.com,ZA,South Africa,telkom limited,37457,102.254.137.27,telkom limited,true,,0,OK,1,3,4894,8532,10003,200
+www.youtube.com,ZA,South Africa,vodacom,29975,41.13.188.125,vodacom,false,,0,OK,65,67,4474,8727,13354,200
+www.youtube.com,ZA,South Africa,vodacom,29975,41.13.188.125,vodacom,true,,0,OK,1,3,3390,4799,12641,200
+www.youtube.com,SO,Somalia,somtel,37563,197.231.201.196,somtel,false,,0,OK,1,3,6955,8987,18734,200
+www.youtube.com,ES,Spain,yoigo,15704,31.221.154.66,yoigo,false,,0,OK,1,3,894,1397,5843,200
+www.youtube.com,SO,Somalia,somtel,37563,197.231.201.196,somtel,true,,0,OK,1,3,12437,13747,18856,200
+www.youtube.com,SK,Slovakia,"swan, a.s.",5578,84.245.120.249,"swan, a.s.",false,,28,CURLE_OPERATION_TIMEDOUT,1,3,2784,5461,30001,200
+www.youtube.com,ZA,South Africa,mtn sa,12091,196.11.241.44,mtn sa,false,,0,OK,8,10,1579,2445,9185,200
+www.youtube.com,SK,Slovakia,"swan, a.s.",5578,84.245.120.249,"swan, a.s.",true,,28,CURLE_OPERATION_TIMEDOUT,1,3,4694,8897,30000,200
+www.youtube.com,ES,Spain,telefonica de espana,3352,88.29.180.123,telefonica de espana,false,,0,OK,21,22,597,981,1678,200
+www.youtube.com,ES,Spain,yoigo,15704,31.221.154.66,yoigo,true,,0,OK,66,68,4717,5311,6907,200
+www.youtube.com,ES,Spain,"procono, s.a.",34977,93.114.159.97,"procono, s.a.",false,,0,OK,1,3,757,1131,1664,200
+www.youtube.com,ES,Spain,vodafone spain,12430,178.139.228.12,vodafone spain,false,,0,OK,1,3,597,965,3504,200
+www.youtube.com,SS,South Sudan,telecom-4g,37376,41.79.122.217,telecom-4g,false,,0,OK,1,3,1553,2471,10149,200
+www.youtube.com,ES,Spain,jazztel,,,,false,,56,CURLE_RECV_ERROR,1,2,0,0,132,0
+www.youtube.com,ZA,South Africa,mtn sa,12091,196.11.241.44,mtn sa,true,,0,OK,1,3,9346,9957,11316,200
+www.youtube.com,ES,Spain,jazztel,,,,true,,56,CURLE_RECV_ERROR,1,3,0,0,124,0
+www.youtube.com,ES,Spain,"procono, s.a.",34977,93.114.159.97,"procono, s.a.",true,,0,OK,1,3,588,995,1466,200
+www.youtube.com,ES,Spain,telefonica de espana,3352,88.29.180.123,telefonica de espana,true,,0,OK,2,4,488,869,1442,200
+www.youtube.com,ES,Spain,vodafone spain,12430,178.139.228.12,vodafone spain,true,,0,OK,1,3,2701,3066,4547,200
+www.youtube.com,ES,Spain,telefonica de espana static ip,3352,95.127.43.99,telefonica de espana static ip,false,,0,OK,1,3,544,903,1347,200
+www.youtube.com,ES,Spain,citelia,29119,194.49.59.85,citelia,false,,0,OK,1,3,626,976,2602,200
+www.youtube.com,ES,Spain,telefonica de espana static ip,3352,95.127.43.99,telefonica de espana static ip,true,,0,OK,1,3,559,919,1338,200
+www.youtube.com,ES,Spain,avatel telecom,200845,46.234.156.117,avatel telecom,false,,0,OK,1,3,1867,2836,9078,200
+www.youtube.com,ES,Spain,euskaltel,12338,91.116.2.170,euskaltel,true,,0,OK,1,2,486,742,1829,200
+www.youtube.com,ES,Spain,aire networks,29119,84.232.97.149,aire networks,false,,0,OK,1,3,558,922,1961,200
+www.youtube.com,ES,Spain,citelia,29119,194.49.59.85,citelia,true,,0,OK,64,66,618,968,2197,200
+www.youtube.com,ES,Spain,euskaltel,12338,91.116.2.170,euskaltel,false,,0,OK,1,3,383,632,1476,200
+www.youtube.com,SS,South Sudan,telecom-4g,37376,41.79.122.217,telecom-4g,true,,0,OK,1,3,2892,9726,15622,200
+www.youtube.com,ES,Spain,ena operador de telecomunicaciones s.l.,209344,185.133.202.252,ena operador de telecomunicaciones s.l.,false,,0,OK,1,2,784,1306,2972,200
+www.youtube.com,ES,Spain,digi spain,57269,79.116.99.186,digi spain,true,,56,CURLE_RECV_ERROR,1,3,9708,0,13445,0
+www.youtube.com,ES,Spain,avatel telecom,200845,46.234.156.117,avatel telecom,true,,0,OK,1,3,1472,7289,10938,200
+www.youtube.com,ES,Spain,ena operador de telecomunicaciones s.l.,209344,185.133.202.252,ena operador de telecomunicaciones s.l.,true,,0,OK,1,3,640,1687,3126,200
+www.youtube.com,LK,Sri Lanka,dialog axiata,18001,175.157.59.89,dialog axiata,false,,0,OK,1,3,934,1553,2870,200
+www.youtube.com,LK,Sri Lanka,dialog axiata,18001,175.157.59.89,dialog axiata,true,,0,OK,1,3,1493,2655,4117,200
+www.youtube.com,LK,Sri Lanka,hutchison telecommunications lanka private,17470,103.247.48.251,hutchison telecommunications lanka private,true,,0,OK,1,2,1003,1800,3845,200
+www.youtube.com,ES,Spain,orange espana,,,,true,,56,CURLE_RECV_ERROR,1,3,0,0,15561,0
+www.youtube.com,LK,Sri Lanka,hutchison telecommunications lanka private,17470,103.247.48.251,hutchison telecommunications lanka private,false,,0,OK,76,78,1319,2016,3668,200
+www.youtube.com,ES,Spain,orange espana,12479,90.160.97.76,orange espana,false,,0,OK,1,3,1285,1954,19927,200
+www.youtube.com,LK,Sri Lanka,mobitel,45356,212.104.231.138,mobitel,false,,0,OK,1,3,924,2271,7738,200
+www.youtube.com,LK,Sri Lanka,airtel lanka,18001,223.224.11.36,airtel lanka,false,,0,OK,1,3,989,1643,9286,200
+www.youtube.com,ES,Spain,digi spain telecom,57269,79.117.94.33,digi spain telecom,false,,0,OK,1,3,619,982,14771,200
+www.youtube.com,SD,Sudan,zain sudan,36998,41.95.241.35,zain sudan,false,,0,OK,1,3,900,1430,3279,200
+www.youtube.com,ES,Spain,digi spain telecom,57269,79.117.94.33,digi spain telecom,true,,0,OK,1,3,1124,1955,15419,200
+www.youtube.com,LK,Sri Lanka,airtel lanka,18001,223.224.11.36,airtel lanka,true,,0,OK,1,3,1458,2114,8945,200
+www.youtube.com,LK,Sri Lanka,hutch sri lanka,132447,45.121.88.38,hutch sri lanka,false,,0,OK,1,3,2421,3057,7418,200
+www.youtube.com,SD,Sudan,zain sudan,36998,41.95.241.35,zain sudan,true,,0,OK,1,3,971,1485,2955,200
+www.youtube.com,SR,Suriname,telesur,27775,186.179.192.36,telesur,true,,0,OK,1,2,564,885,2650,200
+www.youtube.com,LK,Sri Lanka,hutch sri lanka,132447,45.121.88.38,hutch sri lanka,true,,0,OK,61,63,2339,3810,6737,200
+www.youtube.com,SR,Suriname,telesur,27775,186.179.192.36,telesur,false,,0,OK,1,3,434,1660,3078,200
+www.youtube.com,LK,Sri Lanka,mobitel,45356,212.104.231.138,mobitel,true,,0,OK,1,2,2914,7732,13926,200
+www.youtube.com,SD,Sudan,sudatel,15706,197.252.5.43,sudatel,false,,0,OK,1,2,1741,2508,9141,200
+www.youtube.com,SD,Sudan,sudatel,15706,197.252.5.43,sudatel,true,,0,OK,1,3,703,1233,7789,200
+www.youtube.com,SE,Sweden,telia mobile,3301,95.193.203.239,telia mobile,true,,0,OK,1,3,464,1110,2277,200
+www.youtube.com,SE,Sweden,telenor sverige,8434,94.234.89.170,telenor sverige,false,,0,OK,1,3,516,808,1419,200
+www.youtube.com,ES,Spain,digi spain,57269,79.116.99.186,digi spain,false,,28,CURLE_OPERATION_TIMEDOUT,49,50,1650,4752,30000,200
+www.youtube.com,SR,Suriname,digicel suriname nv,52398,168.121.86.160,digicel suriname nv,false,,0,OK,1,3,850,1370,6488,200
+www.youtube.com,SE,Sweden,telenor sverige,8434,94.234.89.170,telenor sverige,true,,0,OK,2,4,797,1050,1748,200
+www.youtube.com,SE,Sweden,hi3g access ab,44034,94.191.136.13,hi3g access ab,false,,0,OK,38,39,444,675,1002,200
+www.youtube.com,SE,Sweden,hi3g access ab,44034,94.191.136.13,hi3g access ab,true,,0,OK,1,3,765,988,1167,200
+www.youtube.com,SE,Sweden,ownit broadband,33885,94.137.98.205,ownit broadband,true,,0,OK,1,3,332,498,610,200
+www.youtube.com,SR,Suriname,digicel suriname nv,52398,168.121.86.160,digicel suriname nv,true,,0,OK,1,2,2310,5557,7055,200
+www.youtube.com,SE,Sweden,lycamobile,,,,false,,56,CURLE_RECV_ERROR,1,3,0,0,71,0
+www.youtube.com,SE,Sweden,ownit broadband,33885,94.137.98.205,ownit broadband,false,,0,OK,1,3,348,532,629,200
+www.youtube.com,SE,Sweden,lycamobile,,,,true,,56,CURLE_RECV_ERROR,1,3,0,0,72,0
+www.youtube.com,SZ,Eswatini,swazi mobile,328169,102.214.161.114,swazi mobile,true,,0,OK,1,2,1266,1990,7463,200
+www.youtube.com,SE,Sweden,tele2 sweden,1257,90.129.201.44,tele2 sweden,false,,0,OK,1,3,405,668,2449,200
+www.youtube.com,SZ,Eswatini,swazimtn-ltd,327765,41.211.36.16,swazimtn-ltd,true,,0,OK,1,2,1637,2391,6893,200
+www.youtube.com,SE,Sweden,telenor sverige ab,8434,178.31.122.183,telenor sverige ab,true,,0,OK,1,3,461,696,1051,200
+www.youtube.com,SE,Sweden,telia mobile,3301,95.193.203.239,telia mobile,false,,0,OK,1,3,495,791,1875,200
+www.youtube.com,SE,Sweden,telenor sverige ab,8434,178.31.122.183,telenor sverige ab,false,,0,OK,1,3,621,866,1185,200
+www.youtube.com,CH,Switzerland,swisscom,3303,178.197.194.114,swisscom,true,,0,OK,1,3,399,668,1036,200
+www.youtube.com,SZ,Eswatini,swazi mobile,328169,102.214.161.114,swazi mobile,false,,0,OK,1,3,2245,5160,8497,200
+www.youtube.com,ES,Spain,zinnia telecomunicaciones sl.,204811,185.239.72.3,zinnia telecomunicaciones sl.,false,,28,CURLE_OPERATION_TIMEDOUT,1,3,1378,4897,30000,200
+www.youtube.com,SE,Sweden,tele2 sweden,1257,90.129.201.44,tele2 sweden,true,,0,OK,85,86,2395,2654,4185,200
+www.youtube.com,CH,Switzerland,swisscom,3303,178.197.194.114,swisscom,false,,0,OK,1,3,366,646,961,200
+www.youtube.com,CH,Switzerland,salt mobile,15796,213.55.221.191,salt mobile,false,,0,OK,1,3,679,961,1597,200
+www.youtube.com,CH,Switzerland,monzoon networks,,,,true,,56,CURLE_RECV_ERROR,1,2,0,0,88,0
+www.youtube.com,CH,Switzerland,monzoon networks,,,,false,,56,CURLE_RECV_ERROR,1,2,0,0,97,0
+www.youtube.com,SY,Syrian Arab Republic,syrian telecom,,,,true,,56,CURLE_RECV_ERROR,1,3,0,0,63,0
+www.youtube.com,SY,Syrian Arab Republic,rcell,,,,false,,56,CURLE_RECV_ERROR,1,3,0,0,70,0
+www.youtube.com,SY,Syrian Arab Republic,syrian telecom,,,,false,,56,CURLE_RECV_ERROR,1,3,0,0,63,0
+www.youtube.com,SY,Syrian Arab Republic,rcell,,,,true,,56,CURLE_RECV_ERROR,1,3,0,0,67,0
+www.youtube.com,CH,Switzerland,salt mobile,15796,213.55.221.191,salt mobile,true,,0,OK,1,3,663,1018,1621,200
+www.youtube.com,ES,Spain,zinnia telecomunicaciones sl.,204811,185.239.72.3,zinnia telecomunicaciones sl.,true,,28,CURLE_OPERATION_TIMEDOUT,71,72,4883,0,30000,0
+www.youtube.com,CH,Switzerland,mass response service,51265,197.211.185.192,mass response service,false,,0,OK,1,2,620,975,1541,200
+www.youtube.com,CH,Switzerland,sunrise,6730,194.230.147.55,sunrise,false,,0,OK,1,3,573,895,2380,200
+www.youtube.com,CH,Switzerland,lycamobile,31404,83.137.6.188,lycamobile,false,,0,OK,1,3,1019,1357,2126,200
+www.youtube.com,CH,Switzerland,mass response service,51265,197.211.185.192,mass response service,true,,0,OK,1,3,602,1027,1500,200
+www.youtube.com,CH,Switzerland,lycamobile,31404,83.137.6.188,lycamobile,true,,0,OK,1,2,973,1674,2074,200
+www.youtube.com,CH,Switzerland,sunrise,6730,194.230.147.55,sunrise,true,,0,OK,1,2,877,2299,3608,200
+www.youtube.com,TW,"Taiwan, Province of China",twn broadband,24158,49.217.62.113,twn broadband,false,,0,OK,1,2,781,1215,1594,200
+www.youtube.com,SY,Syrian Arab Republic,syriatel mobile telecom,48065,178.52.185.29,syriatel mobile telecom,false,,0,OK,1,3,698,1197,2130,200
+www.youtube.com,SY,Syrian Arab Republic,syriatel mobile telecom,48065,178.52.185.29,syriatel mobile telecom,true,,0,OK,1,3,1300,2104,2699,200
+www.youtube.com,SE,Sweden,gotalandsnatet ab,12597,212.3.15.136,gotalandsnatet ab,false,,0,OK,1,2,835,2287,5478,200
+www.youtube.com,ES,Spain,"open cable telecomunicaciones, s.l.",43833,193.177.212.105,"open cable telecomunicaciones, s.l.",false,,28,CURLE_OPERATION_TIMEDOUT,1,3,5054,7866,30000,200
+www.youtube.com,SE,Sweden,gotalandsnatet ab,12597,212.3.15.136,gotalandsnatet ab,true,,0,OK,1,4,681,1038,6227,200
+www.youtube.com,TW,"Taiwan, Province of China",twn broadband,24158,49.217.62.113,twn broadband,true,,0,OK,1,3,751,1164,1934,200
+www.youtube.com,TW,"Taiwan, Province of China",fareastone,9674,27.53.123.70,fareastone,false,,0,OK,1,2,978,1473,2362,200
+www.youtube.com,ES,Spain,"open cable telecomunicaciones, s.l.",43833,193.177.212.105,"open cable telecomunicaciones, s.l.",true,,28,CURLE_OPERATION_TIMEDOUT,1,3,6851,0,30001,0
+www.youtube.com,TW,"Taiwan, Province of China",taiwan mobile,24158,101.9.246.145,taiwan mobile,true,,0,OK,1,3,876,1621,2709,200
+www.youtube.com,TW,"Taiwan, Province of China",fareastone,9674,27.53.123.70,fareastone,true,,0,OK,1,3,1989,2710,3428,200
+www.youtube.com,TW,"Taiwan, Province of China",taiwan mobile,24158,101.9.246.145,taiwan mobile,false,,0,OK,1,3,1538,2013,2576,200
+www.youtube.com,TJ,Tajikistan,tcell (cjsc indigo tajikistan),47139,109.75.54.174,tcell (cjsc indigo tajikistan),true,,0,OK,1,3,853,1360,2368,200
+www.youtube.com,TW,"Taiwan, Province of China",asia pacific telecom,131591,222.250.138.226,asia pacific telecom,false,,0,OK,1,3,962,1589,3574,200
+www.youtube.com,SZ,Eswatini,swazimtn-ltd,327765,41.211.36.23,swazimtn-ltd,false,,0,OK,40,41,2802,3506,15770,200
+www.youtube.com,TJ,Tajikistan,zet-mobile,34557,85.9.129.52,zet-mobile,true,,0,OK,1,3,1894,2203,2664,200
+www.youtube.com,TJ,Tajikistan,closed joint stock company tt mobile,43197,62.89.208.30,closed joint stock company tt mobile,false,,0,OK,1,2,1912,2450,4601,200
+www.youtube.com,TJ,Tajikistan,cjsc indigo tajikistan,48887,217.8.47.62,cjsc indigo tajikistan,false,,0,OK,1,2,1199,1806,3137,200
+www.youtube.com,TW,"Taiwan, Province of China",chunghwa telecom,17421,223.136.96.161,chunghwa telecom,true,,0,OK,62,64,2778,3421,7748,200
+www.youtube.com,TW,"Taiwan, Province of China",asia pacific telecom,131591,222.250.138.226,asia pacific telecom,true,,0,OK,1,3,2686,3168,5193,200
+www.youtube.com,TJ,Tajikistan,closed joint stock company tt mobile,43197,62.89.208.30,closed joint stock company tt mobile,true,,0,OK,1,3,2559,3025,5083,200
+www.youtube.com,TJ,Tajikistan,tcell (cjsc indigo tajikistan),47139,109.75.54.174,tcell (cjsc indigo tajikistan),false,,0,OK,1,3,852,1337,2302,200
+www.youtube.com,TJ,Tajikistan,cjsc indigo tajikistan,48887,217.8.47.62,cjsc indigo tajikistan,true,,0,OK,1,3,1639,2279,3501,200
+www.youtube.com,TW,"Taiwan, Province of China",chunghwa telecom,17421,223.136.96.161,chunghwa telecom,false,,0,OK,48,50,2836,3533,9788,200
+www.youtube.com,TZ,"Tanzania, United Republic of",mic tanzania,37035,41.222.179.227,mic tanzania,true,,0,OK,1,3,919,1466,2685,200
+www.youtube.com,TZ,"Tanzania, United Republic of",mic tanzania,37035,41.222.179.227,mic tanzania,false,,0,OK,1,3,2472,3145,3885,200
+www.youtube.com,TJ,Tajikistan,cjsc babilon-mobile,204106,77.247.198.99,cjsc babilon-mobile,false,,0,OK,1,2,920,1452,8348,200
+www.youtube.com,TZ,"Tanzania, United Republic of",ttcldata,33765,41.59.94.132,ttcldata,false,,0,OK,1,3,1082,1675,5566,200
+www.youtube.com,TJ,Tajikistan,llc babilon-t,24722,46.20.204.100,llc babilon-t,false,,0,OK,40,42,1397,1854,8659,200
+www.youtube.com,TZ,"Tanzania, United Republic of",airtel tanzania,37133,197.186.2.196,airtel tanzania,false,,0,OK,1,3,1307,1938,3972,200
+www.youtube.com,TH,Thailand,ais mobile,131445,49.230.145.76,ais mobile,false,,0,OK,1,3,1151,1898,2734,200
+www.youtube.com,TJ,Tajikistan,cjsc babilon-mobile,204106,77.247.198.99,cjsc babilon-mobile,true,,0,OK,2,3,1693,3280,11600,200
+www.youtube.com,TZ,"Tanzania, United Republic of",airtel tanzania,37133,197.186.2.196,airtel tanzania,true,,0,OK,86,88,2264,3016,5093,200
+www.youtube.com,SD,Sudan,mtn sudan,36972,102.125.99.12,mtn sudan,false,,28,CURLE_OPERATION_TIMEDOUT,93,95,2027,2938,30000,200
+www.youtube.com,TH,Thailand,dtac,24378,1.46.9.6,dtac,true,,0,OK,1,3,1041,1758,4608,200
+www.youtube.com,TH,Thailand,national telecom public company,,,,false,,56,CURLE_RECV_ERROR,1,2,0,0,71,0
+www.youtube.com,SD,Sudan,mtn sudan,36972,102.125.99.12,mtn sudan,true,,28,CURLE_OPERATION_TIMEDOUT,1,2,2447,4816,30001,200
+www.youtube.com,TH,Thailand,ais mobile,131445,49.230.145.76,ais mobile,true,,0,OK,58,60,1174,1746,3163,200
+www.youtube.com,TH,Thailand,national telecom public company,,,,true,,56,CURLE_RECV_ERROR,1,3,0,0,82,0
+www.youtube.com,TL,Timor-Leste,telkomcel,,,,false,,56,CURLE_RECV_ERROR,1,3,0,0,79,0
+www.youtube.com,TZ,"Tanzania, United Republic of",ttcldata,33765,41.59.94.132,ttcldata,true,,0,OK,1,3,1899,5514,8910,200
+www.youtube.com,TL,Timor-Leste,timor telecom,,,,false,,56,CURLE_RECV_ERROR,1,3,0,0,72,0
+www.youtube.com,TL,Timor-Leste,telkomcel,,,,true,,56,CURLE_RECV_ERROR,1,2,0,0,69,0
+www.youtube.com,TL,Timor-Leste,timor telecom,,,,true,,56,CURLE_RECV_ERROR,1,3,0,0,73,0
+www.youtube.com,TH,Thailand,ais eds,45458,49.229.56.78,ais eds,false,,0,OK,1,3,809,1229,2493,200
+www.youtube.com,TH,Thailand,ais eds,45458,49.229.56.78,ais eds,true,,0,OK,1,2,928,1353,1928,200
+www.youtube.com,TH,Thailand,dtac,24378,1.46.9.6,dtac,false,,0,OK,1,2,1129,1651,3533,200
+www.youtube.com,TJ,Tajikistan,llc babilon-t,24722,46.20.204.100,llc babilon-t,true,,0,OK,1,3,2288,4786,13730,200
+www.youtube.com,TH,Thailand,true mobile,132618,49.237.11.80,true mobile,false,,0,OK,1,3,2610,3218,5881,200
+www.youtube.com,TH,Thailand,3bb broadband,45758,171.4.208.226,3bb broadband,false,,0,OK,58,60,892,1327,4758,200
+www.youtube.com,TZ,"Tanzania, United Republic of",vodacom tanzania,36908,197.250.100.81,vodacom tanzania,false,,0,OK,1,3,1720,2307,12697,200
+www.youtube.com,TH,Thailand,true mobile,132618,223.24.165.203,true mobile,true,,0,OK,1,3,2511,3326,6737,200
+www.youtube.com,TH,Thailand,3bb broadband,45758,171.4.208.226,3bb broadband,true,,0,OK,1,3,1899,2509,5200,200
+www.youtube.com,TZ,"Tanzania, United Republic of",vodacom tanzania,36908,197.250.100.81,vodacom tanzania,true,,0,OK,1,2,4076,4976,13658,200
+www.youtube.com,TT,Trinidad and Tobago,bmobile dsl,5639,186.44.200.53,bmobile dsl,false,,0,OK,37,39,627,968,1890,200
+www.youtube.com,TO,Tonga,digicel tonga,38198,202.43.14.254,digicel tonga,false,,0,OK,1,3,1567,2332,3923,200
+www.youtube.com,TT,Trinidad and Tobago,telecommunication services of trinidad and tobago,5639,190.58.10.10,telecommunication services of trinidad and tobago,false,,0,OK,1,3,538,920,1964,200
+www.youtube.com,TT,Trinidad and Tobago,bmobile dsl,5639,186.44.200.53,bmobile dsl,true,,0,OK,1,2,1077,1438,2434,200
+www.youtube.com,TT,Trinidad and Tobago,telecommunication services of trinidad and tobago,5639,190.58.10.10,telecommunication services of trinidad and tobago,true,,0,OK,1,3,686,1264,2151,200
+www.youtube.com,TO,Tonga,tonga communications internet network,38201,103.239.160.5,tonga communications internet network,false,,0,OK,1,2,2034,3216,5662,200
+www.youtube.com,TJ,Tajikistan,zet-mobile,34557,85.9.148.50,zet-mobile,false,,56,CURLE_RECV_ERROR,1,3,17336,0,23216,0
+www.youtube.com,TO,Tonga,tonga communications internet network,38201,103.239.160.5,tonga communications internet network,true,,0,OK,44,46,2858,4958,6780,200
+www.youtube.com,TG,Togo,atlantique telecom,37229,102.212.93.51,atlantique telecom,false,,0,OK,1,3,4358,5316,9885,200
+www.youtube.com,TO,Tonga,digicel tonga,38198,202.43.14.254,digicel tonga,true,,0,OK,1,3,2235,3297,8202,200
+www.youtube.com,TT,Trinidad and Tobago,digicel trinidad & tobago,27800,181.118.41.96,digicel trinidad & tobago,false,,0,OK,1,2,1786,2183,4987,200
+www.youtube.com,TG,Togo,togocom,24691,196.169.22.128,togocom,true,,0,OK,1,3,3282,4818,11861,200
+www.youtube.com,TN,Tunisia,tunisie telecom,327934,102.152.219.84,tunisie telecom,true,,0,OK,82,83,1060,1463,3714,200
+www.youtube.com,TT,Trinidad and Tobago,digicel trinidad & tobago,27800,161.0.158.23,digicel trinidad & tobago,true,,0,OK,1,3,4100,4511,6216,200
+www.youtube.com,TG,Togo,atlantique telecom,37229,102.212.93.51,atlantique telecom,true,,0,OK,1,3,6174,9827,12914,200
+www.youtube.com,TL,Timor-Leste,viettel timor leste,133606,103.238.116.154,viettel timor leste,false,,0,OK,1,2,12156,12778,13994,200
+www.youtube.com,TN,Tunisia,ooredoo tunisia,37693,197.16.63.112,ooredoo tunisia,false,,0,OK,1,3,1645,1998,4959,200
+www.youtube.com,TN,Tunisia,tunisie telecom,327934,102.152.220.135,tunisie telecom,false,,0,OK,1,3,2024,2624,7133,200
+www.youtube.com,TN,Tunisia,ooredoo tunisia,37693,197.16.63.112,ooredoo tunisia,true,,0,OK,1,3,899,1329,4739,200
+www.youtube.com,TN,Tunisia,"yatanarpon teleport, internet service provider",327934,102.25.79.47,"yatanarpon teleport, internet service provider",true,,0,OK,1,3,1039,1826,4397,200
+www.youtube.com,TR,Turkey,turkcell,16135,178.243.121.46,turkcell,false,,0,OK,1,3,606,1008,2912,200
+www.youtube.com,TR,Turkey,fibim fibernet gsm san. ve tic. a.s,,,,false,,56,CURLE_RECV_ERROR,1,3,0,0,93,0
+www.youtube.com,TR,Turkey,vodafone turkey,15897,176.216.175.155,vodafone turkey,false,,0,OK,1,2,551,961,1771,200
+www.youtube.com,TR,Turkey,fibim fibernet gsm san. ve tic. a.s,,,,true,,56,CURLE_RECV_ERROR,1,2,0,0,85,0
+www.youtube.com,TR,Turkey,vodafone turkey,15897,176.216.175.155,vodafone turkey,true,,0,OK,1,3,1236,1631,2032,200
+www.youtube.com,TR,Turkey,vodafone,15897,46.221.104.249,vodafone,true,,0,OK,1,3,603,991,2000,200
+www.youtube.com,TN,Tunisia,"yatanarpon teleport, internet service provider",327934,102.25.79.47,"yatanarpon teleport, internet service provider",false,,0,OK,1,3,3410,3738,5013,200
+www.youtube.com,TR,Turkey,vodafone,15897,46.221.104.249,vodafone,false,,0,OK,2,4,1280,1656,2287,200
+www.youtube.com,TN,Tunisia,orange tunisie,37492,196.227.81.41,orange tunisie,false,,0,OK,1,3,2091,2601,11482,200
+www.youtube.com,TR,Turkey,turkcell,16135,178.243.121.46,turkcell,true,,0,OK,1,2,811,1243,2970,200
+www.youtube.com,TC,Turks and Caicos Islands,digicel turks and caicos,394311,204.110.58.52,digicel turks and caicos,false,,0,OK,1,3,299,826,2079,200
+www.youtube.com,TL,Timor-Leste,viettel timor leste,133606,103.238.116.154,viettel timor leste,true,,0,OK,1,3,15476,16184,18695,200
+www.youtube.com,TR,Turkey,turk telekom,20978,5.177.174.231,turk telekom,true,,0,OK,1,2,736,1195,5237,200
+www.youtube.com,TC,Turks and Caicos Islands,digicel turks and caicos,394311,204.110.58.52,digicel turks and caicos,true,,0,OK,1,3,1657,1820,2374,200
+www.youtube.com,TZ,"Tanzania, United Republic of",halotel,327885,169.255.185.184,halotel,true,,28,CURLE_OPERATION_TIMEDOUT,1,0,0,0,30001,0
+www.youtube.com,UA,Ukraine,k-telekom,,,,true,,56,CURLE_RECV_ERROR,1,3,0,0,103,0
+www.youtube.com,UA,Ukraine,ktk telecom,,,,false,,56,CURLE_RECV_ERROR,1,2,0,0,96,0
+www.youtube.com,TR,Turkey,turk telekom,20978,5.177.174.231,turk telekom,false,,0,OK,44,45,1620,5340,6610,200
+www.youtube.com,UA,Ukraine,lifecell,34058,37.73.13.79,lifecell,false,,0,OK,1,3,526,874,2090,200
+www.youtube.com,TZ,"Tanzania, United Republic of",halotel,327885,169.255.185.184,halotel,false,,28,CURLE_OPERATION_TIMEDOUT,1,3,4665,5758,30001,200
+www.youtube.com,UA,Ukraine,k-telekom,,,,false,,56,CURLE_RECV_ERROR,1,2,0,0,86,0
+www.youtube.com,UA,Ukraine,ktk telecom,,,,true,,56,CURLE_RECV_ERROR,1,3,0,0,97,0
+www.youtube.com,UA,Ukraine,lifecell,34058,37.73.13.79,lifecell,true,,0,OK,1,3,551,900,2186,200
+www.youtube.com,TN,Tunisia,orange tunisie,37492,165.50.235.222,orange tunisie,true,,0,OK,1,3,1816,2201,13567,200
+www.youtube.com,UA,Ukraine,vodafone ukraine,21497,89.209.161.0,vodafone ukraine,true,,0,OK,1,3,1921,2382,5569,200
+www.youtube.com,AE,United Arab Emirates,e& uae,5384,37.245.163.17,e& uae,false,,0,OK,2,4,904,1383,4088,200
+www.youtube.com,AE,United Arab Emirates,du telecom,15802,94.205.147.239,du telecom,false,,0,OK,1,3,1076,1748,3048,200
+www.youtube.com,UG,Uganda,tangerine-ug,37113,41.75.178.77,tangerine-ug,false,,0,OK,1,3,1167,1807,8730,200
+www.youtube.com,UA,Ukraine,kyivstar,15895,46.211.97.25,kyivstar,true,,0,OK,1,2,771,1229,7122,200
+www.youtube.com,AE,United Arab Emirates,du telecom,15802,94.205.147.239,du telecom,true,,0,OK,43,44,2022,2607,3058,200
+www.youtube.com,UG,Uganda,mtn uganda,20294,41.210.143.169,mtn uganda,false,,0,OK,1,3,1662,2998,10390,200
+www.youtube.com,AE,United Arab Emirates,e& uae,5384,37.245.163.17,e& uae,true,,0,OK,1,3,925,1441,3405,200
+www.youtube.com,UA,Ukraine,vodafone ukraine,21497,89.209.161.0,vodafone ukraine,false,,0,OK,1,3,6093,6489,9868,200
+www.youtube.com,GB,United Kingdom,bt,2856,31.94.4.197,bt,false,,0,OK,1,2,524,798,1587,200
+www.youtube.com,UA,Ukraine,kyivstar,15895,46.211.97.25,kyivstar,false,,0,OK,1,3,756,4081,9605,200
+www.youtube.com,GB,United Kingdom,bt,2856,31.94.4.197,bt,true,,0,OK,1,3,964,1254,1917,200
+www.youtube.com,AE,United Arab Emirates,du,15802,94.205.15.7,du,false,,0,OK,1,3,1244,1728,5708,200
+www.youtube.com,GB,United Kingdom,working group two,,,,true,,56,CURLE_RECV_ERROR,1,3,0,0,115,0
+www.youtube.com,UG,Uganda,mtn uganda,20294,41.210.143.169,mtn uganda,true,,0,OK,59,60,1322,9354,12261,200
+www.youtube.com,TG,Togo,togocom,24691,196.168.214.184,togocom,false,,28,CURLE_OPERATION_TIMEDOUT,1,2,1947,2704,30001,200
+www.youtube.com,GB,United Kingdom,sparks communications,,,,false,,56,CURLE_RECV_ERROR,1,3,0,0,111,0
+www.youtube.com,UG,Uganda,tangerine-ug,37113,41.75.178.77,tangerine-ug,true,,0,OK,1,3,2380,5986,12468,200
+www.youtube.com,GB,United Kingdom,sparks communications,,,,true,,56,CURLE_RECV_ERROR,1,3,0,0,112,0
+www.youtube.com,AE,United Arab Emirates,du,15802,94.205.15.7,du,true,,0,OK,1,3,2356,4762,6313,200
+www.youtube.com,GB,United Kingdom,lycamobile,,,,false,,56,CURLE_RECV_ERROR,1,3,0,0,114,0
+www.youtube.com,GB,United Kingdom,plan communications,,,,false,,56,CURLE_RECV_ERROR,1,2,0,0,113,0
+www.youtube.com,GB,United Kingdom,lycamobile,,,,true,,56,CURLE_RECV_ERROR,1,3,0,0,103,0
+www.youtube.com,GB,United Kingdom,plan communications,,,,true,,56,CURLE_RECV_ERROR,1,3,0,0,149,0
+www.youtube.com,TN,Tunisia,orange internet,37492,197.27.150.136,orange internet,true,,0,OK,1,3,1959,3238,23919,200
+www.youtube.com,TN,Tunisia,orange internet,37492,197.27.150.136,orange internet,false,,0,OK,1,3,1371,3372,22657,200
+www.youtube.com,GB,United Kingdom,working group two,,,,false,,56,CURLE_RECV_ERROR,1,3,0,0,121,0
+www.youtube.com,GB,United Kingdom,transatel,198335,185.194.184.40,transatel,false,,0,OK,1,3,1077,1584,2821,200
+www.youtube.com,GB,United Kingdom,mass response service,,,,false,,56,CURLE_RECV_ERROR,1,3,0,0,113,0
+www.youtube.com,GB,United Kingdom,three,206067,92.40.172.0,three,false,,0,OK,1,3,895,1480,8381,200
+www.youtube.com,GB,United Kingdom,1global,,,,false,,56,CURLE_RECV_ERROR,1,2,0,0,124,0
+www.youtube.com,GB,United Kingdom,arelion sweden ab,,,,true,,56,CURLE_RECV_ERROR,1,3,0,0,100,0
+www.youtube.com,GB,United Kingdom,arelion sweden ab,,,,false,,56,CURLE_RECV_ERROR,1,3,0,0,116,0
+www.youtube.com,GB,United Kingdom,orange,,,,true,,56,CURLE_RECV_ERROR,1,3,0,0,98,0
+www.youtube.com,GB,United Kingdom,mass response service,,,,true,,56,CURLE_RECV_ERROR,1,3,0,0,114,0
+www.youtube.com,GB,United Kingdom,1global,,,,true,,56,CURLE_RECV_ERROR,1,3,0,0,101,0
+www.youtube.com,GB,United Kingdom,orange,,,,false,,56,CURLE_RECV_ERROR,1,3,0,0,104,0
+www.youtube.com,GB,United Kingdom,vodafone,25135,185.69.145.139,vodafone,false,,0,OK,58,59,698,1139,7085,200
+www.youtube.com,US,United States,at&t internet,,,,false,,56,CURLE_RECV_ERROR,1,2,0,0,498,0
+www.youtube.com,US,United States,t-mobile usa,21928,172.56.75.236,t-mobile usa,false,,0,OK,1,2,382,603,1685,200
+www.youtube.com,GB,United Kingdom,sky broadband,5607,78.86.163.118,sky broadband,true,,0,OK,1,2,673,1151,7447,200
+www.youtube.com,US,United States,t-mobile usa,21928,172.56.75.236,t-mobile usa,true,,0,OK,1,3,650,1588,2143,200
+www.youtube.com,GB,United Kingdom,sky broadband,5607,78.86.163.118,sky broadband,false,,0,OK,1,3,1056,7378,8617,200
+www.youtube.com,GB,United Kingdom,vodafone,25135,185.69.145.139,vodafone,true,,0,OK,1,3,1439,3476,10205,200
+www.youtube.com,GB,United Kingdom,o2 uk,35228,82.132.216.232,o2 uk,true,,0,OK,1,3,1791,2248,9176,200
+www.youtube.com,US,United States,cellcom,,,,false,,56,CURLE_RECV_ERROR,1,3,0,0,480,0
+www.youtube.com,GB,United Kingdom,o2 uk,35228,82.132.216.232,o2 uk,false,,0,OK,1,3,2120,3253,9999,200
+www.youtube.com,US,United States,at&t internet,,,,true,,56,CURLE_RECV_ERROR,1,2,0,0,492,0
+www.youtube.com,GB,United Kingdom,transatel,198335,185.194.184.40,transatel,true,,0,OK,1,3,1111,1606,6055,200
+www.youtube.com,GB,United Kingdom,three,206067,92.40.172.0,three,true,,0,OK,1,3,2906,8251,14163,200
+www.youtube.com,US,United States,uscellular,6614,166.181.85.121,uscellular,false,,0,OK,62,63,878,1412,2758,200
+www.youtube.com,US,United States,smith bagley,,,,false,,56,CURLE_RECV_ERROR,1,3,0,0,524,0
+www.youtube.com,US,United States,verizon wireless,6167,174.193.115.42,verizon wireless,false,,0,OK,1,3,884,1249,4369,200
+www.youtube.com,US,United States,uscellular,6614,166.181.85.121,uscellular,true,,0,OK,1,3,1014,1915,2845,200
+www.youtube.com,US,United States,smith bagley,,,,true,,56,CURLE_RECV_ERROR,1,2,0,0,465,0
+www.youtube.com,US,United States,c spire,15212,69.197.198.3,c spire,false,,0,OK,1,3,538,850,2039,200
+www.youtube.com,US,United States,at&t wireless,20057,166.216.159.24,at&t wireless,false,,0,OK,1,3,3635,4528,7084,200
+www.youtube.com,US,United States,iraqcell,,,,false,,56,CURLE_RECV_ERROR,1,3,0,0,503,0
+www.youtube.com,US,United States,pioneer long distance,11650,65.255.80.184,pioneer long distance,false,,0,OK,1,3,247,412,893,200
+www.youtube.com,US,United States,cellcom,,,,true,,56,CURLE_RECV_ERROR,1,3,0,0,508,0
+www.youtube.com,US,United States,verizon 5g home,,,,false,,56,CURLE_RECV_ERROR,1,2,0,0,512,0
+www.youtube.com,US,United States,ne colorado cellular,32307,199.47.67.34,ne colorado cellular,false,,0,OK,1,3,501,764,2064,200
+www.youtube.com,US,United States,c spire,15212,69.197.198.3,c spire,true,,0,OK,1,3,1142,1383,2410,200
+www.youtube.com,US,United States,ne colorado cellular,32307,199.47.67.34,ne colorado cellular,true,,0,OK,1,2,433,1331,1890,200
+www.youtube.com,US,United States,iraqcell,,,,true,,56,CURLE_RECV_ERROR,1,3,0,0,503,0
+www.youtube.com,US,United States,pioneer long distance,11650,65.255.80.184,pioneer long distance,true,,0,OK,40,42,220,373,686,200
+www.youtube.com,US,United States,fiberfi,,,,false,,56,CURLE_RECV_ERROR,1,3,0,0,492,0
+www.youtube.com,US,United States,verizon 5g home,,,,true,,56,CURLE_RECV_ERROR,1,3,0,0,473,0
+www.youtube.com,US,United States,fiberfi,,,,true,,56,CURLE_RECV_ERROR,1,3,0,0,488,0
+www.youtube.com,US,United States,valley internet,,,,false,,56,CURLE_RECV_ERROR,1,3,0,0,461,0
+www.youtube.com,GB,United Kingdom,sure south atlantic,210841,80.73.219.196,sure south atlantic,true,,0,OK,66,68,6015,8799,18183,200
+www.youtube.com,US,United States,valley internet,,,,true,,56,CURLE_RECV_ERROR,1,3,0,0,477,0
+www.youtube.com,US,United States,carolina west wireless,,,,true,,56,CURLE_RECV_ERROR,1,3,0,0,476,0
+www.youtube.com,US,United States,gci communications,,,,false,,56,CURLE_RECV_ERROR,1,3,0,0,480,0
+www.youtube.com,US,United States,telna,,,,false,,56,CURLE_RECV_ERROR,2,5,0,0,496,0
+www.youtube.com,US,United States,verizon wireless,6167,174.193.115.42,verizon wireless,true,,0,OK,1,2,879,4065,7602,200
+www.youtube.com,US,United States,optimum,19108,74.196.19.157,optimum,false,,0,OK,1,3,364,583,2447,200
+www.youtube.com,US,United States,gci communications,,,,true,,56,CURLE_RECV_ERROR,1,3,0,0,485,0
+www.youtube.com,US,United States,telna,,,,true,,56,CURLE_RECV_ERROR,1,3,0,0,473,0
+www.youtube.com,US,United States,optimum mobile,,,,true,,56,CURLE_RECV_ERROR,1,3,0,0,489,0
+www.youtube.com,US,United States,at&t wireless,7018,216.61.129.14,at&t wireless,true,,0,OK,1,3,1931,2379,8770,200
+www.youtube.com,US,United States,optimum mobile,,,,false,,56,CURLE_RECV_ERROR,1,3,0,0,869,0
+www.youtube.com,US,United States,optimum online,,,,false,,56,CURLE_RECV_ERROR,1,2,0,0,480,0
+www.youtube.com,UG,Uganda,airtel uganda,37075,102.86.8.244,airtel uganda,false,,28,CURLE_OPERATION_TIMEDOUT,1,2,4036,4842,30000,200
+www.youtube.com,US,United States,optimum online,,,,true,,56,CURLE_RECV_ERROR,1,3,0,0,534,0
+www.youtube.com,US,United States,carolina west wireless,,,,false,,56,CURLE_RECV_ERROR,1,3,0,0,491,0
+www.youtube.com,US,United States,panhandle telecommunications systems,,,,false,,56,CURLE_RECV_ERROR,1,3,0,0,491,0
+www.youtube.com,US,United States,nex-tech wireless,395172,199.66.120.168,nex-tech wireless,false,,0,OK,1,3,544,831,2976,200
+www.youtube.com,US,United States,northwestern indiana telephone co.,,,,false,,56,CURLE_RECV_ERROR,1,3,0,0,482,0
+www.youtube.com,US,United States,strata networks,30432,67.213.255.41,strata networks,true,,0,OK,1,3,510,762,1654,200
+www.youtube.com,GB,United Kingdom,telna,39944,139.28.84.1,telna,false,,0,OK,1,3,1759,2225,17157,200
+www.youtube.com,US,United States,northwestern indiana telephone co.,,,,true,,56,CURLE_RECV_ERROR,1,3,0,0,497,0
+www.youtube.com,US,United States,optimum,19108,74.196.19.157,optimum,true,,0,OK,1,3,1800,2056,3784,200
+www.youtube.com,US,United States,panhandle telecommunications systems,,,,true,,56,CURLE_RECV_ERROR,1,3,0,0,493,0
+www.youtube.com,UG,Uganda,airtel uganda,37075,102.86.8.244,airtel uganda,true,,28,CURLE_OPERATION_TIMEDOUT,1,3,23958,0,30000,0
+www.youtube.com,UY,Uruguay,telstar,,,,true,,56,CURLE_RECV_ERROR,1,3,0,0,63,0
+www.youtube.com,US,United States,pavlov media,23473,68.234.164.173,pavlov media,false,,0,OK,1,2,498,619,2020,200
+www.youtube.com,UY,Uruguay,telstar,,,,false,,56,CURLE_RECV_ERROR,1,2,0,0,65,0
+www.youtube.com,US,United States,strata networks,30432,67.213.255.41,strata networks,false,,0,OK,1,3,646,1256,2431,200
+www.youtube.com,US,United States,nex-tech wireless,395172,199.66.120.168,nex-tech wireless,true,,0,OK,1,3,512,1874,4198,200
+www.youtube.com,US,United States,pavlov media,23473,68.234.164.173,pavlov media,true,,0,OK,1,3,1329,1472,2496,200
+www.youtube.com,US,United States,boost mobile,398378,35.33.214.97,boost mobile,false,,0,OK,1,2,1235,1629,10810,200
+www.youtube.com,US,United States,boost mobile,398378,35.33.214.97,boost mobile,true,,0,OK,1,3,978,2794,11246,200
+www.youtube.com,UZ,Uzbekistan,coscom liability company,49273,188.113.218.237,coscom liability company,false,,0,OK,1,2,881,1692,3359,200
+www.youtube.com,UZ,Uzbekistan,coscom liability company,49273,188.113.218.237,coscom liability company,true,,0,OK,57,59,1117,2101,3130,200
+www.youtube.com,UZ,Uzbekistan,city-line-uz,,,,false,,56,CURLE_RECV_ERROR,1,3,0,0,72,0
+www.youtube.com,UY,Uruguay,movistar uruguay,19422,152.156.172.113,movistar uruguay,true,,0,OK,1,3,823,1561,4672,200
+www.youtube.com,UZ,Uzbekistan,city-line-uz,,,,true,,56,CURLE_RECV_ERROR,1,3,0,0,78,0
+www.youtube.com,US,United States,hutchinson regional medical center,53383,74.121.128.248,hutchinson regional medical center,false,,0,OK,1,3,5649,6100,6786,200
+www.youtube.com,US,United States,hutchinson regional medical center,53383,74.121.128.248,hutchinson regional medical center,true,,0,OK,1,3,4390,4833,5385,200
+www.youtube.com,UZ,Uzbekistan,uztelecom,201767,92.63.205.156,uztelecom,false,,0,OK,1,3,1255,2096,3732,200
+www.youtube.com,UZ,Uzbekistan,unitel,41202,95.214.211.98,unitel,true,,0,OK,1,3,887,1412,4911,200
+www.youtube.com,UZ,Uzbekistan,uztelecom,201767,92.63.205.156,uztelecom,true,,0,OK,1,3,1309,1926,3383,200
+www.youtube.com,UY,Uruguay,movistar uruguay,19422,152.156.172.113,movistar uruguay,false,,0,OK,1,3,1811,4356,6076,200
+www.youtube.com,UY,Uruguay,antel uruguay,6057,179.29.228.105,antel uruguay,false,,0,OK,1,3,970,1933,7219,200
+www.youtube.com,UZ,Uzbekistan,universal mobile systems lcc,64466,185.213.229.117,universal mobile systems lcc,false,,0,OK,1,3,947,1600,3001,200
+www.youtube.com,UZ,Uzbekistan,unitel llc,41202,37.110.211.71,unitel llc,false,,0,OK,1,3,1487,1990,3722,200
+www.youtube.com,UY,Uruguay,antel uruguay,6057,179.29.228.105,antel uruguay,true,,0,OK,1,3,1135,6720,8697,200
+www.youtube.com,UZ,Uzbekistan,universal mobile systems lcc,64466,185.213.229.117,universal mobile systems lcc,true,,0,OK,1,3,1555,2635,4153,200
+www.youtube.com,UZ,Uzbekistan,unitel llc,41202,37.110.211.71,unitel llc,true,,0,OK,1,3,1618,2920,4702,200
+www.youtube.com,VE,"Venezuela, Bolivarian Republic of",telefonica venezolana,6306,186.164.92.198,telefonica venezolana,true,,0,OK,1,3,1380,1754,2453,200
+www.youtube.com,UZ,Uzbekistan,unitel,41202,95.214.211.98,unitel,false,,0,OK,1,3,2069,2602,6433,200
+www.youtube.com,UY,Uruguay,claro uruguay,11664,186.191.232.60,claro uruguay,false,,0,OK,1,3,2896,3895,10848,200
+www.youtube.com,VU,Vanuatu,digicel vanuatu,132429,103.75.21.233,digicel vanuatu,false,,0,OK,1,3,1581,2440,5931,200
+www.youtube.com,VN,Viet Nam,vietnamobile telecommunications joint stock compan,,,,false,,56,CURLE_RECV_ERROR,1,3,0,0,66,0
+www.youtube.com,VN,Viet Nam,vietnamobile telecommunications joint stock compan,,,,true,,56,CURLE_RECV_ERROR,1,3,0,0,65,0
+www.youtube.com,VG,"Virgin Islands, British",flow,,,,true,,56,CURLE_RECV_ERROR,1,3,0,0,158,0
+www.youtube.com,VG,"Virgin Islands, British",flow,,,,false,,56,CURLE_RECV_ERROR,1,3,0,0,66,0
+www.youtube.com,VG,"Virgin Islands, British",digicel british virgin islands,,,,false,,56,CURLE_RECV_ERROR,1,3,0,0,64,0
+www.youtube.com,VG,"Virgin Islands, British",digicel british virgin islands,,,,true,,56,CURLE_RECV_ERROR,1,3,0,0,64,0
+www.youtube.com,VN,Viet Nam,vnpt,45899,113.185.75.207,vnpt,false,,0,OK,77,78,1029,1504,2628,200
+www.youtube.com,VU,Vanuatu,digicel vanuatu,132429,103.75.21.233,digicel vanuatu,true,,0,OK,1,3,2654,5683,7338,200
+www.youtube.com,YE,Yemen,yemen net,,,,false,,56,CURLE_RECV_ERROR,1,3,0,0,62,0
+www.youtube.com,VN,Viet Nam,vnpt,45899,113.185.75.207,vnpt,true,,0,OK,1,3,1112,1634,2332,200
+www.youtube.com,YE,Yemen,yemen net,,,,true,,56,CURLE_RECV_ERROR,1,3,0,0,67,0
+www.youtube.com,GB,United Kingdom,telna,39944,139.28.84.1,telna,true,,28,CURLE_OPERATION_TIMEDOUT,1,3,3235,17152,30001,200
+www.youtube.com,VE,"Venezuela, Bolivarian Republic of",telecomunicaciones movilnet,27889,201.238.34.105,telecomunicaciones movilnet,false,,0,OK,76,78,938,1419,7877,200
+www.youtube.com,VI,"Virgin Islands, U.S.",viya,14434,66.185.32.23,viya,false,,0,OK,1,3,707,1075,2501,200
+www.youtube.com,VI,"Virgin Islands, U.S.",viya,14434,66.185.32.23,viya,true,,0,OK,1,3,1169,2307,3268,200
+www.youtube.com,GB,United Kingdom,sure south atlantic,210841,80.73.219.196,sure south atlantic,false,,0,OK,66,68,2183,4259,28624,200
+www.youtube.com,VN,Viet Nam,mobifone,131429,103.199.68.155,mobifone,true,,0,OK,1,3,1005,1683,5365,200
+www.youtube.com,VE,"Venezuela, Bolivarian Republic of",telecomunicaciones movilnet,27889,201.238.34.105,telecomunicaciones movilnet,true,,0,OK,1,3,1209,4053,10055,200
+www.youtube.com,VE,"Venezuela, Bolivarian Republic of",corporacion digitel,264731,186.167.160.81,corporacion digitel,false,,56,CURLE_RECV_ERROR,1,2,5783,0,12203,0
+www.youtube.com,ZW,Zimbabwe,tagtel-communications,329425,197.157.206.2,tagtel-communications,true,,0,OK,64,66,1848,2857,4175,200
+www.youtube.com,VN,Viet Nam,mobifone,131429,103.199.68.155,mobifone,false,,0,OK,41,44,1649,4909,10346,200
+www.youtube.com,VN,Viet Nam,viettel group,7552,171.253.53.217,viettel group,true,,0,OK,1,3,2479,3734,12124,200
+www.youtube.com,ZM,Zambia,mtn zambia,36962,41.223.116.245,mtn zambia,true,,0,OK,1,3,1206,1869,9402,200
+www.youtube.com,ZM,Zambia,zamtel,37154,165.57.81.91,zamtel,false,,0,OK,1,3,3607,4443,7904,200
+www.youtube.com,ZM,Zambia,mtn zambia,36962,41.223.116.245,mtn zambia,false,,0,OK,1,3,2054,2936,8994,200
+www.youtube.com,VN,Viet Nam,viettel group,7552,171.253.53.217,viettel group,false,,0,OK,25,27,1304,2537,16822,200
+www.youtube.com,ZM,Zambia,beeline-telecoms-limited,329444,102.208.220.200,beeline-telecoms-limited,false,,0,OK,1,3,1681,3378,12233,200
+www.youtube.com,UY,Uruguay,claro uruguay,11664,200.71.1.87,claro uruguay,true,,0,OK,1,2,5436,11030,26425,200
+www.youtube.com,ZW,Zimbabwe,tagtel-communications,329425,197.157.206.2,tagtel-communications,false,,0,OK,1,2,1313,2243,4238,200
+www.youtube.com,ZW,Zimbabwe,telone,37204,197.221.253.78,telone,false,,0,OK,1,3,1420,2151,5892,200
+www.youtube.com,VE,"Venezuela, Bolivarian Republic of",corporacion digitel,264731,186.167.160.81,corporacion digitel,true,,56,CURLE_RECV_ERROR,1,3,16577,0,22383,0
+www.youtube.com,ZM,Zambia,beeline-telecoms-limited,329444,102.208.220.200,beeline-telecoms-limited,true,,0,OK,2,3,4120,10742,14127,200
+www.youtube.com,ZM,Zambia,zamtel,,,,true,,56,CURLE_RECV_ERROR,1,3,0,0,16277,0
+www.youtube.com,ZW,Zimbabwe,telone,37204,197.221.253.78,telone,true,,0,OK,1,3,2876,3673,5931,200
+www.youtube.com,ZW,Zimbabwe,liquid intelligent technologies,37332,41.173.57.10,liquid intelligent technologies,true,,0,OK,1,3,1686,2854,11544,200
+www.youtube.com,ZW,Zimbabwe,liquid telecommunications,,,,true,,56,CURLE_RECV_ERROR,1,2,0,0,15454,0
+www.youtube.com,ZW,Zimbabwe,netone-cellular,328088,102.128.76.160,netone-cellular,false,,0,OK,64,65,1370,2856,15626,200
+www.youtube.com,VE,"Venezuela, Bolivarian Republic of",telefonica venezolana,6306,186.165.109.48,telefonica venezolana,false,,28,CURLE_OPERATION_TIMEDOUT,1,3,5650,15877,30001,200
+www.youtube.com,ZM,Zambia,airtel zambia,37287,45.215.236.57,airtel zambia,false,,0,OK,1,3,1330,2161,28474,200
+www.youtube.com,ZM,Zambia,airtel zambia,37287,45.215.236.57,airtel zambia,true,,0,OK,1,3,4422,8903,28900,200
+www.youtube.com,ZW,Zimbabwe,netone-cellular,328088,102.128.76.160,netone-cellular,true,,0,OK,1,3,5497,15456,21655,200
+www.youtube.com,ZW,Zimbabwe,liquid intelligent technologies,37332,41.173.57.10,liquid intelligent technologies,false,,0,OK,58,60,9046,10039,20679,200
+www.youtube.com,ZW,Zimbabwe,liquid telecommunications,56696,77.246.50.244,liquid telecommunications,false,,28,CURLE_OPERATION_TIMEDOUT,1,3,1742,3350,30000,200
