@@ -17,6 +17,7 @@ package main
 import (
 	"context"
 	"encoding/csv"
+	"encoding/json"
 	"flag"
 	"fmt"
 	"log/slog"
@@ -28,34 +29,24 @@ import (
 	"sync/atomic"
 	"time"
 
-	"github.com/Jigsaw-Code/ech-research/internal/curl"
+	"github.com/Jigsaw-Code/ech-research/internal/echtest"
 	"github.com/Jigsaw-Code/ech-research/internal/soax"
 	"github.com/Jigsaw-Code/ech-research/internal/workspace"
 	"golang.org/x/sync/semaphore"
 )
 
 type TestResult struct {
-	Domain        string
-	Country       string
-	CountryName   string
-	ISP           string
-	ASN           string
-	ExitNodeIP    string
-	ExitNodeISP   string
-	ECHGrease     bool
-	Error         string
-	CurlExitCode  int
-	CurlErrorName string
-	DNSLookup     time.Duration
-	TCPConnection time.Duration
-	TLSHandshake  time.Duration
-	ServerTime    time.Duration
-	TotalTime     time.Duration
-	HTTPStatus    int
+	echtest.TestResult
+	Country     string
+	CountryName string
+	ISP         string
+	ASN         string
+	ExitNodeIP  string
+	ExitNodeISP string
 }
 
 func runSoaxTest(
-	runner *curl.Runner,
+	curlPath string,
 	domain string,
 	country string,
 	countryName string,
@@ -64,40 +55,14 @@ func runSoaxTest(
 	echGrease bool,
 	maxTime time.Duration,
 ) TestResult {
+	headers := []string{"Respond-With: ip,isp,asn"}
+	res := echtest.Run(curlPath, domain, echGrease, maxTime, proxyURL, headers)
+
 	result := TestResult{
-		Domain:      domain,
+		TestResult:  res,
 		Country:     country,
 		CountryName: countryName,
 		ISP:         isp,
-		ECHGrease:   echGrease,
-	}
-
-	echMode := curl.ECHFalse
-	if echGrease {
-		echMode = curl.ECHGrease
-	}
-
-	url := "https://" + domain
-	res, err := runner.Run(url, curl.Args{
-		Proxy:        proxyURL,
-		ProxyHeaders: []string{"Respond-With: ip,isp,asn"},
-		ECH:          echMode,
-		Timeout:      maxTime,
-		Verbose:      true, // Required to capture response headers
-		MeasureStats: true,
-	})
-
-	result.CurlExitCode = res.ExitCode
-	result.CurlErrorName = curl.ExitCodeName(res.ExitCode)
-	result.HTTPStatus = res.Stats.HTTPStatus
-	result.DNSLookup = res.Stats.DNSLookupTimestamp
-	result.TCPConnection = res.Stats.TCPConnectTimestamp
-	result.TLSHandshake = res.Stats.TLSConnectTimestamp
-	result.ServerTime = res.Stats.ServerResponseTimestamp
-	result.TotalTime = res.Stats.TotalTimeTimestamp
-
-	if err != nil {
-		result.Error = err.Error()
 	}
 
 	// Parse metadata from Stderr (SOAX specific headers in CONNECT response)
@@ -167,7 +132,6 @@ func loadCountries(path string) ([]Country, error) {
 func main() {
 	var (
 		workspaceFlag    = flag.String("workspace", "./workspace", "Directory to store intermediate files")
-		soaxConfigFlag   = flag.String("soax", "", "Path to SOAX config JSON")
 		countriesFlag    = flag.String("countries", "", "Path to file containing ISO country codes")
 		targetDomainFlag = flag.String("targetDomain", "www.google.com", "Target domain to test")
 		verboseFlag      = flag.Bool("verbose", false, "Enable verbose logging")
@@ -191,28 +155,28 @@ func main() {
 	if curlPath == "" {
 		curlPath = filepath.Join(workspaceDir, "output", "bin", "curl")
 	}
-	runner := curl.NewRunner(curlPath)
 
-	// Load SOAX config
-	soaxConfigPath := *soaxConfigFlag
-	if soaxConfigPath == "" {
-		soaxConfigPath = filepath.Join(workspaceDir, "soax", "cred.json")
-	}
-	cfg, err := soax.LoadConfig(soaxConfigPath)
+	// Load SOAX config from environment variables
+	cfg, err := soax.NewConfig(
+		os.Getenv("SOAX_API_KEY"),
+		os.Getenv("SOAX_PACKAGE_KEY"),
+		os.Getenv("SOAX_PACKAGE_ID"),
+		os.Getenv("SOAX_PROXY_HOST"),
+		os.Getenv("SOAX_PROXY_PORT"),
+	)
 	if err != nil {
-		slog.Error("Failed to load SOAX config", "path", soaxConfigPath, "error", err)
+		slog.Error("Failed to initialize SOAX config from environment", "error", err)
 		os.Exit(1)
 	}
-	client := soax.NewClient(cfg)
 
 	// Load countries
-	if *countriesFlag == "" {
-		slog.Error("The --countries flag is required")
-		os.Exit(1)
+	countriesPath := *countriesFlag
+	if countriesPath == "" {
+		countriesPath = filepath.Join(workspaceDir, "countries.csv")
 	}
-	countries, err := loadCountries(*countriesFlag)
+	countries, err := loadCountries(countriesPath)
 	if err != nil {
-		slog.Error("Failed to load countries list", "path", *countriesFlag, "error", err)
+		slog.Error("Failed to load countries list", "path", countriesPath, "error", err)
 		os.Exit(1)
 	}
 
@@ -267,14 +231,19 @@ func main() {
 	var wg sync.WaitGroup
 	var total, finished atomic.Int32
 
+	// Audit map to store discovered ISPs per country
+	ispAuditMap := make(map[string][]string)
+
 	for _, country := range countries {
 		slog.Debug("Processing country", "name", country.Name, "code", country.Code)
 
-		isps, err := client.ListISPs(country.Code)
+		isps, err := soax.ListISPs(cfg, country.Code)
 		if err != nil {
 			slog.Error("Failed to fetch ISPs", "country", country.Code, "error", err)
 			continue
 		}
+
+		ispAuditMap[country.Code] = isps
 
 		total.Add(int32(len(isps) * 2))
 		for i, isp := range isps {
@@ -289,9 +258,9 @@ func main() {
 				}
 				defer sem.Release(1)
 
-				proxyURL := client.BuildProxyURL(c.Code, isp, sid)
+				proxyURL := soax.BuildWebProxyURL(cfg, c.Code, isp, sid)
 				slog.Debug("Testing ISP", "country", c.Code, "isp", isp, "ech_grease", ech, "session", sid)
-				resultsCh <- runSoaxTest(runner, domain, c.Code, c.Name, isp, proxyURL, ech, *maxTimeFlag)
+				resultsCh <- runSoaxTest(curlPath, domain, c.Code, c.Name, isp, proxyURL, ech, *maxTimeFlag)
 				progress := fmt.Sprintf("%d/%d", finished.Add(1), total.Load())
 				slog.Info("Finished", "country", c.Code, "isp", isp, "progress", progress)
 			}
@@ -304,6 +273,19 @@ func main() {
 	wg.Wait()
 	close(resultsCh)
 	csvWg.Wait()
+
+	// Write the ISP audit log to JSON
+	auditFilename := filepath.Join(workspaceDir, "soax-isps-audit.json")
+	auditData, err := json.MarshalIndent(ispAuditMap, "", "  ")
+	if err == nil {
+		if err := os.WriteFile(auditFilename, auditData, 0644); err != nil {
+			slog.Error("Failed to write ISP audit log", "error", err)
+		} else {
+			slog.Info("ISP audit log saved", "path", auditFilename)
+		}
+	} else {
+		slog.Error("Failed to marshal ISP audit log", "error", err)
+	}
 
 	slog.Info("Done. Results saved to", "path", outputFilename)
 }

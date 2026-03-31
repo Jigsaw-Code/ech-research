@@ -8,22 +8,21 @@ ECH GREASE to simulate diverse network vantage points.
 
 You need to build the ECH-enabled `curl` and place it in the workspace directory. See [instructions](../curl/README.md).
 
-You also need a SOAX configuration file (`soax/cred.json` in the workspace) and a list of ISO country codes.
+You also need to set the SOAX credentials as environment variables and provide a list of ISO country codes.
 
-### Configuration File Examples
+### Configuration
 
-**SOAX Credentials (`soax/cred.json`)**
+**SOAX Credentials (Environment Variables)**
 
-The SOAX configuration file should be a JSON file with the following structure:
+Set the following environment variables with your SOAX API details:
 
-```json
-{
-  "api_key": "YOUR_API_KEY",
-  "package_key": "YOUR_PACKAGE_KEY",
-  "package_id": "YOUR_PACKAGE_ID",
-  "proxy_host": "proxy.soax.com",
-  "proxy_port": 5000
-}
+```bash
+export SOAX_API_KEY="YOUR_API_KEY"
+export SOAX_PACKAGE_KEY="YOUR_PACKAGE_KEY"
+export SOAX_PACKAGE_ID="YOUR_PACKAGE_ID"
+# Optional overrides:
+# export SOAX_PROXY_HOST="proxy.soax.com"
+# export SOAX_PROXY_PORT="5000"
 ```
 
 **Country List (`countries.csv`)**
@@ -42,15 +41,15 @@ You can download a complete list of country codes from [here](https://raw.github
 
 ## Running
 
-To run the tool, use the `go run` command from the project root directory:
+To run the tool, ensure your environment variables are set, then use the `go run` command from the project root directory:
 
 ```sh
-go run ./soaxreport --countries workspace/countries.csv --targetDomain www.google.com
+go run ./soaxreport --targetDomain www.google.com
 ```
 
 This will:
 
-1. Load the SOAX credentials (`./workspace/soax/cred.json` by default) and country list.
+1. Load the SOAX credentials from the environment and the country list (`./workspace/countries.csv` by default).
 2. For each country, fetch the list of available ISPs.
 3. For each ISP, issue requests to the target domain via a SOAX proxy, once with ECH GREASE and once without.
 4. Save the results to `./workspace/soax-results-<domain>-countries<N>.csv`.
@@ -58,8 +57,7 @@ This will:
 ### Parameters
 
 * `-workspace <path>`: Directory to store intermediate files. Defaults to `./workspace`.
-* `-soax <path>`: Path to SOAX config JSON. Defaults to `./workspace/soax/cred.json`.
-* `-countries <path>`: Path to CSV file containing country names and ISO codes (required).
+* `-countries <path>`: Path to CSV file containing country names and ISO codes. Defaults to `./workspace/countries.csv`.
 * `-targetDomain <domain>`: Target domain to test. Defaults to `www.google.com`.
 * `-parallelism <number>`: Maximum number of parallel requests. Defaults to `16`.
 * `-verbose`: Enable verbose logging.
@@ -68,7 +66,12 @@ This will:
 
 ### Output Format
 
-The tool generates a CSV file (`workspace/soax-results-<domain>-countries<N>.csv`) with the following columns:
+The tool generates two output files in the workspace directory:
+
+1. **Results CSV** (`workspace/soax-results-<domain>-countries<N>.csv`): Contains the detailed test results for each request.
+2. **ISP Audit Log** (`workspace/soax-isps-audit.json`): A JSON file mapping each country code to the list of ISPs discovered and used during the test. This is useful for auditing coverage.
+
+The CSV file contains the following columns:
 
 * `domain`: The domain that was tested.
 * `country_code`: The 2-letter ISO country code.
