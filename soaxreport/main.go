@@ -21,6 +21,7 @@ import (
 	"flag"
 	"fmt"
 	"log/slog"
+	"net"
 	"os"
 	"os/exec"
 	"path/filepath"
@@ -33,6 +34,7 @@ import (
 	"github.com/Jigsaw-Code/ech-research/internal/echtest"
 	"github.com/Jigsaw-Code/ech-research/internal/soax"
 	"github.com/Jigsaw-Code/ech-research/internal/workspace"
+	"github.com/oschwald/maxminddb-golang"
 	"golang.org/x/sync/semaphore"
 )
 
@@ -46,6 +48,35 @@ type TestResult struct {
 	ExitNodeISP  string
 	DiscoveredIP string
 	IPMatch      string
+	GeoDBASN     string
+	GeoDBASName  string
+	ASNMatch     string
+}
+
+func lookupASN(db *maxminddb.Reader, ipStr string) (string, string) {
+	if db == nil || ipStr == "" {
+		return "", ""
+	}
+	ip := net.ParseIP(ipStr)
+	if ip == nil {
+		return "", ""
+	}
+
+	var record struct {
+		AutonomousSystemNumber       uint   `maxminddb:"autonomous_system_number"`
+		AutonomousSystemOrganization string `maxminddb:"autonomous_system_organization"`
+	}
+
+	err := db.Lookup(ip, &record)
+	if err != nil {
+		return "", ""
+	}
+
+	asn := ""
+	if record.AutonomousSystemNumber > 0 {
+		asn = fmt.Sprintf("%d", record.AutonomousSystemNumber)
+	}
+	return asn, record.AutonomousSystemOrganization
 }
 
 func discoverIP(curlPath, proxyURL string, maxTime time.Duration, discoveryURL string) string {
@@ -81,6 +112,7 @@ func runSoaxTest(
 	echGrease bool,
 	maxTime time.Duration,
 	ipCheckURL string,
+	asnDB *maxminddb.Reader,
 ) TestResult {
 	discoveredIP := discoverIP(curlPath, proxyURL, maxTime, ipCheckURL)
 
@@ -122,6 +154,18 @@ func runSoaxTest(
 			result.IPMatch = "true"
 		} else {
 			result.IPMatch = "false"
+		}
+	}
+
+	if asnDB != nil && result.DiscoveredIP != "" {
+		result.GeoDBASN, result.GeoDBASName = lookupASN(asnDB, result.DiscoveredIP)
+		if result.ASN != "" && result.GeoDBASN != "" {
+			soaxASN := strings.TrimPrefix(strings.ToUpper(result.ASN), "AS")
+			if soaxASN == result.GeoDBASN {
+				result.ASNMatch = "true"
+			} else {
+				result.ASNMatch = "false"
+			}
 		}
 	}
 
@@ -176,7 +220,8 @@ func main() {
 		maxTimeFlag      = flag.Duration("maxTime", 30*time.Second, "Maximum time per curl request")
 		curlPathFlag     = flag.String("curl", "", "Path to the ECH-enabled curl binary")
 		parallelismFlag  = flag.Int("parallelism", 16, "Maximum number of parallel requests")
-		ipCheckURLFlag   = flag.String("ipCheckURL", "https://ipv4.icanhazip.com/", "URL to use for discovering the real exit IP.")
+		ipCheckURLFlag   = flag.String("ipCheckURL", "https://ipv4.icanhazip.com/", "URL for checking the real exit IP")
+		asnDBPathFlag    = flag.String("asnDB", "", "Optional: Path to a MaxMind/DB-IP ASN database (.mmdb)")
 	)
 	flag.Parse()
 
@@ -193,6 +238,19 @@ func main() {
 	curlPath := *curlPathFlag
 	if curlPath == "" {
 		curlPath = filepath.Join(workspaceDir, "output", "bin", "curl")
+	}
+
+	// Load ASN database if provided
+	var asnDB *maxminddb.Reader
+	if *asnDBPathFlag != "" {
+		var err error
+		asnDB, err = maxminddb.Open(*asnDBPathFlag)
+		if err != nil {
+			slog.Error("Failed to open ASN database", "path", *asnDBPathFlag, "error", err)
+			os.Exit(1)
+		}
+		defer asnDB.Close()
+		slog.Info("Using ASN database", "path", *asnDBPathFlag)
 	}
 
 	// Load SOAX config from environment variables
@@ -239,7 +297,8 @@ func main() {
 		defer csvWriter.Flush()
 
 		header := []string{
-			"domain", "country_code", "country_name", "isp", "asn", "exit_node_ip", "exit_node_isp", "discovered_ip", "ip_match", "ech_grease", "error",
+			"domain", "country_code", "country_name", "isp", "asn", "exit_node_ip", "exit_node_isp", "discovered_ip",
+			"ip_match", "geodb_asn", "geodb_as_name", "asn_match", "ech_grease", "error",
 			"curl_exit_code", "curl_error_name", "dns_lookup_ms", "tcp_connection_ms",
 			"tls_handshake_ms", "server_time_ms", "total_time_ms", "http_status",
 		}
@@ -249,7 +308,8 @@ func main() {
 
 		for r := range resultsCh {
 			record := []string{
-				r.Domain, r.Country, r.CountryName, r.ISP, r.ASN, r.ExitNodeIP, r.ExitNodeISP, r.DiscoveredIP, r.IPMatch, strconv.FormatBool(r.ECHGrease), r.Error,
+				r.Domain, r.Country, r.CountryName, r.ISP, r.ASN, r.ExitNodeIP, r.ExitNodeISP, r.DiscoveredIP,
+				r.IPMatch, r.GeoDBASN, r.GeoDBASName, r.ASNMatch, strconv.FormatBool(r.ECHGrease), r.Error,
 				strconv.Itoa(r.CurlExitCode), r.CurlErrorName,
 				strconv.FormatInt(r.DNSLookup.Milliseconds(), 10),
 				strconv.FormatInt(r.TCPConnection.Milliseconds(), 10),
@@ -299,7 +359,7 @@ func main() {
 
 				proxyURL := soax.BuildWebProxyURL(cfg, c.Code, isp, sid)
 				slog.Debug("Testing ISP", "country", c.Code, "isp", isp, "ech_grease", ech, "session", sid)
-				resultsCh <- runSoaxTest(curlPath, domain, c.Code, c.Name, isp, proxyURL, ech, *maxTimeFlag, *ipCheckURLFlag)
+				resultsCh <- runSoaxTest(curlPath, domain, c.Code, c.Name, isp, proxyURL, ech, *maxTimeFlag, *ipCheckURLFlag, asnDB)
 				progress := fmt.Sprintf("%d/%d", finished.Add(1), total.Load())
 				slog.Info("Finished", "country", c.Code, "isp", isp, "progress", progress)
 			}
