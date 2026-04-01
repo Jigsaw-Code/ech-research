@@ -113,3 +113,52 @@ The CSV file contains the following columns:
 * `server_time_ms`: The time from the end of the TLS handshake to the first byte of the response.
 * `total_time_ms`: The total duration of the request.
 * `http_status`: The HTTP status code of the response.
+
+## Generating the Final Report
+
+After running the data collection tool, you can generate a visual report using the provided Jupyter notebook.
+
+### 1. Organize the Data
+
+The notebook expects data to be organized in subdirectories within `soaxreport/report/` named after the tested domain.
+
+1. Create a subdirectory for your results (e.g., for `www.google.com`):
+   ```bash
+   mkdir -p soaxreport/report/www_google_com
+   ```
+
+2. Copy and rename the generated results from the `workspace` directory:
+   ```bash
+   # Use the actual filename generated in your workspace
+   cp workspace/soax-results-www_google_com-countriesN.csv soaxreport/report/www_google_com/results.csv
+   cp workspace/soax-isps-audit.json soaxreport/report/www_google_com/isps-audit.json
+   ```
+
+### 2. Setup the Environment
+
+Running the notebook requires Python 3 and several data analysis libraries.
+
+```bash
+# From the project root:
+# 1. Create the virtual environment if it doesn't exist
+python3 -m venv workspace/.venv
+
+# 2. Activate the virtual environment
+source workspace/.venv/bin/activate
+
+# 3. Install required dependencies
+pip install pandas numpy matplotlib seaborn ipywidgets jupyter
+```
+
+### 3. Run the Notebook
+
+1. Navigate to the report directory and start Jupyter:
+   ```bash
+   cd soaxreport/report
+   # If you didn't activate the venv yet, run: source ../../workspace/.venv/bin/activate
+   jupyter notebook report.ipynb
+   ```
+
+2. In the first code cell of the notebook, update the `DOMAIN` variable to match the name of the subdirectory you created (e.g., `DOMAIN = "www_google_com"`).
+
+3. Run all cells in the notebook to generate the analysis and visualizations.
