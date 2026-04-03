@@ -48,18 +48,18 @@ To run the tool, ensure your environment variables are set, then use the `go run
 **Basic Run:**
 
 ```sh
-go run ./soaxreport --targetDomain www.google.com
+go run ./ispreport --targetDomain www.google.com
 ```
 
 **With Independent ASN Validation (Recommended):**
 First, download a free IP-to-ASN `.mmdb` database (e.g., from DB-IP) to your workspace.
 ```sh
-go run ./soaxreport --targetDomain www.google.com --asnDB workspace/dbip-asn-lite.mmdb
+go run ./ispreport --targetDomain www.google.com --asnDB workspace/dbip-asn-lite.mmdb
 ```
 
 **With Custom IP Check URL and Verbose Logging:**
 ```sh
-go run ./soaxreport --targetDomain www.google.com --ipCheckURL https://ifconfig.me/ip --verbose
+go run ./ispreport --targetDomain www.google.com --ipCheckURL https://ifconfig.me/ip --verbose
 ```
 
 This will:
@@ -120,18 +120,18 @@ After running the data collection tool, you can generate a visual report using t
 
 ### 1. Organize the Data
 
-The notebook expects data to be organized in subdirectories within `soaxreport/report/` named after the tested domain.
+The notebook expects data to be organized in subdirectories within `ispreport/report/` named after the tested domain.
 
 1. Create a subdirectory for your results (e.g., for `www.google.com`):
    ```bash
-   mkdir -p soaxreport/report/www_google_com
+   mkdir -p ispreport/report/www_google_com
    ```
 
 2. Copy and rename the generated results from the `workspace` directory:
    ```bash
    # Use the actual filename generated in your workspace
-   cp workspace/soax-results-www_google_com-countriesN.csv soaxreport/report/www_google_com/results.csv
-   cp workspace/soax-isps-audit.json soaxreport/report/www_google_com/isps-audit.json
+   cp workspace/soax-results-www_google_com-countriesN.csv ispreport/report/www_google_com/results.csv
+   cp workspace/soax-isps-audit.json ispreport/report/www_google_com/isps-audit.json
    ```
 
 ### 2. Setup the Environment
@@ -154,7 +154,7 @@ pip install pandas numpy matplotlib seaborn ipywidgets jupyter
 
 1. Navigate to the report directory and start Jupyter:
    ```bash
-   cd soaxreport/report
+   cd ispreport/report
    # If you didn't activate the venv yet, run: source ../../workspace/.venv/bin/activate
    jupyter notebook report.ipynb
    ```
