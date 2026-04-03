@@ -68,7 +68,7 @@ This will:
 2. For each country, fetch the list of available ISPs.
 3. For each ISP, discover the real proxy exit IP via the `ipCheckURL`.
 4. Issue requests to the target domain via the SOAX proxy, once with ECH GREASE and once without.
-5. Save the results to `./workspace/soax-results-<domain>-countries<N>.csv`.
+5. Save the results to `./workspace/ispreport/results-<domain>-countries<N>.csv`.
 
 ### Parameters
 
@@ -86,8 +86,8 @@ This will:
 
 The tool generates two output files in the workspace directory:
 
-1. **Results CSV** (`workspace/soax-results-<domain>-countries<N>.csv`): Contains the detailed test results for each request.
-2. **ISP Audit Log** (`workspace/soax-isps-audit.json`): A JSON file mapping each country code to the list of ISPs discovered and used during the test. This is useful for auditing coverage.
+1. **Results CSV** (`workspace/ispreport/results-<domain>-countries<N>.csv`): Contains the detailed test results for each request.
+2. **ISP Audit Log** (`workspace/ispreport/isps-audit.json`): A JSON file mapping each country code to the list of ISPs discovered and used during the test. This is useful for auditing coverage.
 
 The CSV file contains the following columns:
 
@@ -129,9 +129,9 @@ The notebook expects data to be organized in subdirectories within `ispreport/re
 
 2. Copy and rename the generated results from the `workspace` directory:
    ```bash
-   # Use the actual filename generated in your workspace
-   cp workspace/soax-results-www_google_com-countriesN.csv ispreport/report/www_google_com/results.csv
-   cp workspace/soax-isps-audit.json ispreport/report/www_google_com/isps-audit.json
+   # Use a wildcard to match the generated file with the number of countries
+   cp workspace/ispreport/results-www_google_com-countries*.csv ispreport/report/www_google_com/results.csv
+   cp workspace/ispreport/isps-audit.json ispreport/report/www_google_com/isps-audit.json
    ```
 
 ### 2. Setup the Environment

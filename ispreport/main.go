@@ -279,7 +279,12 @@ func main() {
 
 	// Create output CSV file
 	sanitizedDomain := strings.ReplaceAll(*targetDomainFlag, ".", "_")
-	outputFilename := filepath.Join(workspaceDir, fmt.Sprintf("soax-results-%s-countries%d.csv", sanitizedDomain, len(countries)))
+	reportDir := filepath.Join(workspaceDir, "ispreport")
+	if err := os.MkdirAll(reportDir, 0755); err != nil {
+		slog.Error("Failed to create report directory", "path", reportDir, "error", err)
+		os.Exit(1)
+	}
+	outputFilename := filepath.Join(reportDir, fmt.Sprintf("results-%s-countries%d.csv", sanitizedDomain, len(countries)))
 	outputFile, err := os.Create(outputFilename)
 	if err != nil {
 		slog.Error("Failed to create output CSV file", "path", outputFilename, "error", err)
@@ -374,7 +379,7 @@ func main() {
 	csvWg.Wait()
 
 	// Write the ISP audit log to JSON
-	auditFilename := filepath.Join(workspaceDir, "soax-isps-audit.json")
+	auditFilename := filepath.Join(reportDir, "isps-audit.json")
 	auditData, err := json.MarshalIndent(ispAuditMap, "", "  ")
 	if err == nil {
 		if err := os.WriteFile(auditFilename, auditData, 0644); err != nil {
