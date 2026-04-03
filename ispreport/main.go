@@ -303,9 +303,10 @@ func main() {
 
 		header := []string{
 			"domain", "country_code", "country_name", "isp", "asn", "exit_node_ip", "exit_node_isp", "discovered_ip",
-			"ip_match", "geodb_asn", "geodb_as_name", "asn_match", "ech_grease", "error",
-			"curl_exit_code", "curl_error_name", "dns_lookup_ms", "tcp_connection_ms",
-			"tls_handshake_ms", "server_time_ms", "total_time_ms", "http_status",
+			"ip_match", "geodb_asn", "geodb_as_name", "asn_match", "ech_grease",
+			"go_error", "curl_exit_code", "curl_error_name", "curl_error_message",
+			"dns_lookup_ms", "tcp_connection_ms", "tls_handshake_ms", "server_time_ms", "total_time_ms",
+			"http_status", "http_connect_status",
 		}
 		if err := csvWriter.Write(header); err != nil {
 			slog.Error("Failed to write CSV header", "error", err)
@@ -314,14 +315,15 @@ func main() {
 		for r := range resultsCh {
 			record := []string{
 				r.Domain, r.Country, r.CountryName, r.ISP, r.ASN, r.ExitNodeIP, r.ExitNodeISP, r.DiscoveredIP,
-				r.IPMatch, r.GeoDBASN, r.GeoDBASName, r.ASNMatch, strconv.FormatBool(r.ECHGrease), r.Error,
-				strconv.Itoa(r.CurlExitCode), r.CurlErrorName,
+				r.IPMatch, r.GeoDBASN, r.GeoDBASName, r.ASNMatch, strconv.FormatBool(r.ECHGrease),
+				r.GoError, strconv.Itoa(r.CurlExitCode), r.CurlErrorName, r.CurlErrorMessage,
 				strconv.FormatInt(r.DNSLookup.Milliseconds(), 10),
 				strconv.FormatInt(r.TCPConnection.Milliseconds(), 10),
 				strconv.FormatInt(r.TLSHandshake.Milliseconds(), 10),
 				strconv.FormatInt(r.ServerTime.Milliseconds(), 10),
 				strconv.FormatInt(r.TotalTime.Milliseconds(), 10),
 				strconv.Itoa(r.HTTPStatus),
+				strconv.Itoa(r.HTTPConnectStatus),
 			}
 			if err := csvWriter.Write(record); err != nil {
 				slog.Error("Failed to write record to CSV", "error", err)
