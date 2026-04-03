@@ -40,17 +40,14 @@ import (
 
 type TestResult struct {
 	echtest.TestResult
-	Country      string
-	CountryName  string
-	ISP          string
-	ASN          string
-	ExitNodeIP   string
-	ExitNodeISP  string
-	DiscoveredIP string
-	IPMatch      string
-	GeoDBASN     string
-	GeoDBASName  string
-	ASNMatch     string
+	Country     string
+	CountryName string
+	ISP         string
+	ASN         string
+	ExitNodeISP string
+	GeoDBASN    string
+	GeoDBASName string
+	ASNMatch    string
 }
 
 func lookupASN(db *maxminddb.Reader, ipStr string) (string, string) {
@@ -120,12 +117,13 @@ func runSoaxTest(
 	res := echtest.Run(curlPath, domain, echGrease, maxTime, proxyURL, headers)
 
 	result := TestResult{
-		TestResult:   res,
-		Country:      country,
-		CountryName:  countryName,
-		ISP:          isp,
-		DiscoveredIP: discoveredIP,
+		TestResult:  res,
+		Country:     country,
+		CountryName: countryName,
+		ISP:         isp,
 	}
+
+	var exitNodeIP string
 
 	// Parse metadata from Stderr (SOAX specific headers in CONNECT response)
 	for line := range strings.SplitSeq(res.Stderr, "\n") {
@@ -143,22 +141,14 @@ func runSoaxTest(
 		case "asn":
 			result.ASN = val
 		case "ip":
-			result.ExitNodeIP = val
+			exitNodeIP = val
 		case "isp":
 			result.ExitNodeISP = val
 		}
 	}
 
-	if result.ExitNodeIP != "" && result.DiscoveredIP != "" {
-		if result.ExitNodeIP == result.DiscoveredIP {
-			result.IPMatch = "true"
-		} else {
-			result.IPMatch = "false"
-		}
-	}
-
-	if asnDB != nil && result.DiscoveredIP != "" {
-		result.GeoDBASN, result.GeoDBASName = lookupASN(asnDB, result.DiscoveredIP)
+	if asnDB != nil && discoveredIP != "" {
+		result.GeoDBASN, result.GeoDBASName = lookupASN(asnDB, discoveredIP)
 		if result.ASN != "" && result.GeoDBASN != "" {
 			soaxASN := strings.TrimPrefix(strings.ToUpper(result.ASN), "AS")
 			if soaxASN == result.GeoDBASN {
@@ -167,6 +157,10 @@ func runSoaxTest(
 				result.ASNMatch = "false"
 			}
 		}
+	}
+
+	if exitNodeIP != "" && discoveredIP != "" && exitNodeIP != discoveredIP {
+		slog.Warn("IP mismatch detected", "country", country, "isp", isp, "reported", exitNodeIP, "discovered", discoveredIP)
 	}
 
 	return result
@@ -302,8 +296,8 @@ func main() {
 		defer csvWriter.Flush()
 
 		header := []string{
-			"domain", "country_code", "country_name", "isp", "asn", "exit_node_ip", "exit_node_isp", "discovered_ip",
-			"ip_match", "geodb_asn", "geodb_as_name", "asn_match", "ech_grease",
+			"domain", "country_code", "country_name", "isp", "asn", "exit_node_isp",
+			"geodb_asn", "geodb_as_name", "asn_match", "ech_grease",
 			"go_error", "curl_exit_code", "curl_error_name", "curl_error_message",
 			"dns_lookup_ms", "tcp_connection_ms", "tls_handshake_ms", "server_time_ms", "total_time_ms",
 			"http_status", "http_connect_status",
@@ -314,8 +308,8 @@ func main() {
 
 		for r := range resultsCh {
 			record := []string{
-				r.Domain, r.Country, r.CountryName, r.ISP, r.ASN, r.ExitNodeIP, r.ExitNodeISP, r.DiscoveredIP,
-				r.IPMatch, r.GeoDBASN, r.GeoDBASName, r.ASNMatch, strconv.FormatBool(r.ECHGrease),
+				r.Domain, r.Country, r.CountryName, r.ISP, r.ASN, r.ExitNodeISP,
+				r.GeoDBASN, r.GeoDBASName, r.ASNMatch, strconv.FormatBool(r.ECHGrease),
 				r.GoError, strconv.Itoa(r.CurlExitCode), r.CurlErrorName, r.CurlErrorMessage,
 				strconv.FormatInt(r.DNSLookup.Milliseconds(), 10),
 				strconv.FormatInt(r.TCPConnection.Milliseconds(), 10),
