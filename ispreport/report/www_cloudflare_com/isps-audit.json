@@ -5,23 +5,23 @@
     "du"
   ],
   "AF": [
+    "mtn afghanistan",
+    "telecom development company afghanistan",
     "multacom corporation",
     "afghan wireless",
     "afghan wireless communication company",
     "afghan telecom",
-    "etisalat afghanistan",
-    "mtn afghanistan",
-    "telecom development company afghanistan"
+    "etisalat afghanistan"
   ],
   "AG": [
-    "apua",
     "digicel",
-    "flow"
+    "flow",
+    "apua"
   ],
   "AL": [
-    "vodafone albania",
     "mobitel sh.p.k.",
-    "one albania"
+    "one albania",
+    "vodafone albania"
   ],
   "AM": [
     "viva armenia cjsc",
@@ -29,8 +29,8 @@
     "telecom armenia ojsc"
   ],
   "AO": [
-    "unitel",
-    "aas1"
+    "aas1",
+    "unitel"
   ],
   "AR": [
     "personal",
@@ -38,16 +38,16 @@
     "claro argentina"
   ],
   "AT": [
+    "magenta telekom",
     "hutchison drei austria gmbh",
     "telekom austria",
-    "mass response service",
-    "magenta telekom"
+    "mass response service"
   ],
   "AU": [
-    "vocus",
     "telstra internet",
     "optus",
-    "vodafone australia"
+    "vodafone australia",
+    "vocus"
   ],
   "AW": [
     "setar aruba",
@@ -68,19 +68,19 @@
     "digicel barbados"
   ],
   "BD": [
-    "telenor",
-    "banglalink digital communications ltd.",
-    "teletalk bangladesh",
     "grameenphone",
     "robi",
-    "banglalink"
+    "banglalink",
+    "telenor",
+    "banglalink digital communications ltd.",
+    "teletalk bangladesh"
   ],
   "BE": [
+    "telenet",
     "proximus",
     "orange belgium",
     "lycamobile",
-    "belgacom international carrier services",
-    "telenet"
+    "belgacom international carrier services"
   ],
   "BF": [
     "orange burkina faso",
@@ -111,24 +111,24 @@
     "unified national networks (unn) sdn bhd"
   ],
   "BO": [
-    "entel bolivia",
     "telefonica celular de bolivia s.a.",
     "nuevatel pcs de bolivia s.a.",
     "universidad mayor de san simon",
-    "tigo bolivia"
+    "tigo bolivia",
+    "entel bolivia"
   ],
   "BR": [
-    "algar telecom",
-    "vivo",
     "tim brasil",
     "brisanet",
-    "tim live",
-    "gsm engenharia em tecnologia da informacao eireli",
+    "surf telecom s.a.",
     "mobilelink provedor de servicos de internet ltda",
     "unifique telecomunicacoes sa",
     "claro brazil",
+    "vivo",
+    "tim live",
     "ita.net telecom",
-    "surf telecom s.a."
+    "gsm engenharia em tecnologia da informacao eireli",
+    "algar telecom"
   ],
   "BS": [
     "bahamas telecommunications corporation",
@@ -139,9 +139,9 @@
     "druknet isp"
   ],
   "BW": [
+    "botswana telecommunications corporation",
     "obo",
-    "mascom-wireless-botswana",
-    "botswana telecommunications corporation"
+    "mascom-wireless-botswana"
   ],
   "BY": [
     "mts belarus",
@@ -153,24 +153,24 @@
     "speednet wireless"
   ],
   "CA": [
-    "bell mobility",
-    "videotron ltee",
     "sasktel",
     "virgin plus",
     "eastlink",
     "rogers cable",
-    "telus communications",
-    "bell dsl internet",
+    "rogers wireless",
     "freedom mobile",
-    "bell canada",
+    "videotron ltee",
     "northwestel",
-    "rogers wireless"
+    "telus communications",
+    "bell mobility",
+    "bell dsl internet",
+    "bell canada"
   ],
   "CD": [
-    "airtel drc",
     "vodacom congo",
     "africell-drc",
-    "orange rdc"
+    "orange rdc",
+    "airtel drc"
   ],
   "CF": [
     "orange central african republic",
@@ -181,16 +181,16 @@
     "mtn congo"
   ],
   "CH": [
-    "sunrise",
-    "salt mobile",
     "swisscom",
-    "lycamobile"
+    "lycamobile",
+    "sunrise",
+    "salt mobile"
   ],
   "CI": [
+    "orange cote divoire",
     "mtn cote divoire",
     "atlantique telecom",
-    "mtn cote divoire s.a",
-    "orange cote divoire"
+    "mtn cote divoire s.a"
   ],
   "CL": [
     "wom chile",
@@ -207,22 +207,22 @@
     "camtel"
   ],
   "CN": [
+    "china mobile",
     "china telecom",
-    "henan mobile communications",
     "china mobile shandong",
-    "heilongjiang mobile communication company",
+    "shanghai mobile communications",
     "china unicom",
+    "henan mobile communications",
     "tianjin mobile communication company",
     "china mobile hebei",
-    "shanghai mobile communications",
-    "china mobile"
+    "heilongjiang mobile communication company"
   ],
   "CO": [
-    "etb",
     "claro colombia",
     "movistar colombia",
     "tigo colombia",
-    "partners telecom colombia sas"
+    "partners telecom colombia sas",
+    "etb"
   ],
   "CR": [
     "movistar costa rica",
@@ -233,60 +233,60 @@
     "empresa de telecomunicaciones de cuba, s.a."
   ],
   "CV": [
-    "tmais",
-    "alou"
+    "alou",
+    "tmais"
   ],
   "CW": [
     "verizon internet services",
     "digicel curacao"
   ],
   "CY": [
+    "primetel plc",
     "cyprus telecommunications authority - cyprus",
     "winet",
     "lifecell digital ltd",
     "cablenet communication systems",
     "epic",
     "kktcell",
-    "kktc telsim",
-    "primetel plc"
+    "kktc telsim"
   ],
   "CZ": [
+    "vodafone czech republic",
     "t-mobile czech dsl",
-    "o2 czech republic",
-    "vodafone czech republic"
+    "o2 czech republic"
   ],
   "DE": [
+    "o2 deutschland",
     "vodafone germany",
     "deutsche telekom ag",
     "lycamobile",
-    "lebara",
-    "o2 deutschland"
+    "lebara"
   ],
   "DJ": [
     "djibouti telecom"
   ],
   "DK": [
-    "telenor",
-    "lycamobile",
     "tdc net",
     "hi3g access",
-    "telia"
+    "telia",
+    "telenor",
+    "lycamobile"
   ],
   "DM": [
     "flow",
     "digicel saint lucia"
   ],
   "DO": [
-    "viva dominicana",
-    "visnetwork srl",
     "claro dominican republic",
-    "altice dominicana s.a."
+    "altice dominicana s.a.",
+    "viva dominicana",
+    "visnetwork srl"
   ],
   "DZ": [
+    "optimum-telecom-algeria",
     "algerie telecom",
     "wataniya-telecom",
-    "atm",
-    "optimum-telecom-algeria"
+    "atm"
   ],
   "EC": [
     "conecel",
@@ -301,23 +301,23 @@
     "telia eesti"
   ],
   "EG": [
-    "e\u0026 egypt",
-    "telecom egypt",
     "vodafone egypt",
-    "orange egypt"
+    "orange egypt",
+    "e\u0026 egypt",
+    "telecom egypt"
   ],
   "ES": [
-    "orange espana",
+    "yoigo",
+    "telefonica de espana",
     "digi spain telecom",
     "vodafone spain",
     "zinnia telecomunicaciones sl.",
-    "aire networks",
+    "procono, s.a.",
     "jazztel",
     "digi spain",
-    "yoigo",
-    "telefonica de espana",
+    "orange espana",
     "telefonica de espana static ip",
-    "procono, s.a.",
+    "aire networks",
     "avatel telecom"
   ],
   "ET": [
@@ -335,37 +335,37 @@
     "digicel fiji"
   ],
   "FR": [
-    "free mobile",
-    "orange",
-    "lycamobile",
     "arelion sweden",
     "1global",
     "sfr",
     "bouygues telecom",
-    "free sas"
+    "free sas",
+    "free mobile",
+    "orange",
+    "lycamobile"
   ],
   "GA": [
     "airtel rwanda",
     "gabon-telecom"
   ],
   "GB": [
+    "sparks communications",
+    "working group two",
     "vodafone",
     "sky broadband",
-    "plan communications",
     "mass response service",
-    "virgin media",
-    "sparks communications",
     "lycamobile",
-    "working group two",
+    "orange",
     "three",
     "bt",
     "o2 uk",
-    "orange"
+    "plan communications",
+    "virgin media"
   ],
   "GE": [
+    "magticom",
     "jsc silknet",
-    "cellfie mobile",
-    "magticom"
+    "cellfie mobile"
   ],
   "GF": [
     "outremer telecom",
@@ -385,8 +385,8 @@
     "gamtel"
   ],
   "GN": [
-    "areeba-guinea",
-    "orange guinea"
+    "orange guinea",
+    "areeba-guinea"
   ],
   "GP": [
     "outremer telecom",
@@ -417,29 +417,29 @@
     "orange-bissau"
   ],
   "GY": [
+    "guyana telephone \u0026 telegraph co.",
     "e-networks inc",
-    "u mobile cellular inc.",
-    "guyana telephone \u0026 telegraph co."
+    "u mobile cellular inc."
   ],
   "HK": [
+    "china unicom global",
+    "china mobile",
     "multibyte info technology",
     "china mobile hong kong",
     "hutchison telephone company",
     "csl mobile",
     "hutchison hk",
-    "smartone mobile communications",
-    "china unicom global",
-    "china mobile"
+    "smartone mobile communications"
   ],
   "HN": [
     "tigo honduras",
     "claro guatemala"
   ],
   "HR": [
+    "vipnet",
     "a1 hrvatska mobile",
     "hrvatski telekom",
-    "telemach hrvatska",
-    "vipnet"
+    "telemach hrvatska"
   ],
   "HT": [
     "natcom s.a",
@@ -447,9 +447,9 @@
     "alpha communications network"
   ],
   "HU": [
-    "yettel hungary",
     "magyar telekom",
-    "one hungary"
+    "one hungary",
+    "yettel hungary"
   ],
   "ID": [
     "telkomsel",
@@ -461,80 +461,80 @@
     "orion cyber internet"
   ],
   "IE": [
+    "sky broadband",
     "aspider solutions international holdings",
     "virgin media ireland",
     "play broadband",
     "three ireland",
     "eir broadband",
     "vodafone ireland",
-    "lycamobile",
-    "sky broadband"
+    "lycamobile"
   ],
   "IL": [
-    "pelephone",
-    "partner communications",
-    "wecom mobile",
     "hot mobile",
     "telzar 019 international telecommunications servic",
     "xfone 018",
     "cellcom",
-    "hotnet"
+    "hotnet",
+    "pelephone",
+    "partner communications",
+    "wecom mobile"
   ],
   "IM": [
     "sure (guernsey)"
   ],
   "IN": [
-    "jio",
     "airtel",
     "vodafone idea",
     "bsnl",
-    "nextra"
+    "nextra",
+    "jio"
   ],
   "IQ": [
-    "allay nawroz telecom company for communication/ltd",
-    "Hala Al Rafidain Company for Communications and Internet LTD.",
-    "asiacell communications",
-    "horizon scope mobile telecom wll",
-    "seven net",
     "shabaka sfn al-haditha for general trading \u0026 infor",
-    "Shams Telecom Networks and Internet Service Ltd",
-    "iq networks for data and internet services",
-    "comm1",
-    "korek telecom company for communications",
+    "telsat broadband ltd",
     "al atheer telecommunication-iraq incorporated in c",
     "o3-telecom",
     "tishknet internet services",
-    "telsat broadband ltd"
+    "seven net",
+    "Shams Telecom Networks and Internet Service Ltd",
+    "iq networks for data and internet services",
+    "allay nawroz telecom company for communication/ltd",
+    "Hala Al Rafidain Company for Communications and Internet LTD.",
+    "asiacell communications",
+    "comm1",
+    "korek telecom company for communications",
+    "horizon scope mobile telecom wll"
   ],
   "IR": [
     "mtn irancell"
   ],
   "IS": [
-    "vodafone iceland",
     "nova hf",
-    "mila hf"
+    "mila hf",
+    "vodafone iceland"
   ],
   "IT": [
     "vodafone italia",
     "tim mobile",
+    "wind tre",
+    "iliad italia",
     "fastweb",
     "tiscali",
-    "iliad italia",
     "tim",
     "digi italy",
     "spusu italy",
-    "plintron europe limited",
-    "wind tre"
+    "plintron europe limited"
   ],
   "JE": [
-    "sure (guernsey)",
-    "jersey airtel"
+    "jersey airtel",
+    "sure (guernsey)"
   ],
   "JM": [
-    "digicel fiber",
     "digicel jamaica",
     "cable and wireless jamaica",
-    "digicel fwa"
+    "digicel fwa",
+    "digicel fiber"
   ],
   "JO": [
     "umniah",
@@ -542,38 +542,38 @@
     "zain jordan"
   ],
   "JP": [
+    "open computer network",
+    "au one net",
+    "ntt docomo business",
     "ntt communications corporation",
     "so-net",
+    "rakuten mobile network",
     "ntt docomo",
-    "au one net",
     "softbank corp.",
-    "ntt docomo business",
     "internet initiative japan",
     "k-opticom corporation",
-    "open computer network",
-    "rakuten mobile network",
     "u-next",
     "bekkoame internet"
   ],
   "KE": [
-    "safaricom",
-    "airtel kenya",
     "faiba",
     "telkom",
-    "jambo-telecoms"
+    "jambo-telecoms",
+    "safaricom",
+    "airtel kenya"
   ],
   "KG": [
+    "alfa telecom cjsc",
     "nur telecom",
-    "sky mobile",
-    "alfa telecom cjsc"
+    "sky mobile"
   ],
   "KH": [
-    "smart axiata co.,ltd",
     "flash broadband pvt. ltd.",
     "metfone",
     "cellcard",
     "smart axiata",
-    "south east asia telecom cambodia"
+    "south east asia telecom cambodia",
+    "smart axiata co.,ltd"
   ],
   "KM": [
     "comores telecom"
@@ -582,37 +582,37 @@
     "flow"
   ],
   "KR": [
-    "kt",
     "lg uplus",
     "sk broadband",
-    "sk telecom"
+    "sk telecom",
+    "kt"
   ],
   "KW": [
-    "zain kuwait",
     "ooredoo kuwait",
-    "stc kuwait"
+    "stc kuwait",
+    "zain kuwait"
   ],
   "KY": [
     "digicel cayman"
   ],
   "KZ": [
-    "tele2 kazakhstan",
-    "mobile telecom-service llp",
-    "2day telecom",
-    "jsc kazakhtelecom",
     "spetsavtomatikaservice llp",
+    "eurasia-star llp",
     "kar-tel",
     "beeline kazakhstan",
     "kcell",
+    "mobile telecom-service llp",
     "jusan mobile",
+    "jsc kazakhtelecom",
+    "tele2 kazakhstan",
+    "2day telecom",
     "2day telecom llp",
-    "freedom data centers llp",
-    "eurasia-star llp"
+    "freedom data centers llp"
   ],
   "LA": [
+    "star telecom",
     "lao telecom communication, ltc",
-    "etl company",
-    "star telecom"
+    "etl company"
   ],
   "LB": [
     "touch lebanon",
@@ -623,10 +623,10 @@
     "digicel saint lucia"
   ],
   "LK": [
-    "dialog axiata",
     "mobitel",
     "hutch sri lanka",
-    "airtel lanka"
+    "airtel lanka",
+    "dialog axiata"
   ],
   "LR": [
     "lonestar",
@@ -644,16 +644,16 @@
     "tele2 lithuania"
   ],
   "LU": [
-    "post luxembourg",
-    "orange belgium"
+    "orange belgium",
+    "post luxembourg"
   ],
   "LV": [
     "bite lietuva",
     "latvijas mobilais telefons sia"
   ],
   "LY": [
-    "al-madar-al-jadeed",
-    "libyana-mobile"
+    "libyana-mobile",
+    "al-madar-al-jadeed"
   ],
   "MA": [
     "inwi",
@@ -674,18 +674,18 @@
     "dauphin telecom"
   ],
   "MG": [
-    "airtel madagascar",
     "orange madagascar",
-    "telecom-malagasy"
+    "telecom-malagasy",
+    "airtel madagascar"
   ],
   "MK": [
     "makedonski telekom ad-skopje",
     "a1 makedonija"
   ],
   "ML": [
-    "orange mali",
     "sotelmabgp",
-    "mali-atel"
+    "mali-atel",
+    "orange mali"
   ],
   "MM": [
     "atom myanmar",
@@ -695,21 +695,21 @@
     "telecom international myanmar co, ltd (mytel)"
   ],
   "MN": [
+    "mobicom corporation",
+    "univision",
     "skymedia corporation",
     "g-mobile corporation",
-    "ondo",
-    "mobicom corporation",
-    "univision"
+    "ondo"
   ],
   "MO": [
     "companhia de telecomunicacoes de macau",
     "china telecom macau company"
   ],
   "MQ": [
+    "outremer telecom",
     "digicel antilles francaises guyane",
     "orange",
-    "free mobile",
-    "outremer telecom"
+    "free mobile"
   ],
   "MR": [
     "mattel",
@@ -717,9 +717,9 @@
     "chinguitel"
   ],
   "MT": [
-    "melita",
     "go malta",
-    "epic communications ltd"
+    "epic communications ltd",
+    "melita"
   ],
   "MU": [
     "mauritius telecom",
@@ -745,12 +745,12 @@
     "mexico red de telecomunicaciones, s. de r.l. de c."
   ],
   "MY": [
+    "maxis communications",
     "celcomdigi",
     "ytl communications sdn bhd",
     "tm net",
     "u mobile",
-    "celcomdigi berhad",
-    "maxis communications"
+    "celcomdigi berhad"
   ],
   "MZ": [
     "movitel",
@@ -765,19 +765,19 @@
     "opt-nc"
   ],
   "NE": [
+    "sonitel",
+    "orange niger",
     "airtel networks limited",
     "airtel niger",
-    "airtel rwanda",
-    "sonitel",
-    "orange niger"
+    "airtel rwanda"
   ],
   "NG": [
+    "9mobile",
     "mtn nigeria",
     "airtel networks limited",
     "globacom",
     "spectranet",
-    "smile nigeria",
-    "9mobile"
+    "smile nigeria"
   ],
   "NI": [
     "claro guatemala",
@@ -792,11 +792,11 @@
     "lycamobile"
   ],
   "NO": [
+    "telenor norge",
     "cogent communications",
     "1global",
     "telia norge",
-    "lyse tele",
-    "telenor norge"
+    "lyse tele"
   ],
   "NP": [
     "nepal telecom",
@@ -814,78 +814,78 @@
     "vodafone oman"
   ],
   "PA": [
-    "cable \u0026 wireless panama",
-    "tigo panama"
+    "tigo panama",
+    "cable \u0026 wireless panama"
   ],
   "PE": [
-    "bitel",
     "movistar peru",
     "claro peru",
     "movistar",
     "fibra movistar",
     "claro fibra coaxial",
     "claro movil",
-    "entel peru"
+    "entel peru",
+    "bitel"
   ],
   "PF": [
-    "vodafone",
-    "vini"
+    "vini",
+    "vodafone"
   ],
   "PG": [
+    "vodafone png",
     "digicel png",
-    "digitec papua new guinea",
-    "vodafone png"
+    "digitec papua new guinea"
   ],
   "PH": [
-    "globe telecom",
     "globe business gfiber broadband plan",
     "smart communications",
     "dito telecommunity",
-    "r \u0026 s technology"
+    "r \u0026 s technology",
+    "globe telecom"
   ],
   "PK": [
     "zong",
+    "jazz",
     "pakistan mobile communication limited",
     "ptcl",
-    "telenor pakistan",
-    "telenor",
-    "telehouse pvt ltd",
-    "hazara communication",
-    "jazz",
     "multacom corporation",
+    "telenor",
+    "hazara communication",
+    "telenor pakistan",
     "paknet merged into ptcl",
+    "telehouse pvt ltd",
     "special communication organization",
     "originet (pvt.) ltd."
   ],
   "PL": [
-    "plus poland",
-    "orange polska",
     "comasoft",
     "play",
     "t-mobile polska",
-    "orange mobile"
+    "orange mobile",
+    "plus poland",
+    "orange polska"
   ],
   "PR": [
+    "t-mobile usa",
     "claro puerto rico",
-    "liberty pr",
-    "t-mobile usa"
+    "liberty pr"
   ],
   "PS": [
     "wataniya palestine mobile telecommunication compan",
     "jawwal"
   ],
   "PT": [
+    "digi portugal",
+    "lycamobile",
     "nos comunicacoes",
     "meo",
-    "vodafone portugal",
-    "digi portugal",
-    "lycamobile"
+    "vodafone portugal"
   ],
   "PY": [
+    "tigo paraguay",
     "claro paraguay",
     "personal paraguay",
-    "compania paraguaya de comunicaciones s.a. copaco s",
-    "tigo paraguay"
+    "compania paraguaya de comunicaciones s.a. copaco s"
   ],
   "QA": [
     "vodafone qatar",
@@ -898,51 +898,51 @@
     "sfr"
   ],
   "RO": [
+    "vodafone romania",
+    "orange romania communications",
     "telekom romania mobile communications",
     "digi romania business",
     "digi romania",
-    "orange romania",
-    "vodafone romania",
-    "orange romania communications"
+    "orange romania"
   ],
   "RS": [
-    "a1 srbija",
-    "telenor d.o.o.",
     "mts serbia",
-    "cetin belgrade"
+    "cetin belgrade",
+    "a1 srbija",
+    "telenor d.o.o."
   ],
   "RU": [
-    "mts",
-    "beeline",
-    "rostelecom",
-    "pjsc megafon",
-    "sberbank-telecom",
-    "invest mobile",
-    "mts ojsc",
-    "ozyorsk telecom cjsc.",
-    "ekaterinburg-2000",
-    "mcs",
+    "jsc vainah telecom",
     "novokuznetsk telecom",
+    "ozyorsk telecom cjsc.",
+    "beeline",
+    "mcs",
+    "sberbank-telecom",
     "omskie kabelnye seti",
+    "mts ojsc",
+    "isp balzer-telecom",
     "trunkmobile",
     "ooo vtc-mobile",
-    "megafon",
-    "t-mob",
-    "jsc vainah telecom",
-    "isp balzer-telecom",
-    "llc alfa-mobile",
-    "mobile trend",
-    "tele2 russia",
-    "tbank",
+    "pjsc megafon",
     "s.u.e. dpr republic operator of networks",
     "tattelecom",
+    "mobile trend",
+    "ekaterinburg-2000",
+    "t-mob",
+    "invest mobile",
     "citytelecom",
     "jv a-mobile",
-    "zao aquafon-gsm"
+    "llc alfa-mobile",
+    "zao aquafon-gsm",
+    "megafon",
+    "mts",
+    "tele2 russia",
+    "rostelecom",
+    "tbank"
   ],
   "RW": [
-    "airtel rwanda",
-    "mtn rwanda"
+    "mtn rwanda",
+    "airtel rwanda"
   ],
   "SA": [
     "stc saudi",
@@ -964,18 +964,18 @@
     "mtn sudan"
   ],
   "SE": [
-    "lycamobile",
     "gotalandsnatet",
     "hi3g access",
     "telenor sverige",
     "tele2 sweden",
-    "telia mobile"
+    "telia mobile",
+    "lycamobile"
   ],
   "SG": [
-    "starhub mobile",
     "m1",
     "singtel mobile",
-    "simba telecom"
+    "simba telecom",
+    "starhub mobile"
   ],
   "SI": [
     "telemach",
@@ -984,15 +984,15 @@
     "a1 slovenija"
   ],
   "SK": [
-    "slovak telekom",
-    "o2 slovakia",
     "swan, a.s.",
-    "orange slovensko"
+    "orange slovensko",
+    "slovak telekom",
+    "o2 slovakia"
   ],
   "SL": [
+    "qcell",
     "zain",
-    "africell sierra leone",
-    "qcell"
+    "africell sierra leone"
   ],
   "SN": [
     "sonatel",
@@ -1000,39 +1000,39 @@
     "sudatel-senegal"
   ],
   "SO": [
+    "golis-telecom",
+    "amtel",
     "telesom",
     "somtel",
     "hormuud",
-    "somtel-somalia",
-    "golis-telecom",
-    "amtel"
+    "somtel-somalia"
   ],
   "SR": [
     "telesur",
     "digicel suriname nv"
   ],
   "SS": [
-    "telecom-4g",
-    "mtn south sudan"
+    "mtn south sudan",
+    "telecom-4g"
   ],
   "ST": [
     "cst-net"
   ],
   "SV": [
+    "claro el salvador",
+    "ca network s.a. de c.v.",
     "claro guatemala",
     "tigo el salvador",
     "movistar el salvador",
-    "digicel s.a. de c.v.",
-    "claro el salvador",
-    "ca network s.a. de c.v."
+    "digicel s.a. de c.v."
   ],
   "SX": [
     "smitcoms n.v."
   ],
   "SY": [
-    "syriatel mobile telecom",
     "syrian telecom",
-    "rcell"
+    "rcell",
+    "syriatel mobile telecom"
   ],
   "SZ": [
     "swazi mobile",
@@ -1042,28 +1042,28 @@
     "digicel turks and caicos"
   ],
   "TD": [
-    "millicom-chad",
-    "ilnet-telecom"
+    "ilnet-telecom",
+    "millicom-chad"
   ],
   "TG": [
     "togocom",
     "atlantique telecom"
   ],
   "TH": [
-    "national telecom public company",
-    "3bb broadband",
-    "ais mobile",
     "true mobile",
     "dtac",
-    "ais eds"
+    "ais eds",
+    "national telecom public company",
+    "3bb broadband",
+    "ais mobile"
   ],
   "TJ": [
-    "cjsc indigo tajikistan",
-    "babilon-t",
     "closed joint stock company tt mobile",
     "cjsc babilon-mobile",
     "tcell (cjsc indigo tajikistan)",
-    "zet-mobile"
+    "zet-mobile",
+    "cjsc indigo tajikistan",
+    "babilon-t"
   ],
   "TL": [
     "timor telecom",
@@ -1074,10 +1074,10 @@
     "altyn asyr cjsc"
   ],
   "TN": [
-    "orange tunisie",
-    "orange internet",
     "tunisie telecom",
-    "ooredoo tunisia"
+    "ooredoo tunisia",
+    "orange tunisie",
+    "orange internet"
   ],
   "TO": [
     "digicel tonga"
@@ -1095,19 +1095,19 @@
     "bmobile fiber"
   ],
   "TW": [
+    "chunghwa telecom",
     "twn broadband",
     "taiwan mobile",
-    "fareastone",
-    "chunghwa telecom"
+    "fareastone"
   ],
   "TZ": [
-    "barmedas-tanzania",
     "liquid intelligent technologies",
     "airtel tanzania",
     "vodacom tanzania",
     "halotel",
     "mic tanzania",
-    "ttcldata"
+    "ttcldata",
+    "barmedas-tanzania"
   ],
   "UA": [
     "kyivstar",
@@ -1116,41 +1116,41 @@
     "k-telekom"
   ],
   "UG": [
+    "mtn uganda",
     "airtel uganda",
-    "tangerine-ug",
-    "mtn uganda"
+    "tangerine-ug"
   ],
   "US": [
-    "t-mobile usa",
-    "boost mobile",
-    "c spire",
-    "spectrum",
-    "optimum",
-    "belgacom international carrier services",
-    "at\u0026t wireless",
-    "ne colorado cellular",
-    "strata networks",
-    "verizon 5g home",
-    "optimum mobile",
-    "verizon wireless",
-    "cox communications",
     "uscellular",
+    "boost mobile",
+    "strata networks",
+    "t-mobile usa",
+    "ne colorado cellular",
+    "spectrum",
+    "optimum mobile",
+    "cox communications",
+    "at\u0026t wireless",
+    "c spire",
     "optimum online",
-    "gci communications"
+    "verizon 5g home",
+    "belgacom international carrier services",
+    "optimum",
+    "gci communications",
+    "verizon wireless"
   ],
   "UY": [
+    "antel uruguay",
     "movistar uruguay",
     "claro uruguay",
-    "telstar",
-    "antel uruguay"
+    "telstar"
   ],
   "UZ": [
+    "unitel llc",
+    "city-line-uz",
     "coscom liability company",
     "uztelecom",
     "unitel",
-    "universal mobile systems lcc",
-    "unitel llc",
-    "city-line-uz"
+    "universal mobile systems lcc"
   ],
   "VE": [
     "corporacion digitel",
@@ -1165,10 +1165,10 @@
     "viya"
   ],
   "VN": [
-    "vietnamobile telecommunications joint stock compan",
-    "viettel group",
     "vnpt",
-    "mobifone"
+    "mobifone",
+    "vietnamobile telecommunications joint stock compan",
+    "viettel group"
   ],
   "WS": [
     "digicel samoa"
@@ -1177,24 +1177,24 @@
     "yemen net"
   ],
   "YT": [
-    "sfr",
-    "free reunion"
+    "free reunion",
+    "sfr"
   ],
   "ZA": [
+    "cell c",
+    "rain",
     "mtn business solutions",
     "afrihost-sp",
     "telkom internet",
     "vodacom",
     "mtn sa mobile",
-    "telkom limited",
-    "cell c",
-    "rain"
+    "telkom limited"
   ],
   "ZM": [
-    "airtel zambia",
-    "mtn zambia",
     "zamtel",
-    "beeline-telecoms-limited"
+    "beeline-telecoms-limited",
+    "airtel zambia",
+    "mtn zambia"
   ],
   "ZW": [
     "liquid intelligent technologies",

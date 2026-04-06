@@ -14,10 +14,11 @@ You are an expert in data analysis and networking protocols, with a deep underst
 
 This project provides a suite of tools for analyzing the deployment and impact of DNS HTTPS resource records (RRs) and Encrypted ClientHello (ECH). The primary goal is to gather data on DNS latency, service support for ECH and related standards, and potential network interference.
 
-The project is composed of two main Go-based command-line tools:
+The project is composed of three main Go-based command-line tools:
 
 1.  **`dnsreport`**: Performs large-scale DNS analysis by querying a list of top domains (from the Tranco list) for A, AAAA, and HTTPS records. See `dnsreport/README.md` for more details.
 2.  **`greasereport`**: Tests ECH GREASE compatibility by issuing HEAD requests to top domains with and without ECH GREASE enabled, using a custom ECH-enabled `curl` binary. It also generates a report summarizing the findings. See `greasereport/README.md` for more details.
+3.  **`ispreport`**: Tests ISP-level ECH GREASE interference via proxies. It issues HEAD requests to target domains through various ISPs across different countries.
 
 ## Workspace
 

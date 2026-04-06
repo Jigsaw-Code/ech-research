@@ -96,23 +96,22 @@ The CSV file contains the following columns:
 * `country_name`: The full name of the country.
 * `isp`: The ISP name of the proxy used.
 * `asn`: The ASN of the proxy exit node as reported by the SOAX proxy headers.
-* `exit_node_ip`: The IP address of the proxy exit node as reported by the SOAX proxy headers.
 * `exit_node_isp`: The ISP name reported by the SOAX proxy headers.
-* `discovered_ip`: The actual public IP address of the proxy, discovered by querying `ipCheckURL`.
-* `ip_match`: `true` if `exit_node_ip` equals `discovered_ip`, `false` otherwise.
 * `geodb_asn`: The ASN corresponding to the `discovered_ip`, looked up in the `-asnDB` (if provided).
 * `geodb_as_name`: The AS organization name corresponding to the `discovered_ip`, looked up in the `-asnDB` (if provided).
 * `asn_match`: `true` if the SOAX-reported `asn` matches the `geodb_asn`, `false` otherwise.
 * `ech_grease`: `true` if ECH GREASE was enabled for the request, `false` otherwise.
-* `error`: Any error that occurred during the request.
+* `go_error`: Any error that occurred during the request.
 * `curl_exit_code`: The exit code returned by the `curl` command.
 * `curl_error_name`: The human-readable name corresponding to the `curl` exit code.
+* `curl_error_message`: The detailed error message from curl (if available).
 * `dns_lookup_ms`: The duration of the DNS lookup.
 * `tcp_connection_ms`: The duration of the TCP connection.
 * `tls_handshake_ms`: The duration of the TLS handshake.
 * `server_time_ms`: The time from the end of the TLS handshake to the first byte of the response.
 * `total_time_ms`: The total duration of the request.
 * `http_status`: The HTTP status code of the response.
+* `http_connect_status`: The HTTP status code from the proxy connection.
 
 ## Generating the Final Report
 
