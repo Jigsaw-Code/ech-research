@@ -16,6 +16,7 @@ package echtest
 
 import (
 	"bytes"
+	"encoding/json"
 	"fmt"
 	"os"
 	"os/exec"
@@ -26,18 +27,24 @@ import (
 )
 
 type TestResult struct {
-	Domain        string
-	ECHGrease     bool
-	Error         string
-	CurlExitCode  int
-	CurlErrorName string
+	Domain    string
+	ECHGrease bool
+
+	GoError          string
+	CurlExitCode     int
+	CurlErrorName    string
+	CurlErrorMessage string
+
 	DNSLookup     time.Duration
 	TCPConnection time.Duration
 	TLSHandshake  time.Duration
 	ServerTime    time.Duration
 	TotalTime     time.Duration
-	HTTPStatus    int
-	Stderr        string
+
+	HTTPStatus        int
+	HTTPConnectStatus int
+
+	Stderr string
 }
 
 // curlExitCodeNames maps curl exit codes to their CURL_* string representations.
@@ -145,8 +152,7 @@ func Run(
 	targetURL := "https://" + domain
 
 	args := []string{
-		"-w",
-		"dnslookup:%{time_namelookup},tcpconnect:%{time_connect},tlsconnect:%{time_appconnect},servertime:%{time_starttransfer},total:%{time_total},httpstatus:%{http_code}",
+		"-w", ":::BEGIN_JSON:::%{json}:::END_JSON:::",
 		"--head",
 		"--max-time",
 		strconv.FormatFloat(maxTime.Seconds(), 'f', -1, 64),
@@ -198,7 +204,7 @@ func Run(
 			result.CurlExitCode = exitError.ExitCode()
 			result.CurlErrorName = curlExitCodeNames[result.CurlExitCode]
 		} else {
-			result.Error = fmt.Sprintf("failed to execute curl: %v", err)
+			result.GoError = fmt.Sprintf("failed to execute curl: %v", err)
 			return result
 		}
 	} else {
@@ -206,35 +212,44 @@ func Run(
 		// that the caller might be interested in, though standard execution succeeded.
 	}
 
-	// parse the stdout stats
-	parts := strings.SplitSeq(stdout.String(), ",")
-	for part := range parts {
-		kv := strings.Split(part, ":")
-		if len(kv) != 2 {
-			continue
-		}
-		key := kv[0]
-		value := kv[1]
+	// Parse JSON output
+	if stdout.Len() > 0 {
+		outStr := stdout.String()
+		const startMarker = ":::BEGIN_JSON:::"
+		const endMarker = ":::END_JSON:::"
+		startIndex := strings.Index(outStr, startMarker)
+		endIndex := strings.Index(outStr, endMarker)
 
-		switch key {
-		case "dnslookup":
-			f, _ := strconv.ParseFloat(value, 64)
-			result.DNSLookup = time.Duration(f * float64(time.Second))
-		case "tcpconnect":
-			f, _ := strconv.ParseFloat(value, 64)
-			result.TCPConnection = time.Duration(f * float64(time.Second))
-		case "tlsconnect":
-			f, _ := strconv.ParseFloat(value, 64)
-			result.TLSHandshake = time.Duration(f * float64(time.Second))
-		case "servertime":
-			f, _ := strconv.ParseFloat(value, 64)
-			result.ServerTime = time.Duration(f * float64(time.Second))
-		case "total":
-			f, _ := strconv.ParseFloat(value, 64)
-			result.TotalTime = time.Duration(f * float64(time.Second))
-		case "httpstatus":
-			i, _ := strconv.Atoi(value)
-			result.HTTPStatus = i
+		if startIndex != -1 && endIndex != -1 && endIndex > startIndex {
+			jsonStr := outStr[startIndex+len(startMarker) : endIndex]
+			var curlOut struct {
+				TimeNamelookup    float64 `json:"time_namelookup"`
+				TimeConnect       float64 `json:"time_connect"`
+				TimeAppconnect    float64 `json:"time_appconnect"`
+				TimeStarttransfer float64 `json:"time_starttransfer"`
+				TimeTotal         float64 `json:"time_total"`
+				HTTPCode          int     `json:"http_code"`
+				HTTPConnect       int     `json:"http_connect"`
+				Errormsg          string  `json:"errormsg"`
+			}
+			if err := json.Unmarshal([]byte(jsonStr), &curlOut); err == nil {
+				result.DNSLookup = time.Duration(curlOut.TimeNamelookup * float64(time.Second))
+				result.TCPConnection = time.Duration(curlOut.TimeConnect * float64(time.Second))
+				result.TLSHandshake = time.Duration(curlOut.TimeAppconnect * float64(time.Second))
+				result.ServerTime = time.Duration(curlOut.TimeStarttransfer * float64(time.Second))
+				result.TotalTime = time.Duration(curlOut.TimeTotal * float64(time.Second))
+				result.HTTPStatus = curlOut.HTTPCode
+				result.HTTPConnectStatus = curlOut.HTTPConnect
+				result.CurlErrorMessage = curlOut.Errormsg
+			} else {
+				if result.GoError == "" {
+					result.GoError = fmt.Sprintf("failed to parse curl json: %v", err)
+				}
+			}
+		} else {
+			if result.GoError == "" {
+				result.GoError = "could not find JSON boundaries in curl output"
+			}
 		}
 	}
 

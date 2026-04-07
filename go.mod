@@ -4,6 +4,7 @@ go 1.24.8
 
 require (
 	github.com/miekg/dns v1.1.70
+	github.com/oschwald/maxminddb-golang v1.13.1
 	golang.getoutline.org/sdk/x v0.1.0
 	golang.org/x/sync v0.19.0
 )
