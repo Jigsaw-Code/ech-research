@@ -49,6 +49,7 @@ type TestResult struct {
 	HTTPStatus    int
 }
 
+// TODO: Deduplicate this with the unified ECH testing package (internal/echtest).
 var curlExitCodeNames = map[int]string{
 	1:  "CURLE_UNSUPPORTED_PROTOCOL",
 	2:  "CURLE_FAILED_INIT",
