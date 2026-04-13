@@ -23,7 +23,16 @@ The project is composed of three main Go-based command-line tools:
 ## Workspace
 
 * Use `./workspace` as a place to install tools and output binaries and intermediate results.
-* Use `./workspace/.venv` for Python installs. Do not install anything globally.
+* Use `./.venv` for Python installs. Do not install anything globally.
+
+### Python Environment Setup
+
+To set up the Python environment using `uv`, run the following commands from the project root:
+
+```bash
+uv venv
+uv pip install -r requirements.txt
+```
 
 ---
 *The domain list used for the analysis is the [Tranco list](https://tranco-list.eu/).*

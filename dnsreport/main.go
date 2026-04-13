@@ -230,44 +230,48 @@ func annotateDomains(sem *semaphore.Weighted, client *dns.Client, domainsFilenam
 		go func(td tranco.Domain) {
 			defer sem.Release(1)
 			defer domainsWg.Done()
-			msg := new(dns.Msg)
-			msg.SetQuestion(dns.Fqdn(td.Name), dns.TypeSOA)
-			msg.RecursionDesired = true
-
-			slog.Info("Collecting SOA for domain", "rank", td.Rank, "name", td.Name)
-			r, _, err := client.Exchange(msg, resolverAddress)
-			if err != nil {
-				slog.Error("SOA query failed", "domain", td.Name, "type", dns.TypeToString[dns.TypeSOA], "error", err)
-				return
-			}
+			// Get SOA and CNAME for the domain. We need the SOA to get the authoritative nameservers, and we want to know the CNAME if it exists.
 			cname := td.Name
 			soa := ""
-			for _, answer := range r.Answer {
-				if cnameRR, ok := answer.(*dns.CNAME); ok {
-					cname = cnameRR.Target
-				}
-				if soaRR, ok := answer.(*dns.SOA); ok {
-					soa = soaRR.Hdr.Name
-				}
-			}
-			if soa == "" {
-				for _, ns := range r.Ns {
-					if soaRR, ok := ns.(*dns.SOA); ok {
+			slog.Info("Collecting SOA for domain", "rank", td.Rank, "name", td.Name)
+			soaRequest := new(dns.Msg)
+			soaRequest.SetQuestion(dns.Fqdn(td.Name), dns.TypeSOA)
+			soaRequest.RecursionDesired = true
+			soaResponse, _, err := client.Exchange(soaRequest, resolverAddress)
+			if err != nil {
+				slog.Error("SOA query failed", "domain", td.Name, "type", dns.TypeToString[dns.TypeSOA], "error", err)
+			} else {
+				for _, answer := range soaResponse.Answer {
+					if cnameRR, ok := answer.(*dns.CNAME); ok {
+						cname = cnameRR.Target
+					}
+					if soaRR, ok := answer.(*dns.SOA); ok {
 						soa = soaRR.Hdr.Name
-						break
+					}
+				}
+				if soa == "" {
+					for _, ns := range soaResponse.Ns {
+						if soaRR, ok := ns.(*dns.SOA); ok {
+							soa = soaRR.Hdr.Name
+							break
+						}
 					}
 				}
 			}
-			nsList, err := net.LookupNS(soa)
-			if err != nil {
-				slog.Error("NS lookup failed", "domain", td.Name, "soa", soa, "error", err)
-				return
-			}
+
+			// Get authoritative nameservers for the domain using the SOA record. If we couldn't get an SOA, we'll just end up with an empty list of nameservers.
 			var nameservers []string
-			for _, ns := range nsList {
-				nameservers = append(nameservers, ns.Host)
+			if soa != "" {
+				nsList, err := net.LookupNS(soa)
+				if err != nil {
+					slog.Error("NS lookup failed", "domain", td.Name, "soa", soa, "error", err)
+					return
+				}
+				for _, ns := range nsList {
+					nameservers = append(nameservers, ns.Host)
+				}
+				sort.Strings(nameservers)
 			}
-			sort.Strings(nameservers)
 			domain := Domain{
 				Name:             td.Name,
 				Rank:             td.Rank,
