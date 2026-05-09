@@ -8,10 +8,10 @@ You need to build the ECH-enabled `curl` and place it in the workspace directory
 
 ## Running
 
-To run the tool, use the `go run` command from the `ech-test` directory:
+To run the tool, use the `go run` command from the project root directory. On Linux, you may need to set the `LD_LIBRARY_PATH` to point to the `lib` directory in your workspace so the custom `curl` binary can find its OpenSSL dependencies:
 
 ```sh
-go run ./greasereport --topN 100
+LD_LIBRARY_PATH="workspace/lib" go run ./greasereport --topN 100
 ```
 
 This will:
