@@ -14,7 +14,25 @@ The HTTP status code, `curl` exit code, and various connection timings (DNS, TCP
 
 A total of 10,000 domains were tested. The raw measurements are available in `grease-results-top10000.csv`.
 
-* **Overall Success Rate:** Both the control and test runs achieved an identical success rate of approximately **56.71%** (5,671 domains). The remaining domains failed due to typical automated scan issues (e.g., connection timeouts, servers blocking automated HEAD requests, or DNS resolution failures).
+* **Overall Strict Success Rate:** Both the control and test runs achieved an identical strict HTTP success rate (status codes 2xx/3xx) of exactly **56.71%** (5,671 domains).
+* **TLS Connection Success Rate:** Application-level HTTP errors (e.g., 403 Forbidden, 404 Not Found) indicate that the TLS handshake and underlying connection were successful, but the server rejected the request at the application layer. When reclassifying these 1,602 domains as successes from a connection standpoint, the effective TLS success rate is **72.73%** (7,273 domains).
+* **Failure Breakdown:** The 4,329 domains that did not return a 2xx/3xx HTTP status in the baseline run can be categorized as follows:
+  * **Network & TLS Errors (2,727 domains):**
+    * 1,742: `CURLE_COULDNT_RESOLVE_HOST` (DNS resolution failed)
+    * 398: `CURLE_OPERATION_TIMEDOUT` (Connection timed out)
+    * 375: `CURLE_SSL_CACERT` (SSL certificate verification failed)
+    * 93: `CURLE_COULDNT_CONNECT` (Connection refused)
+    * 92: `CURLE_SSL_CONNECT_ERROR` (Failed to negotiate TLS)
+    * 27: Other Curl Errors (e.g., Receive errors)
+  * **Application-Level HTTP Errors (1,602 domains):**
+    * 716: `HTTP 403 Forbidden` (Common for bot-protection blocking `curl`)
+    * 561: `HTTP 404 Not Found`
+    * 83: `HTTP 405 Method Not Allowed`
+    * 82: `HTTP 400 Bad Request`
+    * 30: `HTTP 503 Service Unavailable`
+    * 24: `HTTP 429 Too Many Requests` (Rate limiting)
+    * 106: Other HTTP Errors (e.g., 401, 500, 502)
+
 * **Initial Anomalies:** An initial algorithmic analysis of the results identified exactly 10 domains that succeeded in the control run but failed when ECH GREASE was enabled. 
 
 ### Re-verification of Anomalous Domains
