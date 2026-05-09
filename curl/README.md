@@ -14,7 +14,7 @@ This is a custom build of `curl` with ECH support from the [DEfO project](https:
 
 A helper script, `build-curl.sh`, is provided to automate the build process for `curl` and its dependency, `openssl`.
 
-To build the ECH-enabled `curl`, run the script from the `greasereport` directory and provide an output path:
+To build the ECH-enabled `curl`, run the script from the project root and provide an output path:
 
 ```sh
 ./curl/build-curl.sh <output_directory>
@@ -23,7 +23,7 @@ To build the ECH-enabled `curl`, run the script from the `greasereport` director
 For example, to build `curl` and place the output in the `workspace` directory:
 
 ```sh
-./curl/build-curl.sh ./workspace
+./curl/build-curl.sh workspace
 ```
 
 The script will download the source code for `openssl` and `curl`, build them, and install the final binaries in the specified output directory.
