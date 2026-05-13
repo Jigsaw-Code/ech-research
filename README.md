@@ -19,9 +19,10 @@ Some research questions:
   Do the services supporting ECH correctly implement it? What HTTPS RR features do services support?
 * **Network Support** - Do networks block or interfere with ECH?
 
-This project contains two main tools to help answer these questions:
+This project contains three folders with tools, data and reports that answer these questions:
 
 1.  [`dnsreport`](./dnsreport): A Go program to perform large-scale DNS analysis.
 2.  [`greasereport`](./greasereport): A Go program to test ECH GREASE compatibility with top websites.
+1.  [`ispreport`](./ispreport): A Go program to perform ECH GREASE analysis across networks.
 
 See the `README.md` file in each tool's directory for more information.
