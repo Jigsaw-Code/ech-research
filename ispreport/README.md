@@ -39,7 +39,9 @@ The countries file should be a CSV file containing country names and their 2-let
 "Virgin Islands, U.S.",VI
 ```
 
-You can download a complete list of country codes from [here](https://raw.githubusercontent.com/datasets/country-list/master/data.csv).
+A default country list is provided at `ispreport/report/countries.csv`. You can copy this file to your workspace directory (`workspace/countries.csv`) before running the tool, or specify its path using the `--countries` parameter.
+
+You can download a complete list of country codes from [here](https://raw.githubusercontent.com/datasets/country-list/master/data.csv) as well.
 
 ## Running
 
@@ -78,7 +80,7 @@ This will:
 * `-parallelism <number>`: Maximum number of parallel requests. Defaults to `16`.
 * `-verbose`: Enable verbose logging.
 * `-maxTime <duration>`: Maximum time per curl request. Defaults to `30s`.
-* `-curl <path>`: Path to the ECH-enabled curl binary. Defaults to `./workspace/output/bin/curl`.
+* `-curl <path>`: Path to the ECH-enabled curl binary. Defaults to `./workspace/bin/curl`.
 * `-ipCheckURL <url>`: URL used to discover the real external IP of the proxy. Defaults to `https://ipv4.icanhazip.com/`.
 * `-asnDB <path>`: Optional path to a MaxMind or DB-IP `.mmdb` database file for independent ASN verification.
 
@@ -115,7 +117,9 @@ The CSV file contains the following columns:
 
 ## Generating the Final Report
 
-After running the data collection tool, you can generate a visual report using the provided Jupyter notebook.
+The visual report notebook (`ispreport/report/report.ipynb`) is pre-populated with cached multi-country analysis results and plots for domains like `www.google.com` and `cloudflare-ech.com`. You can view and explore the final report immediately without setting up any SOAX proxy accounts or running any data collection.
+
+If you collect new proxy data, you can easily re-run the notebook to update the visualizations.
 
 ### 1. Organize the Data
 
@@ -137,27 +141,25 @@ The notebook expects data to be organized in subdirectories within `ispreport/re
 
 Running the notebook requires Python 3 and several data analysis libraries.
 
+We recommend using [uv](https://docs.astral.sh/uv/) for virtual environment and dependency management (you can install it by following the [official installation guide](https://docs.astral.sh/uv/getting-started/installation/)). If you prefer standard Python tools (like `python3 -m venv`), you can use them instead.
+
 ```bash
-# From the project root:
-# 1. Create the virtual environment if it doesn't exist
-python3 -m venv workspace/.venv
+# From the project root, create and activate the environment:
+uv venv
+source .venv/bin/activate
 
-# 2. Activate the virtual environment
-source workspace/.venv/bin/activate
-
-# 3. Install required dependencies
-pip install pandas numpy matplotlib seaborn ipywidgets jupyter
+# Install required dependencies:
+uv pip install -r requirements.txt
 ```
 
 ### 3. Run the Notebook
 
-1. Navigate to the report directory and start Jupyter:
-   ```bash
-   cd ispreport/report
-   # If you didn't activate the venv yet, run: source ../../workspace/.venv/bin/activate
-   jupyter notebook report.ipynb
-   ```
+You can open this notebook natively in **VS Code** (choose the `.venv` kernel in the top-right corner) or in a web browser using the standard command:
 
-2. In the first code cell of the notebook, update the `DOMAIN` variable to match the name of the subdirectory you created (e.g., `DOMAIN = "www_google_com"`).
+```bash
+cd ispreport/report
+jupyter notebook report.ipynb
+```
 
-3. Run all cells in the notebook to generate the analysis and visualizations.
+1. In the first code cell of the notebook, update the `DOMAIN` variable to match the name of the subdirectory you created (e.g., `DOMAIN = "www_google_com"`).
+2. Run the cells in the notebook to generate the analysis and visualizations.

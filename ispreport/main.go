@@ -231,7 +231,7 @@ func main() {
 	// Determine curl binary path
 	curlPath := *curlPathFlag
 	if curlPath == "" {
-		curlPath = filepath.Join(workspaceDir, "output", "bin", "curl")
+		curlPath = filepath.Join(workspaceDir, "bin", "curl")
 	}
 
 	// Load ASN database if provided

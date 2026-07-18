@@ -1,34 +1,30 @@
 # DNS Report Generation
 
-This document outlines the steps to generate a report on DNS query latency and HTTPS RR feature usage. The process involves collecting data, running analysis scripts, and generating a final report.
+This document outlines the steps to generate a report on DNS query latency and HTTPS RR feature usage. The process involves collecting data, running analysis in an interactive Jupyter notebook, and visualizing the findings.
 
-The final report is `report/report.md` and can be converted to a PDF.
+The notebook (`dnsreport/report.ipynb`) is pre-populated with cached analysis results so that you can view the final report immediately, but you can also re-run the analysis at any time using your own collected data.
 
 ## Step 1: Setup
 
-The analysis scripts are written in Python.
+The analysis is packaged within an interactive Jupyter notebook that contains pre-populated results and can be dynamically re-run.
 
-1.  **Create a Python virtual environment:**
-    From the `ech-test` directory, run:
+We recommend using [uv](https://docs.astral.sh/uv/) for virtual environment and dependency management (you can install it by following the [official installation guide](https://docs.astral.sh/uv/getting-started/installation/)). If you prefer standard Python tools (like `python3 -m venv`), you can use them instead.
+
+1.  **Create and activate the virtual environment:**
+    From the `ech-research` directory, run:
     ```sh
-    python3 -m venv ./workspace/.venv
+    uv venv
+    source .venv/bin/activate
     ```
 
-2.  **Activate the virtual environment:**
+2.  **Install dependencies:**
     ```sh
-    source ./workspace/.venv/bin/activate
-    ```
-    You will need to do this every time you work on the report in a new terminal session.
-
-3.  **Install dependencies:**
-    From the `ech-test` directory, run:
-    ```sh
-    pip install -r ./dnsreport/tools/requirements.txt
+    uv pip install -r requirements.txt
     ```
 
 ## Step 2: Collect DNS Data
 
-From the `ech-test` folder, run the data collection tool. The following command will query the top 10,000 domains 5 times each, which is a good sample for the report.
+From the `ech-research` folder, run the data collection tool. The following command will query the top 10,000 domains 5 times each, which is a good sample for the report.
 
 ```sh
 go run ./dnsreport -topN 10000 -numQueries 5
@@ -60,78 +56,19 @@ The tool generates a CSV file (`workspace/results-top<N>-n<M>.csv`) with the fol
 * `answers`: The resource records in the answer section (excluding CNAMEs), formatted as a JSON array.
 * `additionals`: The resource records in the additional section, formatted as a JSON array.
 
+---
 
-## Step 3: Analyze DNS Query Latency
+## Step 3: Analyze and Visualize via Jupyter Notebook
 
-The goal of this step is to determine the impact of waiting for the HTTPS RR before proceeding with TCP or TLS connections. The analysis is broken down into:
+All sorting, filtering, graphing, and table compilation are carried out interactively inside the `dnsreport/report.ipynb` notebook.
 
-*   **Duration Distribution:** We create a cumulative distribution of latencies over all queries, broken down by query type (A/AAAA/HTTPS), to visualize the overall performance.
-*   **Impact of Caching:** To consider the effects of caching, we group queries by domain and query type, and analyze the minimum and median durations.
-*   **Slowest Queries:** We identify all domains for which the median HTTPS query is > 50ms slower than the A query and put them in a table for detailed inspection.
+You can open this notebook natively in **VS Code** (choose the `.venv` kernel in the top-right corner) or in a web browser using the standard command:
 
-### Generating the Latency Analysis
-
-The analysis scripts are in `dnsreport/tools`. The generated plots and tables will be placed in `dnsreport/report`.
-
-First, sort the data:
 ```sh
-./workspace/.venv/bin/python3 dnsreport/tools/sort_csv_by_rank.py ./workspace/results-top10000-n5.csv
+cd dnsreport
+jupyter notebook report.ipynb
 ```
-This creates `./workspace/results-top10000-n5-sorted.csv`.
 
-Now, run the analysis scripts.
+The notebook is pre-populated with default analysis results for immediate viewing, but you can also rerun the cells at any time to process your newly collected data files.
 
-1.  **Generate Latency Plots:**
-    ```sh
-    ./workspace/.venv/bin/python3 dnsreport/tools/generate_charts.py ./workspace/results-top10000-n5-sorted.csv ./dnsreport/report
-    ```
-    **Outputs:** This generates the plots in the `dnsreport/report` directory.
-    *   `duration_by_type_quantile_plot.png`: Overall latency distribution.
-    *   `min_duration_quantile_plot.png`: Best-case (cached) latency distribution.
-    *   `median_duration_quantile_plot.png`: Typical latency distribution.
-
-2.  **Generate Slow Queries Table:**
-    ```sh
-    ./workspace/.venv/bin/python3 dnsreport/tools/generate_slow_queries_table.py ./workspace/results-top10000-n5-sorted.csv ./dnsreport/report/slow_https_queries.md
-    ```
-    **Output:** This creates `slow_https_queries.md` in the `dnsreport/report` directory.
-
-## Step 4: Analyze HTTPS RR Feature Usage
-
-The goal of this step is to determine what features of the HTTPS RR are being used in production to inform the priority of implementing support for them. The features include the Alias Mode, the various `alpn` values and the various SVCB parameters (e.g., `ipv4hint`, `ipv6hint`, `ech`).
-
-### Generating the Feature Analysis
-
-1.  **Generate Feature Usage Plots:**
-    ```sh
-    ./workspace/.venv/bin/python3 dnsreport/tools/generate_charts.py ./workspace/results-top10000-n5-sorted.csv ./dnsreport/report
-    ./workspace/.venv/bin/python3 dnsreport/tools/unique_domain_analysis.py ./workspace/results-top10000-n5-sorted.csv ./dnsreport/report
-    ```
-    **Outputs:** This generates the plots in the `dnsreport/report` directory.
-    *   `param_usage.png`: Usage frequency of all HTTPS RR parameters.
-    *   `param_usage_unique_domains.png`: Parameter usage counted only once per domain.
-
-2.  **Generate Feature Usage Table:**
-    ```sh
-    ./workspace/.venv/bin/python3 dnsreport/tools/unique_domain_analysis.py ./workspace/results-top10000-n5-sorted.csv ./dnsreport/report/feature_usage_table.md
-    ```
-    **Output:** This creates `feature_usage_table.md` in the `dnsreport/report` directory.
-
-## Step 5: Analyze Broken Domains
-
-The goal of this step is to identify domains where HTTPS queries consistently time out (duration > 2s) and investigate the reasons behind these failures by analyzing RCODEs, errors, and querying authoritative nameservers.
-
-### Generating the Broken Domains Analysis
-
-1.  **Run the analysis script:**
-    ```sh
-    ./workspace/.venv/bin/python3 dnsreport/tools/analyze_broken_domains.py ./workspace/results-top10000-n5-sorted.csv ./dnsreport/report/broken_domains_report.md
-    ```
-    **Output:** This generates `broken_domains_report.md` in the `dnsreport/report` directory. The report includes the `dig` commands used for the analysis, which can be easily copied and pasted to reproduce the results.
-
-## Step 6: Assemble the Report
-
-1.  **Fill in the report:**
-    Open `dnsreport/report/report.md`. The generated charts are already linked. You can copy the contents of `dnsreport/report/slow_https_queries.md`, `dnsreport/report/feature_usage_table.md`, and `dnsreport/report/broken_domains_report.md` to replace the example tables in the report. Finally, write a conclusion based on the findings.
-
-Remember to `cd ../..` to return to the `ech-test` directory when you are done.
+All generated plots, tables, and statistics appear directly inline. Once you have finished executing the analysis cells, you can finalize your conclusions within the notebook's markdown sections or export the entire document as a self-contained HTML/PDF report.

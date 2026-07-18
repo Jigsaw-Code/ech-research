@@ -27,7 +27,7 @@ This will:
 * `-trancoID <id>`: The ID of the Tranco list to use. Defaults to `7NZ4X`.
 * `-topN <number>`: The number of top domains to analyze. Defaults to 100.
 * `-parallelism <number>`: Maximum number of parallel requests. Defaults to 10.
-* `-curl <path>`: Path to the ECH-enabled curl binary. Defaults to `./workspace/output/bin/curl`.
+* `-curl <path>`: Path to the ECH-enabled curl binary. Defaults to `./workspace/bin/curl`.
 * `-maxTime <duration>`: Maximum time per curl request. Defaults to `10s`.
 
 ### Output Format
@@ -49,8 +49,7 @@ The tool generates a CSV file (`workspace/grease-results-top<N>.csv`) with the f
 
 ## Report
 
-After running the `greasereport` tool, a `report` subdirectory is created within the `greasereport` directory. This directory contains:
+The repository contains pre-compiled analysis results in the `greasereport/report/` directory:
 
 *   `report.md`: A summary of the ECH GREASE connectivity analysis.
-*   `analyze.py`: The Python script used for the analysis.
-*   `grease-results-top<N>.csv`: The raw data from the test run.
+*   `grease-results-top10000.csv`: The raw data from a 10,000-domain test run.

@@ -35,7 +35,7 @@ For more details on how to use `curl` with ECH, see the [official documentation]
 To test that your custom `curl` build is working correctly, run it against the DEfO test server:
 
 ```sh
-./workspace/output/bin/curl" --ech=true --doh-url https://1.1.1.1/dns-query 'https://test.defo.ie/echstat.php?format=json' | jq
+./workspace/bin/curl --ech=true --doh-url https://1.1.1.1/dns-query 'https://test.defo.ie/echstat.php?format=json' | jq
 ```
 
 Example output:
