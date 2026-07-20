@@ -3,3 +3,5 @@ numpy
 matplotlib
 seaborn
 ipykernel
+ipywidgets
+jupyter
